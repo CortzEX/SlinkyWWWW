@@ -4,6 +4,8 @@
   <font size="6"><b>Open Slinky</b></font>
   <br>
   <font size="3">by Skid Solutions</font>
+  <br>
+  <font size="2">credits to xmqr0</font>
 </p>
 
 ---
