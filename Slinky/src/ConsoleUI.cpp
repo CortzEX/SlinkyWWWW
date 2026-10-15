@@ -1,6 +1,7 @@
 #include "ConsoleUI.hpp"
 #include <cstdio>
 #include <cstring>
+#include <cmath>
 
 namespace Slinky {
 
@@ -10,6 +11,40 @@ std::atomic<bool> ConsoleUI::s_Running(false);
 HANDLE ConsoleUI::s_hAnimationThread = nullptr;
 DWORD ConsoleUI::s_OriginalConsoleMode = 0;
 HANDLE ConsoleUI::s_hConsole = INVALID_HANDLE_VALUE;
+
+static void GetAstolfoColor(float offset, int& outR, int& outG, int& outB) {
+    double hue = fmod((double)offset, 1.0);
+    if (hue < 0.0) hue += 1.0;
+
+    double stage = hue * 2.0;
+    if (stage > 1.0) stage = 2.0 - stage;
+
+    double finalHue = 0.48 + stage * 0.37;
+
+    float s = 0.60f;
+    float v = 1.0f;
+
+    float h = (float)(finalHue * 6.0);
+    int i = (int)floor(h);
+    float f = h - (float)i;
+    float p = v * (1.0f - s);
+    float q = v * (1.0f - s * f);
+    float t = v * (1.0f - s * (1.0f - f));
+
+    float r = 0, g = 0, b = 0;
+    switch (i % 6) {
+        case 0: r = v; g = t; b = p; break;
+        case 1: r = q; g = v; b = p; break;
+        case 2: r = p; g = v; b = t; break;
+        case 3: r = p; g = q; b = v; break;
+        case 4: r = t; g = p; b = v; break;
+        case 5: r = v; g = p; b = q; break;
+    }
+
+    outR = (int)(r * 255.0f);
+    outG = (int)(g * 255.0f);
+    outB = (int)(b * 255.0f);
+}
 
 void ConsoleUI::PrintBanner() {
     const char* bannerLines[] = {
@@ -59,6 +94,7 @@ void ConsoleUI::Initialize() {
 
 void ConsoleUI::Shutdown() {
     StopAnimation();
+    printf("\x1b[?25h");
     if (s_hConsole != INVALID_HANDLE_VALUE && s_OriginalConsoleMode != 0) {
         SetConsoleMode(s_hConsole, s_OriginalConsoleMode);
     }
@@ -98,6 +134,8 @@ void ConsoleUI::PrintError(const char* action, DWORD errorCode) {
 void ConsoleUI::StartAnimation() {
     if (s_Running) return;
     s_Running = true;
+    printf("\x1b[?25l\n\n");
+    fflush(stdout);
     s_hAnimationThread = CreateThread(nullptr, 0, AnimationThread, nullptr, 0, nullptr);
 }
 
@@ -109,12 +147,13 @@ void ConsoleUI::StopAnimation() {
         CloseHandle(s_hAnimationThread);
         s_hAnimationThread = nullptr;
     }
-    printf("\n");
+    printf("\x1b[?25h\n");
     fflush(stdout);
 }
 
 DWORD WINAPI ConsoleUI::AnimationThread(LPVOID lpParam) {
     const char* spinner[] = { "-", "\\", "|", "/" };
+    const char* discordUrl = "   https://discord.gg/AEwatvnvSf";
     int frame = 0;
 
     while (s_Running) {
@@ -123,11 +162,17 @@ DWORD WINAPI ConsoleUI::AnimationThread(LPVOID lpParam) {
         strncpy_s(currentStatus, s_StatusText, _TRUNCATE);
         LeaveCriticalSection(&s_CriticalSection);
 
-        printf("\r\x1b[2K  [%s] %s", spinner[frame % 4], currentStatus);
+        printf("\x1b[2A\r\x1b[2K");
+        for (size_t i = 0; discordUrl[i] != '\0'; ++i) {
+            int r = 0, g = 0, b = 0;
+            GetAstolfoColor((float)frame * 0.025f - (float)i * 0.035f, r, g, b);
+            printf("\x1b[38;2;%d;%d;%dm%c", r, g, b, discordUrl[i]);
+        }
+        printf("\x1b[0m\n\n\r\x1b[2K  [%s] %s", spinner[(frame / 3) % 4], currentStatus);
         fflush(stdout);
 
         frame++;
-        Sleep(160);
+        Sleep(50);
     }
 
     char finalStatus[512] = { 0 };
@@ -135,7 +180,13 @@ DWORD WINAPI ConsoleUI::AnimationThread(LPVOID lpParam) {
     strncpy_s(finalStatus, s_StatusText, _TRUNCATE);
     LeaveCriticalSection(&s_CriticalSection);
 
-    printf("\r\x1b[2K  [+] %s\n", finalStatus);
+    printf("\x1b[2A\r\x1b[2K");
+    for (size_t i = 0; discordUrl[i] != '\0'; ++i) {
+        int r = 0, g = 0, b = 0;
+        GetAstolfoColor((float)frame * 0.025f - (float)i * 0.035f, r, g, b);
+        printf("\x1b[38;2;%d;%d;%dm%c", r, g, b, discordUrl[i]);
+    }
+    printf("\x1b[0m\n\n\r\x1b[2K  [+] %s\n\x1b[?25h", finalStatus);
     fflush(stdout);
 
     return 0;
