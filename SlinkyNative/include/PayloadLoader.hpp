@@ -22,7 +22,7 @@ private:
     static bool ExtractPayloadJar(HMODULE hModule, const MinecraftInfo& mcInfo, std::wstring& outJarPath);
     static bool AddJarToClassLoader(JNIEnv* env, jobject classLoader, const std::wstring& jarPath);
     static bool DefinePayloadClasses(JNIEnv* env, jobject classLoader, const std::wstring& jarPath);
-    static bool LaunchBootstrap(JNIEnv* env, jobject classLoader, const MinecraftInfo& mcInfo, HMODULE hModule);
+    static bool LaunchBootstrap(JNIEnv* env, jobject classLoader, const MinecraftInfo& mcInfo, const std::wstring& jarPath);
 };
 
 } // namespace SlinkyNative

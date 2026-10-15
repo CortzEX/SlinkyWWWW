@@ -40,9 +40,6 @@ InjectionStatus PayloadLoader::LoadAndStart(HMODULE hModule, const MinecraftInfo
     // Read and define dev.slinky classes
     DefinePayloadClasses(env, mcInfo.classLoader, jarPath);
 
-    // Delete temporary jar immediately after loading
-    DeleteFileW(jarPath.c_str());
-
     // Register native bridge methods
     if (!NativeBridge::Register(env, mcInfo.classLoader)) {
         Logger::Log(L"FINAL STATUS: FAILED");
@@ -50,7 +47,7 @@ InjectionStatus PayloadLoader::LoadAndStart(HMODULE hModule, const MinecraftInfo
     }
 
     // Launch Bootstrap
-    if (!LaunchBootstrap(env, mcInfo.classLoader, mcInfo, hModule)) {
+    if (!LaunchBootstrap(env, mcInfo.classLoader, mcInfo, jarPath)) {
         Logger::Log(L"bootstrap failed; unloading");
         Logger::Log(L"FINAL STATUS: FAILED");
         return InjectionStatus::Failed;
@@ -378,7 +375,7 @@ bool PayloadLoader::DefinePayloadClasses(JNIEnv* env, jobject classLoader, const
                             jsize byteLen = env->GetArrayLength(classBytesArr);
                             jbyte* rawBytes = env->GetByteArrayElements(classBytesArr, nullptr);
                             if (rawBytes) {
-                                jclass definedClass = env->DefineClass(className.c_str(), classLoader, rawBytes, byteLen);
+                                jclass definedClass = env->DefineClass(nullptr, classLoader, rawBytes, byteLen);
                                 if (definedClass) {
                                     definedCount++;
                                     env->DeleteLocalRef(definedClass);
@@ -408,7 +405,7 @@ bool PayloadLoader::DefinePayloadClasses(JNIEnv* env, jobject classLoader, const
     return true;
 }
 
-bool PayloadLoader::LaunchBootstrap(JNIEnv* env, jobject classLoader, const MinecraftInfo& mcInfo, HMODULE hModule) {
+bool PayloadLoader::LaunchBootstrap(JNIEnv* env, jobject classLoader, const MinecraftInfo& mcInfo, const std::wstring& jarPath) {
     jclass bootstrapClass = nullptr;
 
     if (classLoader) {
@@ -440,20 +437,18 @@ bool PayloadLoader::LaunchBootstrap(JNIEnv* env, jobject classLoader, const Mine
         return false;
     }
 
-    wchar_t dllPath[MAX_PATH] = { 0 };
-    GetModuleFileNameW(hModule, dllPath, MAX_PATH);
-    int u8Len = WideCharToMultiByte(CP_UTF8, 0, dllPath, -1, nullptr, 0, nullptr, nullptr);
-    std::vector<char> u8DllPath(u8Len);
-    WideCharToMultiByte(CP_UTF8, 0, dllPath, -1, u8DllPath.data(), u8Len, nullptr, nullptr);
+    int u8Len = WideCharToMultiByte(CP_UTF8, 0, jarPath.c_str(), -1, nullptr, 0, nullptr, nullptr);
+    std::vector<char> u8JarPath(u8Len);
+    WideCharToMultiByte(CP_UTF8, 0, jarPath.c_str(), -1, u8JarPath.data(), u8Len, nullptr, nullptr);
 
     jstring jMapping = env->NewStringUTF(mcInfo.mappingName.c_str());
-    jstring jDllPath = env->NewStringUTF(u8DllPath.data());
+    jstring jPayloadPath = env->NewStringUTF(u8JarPath.data());
 
-    Logger::Log(L"Bootstrap.start calling with mapping=%hs", mcInfo.mappingName.c_str());
-    env->CallStaticVoidMethod(bootstrapClass, startMethod, jMapping, jDllPath);
+    Logger::Log(L"Bootstrap.start calling with mapping=%hs, payload=%ls", mcInfo.mappingName.c_str(), jarPath.c_str());
+    env->CallStaticVoidMethod(bootstrapClass, startMethod, jMapping, jPayloadPath);
 
     env->DeleteLocalRef(jMapping);
-    env->DeleteLocalRef(jDllPath);
+    env->DeleteLocalRef(jPayloadPath);
     env->DeleteLocalRef(bootstrapClass);
 
     if (env->ExceptionCheck()) {
