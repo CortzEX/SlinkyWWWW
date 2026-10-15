@@ -5,7 +5,7 @@
   <br>
   <font size="3">by Skid Solutions</font>
   <br>
-  <font size="2">credits to xmqr0</font>
+  <font size="2">credits to xmqr0 & hitsconfig</font>
 </p>
 
 ---
