@@ -355,11 +355,7 @@ bool PayloadLoader::DefinePayloadClasses(JNIEnv* env, jobject classLoader, const
                 env->ReleaseStringUTFChars(nameStr, nameChars);
 
                 if (entryName.rfind("dev/slinky/", 0) == 0 && entryName.size() > 6 && entryName.substr(entryName.size() - 6) == ".class") {
-                    // Convert "dev/slinky/Foo.class" -> "dev.slinky.Foo"
-                    std::string className = entryName.substr(0, entryName.size() - 6);
-                    for (char& c : className) {
-                        if (c == '/') c = '.';
-                    }
+                    std::string internalName = entryName.substr(0, entryName.size() - 6);
 
                     // Read bytes
                     jobject inputStream = env->CallObjectMethod(jarObj, jarGetInputStream, entry);
@@ -375,7 +371,11 @@ bool PayloadLoader::DefinePayloadClasses(JNIEnv* env, jobject classLoader, const
                             jsize byteLen = env->GetArrayLength(classBytesArr);
                             jbyte* rawBytes = env->GetByteArrayElements(classBytesArr, nullptr);
                             if (rawBytes) {
-                                jclass definedClass = env->DefineClass(nullptr, classLoader, rawBytes, byteLen);
+                                jclass definedClass = env->DefineClass(internalName.c_str(), classLoader, rawBytes, byteLen);
+                                if (!definedClass) {
+                                    env->ExceptionClear();
+                                    definedClass = env->DefineClass(nullptr, classLoader, rawBytes, byteLen);
+                                }
                                 if (definedClass) {
                                     definedCount++;
                                     env->DeleteLocalRef(definedClass);

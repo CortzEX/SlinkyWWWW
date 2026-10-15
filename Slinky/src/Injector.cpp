@@ -70,8 +70,12 @@ bool Injector::ExtractBundledDll(std::wstring& outDllPath, std::wstring& outLogP
 
 bool Injector::InjectDll(DWORD pid, const std::wstring& dllPath) {
     if (ProcessUtil::IsModuleLoaded(pid, L"SlinkyNative.dll")) {
-        ConsoleUI::SetStatusText("DLL already loaded.");
-        return true;
+        ConsoleUI::SetStatusText("Unloading previous instance...");
+        if (!ProcessUtil::UnloadModule(pid, L"SlinkyNative.dll")) {
+            ConsoleUI::SetStatusText("Could not unload previous instance.");
+            return false;
+        }
+        Sleep(300);
     }
 
     ConsoleUI::SetStatusText("Opening game process");
@@ -137,6 +141,11 @@ bool Injector::InjectDll(DWORD pid, const std::wstring& dllPath) {
     CloseHandle(hThread);
     VirtualFreeEx(hProcess, pRemotePath, 0, MEM_RELEASE);
     CloseHandle(hProcess);
+
+    if (dwExitCode == 0) {
+        ConsoleUI::SetStatusText("LoadLibraryW failed in game process.");
+        return false;
+    }
 
     if (!ProcessUtil::WaitForModuleLoad(pid, L"SlinkyNative.dll", 5000)) {
         ConsoleUI::SetStatusText("DLL not in game after load attempt.");

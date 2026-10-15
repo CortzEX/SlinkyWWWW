@@ -18,6 +18,7 @@ public:
     static std::vector<TargetWindow> FindMinecraftWindows();
     static bool IsModuleLoaded(DWORD pid, const wchar_t* moduleName);
     static bool WaitForModuleLoad(DWORD pid, const wchar_t* moduleName, DWORD timeoutMs);
+    static bool UnloadModule(DWORD pid, const wchar_t* moduleName);
 };
 
 } // namespace Slinky

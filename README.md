@@ -9,10 +9,20 @@
 ---
 
 <p align="center">
+  <a href="https://discord.gg/AEwatvnvSf">https://discord.gg/AEwatvnvSf</a>
+</p>
+
+<p align="center">
   <img src="assets/jak.jpg" alt="jak" height="150" />
   <img src="assets/hack.jpg" alt="hack" height="150" />
   <img src="assets/deobf2.png" alt="deobf2" height="150" />
   <img src="assets/deobf.jpg" alt="deobf" height="150" />
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/proof.png" alt="proof" width="500" />
 </p>
 
 ---
