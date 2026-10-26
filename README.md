@@ -3,7 +3,6 @@
   <br>
   <font size="3">by lallu</font>
   <br>
-  <font size="2">Credits: Skid Solutions</font>
 </p>
 
 ---
