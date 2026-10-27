@@ -1,0 +1,33 @@
+name: Build OpenSlinkyPlus
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  native:
+    runs-on: windows-2022
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Configure (MSVC x64)
+        run: cmake -S . -B build -A x64
+
+      - name: Build Release
+        run: cmake --build build --config Release --parallel
+
+      - name: Collect dist
+        run: |
+          if (Test-Path dist) { Get-ChildItem dist | ForEach-Object { $_.FullName } }
+          else { Get-ChildItem build -Recurse -Include *.exe,*.dll | ForEach-Object { $_.FullName } }
+
+      - name: Upload binaries
+        uses: actions/upload-artifact@v4
+        with:
+          name: OpenSlinkyPlus-bin
+          path: |
+            dist/*.exe
+            dist/*.dll
+          if-no-files-found: error
