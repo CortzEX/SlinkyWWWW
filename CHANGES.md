@@ -2,6 +2,16 @@
 
 This project is **OpenSlinky+ by lallu** (credits: Skid Solutions).
 
+## OpenSlinky+ v2.0.2: Lunar menu crash fix
+
+### What's new
+- **Fixed immediate crash on Lunar Client when opening the Slinky menu:** removed the explicit `Mouse.setCursorPosition` call from the GUI open path; Lunar and several custom clients handle cursor warping internally when ungrabbing the mouse.
+- **Fixed GUI "Allow input while open" interaction:** when this setting is enabled, the render loop no longer forces the mouse ungrabbed every frame, so the camera keeps working on Lunar/Badlion-style clients.
+
+### Notes
+- Windows 64-bit, Minecraft 1.8.9 only.
+- This is a hotfix on top of v2.0.1.
+
 ## OpenSlinky+ v2.0.1: polish & parity fixes
 
 ### What's new

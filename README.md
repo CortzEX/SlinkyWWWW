@@ -1,7 +1,7 @@
 <p align="center">
   <font size="6"><b>OpenSlinky+</b></font>
   <br>
-  <font size="3">by lallu · v2.0.1</font>
+  <font size="3">by lallu · v2.0.2</font>
   <br>
 </p>
 

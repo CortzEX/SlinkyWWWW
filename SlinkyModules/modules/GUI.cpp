@@ -147,7 +147,10 @@ __declspec(dllexport) void recovered_gui_clear_12a90(uint8_t *state) {
 }
 __declspec(dllexport) void reconstruction::gui::onRenderFrame(uint8_t *event, uint8_t *stateImage,
                                                               dependency invokeEndpoint) {
-    (void)stateImage;
+    // If "allow input while open" is enabled, keep the mouse grabbed so the player can still move
+    // the camera; otherwise the render loop would fight Lunar/Badlion input handling.
+    if (stateImage[setting_offset::allow_input] != 0)
+        return;
     uint8_t *gameContext = (uint8_t *)(uintptr_t)readWord(event + 8);
     if ((uint8_t)invokeEndpoint(0x25840, readWord(gameContext), 0, 0, 0))
         invokeEndpoint(0x25880, readWord(gameContext), 0, 0, 0);
@@ -160,10 +163,9 @@ __declspec(dllexport) void reconstruction::gui::onInput(uint8_t *event, uint8_t 
     uint64_t game = readWord(gameContext);
     if (event[0x18] == 1) {
         if ((uint8_t)invokeEndpoint(0x25840, game, 0, 0, 0)) {
-            int32_t width = (int32_t)invokeEndpoint(0x27a60, readWord(gameContext), 0, 0, 0);
-            int32_t height = (int32_t)invokeEndpoint(0x27a90, readWord(gameContext), 0, 0, 0);
-            invokeEndpoint(0x25940, readWord(gameContext), (uint32_t)(width / 2),
-                           (uint32_t)(height / 2), 0);
+            // The explicit cursor-center call used here caused immediate crashes on Lunar Client
+            // when opening the menu. Lunar (and several custom clients) handle cursor warping
+            // internally when the mouse is ungrabbed, so skip it.
             invokeEndpoint(0x25880, readWord(gameContext), 0, 0, 0);
         }
         uint64_t clock_bits = invokeEndpoint(0x4c270, 0, 0, 0, 0);
