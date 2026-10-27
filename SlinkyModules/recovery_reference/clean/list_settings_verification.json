@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "cases": 2520,
+  "mode_0_and_1_checked": true,
+  "json_and_list_callbacks_controlled": true,
+  "live_module_integration": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_list_settings.hpp": "69637d6a6bce6906da722f0a0696db982a31dbe2e433cfc9ece4d2e7acc349f0",
+    "recovered_cpp/clean/module_list_settings.cpp": "6a0b66b44c856425b7b0837fd8eb9f3bd6b15063831d04e50c2c9ad7389ae63c",
+    "analysis/recovered_native_source/verify_list_settings.py": "d4beaa447fe44a5419f892b19e566eb8716ea7e0e43f6604fdc12505bfc61af6"
+  }
+}

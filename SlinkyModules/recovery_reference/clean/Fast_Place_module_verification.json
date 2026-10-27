@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "module": "Fast Place",
+  "captured_settings_bytes": 112,
+  "captured_constants_bytes": 32,
+  "dirty_storage_initialization_cases": 3,
+  "only_text_pointers_relocated": true,
+  "all_four_owned_module_entrypoints_checked": true,
+  "separate_module_state_checked": true,
+  "original_constructor_recovered": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Fast_Place_module.cpp": "b49a581806cd594751c917982ad8ef889166c0f20125e039172867d2048bb3a0",
+    "recovered_cpp/clean/Fast_Place.cpp": "03e1869547f530a2bfbb62903553a1d59750a1fe60932d571959da467188e99b",
+    "recovered_cpp/clean/Fast_Place_local.cpp": "5836370810067002cd079302b316d458b593caf15bb9657f4fb9397e4f88a695",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/module_ui_controls.cpp": "8b81c1e1aa062585cac5a3b7df89da197bbbd486f81c215512bd7eaff9fc685c",
+    "recovered_cpp/clean/module_format.cpp": "bf4a67394200a8434978dcf21ac7774b300fbad8a03cdaf489934b1a69c182c3",
+    "recovered_cpp/clean/Fast_Place_module.hpp": "6d754f4f3fe55ec5f0eb965c686a3c53dd6631b6769e77fe1ef609c6e9afe2e2",
+    "recovered_cpp/clean/Fast_Place.hpp": "5946323a3f699e9573ab5bd422fd4b6eb840e0c038e8ae4df4a78a7c40b5bf88",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_ui_controls.hpp": "8361da2b66389f9338af4a5edc45b3c084e5a692b66d18a32719ec6382ea141a",
+    "recovered_cpp/clean/module_format.hpp": "d034d8fe613d9c21e7cb5209fb563303ae1b3cd8fed51985afbe5ac06dd4c8a1",
+    "recovered_cpp/clean/Timer.hpp": "43fd3a482508f022218ec04aca6c125e687c6a689b4ca0f4d61f1bbb36a52be3",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "recovered_cpp/clean/module_random_policy.hpp": "af948042bd4b64335a4e5e92ff87aec07541dcb7bf3d3b7d0b07041a566a9efe",
+    "recovered_cpp/clean/module_random.hpp": "516f47e199187adc8b9a015409b6aadb6b48cbcb6fe0f583c26fb6dcea58a430",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "analysis/recovered_native_source/fast_place_module_check.cpp": "6456c95c28edfe8b94ac7a25f59b6c85534b5a4f9643cdd86d48a6af88767b83",
+    "analysis/recovered_native_source/verify_fast_place_module.py": "bf93d3019349ad08d363b63a71fbf404d1d8c27feb2a1a8da37bc867aeb8c96d"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "executable_seconds": 10
+  },
+  "native_original_executed": false,
+  "full_module_rebuild": false,
+  "limits": [
+    "The initializer and constants restore the captured baseline, not a proven original startup constructor.",
+    "The public module test exercises four entrypoints with controlled renderer/formatter endpoints and an inactive frame.",
+    "Instruction equivalence of the algorithm and local routines is documented in their separate reports."
+  ]
+}

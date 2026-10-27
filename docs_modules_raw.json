@@ -1,0 +1,1636 @@
+[
+  {
+    "module": "Auto Tool",
+    "category": "Block",
+    "url": "https://docs.slinky.gg/modules/block/auto-tool/",
+    "settings": [
+      {
+        "name": "Activation time",
+        "description": "Section titled \u201cActivation time\u201d Configures a minimum duration where the player has to be holding down the mouse button before the module activates. Can be set to 0 ms to remove any delay."
+      },
+      {
+        "name": "Switch back when done",
+        "description": "Section titled \u201cSwitch back when done\u201d If enabled, Auto Tool will switch back to your previous slot when you are done mining."
+      },
+      {
+        "name": "Allow while using",
+        "description": "Section titled \u201cAllow while using\u201d You can enable various categories of items where Auto Tool may activate when they are being held: Sword Tool Fists Other (applies to all other items)"
+      },
+      {
+        "name": "Restrict allowed blocks",
+        "description": "Section titled \u201cRestrict allowed blocks\u201d If enabled, you can specify a list of block types where Auto Tool may activate when they are being mined. Previous Introduction Next Block In",
+        "section": "Conditions"
+      }
+    ]
+  },
+  {
+    "module": "Block In",
+    "category": "Block",
+    "url": "https://docs.slinky.gg/modules/block/block-in/",
+    "settings": [
+      {
+        "name": "Speed",
+        "description": "Section titled \u201cSpeed\u201d Controls how fast Block In aims and clicks."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d Block In can be configured to disable itself when not on ground (like when you take knockback). Previous Auto Tool Next Bridge Assist"
+      }
+    ]
+  },
+  {
+    "module": "Bridge Assist",
+    "category": "Block",
+    "url": "https://docs.slinky.gg/modules/block/bridge-assist/",
+    "settings": [
+      {
+        "name": "Edge offset",
+        "description": "Section titled \u201cEdge offset\u201d In Minecraft, you can walk a slight distance away from the edge of a block before you actually fall off. This setting specifies how far you are allowed to go before Bridge Assist will start sneaking. Specifying a higher value, means the player will start sneaking later and therefore bridge faster."
+      },
+      {
+        "name": "Unsneak delay",
+        "description": "Section titled \u201cUnsneak delay\u201d Specifies how long the player should keep sneaking, even after a block has been placed already. Higher values means the player will sneak longer and therefore bridge slower."
+      },
+      {
+        "name": "No",
+        "description": "Section titled \u201cNo\u201d Never select blocks automatically",
+        "section": "Select blocks"
+      },
+      {
+        "name": "On depletion",
+        "description": "Section titled \u201cOn depletion\u201d Don\u2019t select blocks, unless you were already holding a stack and you just placed the last block.",
+        "section": "Select blocks"
+      },
+      {
+        "name": "Always",
+        "description": "Section titled \u201cAlways\u201d Always select blocks, regardless of what item you were holding previously.",
+        "section": "Select blocks"
+      },
+      {
+        "name": "Randomize",
+        "description": "Section titled \u201cRandomize\u201d If enabled, the Edge offset and Unsneak delay settings will be randomized. This setting is typically only necessary on servers with good anti-cheats, to avoid getting detected for being too consistent."
+      },
+      {
+        "name": "Sneak on jump",
+        "description": "Section titled \u201cSneak on jump\u201d Sneaks when you jump to make it less likely that you fall off while bridging upwards."
+      },
+      {
+        "name": "Avoid double-sneaking",
+        "description": "Section titled \u201cAvoid double-sneaking\u201d Delays block placements until you are positioned properly when bridging diagonally, which avoids the issue where you start sneaking twice per block."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can specify additional requirements that must be met to activate Bridge Assist : Sneak key pressed Holding blocks Looking down Not moving forward Previous Block In Next Clutch"
+      }
+    ]
+  },
+  {
+    "module": "Clutch",
+    "category": "Block",
+    "url": "https://docs.slinky.gg/modules/block/clutch/",
+    "settings": [
+      {
+        "name": "Range",
+        "description": "Section titled \u201cRange\u201d Determines how far to scan for a block to clutch against. This is measured by the total number of blocks that would need to be placed to reach it."
+      },
+      {
+        "name": "FOV",
+        "description": "Section titled \u201cFOV\u201d Determines the field of view used when scanning for blocks to clutch against."
+      },
+      {
+        "name": "Minimum height",
+        "description": "Section titled \u201cMinimum height\u201d The minimum number of air blocks that must be below you in order for Clutch to activate."
+      },
+      {
+        "name": "Click speed",
+        "description": "Section titled \u201cClick speed\u201d The maximum speed at which Clutch may place blocks."
+      },
+      {
+        "name": "Randomization",
+        "description": "Section titled \u201cRandomization\u201d Controls the randomization strength of various parts of the module. Higher randomization may help with avoiding anti-cheat flags, but it can also make the module feel less consistent."
+      },
+      {
+        "name": "No",
+        "description": "Section titled \u201cNo\u201d Never select blocks automatically",
+        "section": "Select blocks"
+      },
+      {
+        "name": "On depletion",
+        "description": "Section titled \u201cOn depletion\u201d Don\u2019t select blocks, unless you were already holding a stack and you just placed the last block.",
+        "section": "Select blocks"
+      },
+      {
+        "name": "Always",
+        "description": "Section titled \u201cAlways\u201d Always select blocks, regardless of what item you were holding previously.",
+        "section": "Select blocks"
+      },
+      {
+        "name": "Only place sideways",
+        "description": "Section titled \u201cOnly place sideways\u201d If enabled, Clutch will only place against the sides of other blocks. This can be used to maintain the same Y level while clutching (but note that it can still go up by placing blocks along an existing wall)."
+      },
+      {
+        "name": "Base speed",
+        "description": "Section titled \u201cBase speed\u201d The base speed before it is modified by the other speed-related settings. If you want Clutch to rotate faster or slower, this is generally the setting you want to change.",
+        "section": "Aim"
+      },
+      {
+        "name": "Acceleration",
+        "description": "Section titled \u201cAcceleration\u201d Clutch can adjust the rotation speed depending on how wide the remaining angle is. Higher values will result in faster rotations.",
+        "section": "Aim"
+      },
+      {
+        "name": "Acceleration strength",
+        "description": "Section titled \u201cAcceleration strength\u201d The Base Speed and Acceleration settings are combined to determine the final speed, this setting controls how strongly the Acceleration setting affects the result. Some examples of values for this setting: 0% : only Base Speed is used, Acceleration is ignored entirely 100% : only Acceleration is used, Base Speed is ignored entirely 50% : both Base Speed and Acceleration affect the final speed equally",
+        "section": "Aim"
+      },
+      {
+        "name": "Multipoint",
+        "description": "Section titled \u201cMultipoint\u201d If enabled, Clutch will always try to aim to the nearest point on the block. It is usually recommended to leave this off, since the advantage is small and it makes your aim snap around a lot.",
+        "section": "Aim"
+      },
+      {
+        "name": "Delay",
+        "description": "Section titled \u201cDelay\u201d Determines how long Clutch waits after placing a block before rotating back.",
+        "section": "Snap-back"
+      },
+      {
+        "name": "Duration",
+        "description": "Section titled \u201cDuration\u201d Determines how long the rotation back takes. The Delay is not included in this duration.",
+        "section": "Snap-back"
+      },
+      {
+        "name": "Keep jump direction",
+        "description": "Section titled \u201cKeep jump direction\u201d If enabled, Clutch will snap back instantly when the player jumps (turning the module into a \u2018Telly scaffold\u2019).",
+        "section": "Snap-back"
+      },
+      {
+        "name": "Disable afterwards",
+        "description": "Section titled \u201cDisable afterwards\u201d If enabled, Clutch disables itself after it has rotated back to your original crosshair position.",
+        "section": "Snap-back"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d Clutch can be configured to only activate if: You are mid-air, landing on ground will disable the module. Note that due to the way Minecraft movement works, it is possible to slide off the edge of a block after landing. Whether this affects you mostly depends on how you use the module, however you can pair it with Bridge Assist to avoid as well. You recently took damage You are moving backwards (like when taking knockback) Previous Bridge Assist Next Fast Mine"
+      }
+    ]
+  },
+  {
+    "module": "Fast Mine",
+    "category": "Block",
+    "url": "https://docs.slinky.gg/modules/block/fast-mine/",
+    "settings": [
+      {
+        "name": "Speed",
+        "description": "Section titled \u201cSpeed\u201d Tip The maximum multiplier that vanilla Minecraft allows is 1.42x . Specifies the multiplier for the block mining speed."
+      },
+      {
+        "name": "Break delay",
+        "description": "Section titled \u201cBreak delay\u201d Vanilla Minecraft waits 250ms after breaking a block before you are able to start mining again. This setting allows you to reduce that delay."
+      },
+      {
+        "name": "Always decrease break delay",
+        "description": "Section titled \u201cAlways decrease break delay\u201d In vanilla Minecraft, the delay after breaking a block only \u2018counts down\u2019 while trying to break the next block. This means that if you break a block, immediately stop mining and then try to mine a block several minutes later, the game would still apply the delay before breaking the second block. With this setting enabled, the delay will always count down each tick, regardless of whether you are trying to mine another block. Note that this has no affect if you already set your Break delay to 0. Previous Clutch Next Fast Place"
+      }
+    ]
+  },
+  {
+    "module": "Fast Place",
+    "category": "Block",
+    "url": "https://docs.slinky.gg/modules/block/fast-place/",
+    "settings": [
+      {
+        "name": "Maximum CPS",
+        "description": "Section titled \u201cMaximum CPS\u201d Limits the maximum clicks per second generated by Fast Place . Some anti-cheats will cancel block placements when going above a certain speed threshold, so this setting can be used to prevent that."
+      },
+      {
+        "name": "Activate delay",
+        "description": "Section titled \u201cActivate delay\u201d Specify a delay before Fast Place activates. For example, if you set this to 200 ms , then you will have to hold down your right mouse button (or whatever bind you use to place blocks) for 200 milliseconds before Fast Place increases your block place speed. Previous Fast Mine Next Ghost Hand"
+      }
+    ]
+  },
+  {
+    "module": "Ghost Hand",
+    "category": "Block",
+    "url": "https://docs.slinky.gg/modules/block/ghost-hand/",
+    "settings": [
+      {
+        "name": "Non-player entities",
+        "description": "Section titled \u201cNon-player entities\u201d Allows interacting through non-player entities such as mobs or armor stands.",
+        "section": "Interact through"
+      },
+      {
+        "name": "Friendlies",
+        "description": "Section titled \u201cFriendlies\u201d Allows interacting through teammates or friends.",
+        "section": "Interact through"
+      },
+      {
+        "name": "Bots",
+        "description": "Section titled \u201cBots\u201d Allows interacting through players flagged by Anti Bot .",
+        "section": "Interact through"
+      },
+      {
+        "name": "Enemies",
+        "description": "Section titled \u201cEnemies\u201d Allows interacting through any player not covered by the previous settings.",
+        "section": "Interact through"
+      },
+      {
+        "name": "Allow while using",
+        "description": "Section titled \u201cAllow while using\u201d You can enable various categories of items where Ghost Hand may activate when they are being held: Sword Tool Fists Bucket Flint and steel Cobweb Other (applies to all other items)"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can specify additional requirements that must be met to activate Ghost Hand : Mouse pressed Not holding a sword Previous Fast Place Next Aim Assist"
+      }
+    ]
+  },
+  {
+    "module": "Aim Assist",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/aim-assist/",
+    "settings": [
+      {
+        "name": "Regular",
+        "description": "Section titled \u201cRegular\u201d This mode will feel the same as the aim assist in most other cheats. The further your crosshair is away from the target, the faster it will move.",
+        "section": "Mode"
+      },
+      {
+        "name": "Linear",
+        "description": "Section titled \u201cLinear\u201d Unlike Regular , this mode uses an (almost) linear speed. It is better at tracking players at low speed, but it cannot perform fast snaps (eg. when an enemy throws an enderpearl). This mode is best suited if you already have decent aim and just want to get a slight advantage.",
+        "section": "Mode"
+      },
+      {
+        "name": "Lock-on",
+        "description": "Section titled \u201cLock-on\u201d This mode removes any delay altogether and just instantly places your crosshair on the target. It is extremely blatant and should be used with care.",
+        "section": "Mode"
+      },
+      {
+        "name": "Silent",
+        "description": "Section titled \u201cSilent\u201d This mode will not move your screen/camera when aiming on targets, making it feel more like \u2018Kill Aura\u2019 modules seen in other cheats (except it does not click for you). This is mainly a cosmetic feature, other players will see you aim on them as usual. Keep move direction Section titled \u201cKeep move direction\u201d If disabled, your player will walk in the direction where the module is aiming in Silent mode. It may be difficult to move like this in gamemodes like Sky Wars, where you need to jump across islands a lot, so you can enable this setting to instead move in the direction the camera is facing. Whether this setting is on or off, Silent mode will never generate movements that are impossible in vanilla Minecraft. Ignore manual aim Section titled \u201cIgnore manual aim\u201d By default, your manual aim can override the silent look if you aim towards the target faster. If this setting is disabled, your own mouse movements will be ignored entirely (except to move the game camera).",
+        "section": "Mode"
+      },
+      {
+        "name": "Speed",
+        "description": "Section titled \u201cSpeed\u201d You can configure horizontal and vertical speed separately. If you want to disable vertical aiming, you can put the speed on zero (keep in mind that Silent mode will always aim vertically)."
+      },
+      {
+        "name": "Multipoint",
+        "description": "Section titled \u201cMultipoint\u201d The Multipoint sliders lets you control at which point the module will aim. A value of 0% will always use the center of the target\u2019s hitbox as aiming position. A value of 100% will aim at point in the target\u2019s hitbox that is closest to the player, which is usually one of the corners. Any other value will aim between these two points, with 50% aiming exactly in the middle of them. You can configure the horizontal and vertical axes separately. Note While higher Multipoint values can allow you to get hits that would be out of range when aiming at the center, it can also make the module feel less smooth, due to it snapping between different points in the hitbox."
+      },
+      {
+        "name": "Predict",
+        "description": "Section titled \u201cPredict\u201d If set to a value above 0% , Aim Assist will aim to the position the player is moving towards, which may be a little bit ahead of their current position. This can be especially helpful when using lower speed values. Note that a high Predict value combined with high aim speed may result in Aim Assist overshooting so much that you end up missing hits."
+      },
+      {
+        "name": "Randomization",
+        "description": "Section titled \u201cRandomization\u201d Controls the aim position randomization strength, with 0% resulting in the highest accuracy (no randomization at all) and 100% the lowest accuracy. Lowering this value can cause detection in some cases. If you are unsure what value to use, we recommend just leaving it on the default 50% ."
+      },
+      {
+        "name": "Mode",
+        "description": "Section titled \u201cMode\u201d Targets can be selected using one of two modes. Single Section titled \u201cSingle\u201d Using the Single mode, the module will stay locked on to targets. It will prefer to aim to players who are closest to your crosshair already. It will not switch to a different target, even if they are closer, as long as the original target is still valid. Increased FOV while locked Section titled \u201cIncreased FOV while locked\u201d If enabled, this will increase your maximum FOV while you are locked onto a target. For example, assuming you are using a maximum FOV of 100, Aim Assist will not lock onto any players outside of that FOV. However, once you find a target within a FOV of 100, it will then continue tracking the player even if they move outside of it. This will reset once you lose the target, for example because they move too far away or because another condition isn\u2019t met. Switch Section titled \u201cSwitch\u201d This mode will always aim on the nearest player. If another player moves closer, the module will switch on to them, even if the original target was still valid. Sort by Section titled \u201cSort by\u201d When using Switch target mode, you can configure how the optimal target is chosen. Distance Section titled \u201cDistance\u201d The closest player will be chosen. Health Section titled \u201cHealth\u201d The player with the lowest health will be chosen. Hurt time Section titled \u201cHurt time\u201d Note This setting will generally only work when Aim Assist is configured at very high speed. While it technically supports all modes, you will likely want to use Silent mode since this setting will cause you to spin around constantly when fighting several players. The least recently damaged player will be chosen. Aim angle Section titled \u201cAim angle\u201d The player closest to your crosshair will be chosen.",
+        "section": "Target"
+      },
+      {
+        "name": "Range",
+        "description": "Section titled \u201cRange\u201d This setting specifies the minimum and maximum distance to a target. For example, if you use a range of 1.0 - 4.0 blocks , players closer than 1 block or further away than 4 blocks will be ignored."
+      },
+      {
+        "name": "FOV",
+        "description": "Section titled \u201cFOV\u201d Specifies the field of view to search for targets. If you set the minimum FOV value to something greater than zero, you allow aiming freely within the player\u2019s hitbox (the exact area where you can aim freely will depend on the value you choose). Tip Using an increased minimum FOV will help greatly help with hiding Aim Assist while recording."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can specify additional requirements that must be met to activate Aim Assist : Sprinting Mouse pressed Mouse moved Disable while breaking blocks Holding weapon Ignore invisibles Not behind blocks Tip You can configure what should be classified as a weapon in the Weapons settings. Previous Ghost Hand Next Auto Block"
+      }
+    ]
+  },
+  {
+    "module": "Auto Block",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/auto-block/",
+    "settings": [
+      {
+        "name": "Range",
+        "description": "Section titled \u201cRange\u201d Controls the range where the module begins blocking. This can be set to a value greater than the reach distance to block the first hit as well. Tip Legit Blatant You probably do not want to go above 3.5 blocks (or you may immediately get combo'd). If you want to block the first hit, we recommend testing some values around 3.0 - 3.5 blocks to see what works best for you (if your ping is higher, you will need a higher range value). If you don't care about blocking the first hit, you can use a value of 3.0 or lower. Consistently blocking first hits often requires a range of 4.0 blocks or higher. If you have high ping, you will need to use a higher range as well."
+      },
+      {
+        "name": "Maximum hurt time",
+        "description": "Section titled \u201cMaximum hurt time\u201d This setting specifies how early the module begins blocking. For example, a value of 200 ms would make it block 200 ms before you can take damage again. Since the damage detection is affected by latency/ping, this value will likely be slightly different for each user. Tip Legit Blatant Use [your ping]+100 ms , eg. for 110 ms ping you would use 210 ms . Use [your ping]+150 ms , eg. for 110 ms ping you would use 260 ms ."
+      },
+      {
+        "name": "Maximum hold duration",
+        "description": "Section titled \u201cMaximum hold duration\u201d Controls how long your sword will stay blocked. Tip Legit Blatant Mostly personal preference, higher values increase the odds of you blocking a hit but also slow you down more. You should generally keep this value a bit lower than your value for Maximum hurt time (as a rule of thumb, keep it at least 50 ms lower). Any value works as long as you use 100% lag chance and have Block again immediately on, however setting this to 50 ms will allow you to move the fastest."
+      },
+      {
+        "name": "Force block animation",
+        "description": "Section titled \u201cForce block animation\u201d Note This is a cosmetic feature, other players will still see you unblock your sword. If enabled, your sword will appear blocked the entire time. You can optionally choose to only display this animation when a target is within range."
+      },
+      {
+        "name": "Chance",
+        "description": "Section titled \u201cChance\u201d The chance of lagging after unblocking, which keeps your sword blocked from the server&#39;s perspective. Tip Legit Blatant Use 0% to disable lag. Use 100% to ensure all hits are blocked.",
+        "section": "Lag"
+      },
+      {
+        "name": "Maximum duration",
+        "description": "Section titled \u201cMaximum duration\u201d Tip Legit Blatant If you set your lag chance to 0% , this value does not matter. Any value works, with higher values allowing you to move faster but also lag more. 150 - 200 ms is usually a good balance.",
+        "section": "Lag"
+      },
+      {
+        "name": "Prevent delaying attacks",
+        "description": "Section titled \u201cPrevent delaying attacks\u201d When enabled, the module will avoid delaying attacks. This ensures your hits are never delayed, however it will stop lagging immediately to do so. You should generally turn this on.",
+        "section": "Lag"
+      },
+      {
+        "name": "Block again immediately",
+        "description": "Section titled \u201cBlock again immediately\u201d This makes the module block your sword again directly after stopping the lag. Assuming your lag chance is 100%, this means that your sword is blocked all the time, either by being blocked client side or by tricking the server into keeping your sword blocked using lag. Tip Legit Blatant Turn this setting off when your lag chance is not (close to) 100% . Turn this setting on to ensure you are always blocking.",
+        "section": "Lag"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d Auto Block can be configured to only activate if: Left mouse button is pressed Right mouse button is pressed You recently took damage Tip Enabling the Damaged condition will prevent Auto Block from blocking when chasing players. If you don&#39;t need to block every hit (for example, because you are playing a mode like NoDebuff where the amount of blocked hits is capped), it is usually a good idea to turn it on."
+      }
+    ]
+  },
+  {
+    "module": "Auto Clicker",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/auto-clicker/",
+    "settings": [
+      {
+        "name": "Click pattern",
+        "description": "Section titled \u201cClick pattern\u201d The default click pattern is Jitter . Most other cheats only offer a jitter pattern, however Slinky also lets you select the Butterfly pattern. This mode will generate double-clicks, which will generate the same click pattern as legitimate \u2018butterfly clicking\u2019. Some anti-cheats will flag you if you are clicking at high speed without double-clicks, in which case you can use the Butterfly mode to bypass such checks. Tip As a rule of thumb, use Butterfly mode if you intend to click above 15 CPS and want to minimize the chance of detection."
+      },
+      {
+        "name": "Target CPS",
+        "description": "Section titled \u201cTarget CPS\u201d The clicker will produce clicks at a rate close to the specified speed."
+      },
+      {
+        "name": "Randomize",
+        "description": "Section titled \u201cRandomize\u201d If enabled, the clicker will randomize the speed of the generated clicks. It is recommended to leave this setting on unless you know the server you are playing on does not flag auto-clickers."
+      },
+      {
+        "name": "Simulate exhaust",
+        "description": "Section titled \u201cSimulate exhaust\u201d Players clicking legitimately will occasionally click slower, which can be replicated with this setting. It is recommended to leave this setting on unless you know the server you are playing on does not flag auto-clickers. Tip Hit Select can also mimic exhaustion (depending on your settings), in which case it is not a problem to turn off exhaust here."
+      },
+      {
+        "name": "Allow breaking blocks",
+        "description": "Section titled \u201cAllow breaking blocks\u201d Disables the module when holding down the mouse button while aiming on a block."
+      },
+      {
+        "name": "Randomize speed",
+        "description": "Section titled \u201cRandomize speed\u201d By default, Auto Clicker will try to limit your clicks in inventory to a reasonable speed. By disabling this setting, you can refill as fast as you can move your mouse.",
+        "section": "Inventory"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can specify additional requirements that must be met to activate Auto Clicker : Holding weapon Not using item Tip You can configure what should be classified as a weapon in the Weapons settings. Previous Auto Block Next Auto Weapon"
+      }
+    ]
+  },
+  {
+    "module": "Auto Weapon",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/auto-weapon/",
+    "settings": [
+      {
+        "name": "Activation time",
+        "description": "Section titled \u201cActivation time\u201d The amount of time to aim on a player before Auto Weapon activates."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d Auto Weapon can be configured to only activate when you are pressing the left mouse button. Previous Auto Clicker Next Backtrack"
+      }
+    ]
+  },
+  {
+    "module": "Backtrack",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/backtrack/",
+    "settings": [
+      {
+        "name": "Target distance",
+        "description": "Section titled \u201cTarget distance\u201d Specifies at which distances Backtrack may activate. For example, when set to 1.0 - 4.0 blocks , Backtrack will not activate for players closer than 1 block or further away than 4 blocks."
+      },
+      {
+        "name": "Maximum delay",
+        "description": "Section titled \u201cMaximum delay\u201d Configures the maximum amount of time that the module may block packets for. Higher values mean players will be kept closer for a longer time, therefore offering more time to hit them. Caution Some anti-cheats will falsely flag laggy players for reach, which will also affect Backtrack since it simulates real lag. More advanced anti-cheats may also start cancelling your hits if you lag for too long."
+      },
+      {
+        "name": "Maximum hurt time",
+        "description": "Section titled \u201cMaximum hurt time\u201d Limits how high the target\u2019s hurt time can be before Backtrack activates (a hurt time of 200 ms here means that the player can be damaged again in 200 milliseconds, ignoring latency). Keep in mind that any setting below the maximum will make Backtrack activate in spikes, rather than applying a constant smooth lag."
+      },
+      {
+        "name": "Cooldown",
+        "description": "Section titled \u201cCooldown\u201d Allows setting a delay after Backtrack deactivates. For example, if you set this value to 1.0 s and Backtrack lags a player who then goes out of range, at least one second must pass before it can start lagging again."
+      },
+      {
+        "name": "Real position indicator",
+        "description": "Section titled \u201cReal position indicator\u201d When enabled, the module will render a box that indicates where the player would be standing if there was no lag. There are various options that can be customized: Color Line width Filled (if false, only an outline is drawn) Apply head rotation (the box will rotate based on where the player is aiming)"
+      },
+      {
+        "name": "Disable on hit",
+        "description": "Section titled \u201cDisable on hit\u201d Immediately stops lagging if you take knockback. Caution Since Backtrack lags all incoming packets, your knockback can be delayed as well, which causes some anti-cheats to ban you. Enabling this setting will prevent that from happening."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can configure the module to only activate when you are holding a weapon. Tip You can configure what should be classified as a weapon in the Weapons settings. Previous Auto Weapon Next Criticals"
+      }
+    ]
+  },
+  {
+    "module": "Criticals",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/criticals/",
+    "settings": [
+      {
+        "name": "Packet",
+        "description": "Section titled \u201cPacket\u201d This mode lags your packets at the right time to increase the chance of your hits registering as crits. Maximum delay Section titled \u201cMaximum delay\u201d This setting lets you configure the maximum duration that packets may be delayed by. Caution At high delay values, your hits can feel noticeably delayed. If this makes PvP difficult, try using a lower delay.",
+        "section": "Mode"
+      },
+      {
+        "name": "Timer",
+        "description": "Section titled \u201cTimer\u201d This mode modifies your game timer speed to make you fall slower. This keeps you in the air for a longer time, increasing the odds of you landing more critical hits. Note that this mode visibly slows down your game, but it should generally avoid the delayed hits you otherwise can experience with Packet mode. Caution While rare, some anti-cheats do have timer checks that flag you for slowing your game down (however, most only detect it if you speed it up). Timer speed Section titled \u201cTimer speed\u201d Configures the speed your game runs at while attempting to land a critical hit. The normal speed is 1.00x , so a value of 0.50x would be 50% speed for example. Boost Section titled \u201cBoost\u201d Tip Combining Knockback Delay with this setting will make you boost down rather than up if you get hit mid-air. If set to a value greater than 0 ms , you will be boosted/teleported when you land on ground or when you get hit if Criticals was previously active.",
+        "section": "Mode"
+      },
+      {
+        "name": "Chance",
+        "description": "Section titled \u201cChance\u201d You can configure the chance of the module activating to make it less obvious. A lower chance will of course result in less critical hits."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can specify additional requirements that must be met to activate Criticals : Holding weapon Mouse pressed Tip You can configure what should be classified as a weapon in the Weapons settings. Previous Backtrack Next Hit Select"
+      }
+    ]
+  },
+  {
+    "module": "Hit Select",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/hit-select/",
+    "settings": [
+      {
+        "name": "Pause duration",
+        "description": "Section titled \u201cPause duration\u201d Controls the maximum duration that the module will prevent clicks. There are no perfect values here, it all depends on your own personal preference. Using higher values here means you will be able to move faster and have a lower average click speed (this does not cause you to take more knockback). Tip Do you have Use server attack time enabled? No Yes Leaving this setting on 500 ms will generally work best on any ping, but you can lower it a bit if you prefer to be slowed down more (for example, to make it easier to keep distance when combo'ing). You will need to adjust this setting based on your ping. We recommend 450-[your ping] ms , eg. if you have a ping of 50 ms , we recommend using 450-50=400 ms here."
+      },
+      {
+        "name": "Burst",
+        "description": "Section titled \u201cBurst\u201d This mode will only allow you to click when your target can actually take damage and cancel clicks otherwise. This prevents you from slowing yourself down with unnecessary hits, allowing you to move faster. Wait for first hit Section titled \u201cWait for first hit\u201d When set to a nonzero value, Hit Select will not attack until you get hit first or until the configured delay has passed. This implements the mechanic that people generally refer to as &#39;hit selecting&#39; and can be beneficial to start combos. Hit later in trades Section titled \u201cHit later in trades\u201d Similar to Wait for first hit , except this configures the delay for hits afterwards. Waiting slightly longer to get hit in trades will usually reduce more knockback and keep your click speed lower too, however since it will also slow down your attacks it can make it harder to deal a lot of knockback to your target.",
+        "section": "Mode"
+      },
+      {
+        "name": "Criticals",
+        "description": "Section titled \u201cCriticals\u201d This mode will prevent you from clicking while moving upwards (usually after taking knockback), which allows you to delay your attack until you are falling. Minecraft only lets you get critical hits while falling, so this module will greatly increase the chance of that happening. Note When you are on ground, this mode behaves similar to Burst . Disable during knockback Section titled \u201cDisable during knockback\u201d If enabled, Hit Select will not attempt to land more critical hits while you are taking knockback. You should usually only enable this if you are using the Use server attack time setting as well. Only while damaged Section titled \u201cOnly while damaged\u201d If enabled, Hit Select will wait for you to get hit before it tries to land critical hits.",
+        "section": "Mode"
+      },
+      {
+        "name": "Use server attack time",
+        "description": "Section titled \u201cUse server attack time\u201d If enabled, rather than trying to predict when a player will take damage the client will wait for the server to confirm it. This means that the check will be affected by your ping (which is why you should generally not enable this), however it is a useful alternative for when the default attack prediction does not work. Tip Are you playing a gamemode where players often take non-melee damage (such as being hit by snowballs, rods, fire, etc.)? No Yes It is recommended to leave this setting disabled. The default attack prediction (when this setting is turned off) can only track your own melee attacks. If you notice your hits being delayed after using non-melee items, like fishing rods, you should try turning this setting on. If you do so, make sure you also update your Pause duration value."
+      },
+      {
+        "name": "Fake swing",
+        "description": "Section titled \u201cFake swing\u201d It may feel strange to see your sword stop swinging while playing, so this setting can be enabled to always display the swing animation, even when you are not really clicking/swinging. This is purely a cosmetic feature, other players or anti-cheats can&#39;t tell the difference."
+      },
+      {
+        "name": "In combat",
+        "description": "Section titled \u201cIn combat\u201d Configures the cancel rate in combat. This only affects hits that are predicted to not deal damage, so using a high value here will not make you land less hits. On 100% this will result in each hit being perfectly timed and it will let you move as fast as possible. On 0% this effectively disables Hit Select in combat. For a more legit looking click pattern, you will likely want to use a value somewhere in between (it can be useful to use a mod that shows your click speed to find a value that produces realistic clicks).",
+        "section": "Cancel rate"
+      },
+      {
+        "name": "Missed swings",
+        "description": "Section titled \u201cMissed swings\u201d Configures the cancel rate for missed swings (swinging at air rather than a player). This setting never affects your hits on players. Instead, it is useful to keep your average click speed lower by reducing it when you don&#39;t need to be swinging. On 100% you will only ever swing when aiming on a player. This means the lowest average click speed, but also makes it look more like a triggerbot (since you never miss a hit). On 0% this effectively disables Hit Select for missed hits. For a more legit looking click pattern, try using a value that isn&#39;t too high to reduce your average click speed, without creating long noticeable pauses.",
+        "section": "Cancel rate"
+      }
+    ]
+  },
+  {
+    "module": "Hitboxes",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/hitboxes/",
+    "settings": [
+      {
+        "name": "Expand",
+        "description": "Section titled \u201cExpand\u201d This setting controls how much the hitboxes are expanded. In vanilla Minecraft, hitboxes are expanded by 0.1 blocks . Previous Hit Select Next Knockback Delay"
+      }
+    ]
+  },
+  {
+    "module": "Knockback Delay",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/knockback-delay/",
+    "settings": [
+      {
+        "name": "Distance to target",
+        "description": "Section titled \u201cDistance to target\u201d The maximum distance to the current target. You can lower this value to prevent the module activating when you are still too far away (eg. when you get hit by a rod or arrow)."
+      },
+      {
+        "name": "Maximum delay",
+        "description": "Section titled \u201cMaximum delay\u201d Maximum amount of delay/lag that may be used.",
+        "section": "Chance"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can control when your knockback is reduced using the following conditions: In air (disabling this usually only makes sense when using a high delay value) Looking at player Mouse pressed Holding weapon Previous Hitboxes Next Knockback Displace"
+      }
+    ]
+  },
+  {
+    "module": "Knockback Displace",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/knockback-displace/",
+    "settings": [
+      {
+        "name": "Left / Right / Random",
+        "description": "Section titled \u201cLeft / Right / Random\u201d You can specify the direction directly, in which case it cannot be controlled in-game.",
+        "section": "Direction"
+      },
+      {
+        "name": "Strafe",
+        "description": "Section titled \u201cStrafe\u201d Your strafe keys ( A / D ) determine the direction. When neither or both keys are pressed, Knockback Displace does nothing.",
+        "section": "Direction"
+      },
+      {
+        "name": "Strafe (inverted)",
+        "description": "Section titled \u201cStrafe (inverted)\u201d Same as Strafe , except the direction is inverted.",
+        "section": "Direction"
+      },
+      {
+        "name": "Use last strafe direction",
+        "description": "Section titled \u201cUse last strafe direction\u201d If enabled, the Strafe and Strafe (inverted) modes will use your most recently pressed strafe direction if you aren\u2019t pressing either strafe key."
+      },
+      {
+        "name": "Cooldown",
+        "description": "Section titled \u201cCooldown\u201d Determines how long Knockback displace waits after activating before activating again."
+      },
+      {
+        "name": "Angle",
+        "description": "Section titled \u201cAngle\u201d The angle to deal knockback at, this is relative to where you are looking (so without using Knockback Displace , you would be dealing knockback at an angle of 0 degrees)."
+      },
+      {
+        "name": "Hide rotation from players",
+        "description": "Section titled \u201cHide rotation from players\u201d If enabled, this prevents other players from seeing the flicks performed by this module."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d Knockback Displace can be configured to only activate if: You are not taking knockback You are holding a weapon Your held item has the knockback enchantment The target is facing another direction Previous Knockback Delay Next Lag Range"
+      }
+    ]
+  },
+  {
+    "module": "Lag Range",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/lag-range/",
+    "settings": [
+      {
+        "name": "Maximum delay",
+        "description": "Section titled \u201cMaximum delay\u201d The maximum duration that Lag Range may delay your packets. Higher values will result in teleporting a longer distance from the perspective of other players. Note Some anti-cheats will cancel your hits or teleport you back if you lag for too long."
+      },
+      {
+        "name": "Sprint reset",
+        "description": "Section titled \u201cSprint reset\u201d If enabled, you will temporarily stop lagging when you reset your sprint. This prevents the lag from messing with the timing of your WTaps, blockhits, etc. at the cost of keeping less distance.",
+        "section": "Flush conditions"
+      },
+      {
+        "name": "Used splash potion",
+        "description": "Section titled \u201cUsed splash potion\u201d If enabled, you will temporarily stop lagging after using a splash potion. This is useful for gamemodes that require healing splash potions, since the lag may cause you to miss them otherwise.",
+        "section": "Flush conditions"
+      },
+      {
+        "name": "Real position indicator",
+        "description": "Section titled \u201cReal position indicator\u201d Renders a hitbox at the position that other players will see when the module is lagging you. There are various options that can be customized: Color Line width Filled (if false, only an outline is drawn) Note The indicator is only rendered in third person ( F5 ) mode."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can configure the module to only activate when: Holding a weapon Tip You can configure what should be classified as a weapon in the Weapons settings. Previous Knockback Displace Next Piercing"
+      }
+    ]
+  },
+  {
+    "module": "Piercing",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/piercing/",
+    "settings": [
+      {
+        "name": "Sort targets by",
+        "description": "Section titled \u201cSort targets by\u201d Choose whether the module should focus on targetting players based on hurt time or their HP. In cases where no specific target can be chosen (eg. they have the same HP), a random one is selected.",
+        "section": "Always hit through"
+      },
+      {
+        "name": "Non-player entities",
+        "description": "Section titled \u201cNon-player entities\u201d Allows hitting through non-player entities such as armor stands. You might have noticed that on certain servers PvP near holograms does not work well, as the holograms seem to block hits. This is generally due to the server using armor stands for holograms without disabling their hitboxes, but with this setting on you can hit through them anyway. You can of course hit through any other kind of mob as well.",
+        "section": "Always hit through"
+      },
+      {
+        "name": "Friendlies",
+        "description": "Section titled \u201cFriendlies\u201d Always hits through teammates or friends if a non-friendly is behind them. Note that even with this setting disabled you can still use the module in team-based gamemodes, as it will then switch between attacking friendlies and enemies.",
+        "section": "Always hit through"
+      },
+      {
+        "name": "Bots",
+        "description": "Section titled \u201cBots\u201d Always hits through players flagged by Anti Bot .",
+        "section": "Always hit through"
+      },
+      {
+        "name": "Enemies",
+        "description": "Section titled \u201cEnemies\u201d Allows hitting through any player not covered by previous settings.",
+        "section": "Always hit through"
+      },
+      {
+        "name": "Blocks",
+        "description": "Section titled \u201cBlocks\u201d Allows hitting through blocks if an entity is behind them.",
+        "section": "Always hit through"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can specify additional requirements that must be met to activate Piercing : Holding weapon Inside entity hitbox Previous Lag Range Next Reach"
+      }
+    ]
+  },
+  {
+    "module": "Reach",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/reach/",
+    "settings": [
+      {
+        "name": "Distance",
+        "description": "Section titled \u201cDistance\u201d Specifies your new attack distance."
+      },
+      {
+        "name": "Activate for",
+        "description": "Section titled \u201cActivate for\u201d Under normal circumstances you can attack a player once every 10 game ticks. This setting controls during how many of these ticks your reach distance will be extended. For example, at a value of 5 ticks you will have extended reach for 5 / 10 * 100% = 50% of your hits. This setting is mainly useful for servers that ban for reach, since using lower values here will result in less out-of-range hits, meaning less flags. Tip If you are unsure what value to use for this setting, we recommend just leaving it on its default value of 3 ticks ."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can optionally make the module disable itself when you are not sprinting. Previous Piercing Next Sprint Reset"
+      }
+    ]
+  },
+  {
+    "module": "Sprint Reset",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/sprint-reset/",
+    "settings": [
+      {
+        "name": "WTap",
+        "description": "Section titled \u201cWTap\u201d Resets your sprint by shortly letting go of the W key (or whatever key you use to move forward). This mode will stop moving forward entirely for a short moment.",
+        "section": "Mode"
+      },
+      {
+        "name": "Sneak",
+        "description": "Section titled \u201cSneak\u201d Resets your sprint by shortly sneaking, which prevents you from sprinting. This mode still keeps a tiny bit of forward momentum, so it will allow you to move slightly faster than WTap mode.",
+        "section": "Mode"
+      },
+      {
+        "name": "NoStop",
+        "description": "Section titled \u201cNoStop\u201d Similar to WTap, but doesn\u2019t fully stop moving. This is the fastest mode of all three. Note This mode is not compatible with most third party sprint ( ToggleSprint ) mods; it is recommended to use Slinky\u2019s own Sprint module instead.",
+        "section": "Mode"
+      },
+      {
+        "name": "Delay after attack",
+        "description": "Section titled \u201cDelay after attack\u201d Specifies how long the module waits before resetting your sprint after you attack a player. Tip While it is generally true that lower delays offer a greater advantage, for this setting you should usually avoid using a low delay value if you want to avoid taking more knockback. Around 200 - 300 ms tends to be optimal."
+      },
+      {
+        "name": "Stop duration",
+        "description": "Section titled \u201cStop duration\u201d Specifies how long to stop sprinting. Higher durations will look more legit but will also slow you down a lot more."
+      },
+      {
+        "name": "Randomize",
+        "description": "Section titled \u201cRandomize\u201d By default the previously mentioned settings are randomized automatically. If you are playing on a server with an anti-cheat that does not care about this, you can disable it to make the module behave more consistently."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can configure the module to only activate when: Wait for damage: if enabled, you will not reset your sprint until you take damage yourself. This will generally deal less knockback (you will not be resetting your sprint while chasing or combo\u2019ing someone) and will usually reduce your own knockback a bit more (waiting until you get hit yourself allows for better timing). Holding a weapon Tip You can configure what should be classified as a weapon in the Weapons settings. Previous Reach Next Timer Range"
+      }
+    ]
+  },
+  {
+    "module": "Timer Range",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/timer-range/",
+    "settings": [
+      {
+        "name": "Regular",
+        "description": "Section titled \u201cRegular\u201d Regular mode will always teleport you first, then freeze after. This differs from regular lag spikes where your game would freeze first, but when used with a low duration it still works on many anti-cheats.",
+        "section": "Mode"
+      },
+      {
+        "name": "Legit",
+        "description": "Section titled \u201cLegit\u201d Legit mode will freeze your game, then teleport after. This is the same as what would happen with regular lag spikes. You can often use a higher duration with this mode, but keep in mind that it is also not as big of an advantage.",
+        "section": "Mode"
+      },
+      {
+        "name": "Duration",
+        "description": "Section titled \u201cDuration\u201d Specifies how much time to \u2018skip\u2019 when teleporting. Higher durations allow you to teleport further, but will also make your game appear much laggier and can cause more anti-cheat flags."
+      },
+      {
+        "name": "Cooldown",
+        "description": "Section titled \u201cCooldown\u201d Specifies the minimum time the module will wait before teleporting again."
+      },
+      {
+        "name": "Block while frozen",
+        "description": "Section titled \u201cBlock while frozen\u201d Note This setting is only available for Regular mode. Blocks your sword while your game is frozen. This allows reducing damage if someone manages to hit you while you are frozen."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can configure the module to only activate when: Left mouse button is pressed Holding a weapon Not using an item Tip You can configure what should be classified as a weapon in the Weapons settings. Previous Sprint Reset Next Velocity"
+      }
+    ]
+  },
+  {
+    "module": "Velocity",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/velocity/",
+    "settings": [
+      {
+        "name": "Regular",
+        "description": "Section titled \u201cRegular\u201d Regular mode simply reduces your motion to the specified amount. Modern anti-cheat plugins that feature good movement validation will generally catch this mode on any setting. Chance Section titled \u201cChance\u201d Specifies the chance of your knockback being reduced. FOV Section titled \u201cFOV\u201d Note This setting is meant to replace the Looking at player conditional, which may be removed in the future. Any knockback originating outside the field of view specified by this setting will not be reduced. Some example values: 360\u00b0 : reduce knockback from all angles (default) 180\u00b0 : reduce knockback if hit from the front, but don\u2019t reduce when hit in the back (useful to prevent being slowed down while running away) Reduce to Section titled \u201cReduce to\u201d Specifies the amount of knockback that will be retained. If you set it to 60% , you will receive 60% of the intended knockback amount. Reduce delay Section titled \u201cReduce delay\u201d Specifies a delay before your knockback is reduced. For example, if you set it to 1 tick , you will receive full knockback during the first game tick, then reduced knockback during the second.",
+        "section": "Mode"
+      },
+      {
+        "name": "Jump",
+        "description": "Section titled \u201cJump\u201d Jump mode will automatically jump immediately after receiving knockback. This abuses a vanilla Minecraft mechanic, which lets you (partially) negate your knockback if you jump right away. Caution It is a common misconception that this type of cheat is undetectable, which is not true . Various anti-cheats can detect this by tracking how often you perfectly time your jumps, since legitimate players cannot do this with perfect accuracy. Using a lower Chance value can help in this case. Chance Section titled \u201cChance\u201d Specifies the chance of jumping when taking knockback.",
+        "section": "Mode"
+      },
+      {
+        "name": "Reduce",
+        "description": "Section titled \u201cReduce\u201d Abuses the vanilla attack slowdown mechanic ( reducing ) to reduce your knockback. This mode allows you to reduce knockback in cases where vanilla Minecraft does not allow it. Allow for double-clicks Section titled \u201cAllow for double-clicks\u201d If checked, your knockback will be reduced for double-clicks as well, which by default do not affect your motion.",
+        "section": "Mode"
+      },
+      {
+        "name": "Ignore",
+        "description": "Section titled \u201cIgnore\u201d Caution This mode is currently only implemented for the 1.8.9 version ! This mode is similar to using Regular at 0% , except that you don\u2019t lose any speed when getting hit. Vertical Section titled \u201cVertical\u201d Ignore is the only mode that lets you modify vertical velocity. Never Section titled \u201cNever\u201d Using this setting, vertical velocity is always applied. Only in air Section titled \u201cOnly in air\u201d Using this setting, vertical velocity is cancelled if you are hit mid-air. Always Section titled \u201cAlways\u201d Using this setting, vertical velocity is always cancelled.",
+        "section": "Mode"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can control when your knockback is reduced using the following conditions: Looking at player Mouse pressed Moving forward Holding weapon Sprinting ( Jump mode only; when enabled, this also prevents jump-resetting when already reducing your knockback by clicking on a player in the same game tick) Previous Timer Range Next Weapons"
+      }
+    ]
+  },
+  {
+    "module": "Weapons",
+    "category": "Combat",
+    "url": "https://docs.slinky.gg/modules/combat/weapons/",
+    "settings": [
+      {
+        "name": "Item types",
+        "description": "Section titled \u201cItem types\u201d Controls which types of items are considered weapons. You can choose from the following pre-made categories: Swords Axes Sticks In addition to that, you can also add more item types manually."
+      },
+      {
+        "name": "Enchantments",
+        "description": "Section titled \u201cEnchantments\u201d Weapons can be configured to consider any item a weapon if it contains a specific enchantment. This can be enabled for the following enchantments: Sharpness Knockback Fire Aspect"
+      },
+      {
+        "name": "Hotbar slots",
+        "description": "Section titled \u201cHotbar slots\u201d Weapons can be configured to always treat specific hotbar slots as if they contain a weapon, regardless of the item they contain. Previous Velocity Next Fast Accel"
+      }
+    ]
+  },
+  {
+    "module": "Fast Accel",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/fast-accel/",
+    "settings": [
+      {
+        "name": "Boost",
+        "description": "Section titled \u201cBoost\u201d The acceleration speed can be configured, with 0% being vanilla speed and 100% meaning you will reach your top speed instantly."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can specify additional requirements that must be met to activate Fast Accel : Tip Enable the Not damaged condition to avoid the module speeding up your knockback. Not damaged Holding weapon Previous Weapons Next Instant Stop"
+      }
+    ]
+  },
+  {
+    "module": "Instant Stop",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/instant-stop/",
+    "settings": []
+  },
+  {
+    "module": "Inv Walk",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/inv-walk/",
+    "settings": [
+      {
+        "name": "Vanilla",
+        "description": "Section titled \u201cVanilla\u201d Danger This is detected on a lot of anti-cheats. This mode lets you move around in your inventory without attempting to apply any special sort of bypass.",
+        "section": "Mode"
+      },
+      {
+        "name": "Spoof",
+        "description": "Section titled \u201cSpoof\u201d Caution This mode may still flag on some anti-cheats, especially in containers (since spoofing is only possible for your own inventory). This mode spoofs your inventory open state (only tells the server your inventory is open when needed), which can help to prevent anti-cheat flags. It includes some additional settings that can be configured. Stop on interact Section titled \u201cStop on interact\u201d Specifies whether to stop temporarily when interacting with your inventory. This can be set to one of three modes: Full - stop moving completely Partial - slow down, but don\u2019t stop entirely No - don\u2019t slow down at all Stop duration Section titled \u201cStop duration\u201d Specifies how long Stop on interact stops. Other containers Section titled \u201cOther containers\u201d Caution Some anti-cheats (like Polar) will always flag you for moving in other containers. You can set this setting to Full to disable Inv Walk for everything except your own inventory. Accepts same modes as Stop on interact , except this setting is applied the entire time when a container is open that is not your own inventory (such as a chest). Previous Instant Stop Next Keep Sprint",
+        "section": "Mode"
+      }
+    ]
+  },
+  {
+    "module": "Keep Sprint",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/keep-sprint/",
+    "settings": [
+      {
+        "name": "Chance",
+        "description": "Section titled \u201cChance\u201d Specifies the chance of keeping your momentum after attacking a player."
+      },
+      {
+        "name": "Retained speed",
+        "description": "Section titled \u201cRetained speed\u201d Specifies how much speed you retain after attacking. In vanilla Minecraft, you retain 60% of your speed. Setting this value to 100% ensures you do not get slowed down at all. The perfect value to use will depend on the anti-cheat you are playing on. Most anti-cheats with advanced movement checks will require either 60% (vanilla) or 100% (no slowdown at all) to pass movement validation checks. Simpler anti-cheats may allow more values, with values close to 60% usually being the safest. Tip You can use a value below 60% to increase your slowdown, which can actually be an advantage in some cases (easier to distance yourself in combos)."
+      },
+      {
+        "name": "Allow reducing",
+        "description": "Section titled \u201cAllow reducing\u201d If enabled, Keep Sprint will not remove the vanilla slowdown in cases where it would otherwise reduce your knockback. Previous Inv Walk Next No Jump Delay"
+      }
+    ]
+  },
+  {
+    "module": "No Jump Delay",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/no-jump-delay/",
+    "settings": []
+  },
+  {
+    "module": "No Slow",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/no-slow/",
+    "settings": [
+      {
+        "name": "Retained speed",
+        "description": "Section titled \u201cRetained speed\u201d You can configure the retained speed for different item types, with 20% being vanilla slowdown and 100% being full speed: Swords Bows Consumables (anything that isn\u2019t a sword or bow) Previous No Jump Delay Next Null Move"
+      }
+    ]
+  },
+  {
+    "module": "Null Move",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/null-move/",
+    "settings": []
+  },
+  {
+    "module": "Safe Walk",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/safe-walk/",
+    "settings": [
+      {
+        "name": "Motion",
+        "description": "Section titled \u201cMotion\u201d Modifies your speed when walking backwards (and while all conditions for this module are met)."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can specify additional requirements that must be met to activate Safe Walk : Holding blocks Looking down Not moving forward Previous Null Move Next Sprint"
+      }
+    ]
+  },
+  {
+    "module": "Sprint",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/sprint/",
+    "settings": [
+      {
+        "name": "Allow while",
+        "description": "Section titled \u201cAllow while\u201d Caution Enabling any setting here will turn Sprint from a legit to a blatant module. You can configure Sprint to work in various scenarios where you would not be able to sprint without cheats: Using item Backwards Sideways In inventory Previous Safe Walk Next Strafe"
+      }
+    ]
+  },
+  {
+    "module": "Strafe",
+    "category": "Move",
+    "url": "https://docs.slinky.gg/modules/move/strafe/",
+    "settings": [
+      {
+        "name": "Strength",
+        "description": "Section titled \u201cStrength\u201d The strength of the module can be configured, with 0% meaning it does nothing and 100% giving the biggest advantage. You can configure strength separately for these scenarios: On ground In air The moment you jump"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can specify additional requirements that must be met to activate Strafe : Tip Lower the Maximum hurt time setting if you want to avoid the module modifying your knockback. Maximum hurt time Holding weapon Previous Sprint Next Anti Bot"
+      }
+    ]
+  },
+  {
+    "module": "Anti Bot",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/anti-bot/",
+    "settings": [
+      {
+        "name": "Invalid UUID",
+        "description": "Section titled \u201cInvalid UUID\u201d Filter players with an invalid UUID. By default this check is only applied to stationary players, as it can cause false flags in rare cases.",
+        "section": "Checks"
+      },
+      {
+        "name": "Always invisible",
+        "description": "Section titled \u201cAlways invisible\u201d Filter players that have been invisible from the moment they first spawned in.",
+        "section": "Checks"
+      },
+      {
+        "name": "Always stationary",
+        "description": "Section titled \u201cAlways stationary\u201d Filter players who have never moved (horizontally) at all.",
+        "section": "Checks"
+      },
+      {
+        "name": "Sleeping",
+        "description": "Section titled \u201cSleeping\u201d Filter players who are sleeping.",
+        "section": "Checks"
+      },
+      {
+        "name": "Entity age",
+        "description": "Section titled \u201cEntity age\u201d Filter players that spawned recently. Previous Strafe Next Auto Pot",
+        "section": "Checks"
+      }
+    ]
+  },
+  {
+    "module": "Auto Pot",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/auto-pot/",
+    "settings": [
+      {
+        "name": "Delay between actions",
+        "description": "Section titled \u201cDelay between actions\u201d Configures the delay between actions like switching to the potion, throwing it, switching back."
+      },
+      {
+        "name": "Prevent wasting health",
+        "description": "Section titled \u201cPrevent wasting health\u201d Prevents throwing potions if your health is too high."
+      },
+      {
+        "name": "Automatically do multiple splashes",
+        "description": "Section titled \u201cAutomatically do multiple splashes\u201d Allows the module to use more than one potion if you health is low enough. You can still press the bind multiple times yourself when this setting is disabled."
+      },
+      {
+        "name": "Use non-health potions",
+        "description": "Section titled \u201cUse non-health potions\u201d If enabled, Auto Pot will throw any splashable potion, not just Instant Health. Most users will want to keep this disabled. Previous Anti Bot Next Auto Rod"
+      }
+    ]
+  },
+  {
+    "module": "Auto Rod",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/auto-rod/",
+    "settings": [
+      {
+        "name": "Retract speed",
+        "description": "Section titled \u201cRetract speed\u201d How fast the module retracts the rod after throwing it. If you feel like the module is waiting too long (can happen if your ping is very high), you can increase this value to speed it up."
+      },
+      {
+        "name": "Delay between actions",
+        "description": "Section titled \u201cDelay between actions\u201d Configures the delay between actions like switching to the fishing rod, throwing it and retracting it."
+      },
+      {
+        "name": "Randomize delays",
+        "description": "Section titled \u201cRandomize delays\u201d Whether to apply randomization to the generated delays."
+      },
+      {
+        "name": "Always switch back to weapon",
+        "description": "Section titled \u201cAlways switch back to weapon\u201d If enabled, the module will switch back to the first slot it finds containing a weapon, rather than the slot that was selected when the module was toggled."
+      },
+      {
+        "name": "Allow using snowballs/eggs",
+        "description": "Section titled \u201cAllow using snowballs/eggs\u201d If enabled, the module will use snowballs/eggs if you have any in your hotbar.",
+        "section": "Throwables"
+      },
+      {
+        "name": "Throw speed",
+        "description": "Section titled \u201cThrow speed\u201d How fast the module should throw snowballs/eggs. This setting only makes a difference if you are using a hold bind.",
+        "section": "Throwables"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d You can enable the Not within melee range setting to automatically disable Auto Rod when the target is close enough to be attacked with a melee weapon. This ensures you can attack the player with a sword instantly. Previous Auto Pot Next Auto Soup"
+      }
+    ]
+  },
+  {
+    "module": "Auto Soup",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/auto-soup/",
+    "settings": [
+      {
+        "name": "Maximum health",
+        "description": "Section titled \u201cMaximum health\u201d Specifies a health threshold; if your health is above the specified value, the module will not do anything. You can specify both Single use and Double use health values. If you take a large amount of damage at once, causing your health to instantly drop below the Double use value, the module will quickly use two soups instead of one."
+      },
+      {
+        "name": "Randomization",
+        "description": "Section titled \u201cRandomization\u201d Controls the randomization strength for the module. This affects all the delays that can be configured. You can use a value of 0% for this setting to completely disable any randomization and exhaust, for servers that do not have advanced anti-cheat checks for souping.",
+        "section": "Delays"
+      },
+      {
+        "name": "Before switching slots",
+        "description": "Section titled \u201cBefore switching slots\u201d Specifies how long the module will wait to soup after your health drops low enough. This avoids you instantly reacting to damage, which may make it obvious that you are using a cheat.",
+        "section": "Delays"
+      },
+      {
+        "name": "Between actions",
+        "description": "Section titled \u201cBetween actions\u201d Specifies the delay between actions like switching to the soup, using the soup, dropping the bowl, etc.",
+        "section": "Delays"
+      },
+      {
+        "name": "Cooldown",
+        "description": "Section titled \u201cCooldown\u201d Tip If the module is using soup a second time before the first soup has even registered, you likely need to configure a higher delay here. Specifies a cooldown after the module is done souping (not applied until the last soup if the module is double-souping).",
+        "section": "Delays"
+      },
+      {
+        "name": "Drop bowls",
+        "description": "Section titled \u201cDrop bowls\u201d If enabled, the module will drop the empty bowl after using a soup. Some servers will clear the bowl automatically for you, in which case the module will work faster if you turn this setting off."
+      },
+      {
+        "name": "Override item type",
+        "description": "Section titled \u201cOverride item type\u201d Allows choosing a different item to use instead of mushroom soup. This makes it possible to use Auto Soup to eat golden heads (choose the Skull item in this case) in UHC gamemodes for example. The Drop bowls setting will be ignored if a non-soup item is chosen. Previous Auto Rod Next Blink"
+      }
+    ]
+  },
+  {
+    "module": "Blink",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/blink/",
+    "settings": [
+      {
+        "name": "Direction",
+        "description": "Section titled \u201cDirection\u201d The Blink module can block packets that are inbound, outbound or both. Blocking outbound packets will make you teleport from the perspective of other players. Blocking inbound packets will freeze everything on your screen (can be abused to delay various things, such as knockback)."
+      },
+      {
+        "name": "Maximum duration",
+        "description": "Section titled \u201cMaximum duration\u201d Specifies a duration after which the module will disable itself. You can of course still manually disable the module before this timer runs out."
+      },
+      {
+        "name": "Disable on",
+        "description": "Section titled \u201cDisable on\u201d The module can be configured to automatically disable when certain scenarios occur: Attack Block interact Block dig Previous Auto Soup Next Fake Lag"
+      }
+    ]
+  },
+  {
+    "module": "Fake Lag",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/fake-lag/",
+    "settings": [
+      {
+        "name": "Static",
+        "description": "Section titled \u201cStatic\u201d In Static mode, the delays you specify are simply added to your ping and won\u2019t fluctuate. Conditions can still cause fluctuations, eg. switching items when using Holding weapon requirement can cause the module to toggle on and off.",
+        "section": "Mode"
+      },
+      {
+        "name": "Pulse",
+        "description": "Section titled \u201cPulse\u201d In Pulse mode, packets will be held back, then flushed in pulses. It is similar to manually spamming the Blink module repeatedly.",
+        "section": "Mode"
+      },
+      {
+        "name": "Delay",
+        "description": "Section titled \u201cDelay\u201d You can configure Inbound and Outbound delay separately. If you set both sliders to 50 ms , your ping will increase by 50 + 50 = 100 ms . You can also enable Realtime damage . This setting only affects the Inbound delay. When enabled, it will not delay damage packets, so you will immediately see when you or your target take damage, while still delaying other things such as knockback."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d By default Fake Lag just adds a static delay to your connection, but it can be turned into dynamic lag by enabling conditions: Holding weapon Require attack (meaning you recently attacked another player) In-game (disables in menus) Tip You can configure what should be classified as a weapon in the Weapons settings. Previous Blink Next Friends"
+      }
+    ]
+  },
+  {
+    "module": "Friends",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/friends/",
+    "settings": [
+      {
+        "name": "Middle-click to add",
+        "description": "Section titled \u201cMiddle-click to add\u201d If enabled, you can click your mouse wheel while looking at players in-game to add or remove them as friend. Previous Fake Lag Next Inv Manager"
+      }
+    ]
+  },
+  {
+    "module": "Inv Manager",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/inv-manager/",
+    "settings": [
+      {
+        "name": "Delay after open",
+        "description": "Section titled \u201cDelay after open\u201d Specifies a delay between opening your inventory and Inv Manager performing the first click."
+      },
+      {
+        "name": "Speed",
+        "description": "Section titled \u201cSpeed\u201d Specifies how fast Inv Manager may move items in your inventory."
+      },
+      {
+        "name": "Smart speed",
+        "description": "Section titled \u201cSmart speed\u201d If enabled, Inv Manager will automatically adjust the speed depending on how the items are laid out. For example, items laid out in a perfect row next to eachother can be moved quickly, while items scattered throughout your inventory will be moved more slowly. This makes your actions appear a lot more legitimate."
+      },
+      {
+        "name": "Randomize",
+        "description": "Section titled \u201cRandomize\u201d If enabled, randomizes the Delay after option and Speed settings."
+      },
+      {
+        "name": "Equip armor",
+        "description": "Section titled \u201cEquip armor\u201d If enabled, the best armor pieces in your inventory will be equipped automatically."
+      },
+      {
+        "name": "Smart fallbacks",
+        "description": "Section titled \u201cSmart fallbacks\u201d If enabled, various fallbacks will be used if the item you assigned to a slot could not be found: If you don\u2019t have a sword, the item with the highest attack damage will be used instead If you don\u2019t have a fishing rod, snowballs/eggs will be used instead If you don\u2019t have a snowballs/eggs, a fishing rod will be used instead Previous Friends Next Item Use Fix",
+        "section": "Sort hotbar"
+      }
+    ]
+  },
+  {
+    "module": "Item Use Fix",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/item-use-fix/",
+    "settings": []
+  },
+  {
+    "module": "No Hit Delay",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/no-hit-delay/",
+    "settings": [
+      {
+        "name": "Regular",
+        "description": "Section titled \u201cRegular\u201d Fully removes the cooldown. It is possible for anti-cheats to detect this in some cases, but most servers don\u2019t care if you use this.",
+        "section": "Mode"
+      },
+      {
+        "name": "Legit",
+        "description": "Section titled \u201cLegit\u201d Only removes the cooldown when necessary, replaces other missed swings with a fake swing animation that only you can see. For PvP, your hit registration will be the exact same as Regular mode, but you will not be able to click as fast in air. Previous Item Use Fix Next No Item Release",
+        "section": "Mode"
+      }
+    ]
+  },
+  {
+    "module": "No Item Release",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/no-item-release/",
+    "settings": [
+      {
+        "name": "Consumable",
+        "description": "Section titled \u201cConsumable\u201d Activates the module for non-sword items such as food and potions.",
+        "section": "Mode"
+      },
+      {
+        "name": "Sword",
+        "description": "Section titled \u201cSword\u201d Activates the module for swords.",
+        "section": "Mode"
+      },
+      {
+        "name": "All",
+        "description": "Section titled \u201cAll\u201d Activates the module for all items, except bows and fishing rods. Previous No Hit Delay Next No Use Delay",
+        "section": "Mode"
+      }
+    ]
+  },
+  {
+    "module": "No Use Delay",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/no-use-delay/",
+    "settings": [
+      {
+        "name": "Allow desync abuse",
+        "description": "Section titled \u201cAllow desync abuse\u201d If enabled, the module will skip the eating animation entirely if your current item changes while it is being consumed. An example scenario is when you press the drop item key while eating food (also known as \u2018Run and eat\u2019 glitch). Previous No Item Release Next Ping Fix"
+      }
+    ]
+  },
+  {
+    "module": "Ping Fix",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/ping-fix/",
+    "settings": []
+  },
+  {
+    "module": "Refill",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/refill/",
+    "settings": [
+      {
+        "name": "Use non-health potions",
+        "description": "Section titled \u201cUse non-health potions\u201d By default, the Potion setting will only use Instant Health potions. By enabling this setting, any splashable potion will be refilled.",
+        "section": "Items"
+      },
+      {
+        "name": "Simulate button",
+        "description": "Section titled \u201cSimulate button\u201d Choose which mouse button the module simulates. For example, if you choose Right , the server/plugins will think that you are right-clicking on each item you refill. You can choose between: Left Right (while unusual for legit players, using right button actually bypasses some anti-cheats) Left + right (combines both mouse buttons, anti-cheats may allow a higher refill speed)"
+      },
+      {
+        "name": "Delay after open",
+        "description": "Section titled \u201cDelay after open\u201d Specifies a delay before the module starts refilling after opening your inventory."
+      },
+      {
+        "name": "Delay before close",
+        "description": "Section titled \u201cDelay before close\u201d Specifies a delay before the module closes your inventory after the last item has been refilled."
+      },
+      {
+        "name": "Speed",
+        "description": "Section titled \u201cSpeed\u201d Controls how fast items are moved."
+      },
+      {
+        "name": "Smart speed",
+        "description": "Section titled \u201cSmart speed\u201d If enabled, the module will decrease the refilling speed in scenarios where a legitimate player would also refill slower, such as when the items are far apart. Previous Ping Fix Next Teams"
+      }
+    ]
+  },
+  {
+    "module": "Teams",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/teams/",
+    "settings": [
+      {
+        "name": "Match own nametag",
+        "description": "Section titled \u201cMatch own nametag\u201d If enabled, all players with the same nametag color as your own will be considered teammates."
+      },
+      {
+        "name": "Colors",
+        "description": "Section titled \u201cColors\u201d This setting allows manually specifying which colors are used by teammates. The Match own nametag setting is usually enough, but sometimes you may need to configure this directly. Previous Refill Next Timer"
+      }
+    ]
+  },
+  {
+    "module": "Timer",
+    "category": "Utility",
+    "url": "https://docs.slinky.gg/modules/utility/timer/",
+    "settings": [
+      {
+        "name": "Speed",
+        "description": "Section titled \u201cSpeed\u201d Configures the timer speed. Vanilla speed is 1.00x ."
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d On some anti-cheats it can help to only speed up your game when necessary. You can enable the following conditions to limit how often the modified timer speed is used: Mouse pressed Damage (when you take damage yourself, not your opponent) Falling Previous Teams Next Anti Debuff"
+      }
+    ]
+  },
+  {
+    "module": "Anti Debuff",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/anti-debuff/",
+    "settings": [
+      {
+        "name": "Blindness",
+        "description": "Section titled \u201cBlindness\u201d Note The Blindness effect in Minecraft also prevents you from sprinting. This module only removes the visual aspect to prevent flagging anti-cheats. Removes the darkness when the blindness effect is active."
+      },
+      {
+        "name": "Nausea",
+        "description": "Section titled \u201cNausea\u201d Removes the screen warping when the Nausea effect is active. Previous Timer Next Block ESP"
+      }
+    ]
+  },
+  {
+    "module": "Block Esp",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/block-esp/",
+    "settings": [
+      {
+        "name": "Range",
+        "description": "Section titled \u201cRange\u201d You can specify the maximum range in chunks at which blocks will be rendered."
+      },
+      {
+        "name": "Limit per chunk",
+        "description": "Section titled \u201cLimit per chunk\u201d This limits how many blocks may be highlighted by Block ESP per chunk. This exists as a performance optimization for scenarios like: Block ESP is configured to scan for obsidian blocks, intended to be used in Bed Wars games. Bed Wars lobby contains a huge amount of obsidian, causing a big FPS drop if they are all rendered."
+      },
+      {
+        "name": "Block types",
+        "description": "Section titled \u201cBlock types\u201d Tip While you can use this module to scan for chests, the current Chest ESP module will be more efficient for this. Minecraft tracks chests itself, so by using Chest ESP Slinky does not have to scan the world itself. You can fully customize the types of blocks that are highlighted; all Minecraft blocks are supported. You can also set a custom color for each block type."
+      },
+      {
+        "name": "Customization",
+        "description": "Section titled \u201cCustomization\u201d Aside from custom colors per block, you can also modify the thinkness of the outlines. Previous Anti Debuff Next Chams"
+      }
+    ]
+  },
+  {
+    "module": "Chams",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/chams/",
+    "settings": [
+      {
+        "name": "Hide friendlies",
+        "description": "Section titled \u201cHide friendlies\u201d If enabled, teammates and friends are ignored. Previous Block ESP Next Chest ESP"
+      }
+    ]
+  },
+  {
+    "module": "Chest Esp",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/chest-esp/",
+    "settings": [
+      {
+        "name": "Range",
+        "description": "Section titled \u201cRange\u201d Specifies the maximum rendering range. Blocks further away will not be highlighted."
+      },
+      {
+        "name": "Target",
+        "description": "Section titled \u201cTarget\u201d Specifies the types of chests that can be highlighted: Regular chests Trapped chests Ender chests Beacons (technically not chests, but sometimes used by servers as lootbox)"
+      },
+      {
+        "name": "Line width",
+        "description": "Section titled \u201cLine width\u201d Adjust how thick the outlines are.",
+        "section": "Customization"
+      },
+      {
+        "name": "Filled",
+        "description": "Section titled \u201cFilled\u201d When turned off, only an outline will be rendered.",
+        "section": "Customization"
+      },
+      {
+        "name": "Colors",
+        "description": "Section titled \u201cColors\u201d Colors can be customized for each chest type. Previous Chams Next Free Look",
+        "section": "Customization"
+      }
+    ]
+  },
+  {
+    "module": "Free Look",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/free-look/",
+    "settings": [
+      {
+        "name": "Switch to",
+        "description": "Section titled \u201cSwitch to\u201d Automatically changes perspective when the module is enabled. Can be set to: First person Third person Third person (reverse) Previous Chest ESP Next GUI"
+      }
+    ]
+  },
+  {
+    "module": "Gui",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/gui/",
+    "settings": [
+      {
+        "name": "Scale",
+        "description": "Section titled \u201cScale\u201d Controls the rendering scale factors. This settings affects the menu, but also notifications, mod overlay and 2D Player ESP."
+      },
+      {
+        "name": "Accent color",
+        "description": "Section titled \u201cAccent color\u201d Specifies the color used as accent in the GUI, which is orange by default."
+      },
+      {
+        "name": "Allow input while open",
+        "description": "Section titled \u201cAllow input while open\u201d If enabled, you will be able to move around in-game while the menu is open."
+      },
+      {
+        "name": "Compact",
+        "description": "Section titled \u201cCompact\u201d Hides descriptions for modules and profiles. This allows fitting more modules on your screen at once.",
+        "section": "Layout"
+      },
+      {
+        "name": "Wide",
+        "description": "Section titled \u201cWide\u201d Allows the menu to use more horizontal screen space. Especially useful for people using 4K monitors. Previous Free Look Next Indicators",
+        "section": "Layout"
+      }
+    ]
+  },
+  {
+    "module": "Indicators",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/indicators/",
+    "settings": [
+      {
+        "name": "Warn for",
+        "description": "Section titled \u201cWarn for\u201d Indicators can currently be enabled for: Fireballs Ender pearls Arrows"
+      },
+      {
+        "name": "Conditions",
+        "description": "Section titled \u201cConditions\u201d To prevent unnecessary warnings, you can enable the Coming closer conditional to only warn for projectiles that are moving closer to you. Previous GUI Next Item ESP"
+      }
+    ]
+  },
+  {
+    "module": "Item Esp",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/item-esp/",
+    "settings": [
+      {
+        "name": "Range",
+        "description": "Section titled \u201cRange\u201d You can specify the maximum range to scan for dropped items."
+      },
+      {
+        "name": "Show count",
+        "description": "Section titled \u201cShow count\u201d If enabled, the number of items included in the stack will be displayed. Note that Slinky hides the count for stacks that contain only one item, to prevent too much overlapping text from being rendered."
+      },
+      {
+        "name": "Item types",
+        "description": "Section titled \u201cItem types\u201d You can fully customize the types of items that are highlighted; all Minecraft items are supported. You can also set a custom color for each item."
+      },
+      {
+        "name": "Highlight all items",
+        "description": "Section titled \u201cHighlight all items\u201d If enabled, items that were not explicitly configured are still highlighted. You can specify a default color for these items. For example, you could: Configure diamonds to render as cyan Configure emeralds to render as green Configure all other items to render as red Previous Indicators Next Mod overlay"
+      }
+    ]
+  },
+  {
+    "module": "Mod Overlay",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/mod-overlay/",
+    "settings": [
+      {
+        "name": "Visible categories",
+        "description": "Section titled \u201cVisible categories\u201d Controls which module categories are added to the list. Modules in disabled categories will not be shown on the list."
+      },
+      {
+        "name": "Text size",
+        "description": "Section titled \u201cText size\u201d Adjusts the size of the font. Note The GUI Scale setting also affects text size.",
+        "section": "Customization"
+      },
+      {
+        "name": "Padding X/Y",
+        "description": "Section titled \u201cPadding X/Y\u201d The horizontal and vertical padding (spacing between the text and background borders) can be configured independently.",
+        "section": "Customization"
+      },
+      {
+        "name": "Rounding",
+        "description": "Section titled \u201cRounding\u201d Controls how much rounding is applied to the background (set can set to 0 px to disable rounding entirely).",
+        "section": "Customization"
+      },
+      {
+        "name": "Text color",
+        "description": "Section titled \u201cText color\u201d The color of the module names, which is orange by default.",
+        "section": "Customization"
+      },
+      {
+        "name": "Details color",
+        "description": "Section titled \u201cDetails color\u201d The color of the module details, which is gray by default.",
+        "section": "Customization"
+      },
+      {
+        "name": "Lowercase",
+        "description": "Section titled \u201cLowercase\u201d If enabled, renders all text in lowercase.",
+        "section": "Customization"
+      },
+      {
+        "name": "Show details",
+        "description": "Section titled \u201cShow details\u201d If enabled, extra details will be shown for modules. The details that are shown vary between modules, usually it will be the active mode.",
+        "section": "Customization"
+      },
+      {
+        "name": "Conditionals",
+        "description": "Section titled \u201cConditionals\u201d You can enable Only bound modules to hide any module that has not been assigned a keybind. Previous Item ESP Next Name Tags"
+      }
+    ]
+  },
+  {
+    "module": "Name Tags",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/name-tags/",
+    "settings": [
+      {
+        "name": "Range",
+        "description": "Section titled \u201cRange\u201d Specifies the maximum rendering range. No name tag will be rendered for players outside this range."
+      },
+      {
+        "name": "Scale",
+        "description": "Section titled \u201cScale\u201d Controls the size of name tags, allowing you to make them smaller or bigger."
+      },
+      {
+        "name": "Show own name tag",
+        "description": "Section titled \u201cShow own name tag\u201d If enabled, you can see your own name tag in third person mode."
+      },
+      {
+        "name": "Distance scaling",
+        "description": "Section titled \u201cDistance scaling\u201d If enabled, name tags will remain the same size, whether the player is far away or nearby."
+      },
+      {
+        "name": "Background",
+        "description": "Section titled \u201cBackground\u201d If enabled, there will be a background behind the name tag text (just like the Vanilla name tags)."
+      },
+      {
+        "name": "Text shadow",
+        "description": "Section titled \u201cText shadow\u201d If enabled, the text will have a drop shadow."
+      },
+      {
+        "name": "Health",
+        "description": "Section titled \u201cHealth\u201d Displays the player\u2019s health in front of their name. Health format Section titled \u201cHealth format\u201d You can choose to display health as HP (meaning values are in range 0 - 20 ) or as hearts (meaning values are in range 0.0 - 10.0 ).",
+        "section": "Extra info"
+      },
+      {
+        "name": "Distance",
+        "description": "Section titled \u201cDistance\u201d Displays the distance to the player after their name.",
+        "section": "Extra info"
+      },
+      {
+        "name": "Equipment",
+        "description": "Section titled \u201cEquipment\u201d Shows the player\u2019s armor and held item above the name tag.",
+        "section": "Extra info"
+      },
+      {
+        "name": "Enchantments",
+        "description": "Section titled \u201cEnchantments\u201d Caution Some servers spoof enchantments, in which case Name Tags may be not show all enchantments or show enchantments that are not actually there. Shows enchantments that have been applied to each equipment item. Previous Mod overlay Next No Hurt Cam",
+        "section": "Extra info"
+      }
+    ]
+  },
+  {
+    "module": "No Hurt Cam",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/no-hurt-cam/",
+    "settings": []
+  },
+  {
+    "module": "Notifications",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/notifications/",
+    "settings": [
+      {
+        "name": "Hide if",
+        "description": "Section titled \u201cHide if\u201d Enable scenarios where notifications are not shown. Can be enabled for: In-game : hides notifications when the mmenu isn\u2019t open Hold bind is used : hides notifications for modules with a bind in hold mode Module is bind-only : hides notifications for bind-only modules (like Auto Pot )"
+      },
+      {
+        "name": "Visible mod categories",
+        "description": "Section titled \u201cVisible mod categories\u201d Controls which module categories generate notifications. For example, you may not want to receive notifications when toggling modules like Free Look or Player ESP , so you can disable the Visual category. Previous No Hurt Cam Next Player ESP"
+      }
+    ]
+  },
+  {
+    "module": "Player Esp",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/player-esp/",
+    "settings": [
+      {
+        "name": "Range",
+        "description": "Section titled \u201cRange\u201d Specifies the maximum rendering range. Blocks further away will not be highlighted."
+      },
+      {
+        "name": "Hide friendlies",
+        "description": "Section titled \u201cHide friendlies\u201d If enabled, teammates and friends are ignored."
+      },
+      {
+        "name": "Style",
+        "description": "Section titled \u201cStyle\u201d Configures the ESP style. Both styles support toggling the box and health bar independently. 2D Section titled \u201c2D\u201d 3D Section titled \u201c3D\u201d",
+        "section": "Customization"
+      },
+      {
+        "name": "Hurt effect",
+        "description": "Section titled \u201cHurt effect\u201d If enabled, the ESP will flash red when damaged, similar to what happens to the vanilla player model.",
+        "section": "Customization"
+      },
+      {
+        "name": "Line width",
+        "description": "Section titled \u201cLine width\u201d Adjust how thick the outlines are.",
+        "section": "Customization"
+      },
+      {
+        "name": "Filled",
+        "description": "Section titled \u201cFilled\u201d When turned off, only an outline will be rendered.",
+        "section": "Customization"
+      },
+      {
+        "name": "Colors",
+        "description": "Section titled \u201cColors\u201d Player ESP has contains two modes for determining colors. Both modes additionally support an Override target color setting that allows using a different color for the current Aim Assist target. Automatic Section titled \u201cAutomatic\u201d The ESP color will match the player\u2019s name tag color. Manual Section titled \u201cManual\u201d You can configure a custom color for enemies and friendlies. Previous Notifications Next Pointers",
+        "section": "Customization"
+      }
+    ]
+  },
+  {
+    "module": "Pointers",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/pointers/",
+    "settings": [
+      {
+        "name": "Range",
+        "description": "Section titled \u201cRange\u201d Specifies the maximum rendering range. No pointer will be rendered for players outside this range."
+      },
+      {
+        "name": "Ignore within FOV",
+        "description": "Section titled \u201cIgnore within FOV\u201d No pointer will be rendered for players within the FOV specified by this setting. You can use this if you only want to see pointers to players you can\u2019t already see on your screen. You can also simply set this to 0 degrees to always point to all players."
+      },
+      {
+        "name": "Hide friendlies",
+        "description": "Section titled \u201cHide friendlies\u201d If enabled, teammates and friends are ignored."
+      },
+      {
+        "name": "Style",
+        "description": "Section titled \u201cStyle\u201d Currently you can choose between two styles. 2D Section titled \u201c2D\u201d Pointers are always rendered flat on the screen. 3D Section titled \u201c3D\u201d Pointers will be rendered at an angle, creating a better feeling of depth.",
+        "section": "Customization"
+      },
+      {
+        "name": "Colors",
+        "description": "Section titled \u201cColors\u201d There are various modes available to generate pointer colors. Distance Section titled \u201cDistance\u201d Each pointer will be colored based on the distance to the player it points to. The Near and Far colors can be customized. Name Tag Section titled \u201cName Tag\u201d The pointer will use the same color as the name tag of the player it points to. Manual Section titled \u201cManual\u201d This mode lets you choose a color yourself. You can select a separate color for enemies and friendlies.",
+        "section": "Customization"
+      },
+      {
+        "name": "Transition between",
+        "description": "Section titled \u201cTransition between\u201d Specifies which distances are considered near and far. This affects colors when using Distance mode and also the Distance-based radius setting. For example, if you are using the default Distance colors and specify a value of 10 - 50 blocks for this setting, any players within a 10 block radius will be fully red, while any players outside a 50 block radius will be fully green.",
+        "section": "Customization"
+      },
+      {
+        "name": "Scale",
+        "description": "Section titled \u201cScale\u201d Controls the size of the pointers.",
+        "section": "Customization"
+      },
+      {
+        "name": "Radius",
+        "description": "Section titled \u201cRadius\u201d Controls how far the pointers are rendered from your crosshair.",
+        "section": "Customization"
+      },
+      {
+        "name": "Distance-based radius",
+        "description": "Section titled \u201cDistance-based radius\u201d If enabled, pointers for players that are far away will also be rendered further away from your crosshair. Previous Player ESP Next Trajectories",
+        "section": "Customization"
+      }
+    ]
+  },
+  {
+    "module": "Trajectories",
+    "category": "Visual",
+    "url": "https://docs.slinky.gg/modules/visual/trajectories/",
+    "settings": [
+      {
+        "name": "Line width",
+        "description": "Section titled \u201cLine width\u201d Specifies how thick the rendered lines are."
+      },
+      {
+        "name": "Colors",
+        "description": "Section titled \u201cColors\u201d Specifies the colors used for successful and unsuccessful paths. The definition of what is considered successful depends on the item, eg. hitting an entity with a bow is considered a hit, but hitting a block is considered a miss."
+      },
+      {
+        "name": "Render uncharged bow",
+        "description": "Section titled \u201cRender uncharged bow\u201d If enabled, holding an uncharged bow will make the module render the path as if it was fully charged. Previous Pointers"
+      }
+    ]
+  }
+]

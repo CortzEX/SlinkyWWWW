@@ -1,0 +1,3035 @@
+{
+  "passed": true,
+  "total_cases": 194,
+  "label_rva": "0x33480",
+  "module": "Criticals",
+  "cases": [
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 3,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 0,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": false,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x0",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0xffffffff",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18446744073709551615,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x87654321fedcba98",
+      "destination_offset": 512,
+      "initial_mode": 1
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214646784,
+        "options": 2,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Packet",
+        "locale": 0
+      },
+      "result": "0x123456789",
+      "destination_offset": 0,
+      "initial_mode": 0
+    },
+    {
+      "module": "criticals",
+      "mutate": true,
+      "call": {
+        "target": 2214647040,
+        "options": 18364758544493064722,
+        "capacity": 32,
+        "format": "%s",
+        "label": "Timer",
+        "locale": 0
+      },
+      "result": "0x123456789",
+      "destination_offset": 0,
+      "initial_mode": 0
+    }
+  ],
+  "retained_sequences": [
+    [
+      {
+        "module": "criticals",
+        "mutate": true,
+        "call": {
+          "target": 2214646784,
+          "options": 2,
+          "capacity": 32,
+          "format": "%s",
+          "label": "Packet",
+          "locale": 0
+        },
+        "result": "0x123456789",
+        "destination_offset": 0,
+        "initial_mode": 0
+      },
+      {
+        "module": "criticals",
+        "mutate": true,
+        "call": {
+          "target": 2214647040,
+          "options": 18364758544493064722,
+          "capacity": 32,
+          "format": "%s",
+          "label": "Timer",
+          "locale": 0
+        },
+        "result": "0x123456789",
+        "destination_offset": 0,
+        "initial_mode": 0
+      }
+    ]
+  ],
+  "instruction_coverage": {
+    "0x33480": {
+      "expected": 12,
+      "reached": 12,
+      "unreached": []
+    },
+    "0xab710": {
+      "expected": 28,
+      "reached": 28,
+      "unreached": []
+    },
+    "0xab070": {
+      "expected": 5,
+      "reached": 5,
+      "unreached": []
+    }
+  },
+  "original_entry_case_counts": {
+    "0x33480": 194,
+    "0xab710": 194,
+    "0xab070": 194,
+    "0x13d240": 194
+  },
+  "original_label_wrapper_and_protected_thunk_unhooked": true,
+  "typed_settings_and_format_state_do_not_require_original_global_image": true,
+  "exact_native_label_and_endpoint_identity_checked": true,
+  "separate_label_table_independent_of_choice_options": true,
+  "full_return_destination_settings_and_mutable_pages_compared": true,
+  "baseline_labels": [
+    "Packet",
+    "Timer"
+  ],
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Criticals.cpp": "60437e9a1f6b7e11fe755021627cd55cd760737a5f0403739a35cb10cd3fcf9f",
+    "recovered_cpp/clean/Timer.cpp": "2dfd42c98ea5f70b190f0b25af9112538af3798b1513ad6b3496f7a245abbc71",
+    "recovered_cpp/clean/Sprint.cpp": "e55f8dca22eb2241254b68362e6b96cabaf90782fd4355dc59bca08a0cb7a562",
+    "recovered_cpp/clean/module_game_access.cpp": "59a9517f00f2ee3c198e1b1894f4627b2c37c2dc46ecf26fe0b2a1450fd0f474",
+    "recovered_cpp/clean/module_access_helpers.cpp": "b0c1c5035ff57b414a467e4327f4a6d6328e51fc43a7456b966f0ef33616a1d0",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/module_random.cpp": "e1f242c1bb71fa014746d966e2a30837bf5dd6982739a2bbb527076f1d80aac1",
+    "recovered_cpp/clean/Weapons.cpp": "b307924d887130f7bcb7ab679469d5cbb95f999a573a4d18c0ac20ccf6ca5314",
+    "recovered_cpp/clean/module_item_policy_lookup.cpp": "f5235766e0c2e0feba8dab90c199f2786f069ad62d762f466b5b584ef5298e68",
+    "recovered_cpp/clean/module_item_lists.cpp": "6812f4abcbd1508e0081042adff29b78d6d20d4bc5f6fd2e5c2a49a3b2a9b6e5",
+    "recovered_cpp/clean/module_list_ui.cpp": "88747ac61558d045b47908f409a22f83f847d7f8df2c6844d8c28ff42ce5539b",
+    "recovered_cpp/clean/module_ui_controls.cpp": "8b81c1e1aa062585cac5a3b7df89da197bbbd486f81c215512bd7eaff9fc685c",
+    "recovered_cpp/clean/module_list_settings.cpp": "6a0b66b44c856425b7b0837fd8eb9f3bd6b15063831d04e50c2c9ad7389ae63c",
+    "recovered_cpp/clean/module_choice_ui.cpp": "7d0cbc7b55ab2b3a73240e3b383e8502461e793c25fa0db92d13102ee8deb33f",
+    "recovered_cpp/clean/module_format.cpp": "bf4a67394200a8434978dcf21ac7774b300fbad8a03cdaf489934b1a69c182c3",
+    "recovered_cpp/clean/Criticals.hpp": "07c457bd3b60c4dadd6e5b9855146a9ade15dbe3bcdf6a33e3d6bce04bdcc1e1",
+    "recovered_cpp/clean/Timer.hpp": "43fd3a482508f022218ec04aca6c125e687c6a689b4ca0f4d61f1bbb36a52be3",
+    "recovered_cpp/clean/Sprint.hpp": "8993a4d3881d62c43e1412102d2f91783fe066180c26ee21cb39823282ea799d",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/module_access_helpers.hpp": "2b25dde3890978799da2faa6eb55b32b49b6fad367cd534a54f758451728b0d1",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_random.hpp": "516f47e199187adc8b9a015409b6aadb6b48cbcb6fe0f583c26fb6dcea58a430",
+    "recovered_cpp/clean/Weapons.hpp": "b8569f3081975ddaf2fc041afe36c69b3ec5bbeb80fcfe107de219bbefa27fee",
+    "recovered_cpp/clean/module_item_policy_lookup.hpp": "7bd348ffadde08256cd454f32217d8ea1a94e86642de64512f885e1fec7d4f85",
+    "recovered_cpp/clean/module_item_lists.hpp": "ed1e99ac60e9f997486cf23ac304f2cc087e26e897c73fccaa92e3e17e2ea192",
+    "recovered_cpp/clean/module_list_ui.hpp": "cebdb4a4961e31bd850ad6746deaa6669e97d1d8ec59aac34f2a2a50dc26eab1",
+    "recovered_cpp/clean/module_ui_controls.hpp": "8361da2b66389f9338af4a5edc45b3c084e5a692b66d18a32719ec6382ea141a",
+    "recovered_cpp/clean/module_list_settings.hpp": "69637d6a6bce6906da722f0a0696db982a31dbe2e433cfc9ece4d2e7acc349f0",
+    "recovered_cpp/clean/module_choice_ui.hpp": "19d7a420af8949e52ee45084cc161fbedb38cca12a45e44437215d54ce429838",
+    "recovered_cpp/clean/module_format.hpp": "d034d8fe613d9c21e7cb5209fb563303ae1b3cd8fed51985afbe5ac06dd4c8a1",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "analysis/recovered_native_source/verify_criticals_label.py": "d39c56901acb0c93515bbb38ca879f9732d73b9f853218deb110add6ca4fa3c3",
+    "analysis/recovered_native_source/verify_labels_cpp.py": "504cd2566ba2fea57283e3449b16778a4433f324b73ea57ecb8270269fddc534",
+    "analysis/module_behavior_recovery/format_dispatch/protected_trace.json": "dd4f4054975ff316b78195da1b8181c2cb13e0b6404c6deb4790f8db49366cce"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 20000
+  },
+  "native_original_executed": false,
+  "full_module_rebuild": false,
+  "limits": [
+    "Label dispatch covers the two valid initialized mode indices. Original unchecked indexing remains the caller contract; invalid mode/table pointers are not exercised.",
+    "Only the absent external formatting engine is controlled. Endpoint markers verify buffer routing, not actual string formatting, locale or truncation.",
+    "Original table/default ownership, endpoint resolution, runtime registration and concurrency remain unresolved."
+  ]
+}

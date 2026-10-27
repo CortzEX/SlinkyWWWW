@@ -1,0 +1,288 @@
+{
+  "passed": true,
+  "total_cases": 1590,
+  "direct_helper_cases": 269,
+  "connected_callback_cases": 1321,
+  "connected_modules": [
+    "Anti Debuff",
+    "No Jump Delay",
+    "Item Use Fix",
+    "No Hit Delay",
+    "No Use Delay"
+  ],
+  "recovered_helper_count": 26,
+  "new_helper_count": 23,
+  "original_helper_bodies_executed": true,
+  "clean_access_dependencies_bound": true,
+  "connected_entry_case_counts": {
+    "0x44940": 64,
+    "0x23e60": 16,
+    "0x23e90": 16,
+    "0x23c10": 16,
+    "0x27960": 16,
+    "0x279c0": 8,
+    "0x35d50": 4,
+    "0x23b80": 1,
+    "0x22df0": 40,
+    "0x27e90": 40,
+    "0x42b80": 160,
+    "0x42be0": 160,
+    "0x27eb0": 24,
+    "0x22e90": 294,
+    "0x3e590": 301,
+    "0x22eb0": 113,
+    "0x22e10": 53,
+    "0x23bb0": 21,
+    "0x23f90": 37,
+    "0x24b50": 24,
+    "0x271a0": 24,
+    "0x3e8e0": 792,
+    "0x22cf0": 408,
+    "0x23f40": 408,
+    "0x24f90": 408,
+    "0x25430": 408,
+    "0x25460": 326,
+    "0x25490": 312,
+    "0x25760": 296,
+    "0x25a60": 408,
+    "0x23fc0": 216,
+    "0x258c0": 12
+  },
+  "instruction_coverage": {
+    "0x27960": {
+      "instructions": 27,
+      "reached": 27,
+      "unreached": []
+    },
+    "0x23c10": {
+      "instructions": 12,
+      "reached": 12,
+      "unreached": []
+    },
+    "0x279c0": {
+      "instructions": 10,
+      "reached": 10,
+      "unreached": []
+    },
+    "0x23e60": {
+      "instructions": 10,
+      "reached": 10,
+      "unreached": []
+    },
+    "0x23e90": {
+      "instructions": 10,
+      "reached": 10,
+      "unreached": []
+    },
+    "0x23b80": {
+      "instructions": 10,
+      "reached": 10,
+      "unreached": []
+    },
+    "0x22df0": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x27e90": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x27eb0": {
+      "instructions": 10,
+      "reached": 10,
+      "unreached": []
+    },
+    "0x22e90": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x22e10": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x24b50": {
+      "instructions": 16,
+      "reached": 16,
+      "unreached": []
+    },
+    "0x271a0": {
+      "instructions": 11,
+      "reached": 11,
+      "unreached": []
+    },
+    "0x22eb0": {
+      "instructions": 10,
+      "reached": 10,
+      "unreached": []
+    },
+    "0x23bb0": {
+      "instructions": 12,
+      "reached": 12,
+      "unreached": []
+    },
+    "0x23f90": {
+      "instructions": 13,
+      "reached": 13,
+      "unreached": []
+    },
+    "0x22cf0": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x24f90": {
+      "instructions": 19,
+      "reached": 19,
+      "unreached": []
+    },
+    "0x25430": {
+      "instructions": 13,
+      "reached": 13,
+      "unreached": []
+    },
+    "0x23f40": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x25a60": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x25490": {
+      "instructions": 32,
+      "reached": 32,
+      "unreached": []
+    },
+    "0x25760": {
+      "instructions": 15,
+      "reached": 15,
+      "unreached": []
+    },
+    "0x258c0": {
+      "instructions": 15,
+      "reached": 15,
+      "unreached": []
+    },
+    "0x25460": {
+      "instructions": 10,
+      "reached": 10,
+      "unreached": []
+    },
+    "0x23fc0": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x44940": {
+      "instructions": 37,
+      "reached": 37,
+      "unreached": []
+    },
+    "0x35d50": {
+      "instructions": 12,
+      "reached": 12,
+      "unreached": []
+    },
+    "0x42b80": {
+      "instructions": 31,
+      "reached": 31,
+      "unreached": []
+    },
+    "0x42be0": {
+      "instructions": 23,
+      "reached": 23,
+      "unreached": []
+    },
+    "0x3e590": {
+      "instructions": 49,
+      "reached": 49,
+      "unreached": []
+    },
+    "0x3e8e0": {
+      "instructions": 75,
+      "reached": 75,
+      "unreached": []
+    }
+  },
+  "direct_entry_case_counts": {
+    "0x27960": 12,
+    "0x23c10": 8,
+    "0x279c0": 8,
+    "0x23e60": 14,
+    "0x23e90": 14,
+    "0x23b80": 8,
+    "0x22df0": 8,
+    "0x27e90": 8,
+    "0x27eb0": 8,
+    "0x22e90": 8,
+    "0x22e10": 8,
+    "0x24b50": 8,
+    "0x271a0": 8,
+    "0x22eb0": 8,
+    "0x23bb0": 13,
+    "0x23f90": 8,
+    "0x22cf0": 8,
+    "0x24f90": 8,
+    "0x25430": 8,
+    "0x23f40": 8,
+    "0x25a60": 8,
+    "0x25490": 48,
+    "0x25760": 8,
+    "0x258c0": 8,
+    "0x25460": 8,
+    "0x23fc0": 8
+  },
+  "connected_callback_entry_case_counts": {
+    "0x44940": 64,
+    "0x35d50": 4,
+    "0x42b80": 160,
+    "0x42be0": 160,
+    "0x3e590": 301,
+    "0x3e8e0": 792
+  },
+  "frame_pointer_fifth_argument_compared": true,
+  "caller_frame_pointer_values": [
+    "0x0",
+    "0x1",
+    "0x100",
+    "0x8000000000000000",
+    "0xfedcba9876543210",
+    "0xffffffffffffffff"
+  ],
+  "captured_effect_environment_and_reloaded_table_compared": true,
+  "floating_setter_xmm3_bits_compared": true,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_access_helpers.cpp": "b0c1c5035ff57b414a467e4327f4a6d6328e51fc43a7456b966f0ef33616a1d0",
+    "recovered_cpp/clean/module_game_access.cpp": "59a9517f00f2ee3c198e1b1894f4627b2c37c2dc46ecf26fe0b2a1450fd0f474",
+    "recovered_cpp/clean/Anti_Debuff.cpp": "6c908d6227dd1a76748f34a2fb3665360e3f061ab83e86901e12766d6fd284ec",
+    "recovered_cpp/clean/No_Jump_Delay.cpp": "116a67dd849e90a3e0ebc4ffeaed03193c7f373822b45bc478bd65f1269cd80e",
+    "recovered_cpp/clean/Item_Use_Fix.cpp": "f6d8d1169737281bfdcaa549ae01ba5d0aec2f6c62d40b47147b927e2726c50e",
+    "recovered_cpp/clean/No_Hit_Delay.cpp": "28a1eb9bd0755f0d627416ace1d9bdac7dd925f888ace4e409557521b52c3649",
+    "recovered_cpp/clean/No_Use_Delay.cpp": "cebb26852422b6ca9d417172c840af455e34f8750cd8a167649b17074912ef96",
+    "recovered_cpp/clean/module_access_helpers.hpp": "2b25dde3890978799da2faa6eb55b32b49b6fad367cd534a54f758451728b0d1",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "analysis/recovered_native_source/verify_access_helpers_cpp.py": "92616c46c13513908bfb528bd2d31681c194f6bb58f5d8b9272e60bf7b5a396c",
+    "analysis/recovered_native/index.tsv": "e7ab9b23c6a1c3954cc4af517e1ae68a054f5c7c7dd82d33d355bc9671742e1f"
+  },
+  "limits": [
+    "JNI endpoints and metadata IDs are controlled; original instructions execute only in bounded Unicorn.",
+    "Caller RBP forwarded by 0x23bb0 is an explicit boundary input; its live capture is not implemented.",
+    "Only meaningful return widths are compared. Setter return registers, flags and unused volatile registers remain unverified.",
+    "Exceptions, invalid pointers, concurrency, metadata discovery and full module runtime integration remain unverified."
+  ],
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 10000
+  },
+  "live_game_integration": false
+}

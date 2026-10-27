@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "cases_passed": 1730,
+  "original_instruction_callbacks_executed": true,
+  "module_registry_callbacks_confirmed": [
+    "0x3a0f0",
+    "0x3a170",
+    "0x3a260"
+  ],
+  "raw_callback_sha256": {
+    "0x3a0f0": "8187dabf984cf8aae039de66b0da138af9269c5bc982c89f3ae4ade8e14e0e06",
+    "0x3a170": "6783a8b6b456afba94a007a8ff05fab01e703e27f881799b311083b83ea86139",
+    "0x3a260": "375fb09f4a78bc03c3bcdf0f8fc28068ab875692bd1b5e4fdf3f219c78e86c57"
+  },
+  "helper_boundaries_stubbed_by_rva": [
+    "0x23690",
+    "0xa460",
+    "0x23550",
+    "0x23780",
+    "0x23760",
+    "0x239d0",
+    "0x235f0",
+    "0x236c0"
+  ],
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/keep_sprint/keep_sprint.cpp": "5d6205eb7f920f2559b689c78c0fcbdbd54edcf5cf1e3cbdf697205f86a01d92",
+    "analysis/module_behavior_recovery/keep_sprint/verify_keep_sprint.py": "23b30a28aa51403019927472edf67059f0a26fa3f66f9b88c4767799c4ff6cec"
+  },
+  "state_comparison_scope": "global bytes 0x2fc7a0..0x2fc7b9 and event/payload/status/bridge buffers used by the callback fixtures",
+  "computed_vectors_compared_exactly": false,
+  "unresolved_nan_payload_differences": [
+    {
+      "case": 1665,
+      "entry": [
+        "0x3a170"
+      ],
+      "where": "state",
+      "c": "341200000000f87f000000000000f03f000000804602f87f",
+      "original": "000000804602f87f000000000000f03f000000804602f87f"
+    },
+    {
+      "case": 1665,
+      "entry": [
+        "0x3a170"
+      ],
+      "where": "helper_vector",
+      "c": "341200000000f87f000000000000f03f000000804602f87f",
+      "original": "000000804602f87f000000000000f03f000000804602f87f"
+    }
+  ],
+  "limitations": [
+    "Helper bodies are modeled through explicit dependency callbacks; original module code was never loaded natively.",
+    "Only callback-owned globals and fixture buffers are compared, not all writable image pages.",
+    "NaN vector payload differences are retained as unresolved when both results have matching NaN classification."
+  ]
+}

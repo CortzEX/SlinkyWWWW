@@ -1,0 +1,644 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "module_indices": [
+        0
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 6
+    },
+    {
+      "module_indices": [
+        1
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 4
+    },
+    {
+      "module_indices": [
+        2
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        3
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 7
+    },
+    {
+      "module_indices": [
+        4
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 3
+    },
+    {
+      "module_indices": [
+        5
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 6
+    },
+    {
+      "module_indices": [
+        6
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 7
+    },
+    {
+      "module_indices": [
+        7
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 6
+    },
+    {
+      "module_indices": [
+        8
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 2
+    },
+    {
+      "module_indices": [
+        9
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        10
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 3
+    },
+    {
+      "module_indices": [
+        11
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 7
+    },
+    {
+      "module_indices": [
+        12
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 7
+    },
+    {
+      "module_indices": [
+        13
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 7
+    },
+    {
+      "module_indices": [
+        14
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 6
+    },
+    {
+      "module_indices": [
+        15
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 0
+    },
+    {
+      "module_indices": [
+        16
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 2
+    },
+    {
+      "module_indices": [
+        17
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 3
+    },
+    {
+      "module_indices": [
+        18
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 6
+    },
+    {
+      "module_indices": [
+        19
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 4
+    },
+    {
+      "module_indices": [
+        20
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 3
+    },
+    {
+      "module_indices": [
+        21
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        22
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 2
+    },
+    {
+      "module_indices": [
+        23
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        24
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 4
+    },
+    {
+      "module_indices": [
+        25
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 5
+    },
+    {
+      "module_indices": [
+        26
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        27
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 7
+    },
+    {
+      "module_indices": [
+        28
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        29
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 3
+    },
+    {
+      "module_indices": [
+        30
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 5
+    },
+    {
+      "module_indices": [
+        31
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        32
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        33
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 6
+    },
+    {
+      "module_indices": [
+        34
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 3
+    },
+    {
+      "module_indices": [
+        35
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 2
+    },
+    {
+      "module_indices": [
+        36
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 3
+    },
+    {
+      "module_indices": [
+        37
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 2
+    },
+    {
+      "module_indices": [
+        38
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 5
+    },
+    {
+      "module_indices": [
+        39
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 4
+    },
+    {
+      "module_indices": [
+        40
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 8
+    },
+    {
+      "module_indices": [
+        41
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 5
+    },
+    {
+      "module_indices": [
+        42
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        43
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 0
+    },
+    {
+      "module_indices": [
+        44
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        45
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        46
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        47
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 8
+    },
+    {
+      "module_indices": [
+        48
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        49
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        50
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        51
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 2
+    },
+    {
+      "module_indices": [
+        52
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 3
+    },
+    {
+      "module_indices": [
+        53
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 2
+    },
+    {
+      "module_indices": [
+        54
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        55
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 4
+    },
+    {
+      "module_indices": [
+        56
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        57
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 2
+    },
+    {
+      "module_indices": [
+        58
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        59
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 2
+    },
+    {
+      "module_indices": [
+        60
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 5
+    },
+    {
+      "module_indices": [
+        61
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 4
+    },
+    {
+      "module_indices": [
+        62
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 6
+    },
+    {
+      "module_indices": [
+        63
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 5
+    },
+    {
+      "module_indices": [
+        64
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 9
+    },
+    {
+      "module_indices": [
+        65
+      ],
+      "operation_comparisons": 117,
+      "callback_calls": 1
+    },
+    {
+      "module_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "operation_comparisons": 247,
+      "callback_calls": 3669
+    },
+    {
+      "module_indices": [
+        65,
+        64,
+        63,
+        62,
+        61,
+        60,
+        59,
+        58,
+        57,
+        56,
+        55,
+        54,
+        53,
+        52,
+        51,
+        50,
+        49,
+        48,
+        47,
+        46,
+        45,
+        44,
+        43,
+        42,
+        41,
+        40,
+        39,
+        38,
+        37,
+        36,
+        35,
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "operation_comparisons": 247,
+      "callback_calls": 3669
+    },
+    {
+      "module_indices": [
+        0,
+        1,
+        0
+      ],
+      "operation_comparisons": 121,
+      "callback_calls": 18
+    },
+    {
+      "module_indices": [
+        65,
+        0,
+        33
+      ],
+      "operation_comparisons": 121,
+      "callback_calls": 21
+    }
+  ],
+  "operation_comparisons": 8458,
+  "module_count": 66,
+  "original_registry_dispatch_lifecycle_executed": true,
+  "allocator_sort_and_module_callbacks_stubbed": true,
+  "initial_enabled_bytes_forced_zero": true,
+  "application_rebuild_complete": false,
+  "authentication_removed": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_registry.cpp": "2df99b68656b59504b85eff4397d9f85ae51068c27824faf3d7acc59ffa142b9",
+    "recovered_cpp/clean/module_dispatch.cpp": "878f9076771467919522d0933c9ff0b84c872506fb0c23295f9ebd60fe49edce",
+    "recovered_cpp/clean/module_lifecycle.cpp": "103b85b61d484e77f7ba21d62c9adb6e2ce7e33b03cbf50f05fed5b868b6e391",
+    "recovered_cpp/clean/module_runtime.hpp": "58d93b8811488edce2b95fd0e0215d35a004c87d844185f8051ee6d4059e97d5",
+    "analysis/recovered_native_source/verify_module_pipeline.py": "5de2f2c25aedc6f9b2c2f5ab9c7ad12249411c021fe0ac988b03d0d080ded7d3"
+  }
+}

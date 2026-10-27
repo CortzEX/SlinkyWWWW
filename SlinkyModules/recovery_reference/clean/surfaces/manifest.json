@@ -1,0 +1,5885 @@
+{
+  "generated_surface_count": 60,
+  "generated_settings_only_count": 0,
+  "common_shape_count": 36,
+  "modules": [
+    {
+      "module": "Bridge Assist",
+      "symbol": "bridge_assist",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Bridge_Assist.cpp",
+      "source_sha256": "376539d947783866884bee7edda1a02b12585c701ad231d35c7e5dd07e539e94",
+      "ui_rva": "0x2e5d0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x2e6c0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2e9dc8"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2e9e40"
+        },
+        {
+          "control": "choice",
+          "setting_rva": "0x2e9d48"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2e9e00"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2e9da8"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2e9e20"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2e9cd0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2e9d88"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2e9cf0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2e9d10"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "edge_offset",
+          "setting_rva": "0x2e9dc8"
+        },
+        {
+          "control": "number",
+          "key": "unsneak_delay",
+          "setting_rva": "0x2e9e40"
+        },
+        {
+          "control": "choice",
+          "key": "select_blocks",
+          "setting_rva": "0x2e9d48"
+        },
+        {
+          "control": "boolean",
+          "key": "randomize",
+          "setting_rva": "0x2e9e00"
+        },
+        {
+          "control": "boolean",
+          "key": "sneak_on_jump",
+          "setting_rva": "0x2e9da8"
+        },
+        {
+          "control": "boolean",
+          "key": "avoid_double_sneak",
+          "setting_rva": "0x2e9e20"
+        },
+        {
+          "control": "boolean",
+          "key": "require_sneak",
+          "setting_rva": "0x2e9cd0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_holding_blocks",
+          "setting_rva": "0x2e9d88"
+        },
+        {
+          "control": "boolean",
+          "key": "require_looking_down",
+          "setting_rva": "0x2e9cf0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_not_forward",
+          "setting_rva": "0x2e9d10"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "82335c00bd2aacee378d2b7742630b3001bab32cf23de39354a3c39f8d84df80",
+        "settings": "757be3c85113e015ecae3c23dc3a7db0119a51e2a695a7fcf0ef63f7322571c8"
+      }
+    },
+    {
+      "module": "Reach",
+      "symbol": "reach",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Reach.cpp",
+      "source_sha256": "91abf989b1381f95722be7abcf9d4c7e488e728e54e56f1e643c23deafb24a72",
+      "ui_rva": "0x30060",
+      "ui_unported_rva": null,
+      "settings_rva": "0x300e0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ea760"
+        },
+        {
+          "control": "section",
+          "label": "Advanced"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ea798"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ea7d0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "distance",
+          "setting_rva": "0x2ea760"
+        },
+        {
+          "control": "number",
+          "key": "activate_time",
+          "setting_rva": "0x2ea798"
+        },
+        {
+          "control": "boolean",
+          "key": "require_sprint",
+          "setting_rva": "0x2ea7d0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "de8ea53b568fe5b2999efeae015556153bb8a2391639374a3aa8a9f34a64f41a",
+        "settings": "e9a83f84e3b833a5e5181aef3f5fc72a380041895ddb35ce65cc904d0a2c9503"
+      }
+    },
+    {
+      "module": "Timer",
+      "symbol": "timer",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Timer.cpp",
+      "source_sha256": "df9625ceba86312e279c535e5c4d3b9fe649f55f669d6797973ca14853ce96f1",
+      "ui_rva": "0x32a00",
+      "ui_unported_rva": null,
+      "settings_rva": "0x32a80",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ebc20"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ebc58"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ebc98"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ebc78"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "speed",
+          "setting_rva": "0x2ebc20"
+        },
+        {
+          "control": "boolean",
+          "key": "require_mouse",
+          "setting_rva": "0x2ebc58"
+        },
+        {
+          "control": "boolean",
+          "key": "require_damage",
+          "setting_rva": "0x2ebc98"
+        },
+        {
+          "control": "boolean",
+          "key": "require_falling",
+          "setting_rva": "0x2ebc78"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "d9df7d22ae794756c789b8e153596049e8e98fe39cc3983fb2d1d26abfa89024",
+        "settings": "94c9d853a1244a10da8d03bade81405de78eb8d8534b2f9b117af462e3caa645"
+      }
+    },
+    {
+      "module": "Fake Lag",
+      "symbol": "fake_lag",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Fake_Lag.cpp",
+      "source_sha256": "20adf0e760b98761358c891265b25a16a2578cd05e04e0ca24a8c756b04892ea",
+      "ui_rva": "0x32d60",
+      "ui_unported_rva": null,
+      "settings_rva": "0x32e20",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Delay"
+        },
+        {
+          "control": "choice",
+          "setting_rva": "0x2ebf70"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ebed0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ebf08"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ebf40"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ebfd0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ebff0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ebfb0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2ebf70"
+        },
+        {
+          "control": "number",
+          "key": "inbound",
+          "setting_rva": "0x2ebed0"
+        },
+        {
+          "control": "number",
+          "key": "outbound",
+          "setting_rva": "0x2ebf08"
+        },
+        {
+          "control": "boolean",
+          "key": "realtime_damage",
+          "setting_rva": "0x2ebf40"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2ebfd0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_attack",
+          "setting_rva": "0x2ebff0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_ingame",
+          "setting_rva": "0x2ebfb0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "05bc6499645b9e7ac5b5311d4b585d85dbba23f5f41f767491b20291b841b7a5",
+        "settings": "c526f4e42db6f892ac2fa8d681531714e309fbc0b74e3d17093b0117f9f47dd6"
+      }
+    },
+    {
+      "module": "Notifications",
+      "symbol": "notifications",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Notifications.cpp",
+      "source_sha256": "bf84f15b34368ee69ef64676c7b11fd9a8a2541bd4de32728b43821dac9d0371",
+      "ui_rva": "0x35bb0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x35c80",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Hide if"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ed610"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ed550"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ed530"
+        },
+        {
+          "control": "section",
+          "label": "Visible mod categories"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ed570"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ed590"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ed5b0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ed5d0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ed5f0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "hide_ingame",
+          "setting_rva": "0x2ed610"
+        },
+        {
+          "control": "boolean",
+          "key": "hide_hold_notifs",
+          "setting_rva": "0x2ed550"
+        },
+        {
+          "control": "boolean",
+          "key": "hide_bind_only",
+          "setting_rva": "0x2ed530"
+        },
+        {
+          "control": "boolean",
+          "key": "show_combat",
+          "setting_rva": "0x2ed570"
+        },
+        {
+          "control": "boolean",
+          "key": "show_move",
+          "setting_rva": "0x2ed590"
+        },
+        {
+          "control": "boolean",
+          "key": "show_block",
+          "setting_rva": "0x2ed5b0"
+        },
+        {
+          "control": "boolean",
+          "key": "show_visual",
+          "setting_rva": "0x2ed5d0"
+        },
+        {
+          "control": "boolean",
+          "key": "show_utility",
+          "setting_rva": "0x2ed5f0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "2f49edd07217bafa1b521800e0c9524502ab56a28fcb042fdec0d57045f63a02",
+        "settings": "100ad58105d08e7cf6fc04f1a26c31127d542bbba1d3c27f0140de9908efcdd5"
+      }
+    },
+    {
+      "module": "Sprint",
+      "symbol": "sprint",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Sprint.cpp",
+      "source_sha256": "50bb294e2238856fa9a70636eebe016e63ea7f2285664eecbc51751d7a35ecee",
+      "ui_rva": "0x35ef0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x35f60",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Allow while"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2eda70"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2eda90"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2edab0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2eda50"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "while_using_item",
+          "setting_rva": "0x2eda70"
+        },
+        {
+          "control": "boolean",
+          "key": "while_backwards",
+          "setting_rva": "0x2eda90"
+        },
+        {
+          "control": "boolean",
+          "key": "while_sideways",
+          "setting_rva": "0x2edab0"
+        },
+        {
+          "control": "boolean",
+          "key": "while_in_gui",
+          "setting_rva": "0x2eda50"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "0c57d70b13c4eed6178bf584f8239fc417edfc60af6d12566d088903b057f0f3",
+        "settings": "8b3bef0aac4caa0c5d299a41253e165ac6eb9f8f3827c4d223046779cad91d58"
+      }
+    },
+    {
+      "module": "Auto Pot",
+      "symbol": "auto_pot",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Auto_Pot.cpp",
+      "source_sha256": "15c6e51fda09bc9aac9122ee3813c891e03c1566d9cd505c60489b0ab6c4fc23",
+      "ui_rva": "0x39600",
+      "ui_unported_rva": null,
+      "settings_rva": "0x39670",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ef358"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ef390"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ef3b0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ef338"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "delay",
+          "setting_rva": "0x2ef358"
+        },
+        {
+          "control": "boolean",
+          "key": "prevent_waste",
+          "setting_rva": "0x2ef390"
+        },
+        {
+          "control": "boolean",
+          "key": "double_splash",
+          "setting_rva": "0x2ef3b0"
+        },
+        {
+          "control": "boolean",
+          "key": "use_non_health",
+          "setting_rva": "0x2ef338"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "f8ccc27e3bf03e710b29680ef149219f194e14abaa0728a8c44111c57a2a1239",
+        "settings": "653f6ee1af2679fd36766304e66ffc583a38409814ef2011353f91d9bc269ede"
+      }
+    },
+    {
+      "module": "Keep Sprint",
+      "symbol": "keep_sprint",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Keep_Sprint.cpp",
+      "source_sha256": "e408df193e3f85a458d0bf1707f23ab8bf7c61923faac83496323f4cacd228a1",
+      "ui_rva": "0x3a290",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3a310",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ef910"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ef948"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ef9a0"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2ef980"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "chance",
+          "setting_rva": "0x2ef910"
+        },
+        {
+          "control": "number",
+          "key": "motion_mult",
+          "setting_rva": "0x2ef948"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_reduce",
+          "setting_rva": "0x2ef9a0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_on_ground",
+          "setting_rva": "0x2ef980"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "7b7be85dd7e081de4ba80c2274b39e99f1892ecdedc3d7db3c28f52ce756b905",
+        "settings": "4d7c94f977e5a9bf4079fa19a850c74f03ce7a246955e6cb60af3254265bf5fe"
+      }
+    },
+    {
+      "module": "Sprint Reset",
+      "symbol": "sprint_reset",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Sprint_Reset.cpp",
+      "source_sha256": "2f427cbf411feadc6e449e407e9fece4dd2522ab20ee7b338ad43e9f12bbfc2c",
+      "ui_rva": "0x3afc0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3b070",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "setting_rva": "0x2eff28"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2eff68"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f0000"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2effa0"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2effc0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2effe0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2eff28"
+        },
+        {
+          "control": "number",
+          "key": "delay",
+          "setting_rva": "0x2eff68"
+        },
+        {
+          "control": "number",
+          "key": "duration",
+          "setting_rva": "0x2f0000"
+        },
+        {
+          "control": "boolean",
+          "key": "randomize",
+          "setting_rva": "0x2effa0"
+        },
+        {
+          "control": "boolean",
+          "key": "wait_for_damage",
+          "setting_rva": "0x2effc0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2effe0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "7e0b430432858591eccbbbde5293aa406d823c39f3ef138a976f04d0f1700ef5",
+        "settings": "6ca067437d97ed034f65481b1710d340e639e936c28550f110b885724dcf05b8"
+      }
+    },
+    {
+      "module": "Chams",
+      "symbol": "chams",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Chams.cpp",
+      "source_sha256": "9ef85b36c464bd8fb2bcc867a0dea9b811391247df88d97ac06ba4e616724b1d",
+      "ui_rva": "0x3e880",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3e8c0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f11f0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "hide_friendlies",
+          "setting_rva": "0x2f11f0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "f61b390c87569f0a93aaf736d7bde90506c26f8654afae70633d61e8b3662525",
+        "settings": "8c59fca0a621afad4cb1c575ffa54cac3a583173ef1edba04f522a9d40fac228"
+      }
+    },
+    {
+      "module": "No Use Delay",
+      "symbol": "no_use_delay",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_No_Use_Delay.cpp",
+      "source_sha256": "7b2ce4ea0b4829c450550584d9325367306a9ea20fbe96ac5f9ef933a835cc82",
+      "ui_rva": "0x3e9e0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3ea20",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f1420"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "allow_desync",
+          "setting_rva": "0x2f1420"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "e5ca8f190d917f6a411c8b5308ef226a27a09c16424bc07ab0409154fca79e6f",
+        "settings": "831987dfea79727adf3acd3d10623327fad525a6d911b1ab4a6def3cd58c0fde"
+      }
+    },
+    {
+      "module": "Indicators",
+      "symbol": "indicators",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Indicators.cpp",
+      "source_sha256": "081768624cba2a4b22d77503678154177c4963bdecc4cd44eb45bdf9a0882717",
+      "ui_rva": "0x3f2a0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3f360",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f1650"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f1688"
+        },
+        {
+          "control": "section",
+          "label": "Warn for"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f16c0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f16e0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f1700"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f1720"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "scale",
+          "setting_rva": "0x2f1650"
+        },
+        {
+          "control": "number",
+          "key": "radius",
+          "setting_rva": "0x2f1688"
+        },
+        {
+          "control": "boolean",
+          "key": "show_arrow",
+          "setting_rva": "0x2f16c0"
+        },
+        {
+          "control": "boolean",
+          "key": "show_fireball",
+          "setting_rva": "0x2f16e0"
+        },
+        {
+          "control": "boolean",
+          "key": "show_pearl",
+          "setting_rva": "0x2f1700"
+        },
+        {
+          "control": "boolean",
+          "key": "require_coming_closer",
+          "setting_rva": "0x2f1720"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "1c51023f9df7f915f68a37276599cbe225e529b1a8519570ff54216a8c7dbcac",
+        "settings": "751d572be85c2003105926fd08b6b0c35b308337df8343f044accd1dec236ca2"
+      }
+    },
+    {
+      "module": "Fast Mine",
+      "symbol": "fast_mine",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Fast_Mine.cpp",
+      "source_sha256": "ee465a46758ebe07cd961f7db1c52bc00db652bc685d20eefeb2b2e22da1882a",
+      "ui_rva": "0x41c20",
+      "ui_unported_rva": null,
+      "settings_rva": "0x41c80",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f1ff8"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f1fa0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f1fd8"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "speed",
+          "setting_rva": "0x2f1ff8"
+        },
+        {
+          "control": "number",
+          "key": "break_delay",
+          "setting_rva": "0x2f1fa0"
+        },
+        {
+          "control": "boolean",
+          "key": "decr_block_hit_delay",
+          "setting_rva": "0x2f1fd8"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "95673028f7fd0cbfea7d87f1aab4a7b96d193de15c0958d0b47e07bbc182edbb",
+        "settings": "5f7727ddb2f4a045f953b700026767eb1223ea2a11b2af16ab431802d139d627"
+      }
+    },
+    {
+      "module": "Safe Walk",
+      "symbol": "safe_walk",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Safe_Walk.cpp",
+      "source_sha256": "f4c195657a55d1436dee64b69ea3d61511f82545e11ea3303f83daa453945475",
+      "ui_rva": "0x41e50",
+      "ui_unported_rva": null,
+      "settings_rva": "0x41ed0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f2240"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f22b8"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f2278"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f2298"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "motion_multiplier",
+          "setting_rva": "0x2f2240"
+        },
+        {
+          "control": "boolean",
+          "key": "require_holding_blocks",
+          "setting_rva": "0x2f22b8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_looking_down",
+          "setting_rva": "0x2f2278"
+        },
+        {
+          "control": "boolean",
+          "key": "require_not_forward",
+          "setting_rva": "0x2f2298"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "a6d113f3855abcb0d6cdc5060b53776beb82df7e5869ff06ef57fa54176cc6df",
+        "settings": "e7d2a24e138d4ed82e272f6069b0ccebec24dec07e05723259f15014642a78c7"
+      }
+    },
+    {
+      "module": "Strafe",
+      "symbol": "strafe",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Strafe.cpp",
+      "source_sha256": "5060a875d1e970b028b0e8fbfe4839bf00c97cfb32935b7603a57ab22f484f98",
+      "ui_rva": "0x42200",
+      "ui_unported_rva": null,
+      "settings_rva": "0x422a0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Strength"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f2768"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f27a0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f2730"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f26f8"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f27d8"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "strength_jump",
+          "setting_rva": "0x2f2768"
+        },
+        {
+          "control": "number",
+          "key": "strength_ground",
+          "setting_rva": "0x2f27a0"
+        },
+        {
+          "control": "number",
+          "key": "strength_air",
+          "setting_rva": "0x2f2730"
+        },
+        {
+          "control": "number",
+          "key": "max_hurt_time",
+          "setting_rva": "0x2f26f8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2f27d8"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "688ab4c3d07dbc6dbd4fec4d458d24d7229787ef4a0ed4c062617b46759f8278",
+        "settings": "5704c6bbc0b392d93ed3757d674d9f95ee2fd945d0081860d459e28545a186ca"
+      }
+    },
+    {
+      "module": "Fast Accel",
+      "symbol": "fast_accel",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Fast_Accel.cpp",
+      "source_sha256": "b36cbe3bbc97cf63886b19c24b49198bd2fb9baeb8a531eb30529357793e6567",
+      "ui_rva": "0x42580",
+      "ui_unported_rva": null,
+      "settings_rva": "0x425f0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f2a08"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f2a60"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f2a40"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "acceleration",
+          "setting_rva": "0x2f2a08"
+        },
+        {
+          "control": "boolean",
+          "key": "require_not_damaged",
+          "setting_rva": "0x2f2a60"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2f2a40"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "65368db227856c55aaf600f3177685ddc72aecb8b5aa6452ecb47c0f23e71ec7",
+        "settings": "bba51496a697d7a0011b3d8337e337e8d47f5d46e30c2c6d71f7fa9a840024b5"
+      }
+    },
+    {
+      "module": "Auto Rod",
+      "symbol": "auto_rod",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Auto_Rod.cpp",
+      "source_sha256": "fec6ce2fa6e55041d8a4d552db7ae6c981cfa09102f6f5b841af019c597f5671",
+      "ui_rva": "0x44420",
+      "ui_unported_rva": null,
+      "settings_rva": "0x444f0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f37f0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f3798"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f37d0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3778"
+        },
+        {
+          "control": "section",
+          "label": "Throwables"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3758"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f3828"
+        },
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3738"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "retract_speed",
+          "setting_rva": "0x2f37f0"
+        },
+        {
+          "control": "number",
+          "key": "delay",
+          "setting_rva": "0x2f3798"
+        },
+        {
+          "control": "boolean",
+          "key": "randomize_delays",
+          "setting_rva": "0x2f37d0"
+        },
+        {
+          "control": "boolean",
+          "key": "always_switch_to_weapon",
+          "setting_rva": "0x2f3778"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_throwables",
+          "setting_rva": "0x2f3758"
+        },
+        {
+          "control": "number",
+          "key": "throw_speed",
+          "setting_rva": "0x2f3828"
+        },
+        {
+          "control": "boolean",
+          "key": "require_not_mouse_over",
+          "setting_rva": "0x2f3738"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "3d5b3784cf3d38c1e95cae81a1fd86bec09146cad74dfb279a920c9b04ac0d16",
+        "settings": "4b56cba1c84b42d05b285db98d062919986267ea44851290ca6c9f2cd38d008b"
+      }
+    },
+    {
+      "module": "Anti Debuff",
+      "symbol": "anti_debuff",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Anti_Debuff.cpp",
+      "source_sha256": "430cb66e39c3e14a147c3a68d12ed0a162ac7eefe5e3f4fa8623f2cb79372fd1",
+      "ui_rva": "0x449c0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x44a10",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Effects"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3a70"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3a90"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "blindness",
+          "setting_rva": "0x2f3a70"
+        },
+        {
+          "control": "boolean",
+          "key": "nausea",
+          "setting_rva": "0x2f3a90"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "0fed17d950ba9cef7cab1b240ebd55434e35b072c171689a7a9e94fe4c0cddfb",
+        "settings": "ae8d908f537d67c894143ef1541ef6d8075492d4f8fa217f3b8c3e4d04557879"
+      }
+    },
+    {
+      "module": "Piercing",
+      "symbol": "piercing",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Piercing.cpp",
+      "source_sha256": "b6c669ad9c600f5969399d82cf63a63a4f336961a5cafb02403113c6889a2fb9",
+      "ui_rva": "0x44ca0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x44d70",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Always hit through"
+        },
+        {
+          "control": "choice",
+          "setting_rva": "0x2f3d90"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3d00"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3d20"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3d40"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3d60"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3dd0"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3ce0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f3cc0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "sort_by",
+          "setting_rva": "0x2f3d90"
+        },
+        {
+          "control": "boolean",
+          "key": "non_players",
+          "setting_rva": "0x2f3d00"
+        },
+        {
+          "control": "boolean",
+          "key": "friendlies",
+          "setting_rva": "0x2f3d20"
+        },
+        {
+          "control": "boolean",
+          "key": "bots",
+          "setting_rva": "0x2f3d40"
+        },
+        {
+          "control": "boolean",
+          "key": "enemies",
+          "setting_rva": "0x2f3d60"
+        },
+        {
+          "control": "boolean",
+          "key": "blocks",
+          "setting_rva": "0x2f3dd0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2f3ce0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_inside_bb",
+          "setting_rva": "0x2f3cc0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "9b78c4cdc8122397a1a2f68733f3dca3f577ecbdb3c5d501ceb6cd77f9f2e19e",
+        "settings": "0797e2523abd340127176435694544c5a9e76bdfe3b172c32cc2085230b5e51f"
+      }
+    },
+    {
+      "module": "Knockback Delay",
+      "symbol": "knockback_delay",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Knockback_Delay.cpp",
+      "source_sha256": "883deafb3c383c6e41f7d4ccec48d69581dd4f0ff252226a14e732fd1eac57f0",
+      "ui_rva": "0x46530",
+      "ui_unported_rva": null,
+      "settings_rva": "0x465f0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f4360"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f43f8"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f4308"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f4340"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f43d8"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f43b8"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f4398"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "range",
+          "setting_rva": "0x2f4360"
+        },
+        {
+          "control": "number",
+          "key": "chance",
+          "setting_rva": "0x2f43f8"
+        },
+        {
+          "control": "number",
+          "key": "max_delay",
+          "setting_rva": "0x2f4308"
+        },
+        {
+          "control": "boolean",
+          "key": "require_air",
+          "setting_rva": "0x2f4340"
+        },
+        {
+          "control": "boolean",
+          "key": "require_target",
+          "setting_rva": "0x2f43d8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_mouse",
+          "setting_rva": "0x2f43b8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2f4398"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "b0aef978d6b3eeddc7038282b0bd2fb6d5713f1d7317bfa97c5fefee39bdf091",
+        "settings": "32cb6076ff22c7ba7d7cc3a3f76be12feefedff42d9d49128dd1c0639587ba83"
+      }
+    },
+    {
+      "module": "Debug",
+      "symbol": "debug",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Debug.cpp",
+      "source_sha256": "27a08d0e797eba06bc7875f08bab5470445c4e4142012391fba3955b42ce5c1b",
+      "ui_rva": "0x46a00",
+      "ui_unported_rva": null,
+      "settings_rva": "0x46a60",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f4680"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f4640"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f4660"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "clicks",
+          "setting_rva": "0x2f4680"
+        },
+        {
+          "control": "boolean",
+          "key": "hurt_time",
+          "setting_rva": "0x2f4640"
+        },
+        {
+          "control": "boolean",
+          "key": "item_use_state",
+          "setting_rva": "0x2f4660"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "37052637ca2566a7c33a5d8696d55d9752b55a740fc2513bdfe63d6e01b15819",
+        "settings": "4b8373b42e4e805f8ce182b395e2c48a69d0c1336c90eb8229a58c0c83d787f5"
+      }
+    },
+    {
+      "module": "Chest Stealer",
+      "symbol": "chest_stealer",
+      "registration": "label_and_code_only",
+      "file": "recovered_cpp/clean/surfaces/Surface_Chest_Stealer.cpp",
+      "source_sha256": "28dbb35525cf0bff1016497bea3c091a470f2a5fff60ba8badc9cdbcc9ae953d",
+      "ui_rva": "0x486f0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x48790",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f5498"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f54f0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f5528"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f5560"
+        },
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f54d0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "delay_after_open",
+          "setting_rva": "0x2f5498"
+        },
+        {
+          "control": "number",
+          "key": "delay_before_close",
+          "setting_rva": "0x2f54f0"
+        },
+        {
+          "control": "number",
+          "key": "speed",
+          "setting_rva": "0x2f5528"
+        },
+        {
+          "control": "boolean",
+          "key": "smart_speed",
+          "setting_rva": "0x2f5560"
+        },
+        {
+          "control": "boolean",
+          "key": "require_vanilla_title",
+          "setting_rva": "0x2f54d0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "3d2aff0ade3880c4beef70d1ca547fc84e46346024a53c0011569938430cc198",
+        "settings": "855a203c1cf3d38a9576eb1c8a757d1001a44e0df6d1091250f26aff52746743"
+      }
+    },
+    {
+      "module": "Clutch",
+      "symbol": "clutch",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Clutch.cpp",
+      "source_sha256": "e8f7777d90e1502cbfd06aee8ec87ef1a0bb5c46f3522aef6d2e5f2919ca2953",
+      "ui_rva": "0x49c00",
+      "ui_unported_rva": null,
+      "settings_rva": "0x49da0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f59d0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f5a08"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f5998"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f5790"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f5838"
+        },
+        {
+          "control": "choice",
+          "setting_rva": "0x2f5a98"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f5a40"
+        },
+        {
+          "control": "section",
+          "label": "Aim"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f5870"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f58a8"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f58e0"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f5a60"
+        },
+        {
+          "control": "section",
+          "label": "Snap-back"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f5800"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f57c8"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f5918"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f5ad8"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f5938"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f5958"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f5978"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "range",
+          "setting_rva": "0x2f59d0"
+        },
+        {
+          "control": "number",
+          "key": "max_aim_dist",
+          "setting_rva": "0x2f5a08"
+        },
+        {
+          "control": "number",
+          "key": "min_height",
+          "setting_rva": "0x2f5998"
+        },
+        {
+          "control": "number",
+          "key": "click_speed",
+          "setting_rva": "0x2f5790"
+        },
+        {
+          "control": "number",
+          "key": "randomization",
+          "setting_rva": "0x2f5838"
+        },
+        {
+          "control": "choice",
+          "key": "select_blocks",
+          "setting_rva": "0x2f5a98"
+        },
+        {
+          "control": "boolean",
+          "key": "sideways_only",
+          "setting_rva": "0x2f5a40"
+        },
+        {
+          "control": "number",
+          "key": "aim_speed",
+          "setting_rva": "0x2f5870"
+        },
+        {
+          "control": "number",
+          "key": "aim_mult",
+          "setting_rva": "0x2f58a8"
+        },
+        {
+          "control": "number",
+          "key": "aim_mult_strength",
+          "setting_rva": "0x2f58e0"
+        },
+        {
+          "control": "boolean",
+          "key": "aim_multipoint",
+          "setting_rva": "0x2f5a60"
+        },
+        {
+          "control": "number",
+          "key": "snapback_delay",
+          "setting_rva": "0x2f5800"
+        },
+        {
+          "control": "number",
+          "key": "snapback_duration",
+          "setting_rva": "0x2f57c8"
+        },
+        {
+          "control": "boolean",
+          "key": "snapback_instant_on_jump",
+          "setting_rva": "0x2f5918"
+        },
+        {
+          "control": "boolean",
+          "key": "snapback_disable_after",
+          "setting_rva": "0x2f5ad8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_air",
+          "setting_rva": "0x2f5938"
+        },
+        {
+          "control": "boolean",
+          "key": "require_damage",
+          "setting_rva": "0x2f5958"
+        },
+        {
+          "control": "boolean",
+          "key": "require_backwards",
+          "setting_rva": "0x2f5978"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "e4ab1bcd8dde75d60d934c964f3111957f9c5ea733c839f709534f3350ff8c21",
+        "settings": "035335ae6faf7e01aa6005067604280f67ebe79b4738aed0b9c2f9c33dc483cf"
+      }
+    },
+    {
+      "module": "Auto Weapon",
+      "symbol": "auto_weapon",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Auto_Weapon.cpp",
+      "source_sha256": "5624d279a796686ef0f08398060c22c7da526398e57c203e6f1ce76a04e76958",
+      "ui_rva": "0x4a480",
+      "ui_unported_rva": null,
+      "settings_rva": "0x4a4e0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f5d08"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f5d40"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "activation_time",
+          "setting_rva": "0x2f5d08"
+        },
+        {
+          "control": "boolean",
+          "key": "require_mouse_pressed",
+          "setting_rva": "0x2f5d40"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "ddc00942a9c1c0b4e307e5688cbe40a578cd6dab4f43a98504b063acfad3e002",
+        "settings": "e4f26e25ef8c9d649be541a457a9e449dab017a2a6d7b041f81c77ac6807ae9d"
+      }
+    },
+    {
+      "module": "Block In",
+      "symbol": "block_in",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Block_In.cpp",
+      "source_sha256": "bcdb60b108609a948b8491e152ce1a57b904e6f60a93b3f9c0569dacaeb83062",
+      "ui_rva": "0x4bbc0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x4bc20",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f6338"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f6318"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "speed",
+          "setting_rva": "0x2f6338"
+        },
+        {
+          "control": "boolean",
+          "key": "require_ground",
+          "setting_rva": "0x2f6318"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "f131534186a06059fb983d636d4d0800a823fbf7433e7abe66631ce1cce21d07",
+        "settings": "ebb1c97bacb7658b9aca3d1a8681c972fd991fc352605414a68691181259f477"
+      }
+    },
+    {
+      "module": "Speed",
+      "symbol": "speed",
+      "registration": "label_and_code_only",
+      "file": "recovered_cpp/clean/surfaces/Surface_Speed.cpp",
+      "source_sha256": "6b18d788dcd7d12e4a07a5d39e46af98f3b5a88f3ca925f01206dddf85ebb353",
+      "ui_rva": "0x4bbc0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x4bc20",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f6338"
+        },
+        {
+          "control": "section",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f6318"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "speed",
+          "setting_rva": "0x2f6338"
+        },
+        {
+          "control": "boolean",
+          "key": "require_ground",
+          "setting_rva": "0x2f6318"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "f131534186a06059fb983d636d4d0800a823fbf7433e7abe66631ce1cce21d07",
+        "settings": "ebb1c97bacb7658b9aca3d1a8681c972fd991fc352605414a68691181259f477"
+      }
+    },
+    {
+      "module": "Fast Place",
+      "symbol": "fast_place",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Fast_Place.cpp",
+      "source_sha256": "202b8baa7b3bc107fa4aa95c9403629cb6920f3027b013092f9f2b905984473b",
+      "ui_rva": "0x2fee0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x2ff30",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ea4e0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ea518"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "max_cps",
+          "setting_rva": "0x2ea4e0"
+        },
+        {
+          "control": "number",
+          "key": "activate_delay",
+          "setting_rva": "0x2ea518"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "f19f69e9c996798d3d70e6cc4286522f7a7937b1a7cbf34512bb77df7bf52bde",
+        "settings": "a2320b850d402272bab86476405e5ce319b11f68df0e9a552a96dd560b21db3c"
+      }
+    },
+    {
+      "module": "Anti Bot",
+      "symbol": "anti_bot",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Anti_Bot.cpp",
+      "source_sha256": "09d35165bc68b767a578830ee6a9bbccf76b4bfbb03f79d4c49da36498c22ddc",
+      "ui_rva": "0x313f0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x31490",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "setting_rva": "0x2eaf58"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2eafd8"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2eafb8"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2eaf18"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2eaf98"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2eaee0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "invalid_uuid",
+          "setting_rva": "0x2eaf58"
+        },
+        {
+          "control": "boolean",
+          "key": "invalid_username",
+          "setting_rva": "0x2eafd8"
+        },
+        {
+          "control": "boolean",
+          "key": "always_invis",
+          "setting_rva": "0x2eafb8"
+        },
+        {
+          "control": "boolean",
+          "key": "always_stationary",
+          "setting_rva": "0x2eaf18"
+        },
+        {
+          "control": "boolean",
+          "key": "sleeping",
+          "setting_rva": "0x2eaf98"
+        },
+        {
+          "control": "number",
+          "key": "min_age",
+          "setting_rva": "0x2eaee0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "e0a98f35f263c174918c1ac4a4a8d6f96bb36e0b3bf7f649aa18a56b13fe9d22",
+        "settings": "ca1ce18e5e3cd864a9c626fc99bc9168f854b90e8b6474977b5db8735e445909"
+      }
+    },
+    {
+      "module": "No Item Release",
+      "symbol": "no_item_release",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_No_Item_Release.cpp",
+      "source_sha256": "32379222e26e473cbbfb120822f95928d5f3dbcb5116a4352c389f2c03655702",
+      "ui_rva": "0x335c0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x33600",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "setting_rva": "0x2ec5b8"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2ec5b8"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "644c6b138a1977a03a19f20a06607807a9cb9f24fd4dbe7d7aa10cc1e4e89774",
+        "settings": "6d121a4aee46dbec50ef41be002e733a899d59c28a6b099a1bd171dcfd266dd1"
+      }
+    },
+    {
+      "module": "Hitboxes",
+      "symbol": "hitboxes",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Hitboxes.cpp",
+      "source_sha256": "6a37ec27eb129190f058bd4ec57d6521f6d365647db7bfeea1636ee47799bea4",
+      "ui_rva": "0x33fe0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x34020",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2eceb8"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "expand",
+          "setting_rva": "0x2eceb8"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "33e9b114e2bc1633e0eaaacdd9ab9372f27a849b17c606133719a9f4f6a12a1b",
+        "settings": "d023e37163d5a5e9bcabfbc56fa1410919c370f28f2b1f16dc0d04ffbacc22ba"
+      }
+    },
+    {
+      "module": "Free Look",
+      "symbol": "free_look",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Free_Look.cpp",
+      "source_sha256": "2e45ef992fcbcf81b864e65f930db73b7d98c59f76938eda7dac833e1bbd892f",
+      "ui_rva": "0x37120",
+      "ui_unported_rva": null,
+      "settings_rva": "0x37160",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "setting_rva": "0x2ee118"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "target_perspective",
+          "setting_rva": "0x2ee118"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "6b29d84d30e83d932d7bebb1fa35aaaa83f66248e82fd44f009f2250a420808c",
+        "settings": "80d1216841f2e8507695672a37977e18dbbb8d8fe4c0ac7463cd17ae9c8098dc"
+      }
+    },
+    {
+      "module": "Friends",
+      "symbol": "friends",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Friends.cpp",
+      "source_sha256": "c02cae29834d56a78cdc1eb86f7155da62020c2be06de9cf63c69b713ce90fa6",
+      "ui_rva": "0x3b600",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3b640",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Main"
+        },
+        {
+          "control": "checkbox",
+          "setting_rva": "0x2f0248"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "middle_click_add",
+          "setting_rva": "0x2f0248"
+        },
+        {
+          "control": "list",
+          "key": "friends",
+          "setting_rva": "0x2f0268"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "2b647555f5af97692af226c08ff713dd38fc959e711c86906fd67bdb3ac591fd",
+        "settings": "4376958e0fb94d12b296808bf845327512cb470f4cb413e4cbac723bb717b232"
+      }
+    },
+    {
+      "module": "No Hit Delay",
+      "symbol": "no_hit_delay",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_No_Hit_Delay.cpp",
+      "source_sha256": "93ca79b6fffd2113b6b7f986cd6de43eec8b004085ccba56452ad512f910fa16",
+      "ui_rva": "0x3e630",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3e670",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "In-game"
+        },
+        {
+          "control": "choice",
+          "setting_rva": "0x2f0d90"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2f0d90"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "dd73af2773286ec35ed82ccd3b9015124f96d45af375f8fc3bc18365f1f94e19",
+        "settings": "b642755e1ea8c5c6ad419cbbca8b53f36cc4d6a0fcddd00fea8a0d09d4e958b3"
+      }
+    },
+    {
+      "module": "No Slow",
+      "symbol": "no_slow",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_No_Slow.cpp",
+      "source_sha256": "66a14dcbd1ab72b6f3e72263cbe19635e64fd8910467da888fe4ff3fb522dbc9",
+      "ui_rva": "0x42ac0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x42b20",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "label": "Retained speed"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f2ed8"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f2ea0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f2f10"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "mult_sword",
+          "setting_rva": "0x2f2ed8"
+        },
+        {
+          "control": "number",
+          "key": "mult_bow",
+          "setting_rva": "0x2f2ea0"
+        },
+        {
+          "control": "number",
+          "key": "mult_consumables",
+          "setting_rva": "0x2f2f10"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "fcc1ade3a548008b00c8a9941f6869d4e0c44af4e5344cadd94654c075a864fe",
+        "settings": "9b2cbc394198c1551e966db18166049ed824ff463a37a76a99e0abed95a5782c"
+      }
+    },
+    {
+      "module": "Aim Assist",
+      "symbol": "aim_assist",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Aim_Assist.cpp",
+      "source_sha256": "d4a265866a7836f25937a5e7c967a9f04ae2d4baf8b32a302471f1697ccab33b",
+      "ui_rva": "0x2bae0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x2bd00",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x2baf9",
+          "label": "Aim"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x2bb0b",
+          "setting_rva": "0x2e8ff0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bb2d",
+          "setting_rva": "0x2e8f90"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bb41",
+          "setting_rva": "0x2e9050"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bb53",
+          "setting_rva": "0x2e9030"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2bb65",
+          "setting_rva": "0x2e8f20"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2bb77",
+          "setting_rva": "0x2e8f58"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2bb89",
+          "setting_rva": "0x2e9190"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2bb9b",
+          "setting_rva": "0x2e9238"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x2bbad",
+          "label": "Multi-point"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2bbbf",
+          "setting_rva": "0x2e91c8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2bbd1",
+          "setting_rva": "0x2e9200"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x2bbe3",
+          "label": "Target"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x2bbf5",
+          "setting_rva": "0x2e9150"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bc16",
+          "setting_rva": "0x2e9290"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x2bc2a",
+          "setting_rva": "0x2e92f0"
+        },
+        {
+          "control": "range",
+          "call_rva": "0x2bc3c",
+          "setting_rva": "0x2e9070"
+        },
+        {
+          "control": "range",
+          "call_rva": "0x2bc4e",
+          "setting_rva": "0x2e8ed0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x2bc60",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bc7b",
+          "setting_rva": "0x2e90c0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bc8d",
+          "setting_rva": "0x2e90e0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bc9f",
+          "setting_rva": "0x2e8fb0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bcb1",
+          "setting_rva": "0x2e9100"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bcc3",
+          "setting_rva": "0x2e9120"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bcd5",
+          "setting_rva": "0x2e9270"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2bcee",
+          "setting_rva": "0x2e92b0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2e8ff0"
+        },
+        {
+          "control": "number",
+          "key": "hor_speed",
+          "setting_rva": "0x2e8f20"
+        },
+        {
+          "control": "number",
+          "key": "ver_speed",
+          "setting_rva": "0x2e8f58"
+        },
+        {
+          "control": "boolean",
+          "key": "lock_on_vertical",
+          "setting_rva": "0x2e8f90"
+        },
+        {
+          "control": "boolean",
+          "key": "silent_move_correct",
+          "setting_rva": "0x2e9050"
+        },
+        {
+          "control": "boolean",
+          "key": "silent_ignore_manual_aim",
+          "setting_rva": "0x2e9030"
+        },
+        {
+          "control": "number",
+          "key": "predict",
+          "setting_rva": "0x2e9190"
+        },
+        {
+          "control": "number",
+          "key": "aim_randomization",
+          "setting_rva": "0x2e9238"
+        },
+        {
+          "control": "number",
+          "key": "hor_hitbox_correct",
+          "setting_rva": "0x2e91c8"
+        },
+        {
+          "control": "number",
+          "key": "ver_hitbox_correct",
+          "setting_rva": "0x2e9200"
+        },
+        {
+          "control": "choice",
+          "key": "mode_target",
+          "setting_rva": "0x2e9150"
+        },
+        {
+          "control": "choice",
+          "key": "sort_by",
+          "setting_rva": "0x2e92f0"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_exceed_fov",
+          "setting_rva": "0x2e9290"
+        },
+        {
+          "control": "range",
+          "key": "range",
+          "setting_rva": "0x2e9070"
+        },
+        {
+          "control": "range",
+          "key": "fov",
+          "setting_rva": "0x2e8ed0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_sprint",
+          "setting_rva": "0x2e90c0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_mouse_pressed",
+          "setting_rva": "0x2e90e0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_mouse_moved",
+          "setting_rva": "0x2e8fb0"
+        },
+        {
+          "control": "boolean",
+          "key": "disable_on_block_break",
+          "setting_rva": "0x2e9100"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2e9120"
+        },
+        {
+          "control": "boolean",
+          "key": "ignore_invis",
+          "setting_rva": "0x2e9270"
+        },
+        {
+          "control": "boolean",
+          "key": "require_line_of_sight",
+          "setting_rva": "0x2e92b0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "74e5b0da9d4ea65298c7c39d7ebccf68c8abd78518927af2f57049ababe53529",
+        "settings": "bf5bf8175d8dfbc641172775b1cccd4cbdba7192e4adc75f8440f31d2d56b024"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2e9020",
+          "size": 4
+        },
+        {
+          "rva": "0x2e9180",
+          "size": 4
+        }
+      ],
+      "ui_runtime_sha256": "16301e428c20c43260e48dd161744cf22fc950585732a0bdc2d86519beaa35f7"
+    },
+    {
+      "module": "Auto Clicker",
+      "symbol": "auto_clicker",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Auto_Clicker.cpp",
+      "source_sha256": "1afae70dbf4b9228b1ade715f5ecf70bfe7827bc1ad88c6c4dfccf2c47194652",
+      "ui_rva": "0x2d190",
+      "ui_unported_rva": null,
+      "settings_rva": "0x2d290",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x2d1a9",
+          "label": "In-game"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x2d1bb",
+          "setting_rva": "0x2e9650"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2d1cd",
+          "setting_rva": "0x2e95e8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2d1df",
+          "setting_rva": "0x2e9620"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2d1f1",
+          "setting_rva": "0x2e9690"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2d203",
+          "setting_rva": "0x2e9588"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x2d215",
+          "label": "Inventory"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2d227",
+          "setting_rva": "0x2e9548"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2d242",
+          "setting_rva": "0x2e9568"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x2d254",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2d266",
+          "setting_rva": "0x2e95a8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2d27f",
+          "setting_rva": "0x2e95c8"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "pattern",
+          "setting_rva": "0x2e9650"
+        },
+        {
+          "control": "number",
+          "key": "target_cps",
+          "setting_rva": "0x2e95e8"
+        },
+        {
+          "control": "boolean",
+          "key": "randomize_cps",
+          "setting_rva": "0x2e9620"
+        },
+        {
+          "control": "boolean",
+          "key": "exhaust",
+          "setting_rva": "0x2e9690"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_block_break",
+          "setting_rva": "0x2e9588"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_inventory",
+          "setting_rva": "0x2e9548"
+        },
+        {
+          "control": "boolean",
+          "key": "inventory_randomize",
+          "setting_rva": "0x2e9568"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2e95a8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_not_using_item",
+          "setting_rva": "0x2e95c8"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "ba97b37fd30187525cf9ba132bcf679783c90f1809307adb5b5a6cac3be0ced6",
+        "settings": "90b3fef14678c87091d83bf69800026eb82e54760a32bf7011d5f1711a05498e"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2e9560",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "e79a18db16f5ca7a8abc749c6d4a1c98f80f5d29cd06df51ec4577284d5c040a"
+    },
+    {
+      "module": "Auto Soup",
+      "symbol": "auto_soup",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Auto_Soup.cpp",
+      "source_sha256": "2106dec9b6e59f57048cbd3ee3a9463b48d1201c2da487f8951b432460e127cf",
+      "ui_rva": "0x2db50",
+      "ui_unported_rva": null,
+      "settings_rva": "0x2dc70",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x2db69",
+          "label": "Maximum health"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2db7b",
+          "setting_rva": "0x2e98c0"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2dbaa",
+          "setting_rva": "0x2e9930"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x2dbbc",
+          "label": "Delays"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2dbce",
+          "setting_rva": "0x2e99d8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2dbe0",
+          "setting_rva": "0x2e98f8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2dbf2",
+          "setting_rva": "0x2e9968"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2dc04",
+          "setting_rva": "0x2e99a0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x2dc16",
+          "label": "Extra"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2dc28",
+          "setting_rva": "0x2e9a30"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2dc3a",
+          "setting_rva": "0x2e9a10"
+        },
+        {
+          "control": "list",
+          "call_rva": "0x2dc5c",
+          "setting_rva": "0x2e9a50"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "single_soup_max_hp",
+          "setting_rva": "0x2e98c0"
+        },
+        {
+          "control": "number",
+          "key": "double_soup_max_hp",
+          "setting_rva": "0x2e9930"
+        },
+        {
+          "control": "number",
+          "key": "randomization",
+          "setting_rva": "0x2e99d8"
+        },
+        {
+          "control": "number",
+          "key": "delay_before",
+          "setting_rva": "0x2e98f8"
+        },
+        {
+          "control": "number",
+          "key": "delay_between",
+          "setting_rva": "0x2e9968"
+        },
+        {
+          "control": "number",
+          "key": "delay_after",
+          "setting_rva": "0x2e99a0"
+        },
+        {
+          "control": "boolean",
+          "key": "drop_bowls",
+          "setting_rva": "0x2e9a30"
+        },
+        {
+          "control": "boolean",
+          "key": "override_item",
+          "setting_rva": "0x2e9a10"
+        },
+        {
+          "control": "list",
+          "key": "allowed_items",
+          "setting_rva": "0x2e9a50"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "2389d992930682054b77d9e145a812cdeb4657fa65e506601b5496d6335094b3",
+        "settings": "6589d8fc022e1fa42d4b7d44280a4e6b75731aac3c9c62277e3e22a4efe60953"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2e98f0",
+          "size": 4
+        },
+        {
+          "rva": "0x2e9960",
+          "size": 4
+        },
+        {
+          "rva": "0x2e9a28",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "2c668c6cc9b404a87d639f3a5166828e6af691db65ad0d10d2e509a83a04c488"
+    },
+    {
+      "module": "Player ESP",
+      "symbol": "player_esp",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Player_ESP.cpp",
+      "source_sha256": "a6cc62aafa1edb3e752934c545f3dc6f6d4861b6cfdac10337b60606e653a0c5",
+      "ui_rva": "0x2f770",
+      "ui_unported_rva": null,
+      "settings_rva": "0x2f8c0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x2f789",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2f79b",
+          "setting_rva": "0x2ea1a0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2f7ad",
+          "setting_rva": "0x2ea238"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x2f7bf",
+          "label": "Customization"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x2f7d1",
+          "setting_rva": "0x2ea0e0"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x2f7e3",
+          "setting_rva": "0x2ea290"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x2f7fe",
+          "setting_rva": "0x2ea218"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x2f819",
+          "setting_rva": "0x2ea1f8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2f82b",
+          "setting_rva": "0x2ea258"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x2f846",
+          "setting_rva": "0x2ea1d8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x2f858",
+          "setting_rva": "0x2ea090"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2f86a",
+          "setting_rva": "0x2ea120"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2f885",
+          "setting_rva": "0x2ea160"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2f897",
+          "setting_rva": "0x2ea140"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x2f8b0",
+          "setting_rva": "0x2ea180"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2ea0e0"
+        },
+        {
+          "control": "number",
+          "key": "range",
+          "setting_rva": "0x2ea1a0"
+        },
+        {
+          "control": "boolean",
+          "key": "hide_friendlies",
+          "setting_rva": "0x2ea238"
+        },
+        {
+          "control": "choice",
+          "key": "color_mode",
+          "setting_rva": "0x2ea290"
+        },
+        {
+          "control": "color",
+          "key": "color_enemies",
+          "setting_rva": "0x2ea218"
+        },
+        {
+          "control": "color",
+          "key": "color_friendlies",
+          "setting_rva": "0x2ea1f8"
+        },
+        {
+          "control": "boolean",
+          "key": "override_target_color",
+          "setting_rva": "0x2ea258"
+        },
+        {
+          "control": "color",
+          "key": "color_target",
+          "setting_rva": "0x2ea1d8"
+        },
+        {
+          "control": "number",
+          "key": "line_width",
+          "setting_rva": "0x2ea090"
+        },
+        {
+          "control": "boolean",
+          "key": "hurt_effect",
+          "setting_rva": "0x2ea140"
+        },
+        {
+          "control": "boolean",
+          "key": "filled",
+          "setting_rva": "0x2ea160"
+        },
+        {
+          "control": "boolean",
+          "key": "show_2d_box",
+          "setting_rva": "0x2ea120"
+        },
+        {
+          "control": "boolean",
+          "key": "show_health_bar",
+          "setting_rva": "0x2ea180"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "e16d26d2792a1bd57390ab1cc8bbd6479773e4a831d039be3dbd9e9f90a935ba",
+        "settings": "1ba69e247b32a2d46927f28784b7079ae68351a0766be1fd46c106b1e884e381"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2ea138",
+          "size": 1
+        },
+        {
+          "rva": "0x2ea250",
+          "size": 1
+        },
+        {
+          "rva": "0x2ea270",
+          "size": 1
+        },
+        {
+          "rva": "0x2ea2c0",
+          "size": 4
+        }
+      ],
+      "ui_runtime_sha256": "1a9e59856a1266546ad050615cb961d44c15f26a980c8489e7e3c9088f71a4ba"
+    },
+    {
+      "module": "Velocity",
+      "symbol": "velocity",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Velocity.cpp",
+      "source_sha256": "95cec2820b658a385ad55b5f7b5c2b599e3f7f1897d801c222422caab1eb573d",
+      "ui_rva": "0x30930",
+      "ui_unported_rva": null,
+      "settings_rva": "0x30a90",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x30949",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x3095b",
+          "setting_rva": "0x2eaa20"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3098d",
+          "setting_rva": "0x2eab98"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3099f",
+          "setting_rva": "0x2eac40"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x309b1",
+          "setting_rva": "0x2eac08"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x309cc",
+          "setting_rva": "0x2eab78"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x309e0",
+          "setting_rva": "0x2eab38"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x309fb",
+          "setting_rva": "0x2eac78"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x30a0d",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x30a28",
+          "setting_rva": "0x2eaaf8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x30a3a",
+          "setting_rva": "0x2eaab8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x30a4c",
+          "setting_rva": "0x2eaa98"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x30a5e",
+          "setting_rva": "0x2eaad8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x30a80",
+          "setting_rva": "0x2eacb0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2eabd0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2eaa60"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2eaa20"
+        },
+        {
+          "control": "number",
+          "key": "reduce_chance",
+          "setting_rva": "0x2eab98"
+        },
+        {
+          "control": "number",
+          "key": "fov",
+          "setting_rva": "0x2eac40"
+        },
+        {
+          "control": "number",
+          "key": "reduce_amount",
+          "setting_rva": "0x2eac08"
+        },
+        {
+          "control": "number",
+          "key": "reduce_delay",
+          "setting_rva": "0x2eabd0"
+        },
+        {
+          "control": "number",
+          "key": "jump_chance",
+          "setting_rva": "0x2eac78"
+        },
+        {
+          "control": "boolean",
+          "key": "reduce_multiple_per_tick",
+          "setting_rva": "0x2eab78"
+        },
+        {
+          "control": "choice",
+          "key": "ignore_vertical",
+          "setting_rva": "0x2eab38"
+        },
+        {
+          "control": "number",
+          "key": "ignore_chance",
+          "setting_rva": "0x2eaa60"
+        },
+        {
+          "control": "boolean",
+          "key": "require_target",
+          "setting_rva": "0x2eaaf8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_mouse",
+          "setting_rva": "0x2eaab8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_forward",
+          "setting_rva": "0x2eaa98"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2eaad8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_sprinting_jump",
+          "setting_rva": "0x2eacb0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "aa6f6de12ec21145a7cf546d9d7c1fe42a9d8decb3f17b457473ee16a9cf82dc",
+        "settings": "f70e5996a5f26019e3776ff65c8803d50391427b7375789a80ce32784f4b65d3"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2eaa50",
+          "size": 4
+        }
+      ],
+      "ui_runtime_sha256": "256abaabe1931373b94eeb9a4e13f59034ae310d42859f683159ce007b40a4ad"
+    },
+    {
+      "module": "Auto Block",
+      "symbol": "auto_block",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Auto_Block.cpp",
+      "source_sha256": "56426ca4a8fd9dcb44e3d4f2f2d7c6794b345f4d9b2acd6adcc3a8f22ec4a268",
+      "ui_rva": "0x31bb0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x31cf0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x31bc9",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x31bdb",
+          "setting_rva": "0x2eb388"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x31bed",
+          "setting_rva": "0x2eb2b0"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x31bff",
+          "setting_rva": "0x2eb208"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x31c11",
+          "label": "Force block animation"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x31c23",
+          "setting_rva": "0x2eb348"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x31c3e",
+          "setting_rva": "0x2eb368"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x31c50",
+          "label": "Lag"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x31c62",
+          "setting_rva": "0x2eb240"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x31c74",
+          "setting_rva": "0x2eb278"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x31c86",
+          "setting_rva": "0x2eb3c0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x31c98",
+          "setting_rva": "0x2eb3e0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x31caa",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x31cbc",
+          "setting_rva": "0x2eb2e8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x31cce",
+          "setting_rva": "0x2eb308"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x31ce7",
+          "setting_rva": "0x2eb328"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "range",
+          "setting_rva": "0x2eb388"
+        },
+        {
+          "control": "number",
+          "key": "max_hurt_time",
+          "setting_rva": "0x2eb2b0"
+        },
+        {
+          "control": "number",
+          "key": "max_hold_time",
+          "setting_rva": "0x2eb208"
+        },
+        {
+          "control": "boolean",
+          "key": "fake_block_animation",
+          "setting_rva": "0x2eb348"
+        },
+        {
+          "control": "boolean",
+          "key": "fake_block_animation_require_target",
+          "setting_rva": "0x2eb368"
+        },
+        {
+          "control": "number",
+          "key": "lag_chance",
+          "setting_rva": "0x2eb240"
+        },
+        {
+          "control": "number",
+          "key": "lag_duration",
+          "setting_rva": "0x2eb278"
+        },
+        {
+          "control": "boolean",
+          "key": "lag_flush_attack",
+          "setting_rva": "0x2eb3c0"
+        },
+        {
+          "control": "boolean",
+          "key": "lag_reblock",
+          "setting_rva": "0x2eb3e0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_left_mouse_pressed",
+          "setting_rva": "0x2eb2e8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_right_mouse_pressed",
+          "setting_rva": "0x2eb308"
+        },
+        {
+          "control": "boolean",
+          "key": "require_damage",
+          "setting_rva": "0x2eb328"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "5022ff6b90bb99bab2f5a3e2a11c31e2b46db9fa97c381ca46fa963ef8080af1",
+        "settings": "4e36d7234922c8413328b657296346d8e7ce371d96b656e7106cfe820138d3c5"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2eb360",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "9e12ba106f98e3dd1cafab14b7c7912eb11c4042d621dc8d02f0a161f80b63af"
+    },
+    {
+      "module": "Teams",
+      "symbol": "teams",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Teams.cpp",
+      "source_sha256": "f43b38dfd680bf0fc89bf530166f01d62fa52405b84da80a5f8558f2272a970b",
+      "ui_rva": "0x320e0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x32130",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x320f9",
+          "label": "Main"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3210b",
+          "setting_rva": "0x2eb610"
+        },
+        {
+          "control": "list",
+          "call_rva": "0x32124",
+          "setting_rva": "0x2eb630"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "match_self_color",
+          "setting_rva": "0x2eb610"
+        },
+        {
+          "control": "list",
+          "key": "team_colors",
+          "setting_rva": "0x2eb630"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "105cf059d602f075c3e40840764eb63577e261075993f1cd0da7f9c07f162e26",
+        "settings": "d59f191fe5d1366f57916f5d854c2e5d99701556cfdd6acae2e01e1926d90131"
+      },
+      "ui_dynamic": false,
+      "ui_state_fields": [],
+      "ui_runtime_sha256": "126051163fcf4859112d03b536692d2a119266507a09a18f453ace7ce820ceed"
+    },
+    {
+      "module": "GUI",
+      "symbol": "gui",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_GUI.cpp",
+      "source_sha256": "c07979213ddd461a948f54069121b373ebab9978e06cd6e57bbf31d055ce1d02",
+      "ui_rva": "0x327d0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x32870",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x327e9",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x327fb",
+          "setting_rva": "0x2eb970"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x3280d",
+          "setting_rva": "0x2eb720"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3281f",
+          "setting_rva": "0x2eb9b0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x32831",
+          "label": "Layout"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x32843",
+          "setting_rva": "0x2eb9d0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3285c",
+          "setting_rva": "0x2eb9f0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "scale",
+          "setting_rva": "0x2eb970"
+        },
+        {
+          "control": "color",
+          "key": "accent_color",
+          "setting_rva": "0x2eb720"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_input",
+          "setting_rva": "0x2eb9b0"
+        },
+        {
+          "control": "boolean",
+          "key": "compact",
+          "setting_rva": "0x2eb9d0"
+        },
+        {
+          "control": "boolean",
+          "key": "wide",
+          "setting_rva": "0x2eb9f0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "1789e2dc59f6d2821872917e27350f3f6d3ed165345995d1174a6869d846d138",
+        "settings": "3078314b19b1e167f73ff7fee28704256e07e410e0e28a3b6d540fa6e0975319"
+      },
+      "ui_dynamic": false,
+      "ui_state_fields": [],
+      "ui_runtime_sha256": "fce0b4abc5b545eb334c7adedd4aa6ffcd177ac05b06029f0c66ccd6797459b4"
+    },
+    {
+      "module": "Criticals",
+      "symbol": "criticals",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Criticals.cpp",
+      "source_sha256": "9b99012caed3c5b26a97ca6665e2a19d0f3730a90fad1b2037e8abe45ca4f9bc",
+      "ui_rva": "0x33310",
+      "ui_unported_rva": null,
+      "settings_rva": "0x333d0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x33329",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x3333b",
+          "setting_rva": "0x2ec2e0"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3334d",
+          "setting_rva": "0x2ec258"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x33368",
+          "setting_rva": "0x2ec320"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x33383",
+          "setting_rva": "0x2ec220"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x33395",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x333a7",
+          "setting_rva": "0x2ec2b0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x333c0",
+          "setting_rva": "0x2ec290"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2ec358"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2ec2e0"
+        },
+        {
+          "control": "number",
+          "key": "chance",
+          "setting_rva": "0x2ec258"
+        },
+        {
+          "control": "number",
+          "key": "max_delay",
+          "setting_rva": "0x2ec220"
+        },
+        {
+          "control": "number",
+          "key": "timer_speed",
+          "setting_rva": "0x2ec320"
+        },
+        {
+          "control": "number",
+          "key": "boost",
+          "setting_rva": "0x2ec358"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2ec2b0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_mouse_pressed",
+          "setting_rva": "0x2ec290"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "c0cc454ab72d3468a4f36a422a6c4af6a78994fe3a3bde34ad30e96d65f71105",
+        "settings": "9050e633be5860aa02b60383d04cb466483f6545b421226768322069b18c1204"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2ec310",
+          "size": 4
+        }
+      ],
+      "ui_runtime_sha256": "ae2a725666729a3b4f52b42acaac8eea182f5690898806a1c418b20b1e6e3515"
+    },
+    {
+      "module": "Chest ESP",
+      "symbol": "chest_esp",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Chest_ESP.cpp",
+      "source_sha256": "5bf20458c98bf2a1d0a1e49011c3c0d75eaff4471b6122b8a3636a0aa1a2f7d8",
+      "ui_rva": "0x33d60",
+      "ui_unported_rva": null,
+      "settings_rva": "0x33eb0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x33d79",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x33d8b",
+          "setting_rva": "0x2ecb18"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x33d9d",
+          "label": "Target"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x33daf",
+          "setting_rva": "0x2ecb50"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x33dc1",
+          "setting_rva": "0x2ecb70"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x33dd3",
+          "setting_rva": "0x2ecb90"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x33de5",
+          "setting_rva": "0x2ecbb0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x33df7",
+          "label": "Customization"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x33e09",
+          "setting_rva": "0x2ecbd0"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x33e3f",
+          "setting_rva": "0x2ecc48"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x33e58",
+          "setting_rva": "0x2ecc88"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x33e6a",
+          "setting_rva": "0x2ecc68"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x33e85",
+          "setting_rva": "0x2ecc08"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x33ea0",
+          "setting_rva": "0x2ecc28"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "range",
+          "setting_rva": "0x2ecb18"
+        },
+        {
+          "control": "boolean",
+          "key": "render_chest",
+          "setting_rva": "0x2ecb50"
+        },
+        {
+          "control": "boolean",
+          "key": "render_ender_chest",
+          "setting_rva": "0x2ecb70"
+        },
+        {
+          "control": "boolean",
+          "key": "render_trapped_chest",
+          "setting_rva": "0x2ecb90"
+        },
+        {
+          "control": "boolean",
+          "key": "render_beacon",
+          "setting_rva": "0x2ecbb0"
+        },
+        {
+          "control": "number",
+          "key": "line_width",
+          "setting_rva": "0x2ecbd0"
+        },
+        {
+          "control": "color",
+          "key": "color_chest",
+          "setting_rva": "0x2ecc68"
+        },
+        {
+          "control": "color",
+          "key": "color_ender_chest",
+          "setting_rva": "0x2ecc08"
+        },
+        {
+          "control": "color",
+          "key": "color_trapped_chest",
+          "setting_rva": "0x2ecc28"
+        },
+        {
+          "control": "color",
+          "key": "color_beacon",
+          "setting_rva": "0x2ecc48"
+        },
+        {
+          "control": "boolean",
+          "key": "filled",
+          "setting_rva": "0x2ecc88"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "646e8ced151e4363ef1e81a8603dd6e0dbe23dc55045b0f7a09d56516b14ae12",
+        "settings": "be89184e5bbcfb075ad7b37e90bc748ed88798107ccb381f255ed7352d7b7968"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2ecb68",
+          "size": 1
+        },
+        {
+          "rva": "0x2ecb88",
+          "size": 1
+        },
+        {
+          "rva": "0x2ecba8",
+          "size": 1
+        },
+        {
+          "rva": "0x2ecbc8",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "686f8bfcb10b0365b90566816baa65e8b3c9e07d9d2024edf5a2d8b4ed1d6115"
+    },
+    {
+      "module": "Mod Overlay",
+      "symbol": "mod_overlay",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Mod_Overlay.cpp",
+      "source_sha256": "06bbed09f5bf379db614c2b89627c167df34cddc6d43f50fd8cfbb28bfd1e2cc",
+      "ui_rva": "0x34a40",
+      "ui_unported_rva": null,
+      "settings_rva": "0x34b90",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x34a59",
+          "label": "Visible categories"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x34a6b",
+          "setting_rva": "0x2ed100"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x34a7d",
+          "setting_rva": "0x2ed120"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x34a8f",
+          "setting_rva": "0x2ed140"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x34aa1",
+          "setting_rva": "0x2ed160"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x34ab3",
+          "setting_rva": "0x2ed180"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x34ac5",
+          "label": "Customization"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x34ad7",
+          "setting_rva": "0x2ed200"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x34ae9",
+          "setting_rva": "0x2ed2b0"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x34afb",
+          "setting_rva": "0x2ed2e8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x34b0d",
+          "setting_rva": "0x2ed278"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x34b1f",
+          "setting_rva": "0x2ed238"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x34b31",
+          "setting_rva": "0x2ed258"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x34b43",
+          "setting_rva": "0x2ed1c0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x34b55",
+          "setting_rva": "0x2ed1e0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x34b67",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x34b80",
+          "setting_rva": "0x2ed1a0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "show_combat",
+          "setting_rva": "0x2ed100"
+        },
+        {
+          "control": "boolean",
+          "key": "show_move",
+          "setting_rva": "0x2ed120"
+        },
+        {
+          "control": "boolean",
+          "key": "show_block",
+          "setting_rva": "0x2ed140"
+        },
+        {
+          "control": "boolean",
+          "key": "show_visual",
+          "setting_rva": "0x2ed160"
+        },
+        {
+          "control": "boolean",
+          "key": "show_utility",
+          "setting_rva": "0x2ed180"
+        },
+        {
+          "control": "number",
+          "key": "text_size",
+          "setting_rva": "0x2ed200"
+        },
+        {
+          "control": "number",
+          "key": "padding_x",
+          "setting_rva": "0x2ed2b0"
+        },
+        {
+          "control": "number",
+          "key": "padding_y",
+          "setting_rva": "0x2ed2e8"
+        },
+        {
+          "control": "number",
+          "key": "bg_rounding",
+          "setting_rva": "0x2ed278"
+        },
+        {
+          "control": "color",
+          "key": "name_color",
+          "setting_rva": "0x2ed238"
+        },
+        {
+          "control": "color",
+          "key": "details_color",
+          "setting_rva": "0x2ed258"
+        },
+        {
+          "control": "boolean",
+          "key": "lowercase",
+          "setting_rva": "0x2ed1c0"
+        },
+        {
+          "control": "boolean",
+          "key": "show_details",
+          "setting_rva": "0x2ed1e0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_bound",
+          "setting_rva": "0x2ed1a0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "51305a2e5e5ae1ac1e11502f3d967e9c2bb1dc423a809d608b7d73d4cda8d133",
+        "settings": "9d53f6f156a9513bf3978d418a130b4edb8eb6b92c1b835e3566643b17311cba"
+      },
+      "ui_dynamic": false,
+      "ui_state_fields": [],
+      "ui_runtime_sha256": "b0746348217e263d433fcf75cb9693ed20c4341eca9fa02114771e2c8ec16b71"
+    },
+    {
+      "module": "Backtrack",
+      "symbol": "backtrack",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Backtrack.cpp",
+      "source_sha256": "e5b094f42cbbf51575786b02cef47474eb5ba68cd35de861b484787b8a2d648f",
+      "ui_rva": "0x36740",
+      "ui_unported_rva": null,
+      "settings_rva": "0x36870",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x36759",
+          "label": "Main"
+        },
+        {
+          "control": "range",
+          "call_rva": "0x3676b",
+          "setting_rva": "0x2eddb0"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3677d",
+          "setting_rva": "0x2ede00"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3678f",
+          "setting_rva": "0x2edd78"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x367a1",
+          "setting_rva": "0x2ede38"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x367b3",
+          "setting_rva": "0x2edeb0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x367c5",
+          "label": "Real position indicator"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x367d7",
+          "setting_rva": "0x2eded0"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x367f2",
+          "setting_rva": "0x2edd18"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x36804",
+          "setting_rva": "0x2edce0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x36816",
+          "setting_rva": "0x2edd58"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x36828",
+          "setting_rva": "0x2edd38"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3683a",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3684c",
+          "setting_rva": "0x2ede70"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x36865",
+          "setting_rva": "0x2ede90"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "range",
+          "key": "target_dist",
+          "setting_rva": "0x2eddb0"
+        },
+        {
+          "control": "number",
+          "key": "delay",
+          "setting_rva": "0x2ede00"
+        },
+        {
+          "control": "number",
+          "key": "max_hurt_time",
+          "setting_rva": "0x2edd78"
+        },
+        {
+          "control": "number",
+          "key": "cooldown",
+          "setting_rva": "0x2ede38"
+        },
+        {
+          "control": "boolean",
+          "key": "disable_on_hit",
+          "setting_rva": "0x2edeb0"
+        },
+        {
+          "control": "boolean",
+          "key": "render_remote_pos",
+          "setting_rva": "0x2eded0"
+        },
+        {
+          "control": "color",
+          "key": "indicator_color",
+          "setting_rva": "0x2edd18"
+        },
+        {
+          "control": "number",
+          "key": "indicator_line_width",
+          "setting_rva": "0x2edce0"
+        },
+        {
+          "control": "boolean",
+          "key": "indicator_filled",
+          "setting_rva": "0x2edd58"
+        },
+        {
+          "control": "boolean",
+          "key": "indicator_rotate",
+          "setting_rva": "0x2edd38"
+        },
+        {
+          "control": "boolean",
+          "key": "require_mouse_pressed",
+          "setting_rva": "0x2ede70"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2ede90"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "8041a9ab0ae65869dfa41cd4fceabb789398c3692b86b5f1e6c09d9fc8013219",
+        "settings": "b1e7d06a35f48dd3064ab4756e57143ff372b4b56f197474720ce92480bbc09a"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2edee8",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "5b460d1e67012b01d1e3ee84ee91d18975752b3f6fb222601fecf9465ebed17b"
+    },
+    {
+      "module": "Auto Tool",
+      "symbol": "auto_tool",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Auto_Tool.cpp",
+      "source_sha256": "c5184d9ce4e00155602eb7755b5afbfc3699ec1719c552c6512491fb7b9ed3ea",
+      "ui_rva": "0x374e0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x375e0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x374f9",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3750b",
+          "setting_rva": "0x2ee370"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3751d",
+          "setting_rva": "0x2ee468"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3752f",
+          "label": "Allow while using"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37541",
+          "setting_rva": "0x2ee3c8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37553",
+          "setting_rva": "0x2ee3e8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37565",
+          "setting_rva": "0x2ee3a8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37577",
+          "setting_rva": "0x2ee408"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x37589",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3759b",
+          "setting_rva": "0x2ee428"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x375ad",
+          "setting_rva": "0x2ee448"
+        },
+        {
+          "control": "list",
+          "call_rva": "0x375cf",
+          "setting_rva": "0x2ee488"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "activation_time",
+          "setting_rva": "0x2ee370"
+        },
+        {
+          "control": "boolean",
+          "key": "switch_back",
+          "setting_rva": "0x2ee468"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_using_sword",
+          "setting_rva": "0x2ee3c8"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_using_tools",
+          "setting_rva": "0x2ee3e8"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_using_fists",
+          "setting_rva": "0x2ee3a8"
+        },
+        {
+          "control": "boolean",
+          "key": "allow_using_other",
+          "setting_rva": "0x2ee408"
+        },
+        {
+          "control": "boolean",
+          "key": "require_sneak",
+          "setting_rva": "0x2ee428"
+        },
+        {
+          "control": "boolean",
+          "key": "restrict_allowed_blocks",
+          "setting_rva": "0x2ee448"
+        },
+        {
+          "control": "list",
+          "key": "allowed_blocks",
+          "setting_rva": "0x2ee488"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "f26bea2620112dad3f30b5a11881b0504f965085949a2a3187f747207d1c9ec6",
+        "settings": "27c89438df50df7274918663efd958281bd2e11c7050cdae18b393ed2b1dd487"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2ee460",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "892210d0b037793d554c447a1f3b1261bca1d8071d2c9c81da0758c4439acfba"
+    },
+    {
+      "module": "Hit Select",
+      "symbol": "hit_select",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Hit_Select.cpp",
+      "source_sha256": "36c859e9b54a63d648db1fd2530fd9d54f5d444f5473534819c6893d7ae9a213",
+      "ui_rva": "0x37bb0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x37cf0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x37bc9",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x37bdb",
+          "setting_rva": "0x2ee870"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x37bed",
+          "setting_rva": "0x2ee738"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x37c08",
+          "setting_rva": "0x2ee770"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x37c1a",
+          "setting_rva": "0x2ee7a8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37c2c",
+          "setting_rva": "0x2ee8b0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37c3e",
+          "setting_rva": "0x2ee910"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37c59",
+          "setting_rva": "0x2ee8d0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37c6b",
+          "setting_rva": "0x2ee8f0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x37c7d",
+          "label": "Cancel rate"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x37c8f",
+          "setting_rva": "0x2ee7e0"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x37ca1",
+          "setting_rva": "0x2ee700"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x37cb3",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37cc5",
+          "setting_rva": "0x2ee818"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x37cde",
+          "setting_rva": "0x2ee838"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2ee870"
+        },
+        {
+          "control": "number",
+          "key": "cancel_rate",
+          "setting_rva": "0x2ee7e0"
+        },
+        {
+          "control": "number",
+          "key": "cancel_rate_air",
+          "setting_rva": "0x2ee700"
+        },
+        {
+          "control": "number",
+          "key": "pause_dur",
+          "setting_rva": "0x2ee738"
+        },
+        {
+          "control": "number",
+          "key": "wait_for_damage_dur",
+          "setting_rva": "0x2ee770"
+        },
+        {
+          "control": "number",
+          "key": "trades_delay",
+          "setting_rva": "0x2ee7a8"
+        },
+        {
+          "control": "boolean",
+          "key": "use_server_time",
+          "setting_rva": "0x2ee8b0"
+        },
+        {
+          "control": "boolean",
+          "key": "fake_swing",
+          "setting_rva": "0x2ee910"
+        },
+        {
+          "control": "boolean",
+          "key": "crits_allow_reduce",
+          "setting_rva": "0x2ee8d0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_damage",
+          "setting_rva": "0x2ee8f0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_sprint",
+          "setting_rva": "0x2ee818"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2ee838"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "9dc3a44237d8077013bd047aafa1293f4349734a9c049547070c118131705d9e",
+        "settings": "7d9d91f784fb399bf8092e7bb09b9ae5fe262a450e101fc84dacc513718cf87c"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2ee8a0",
+          "size": 4
+        }
+      ],
+      "ui_runtime_sha256": "0eb6a12d012ce649ccee3c620d37cb96b2d186a095a86e6ca21b14d3df00b90f"
+    },
+    {
+      "module": "Refill",
+      "symbol": "refill",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Refill.cpp",
+      "source_sha256": "08ebe92eff880bfe269d18133b8a08584291f6dfc468cb8ca1b3e8c3c6c9ad47",
+      "ui_rva": "0x38bc0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x38c90",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x38bd9",
+          "label": "Items"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x38beb",
+          "setting_rva": "0x2ef068"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x38c06",
+          "setting_rva": "0x2ef088"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x38c18",
+          "setting_rva": "0x2ef048"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x38c2a",
+          "label": "Clicks"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x38c3c",
+          "setting_rva": "0x2ef0e8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x38c4e",
+          "setting_rva": "0x2eefd8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x38c60",
+          "setting_rva": "0x2eefa0"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x38c72",
+          "setting_rva": "0x2ef010"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x38c8b",
+          "setting_rva": "0x2ef0a8"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "refill_potion",
+          "setting_rva": "0x2ef068"
+        },
+        {
+          "control": "boolean",
+          "key": "refill_potion_non_health",
+          "setting_rva": "0x2ef088"
+        },
+        {
+          "control": "boolean",
+          "key": "refill_soup",
+          "setting_rva": "0x2ef048"
+        },
+        {
+          "control": "choice",
+          "key": "simulate_button",
+          "setting_rva": "0x2ef0e8"
+        },
+        {
+          "control": "number",
+          "key": "delay_after_open",
+          "setting_rva": "0x2eefd8"
+        },
+        {
+          "control": "number",
+          "key": "delay_before_close",
+          "setting_rva": "0x2eefa0"
+        },
+        {
+          "control": "number",
+          "key": "speed",
+          "setting_rva": "0x2ef010"
+        },
+        {
+          "control": "boolean",
+          "key": "smart_speed",
+          "setting_rva": "0x2ef0a8"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "0460b40ca58d822213ca8fcf25ca99e98a13ce4451becf3a20c2be1bf520fe1b",
+        "settings": "3bee6848cf023ca5c593c0421360e0448301cb6dffa9372703233ba99d27ebcc"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2ef080",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "20b91685c437d360083e9afd9943a9fae1a93ebebe9826eaf7e05d27bc7638d3"
+    },
+    {
+      "module": "Inv Walk",
+      "symbol": "inv_walk",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Inv_Walk.cpp",
+      "source_sha256": "c41e2bd295dfa14a327ee7d4ab117aa9bf89bcf9a5d4ef240ac8cb619f25e995",
+      "ui_rva": "0x39ea0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x39f40",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x39eb9",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x39ecb",
+          "setting_rva": "0x2ef5f0"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x39ee6",
+          "setting_rva": "0x2ef648"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x39f01",
+          "setting_rva": "0x2ef688"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x39f13",
+          "label": "Other containers"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x39f2c",
+          "setting_rva": "0x2ef6c0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2ef5f0"
+        },
+        {
+          "control": "choice",
+          "key": "stop_on_click",
+          "setting_rva": "0x2ef648"
+        },
+        {
+          "control": "number",
+          "key": "stop_duration",
+          "setting_rva": "0x2ef688"
+        },
+        {
+          "control": "choice",
+          "key": "stop_non_inv",
+          "setting_rva": "0x2ef6c0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "97cc7fa38067d4372653b0ca79f373c2e46e274380f48fafe7948e66f12713d3",
+        "settings": "a5af11b13630e054e91d3eb75e1cfb5623567e6fd5d5154515430c37c7238468"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2ef620",
+          "size": 4
+        },
+        {
+          "rva": "0x2ef678",
+          "size": 4
+        }
+      ],
+      "ui_runtime_sha256": "04a1fd85f83636b8bc24dfa85bc35c38c98e5f79033237196562f93c8a5df8be"
+    },
+    {
+      "module": "Lag Range",
+      "symbol": "lag_range",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Lag_Range.cpp",
+      "source_sha256": "34145dcf0a4ee7d2c0c42621884b47d9711cd7f19e88966b12eb729f7703f219",
+      "ui_rva": "0x3ab00",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3ac00",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x3ab19",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3ab2b",
+          "setting_rva": "0x2efc48"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3ab3d",
+          "label": "Flush if"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3ab4f",
+          "setting_rva": "0x2efcc0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3ab61",
+          "setting_rva": "0x2efca0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3ab73",
+          "label": "Real position indicator"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3ab85",
+          "setting_rva": "0x2efce0"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x3aba0",
+          "setting_rva": "0x2efc08"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3abb2",
+          "setting_rva": "0x2efbd0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3abc4",
+          "setting_rva": "0x2efc28"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3abd6",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3abef",
+          "setting_rva": "0x2efc80"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "delay",
+          "setting_rva": "0x2efc48"
+        },
+        {
+          "control": "boolean",
+          "key": "flush_sprint_reset",
+          "setting_rva": "0x2efcc0"
+        },
+        {
+          "control": "boolean",
+          "key": "flush_splash_potion",
+          "setting_rva": "0x2efca0"
+        },
+        {
+          "control": "boolean",
+          "key": "render_remote_pos",
+          "setting_rva": "0x2efce0"
+        },
+        {
+          "control": "color",
+          "key": "indicator_color",
+          "setting_rva": "0x2efc08"
+        },
+        {
+          "control": "number",
+          "key": "indicator_line_width",
+          "setting_rva": "0x2efbd0"
+        },
+        {
+          "control": "boolean",
+          "key": "indicator_filled",
+          "setting_rva": "0x2efc28"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2efc80"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "55a010e0fc2a79d7da520b8b921edb73e60f9976cd01f3bea407102a764ccb79",
+        "settings": "d4c1f3213e23bb901a4ef50d140304aa0898685c91af4235dfed233725b2e502"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2efcf8",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "5629117a87d1f83a118ec265a5cb3715e4b36c84fe6ee953e435b40056474a8f"
+    },
+    {
+      "module": "Name Tags",
+      "symbol": "name_tags",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Name_Tags.cpp",
+      "source_sha256": "847dded72ba1f09bf73fca582d5e30cc12d0c132a657cf523ef5f7d9cad77b20",
+      "ui_rva": "0x3d5b0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3d6e0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x3d5c9",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3d5db",
+          "setting_rva": "0x2f05b8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3d5ed",
+          "setting_rva": "0x2f04e0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3d5ff",
+          "setting_rva": "0x2f05f0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3d611",
+          "setting_rva": "0x2f0610"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3d623",
+          "setting_rva": "0x2f0518"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3d635",
+          "setting_rva": "0x2f0538"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3d647",
+          "setting_rva": "0x2f0558"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3d659",
+          "label": "Extra info"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3d66b",
+          "setting_rva": "0x2f0630"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x3d686",
+          "setting_rva": "0x2f0680"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3d698",
+          "setting_rva": "0x2f0650"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3d6aa",
+          "setting_rva": "0x2f0578"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3d6cc",
+          "setting_rva": "0x2f0598"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "range",
+          "setting_rva": "0x2f05b8"
+        },
+        {
+          "control": "number",
+          "key": "scale",
+          "setting_rva": "0x2f04e0"
+        },
+        {
+          "control": "boolean",
+          "key": "show_own_name_tag",
+          "setting_rva": "0x2f05f0"
+        },
+        {
+          "control": "boolean",
+          "key": "use_display_name",
+          "setting_rva": "0x2f0610"
+        },
+        {
+          "control": "boolean",
+          "key": "distance_scaling",
+          "setting_rva": "0x2f0518"
+        },
+        {
+          "control": "boolean",
+          "key": "background",
+          "setting_rva": "0x2f0538"
+        },
+        {
+          "control": "boolean",
+          "key": "text_shadow",
+          "setting_rva": "0x2f0558"
+        },
+        {
+          "control": "boolean",
+          "key": "show_health",
+          "setting_rva": "0x2f0630"
+        },
+        {
+          "control": "choice",
+          "key": "health_fmt",
+          "setting_rva": "0x2f0680"
+        },
+        {
+          "control": "boolean",
+          "key": "show_distance",
+          "setting_rva": "0x2f0650"
+        },
+        {
+          "control": "boolean",
+          "key": "show_equipment",
+          "setting_rva": "0x2f0578"
+        },
+        {
+          "control": "boolean",
+          "key": "show_enchants",
+          "setting_rva": "0x2f0598"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "4b705bf7edefa78f234f3813cfe5b9295f4a99bb8ba69ac0bfa07e2501c7f99e",
+        "settings": "e85da62d38629bb007dd69c3962cf1507e2ae9478248c191fff42cacfecb0f54"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2f0590",
+          "size": 1
+        },
+        {
+          "rva": "0x2f0648",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "2012c98e66ae61b64e93887bb55dc718ab836571fcb60ad09b4035c690736a5c"
+    },
+    {
+      "module": "Pointers",
+      "symbol": "pointers",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Pointers.cpp",
+      "source_sha256": "ddc00239444e5d47a72f89ab1189a04d5c10552dfa60da9114830ce020b9a3d9",
+      "ui_rva": "0x3e2d0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3e400",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x3e2e9",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3e2fb",
+          "setting_rva": "0x2f0a98"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3e30d",
+          "setting_rva": "0x2f0ad0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3e31f",
+          "setting_rva": "0x2f0b48"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3e331",
+          "label": "Customization"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x3e343",
+          "setting_rva": "0x2f09e0"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x3e355",
+          "setting_rva": "0x2f0a58"
+        },
+        {
+          "control": "range",
+          "call_rva": "0x3e367",
+          "setting_rva": "0x2f08d0"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x3e388",
+          "setting_rva": "0x2f0990"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x3e3a3",
+          "setting_rva": "0x2f0b28"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x3e3be",
+          "setting_rva": "0x2f0b08"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3e3d0",
+          "setting_rva": "0x2f0920"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3e3e2",
+          "setting_rva": "0x2f0958"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3e3fb",
+          "setting_rva": "0x2f0a20"
+        },
+        {
+          "control": "color",
+          "setting_rva": "0x2f09b0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "range",
+          "setting_rva": "0x2f0a98"
+        },
+        {
+          "control": "number",
+          "key": "ignore_fov",
+          "setting_rva": "0x2f0ad0"
+        },
+        {
+          "control": "boolean",
+          "key": "hide_friendlies",
+          "setting_rva": "0x2f0b48"
+        },
+        {
+          "control": "choice",
+          "key": "style",
+          "setting_rva": "0x2f09e0"
+        },
+        {
+          "control": "choice",
+          "key": "color_mode",
+          "setting_rva": "0x2f0a58"
+        },
+        {
+          "control": "range",
+          "key": "near_far_range",
+          "setting_rva": "0x2f08d0"
+        },
+        {
+          "control": "color",
+          "key": "color_near",
+          "setting_rva": "0x2f0990"
+        },
+        {
+          "control": "color",
+          "key": "color_far",
+          "setting_rva": "0x2f09b0"
+        },
+        {
+          "control": "color",
+          "key": "color_enemies",
+          "setting_rva": "0x2f0b28"
+        },
+        {
+          "control": "color",
+          "key": "color_friendlies",
+          "setting_rva": "0x2f0b08"
+        },
+        {
+          "control": "number",
+          "key": "scale",
+          "setting_rva": "0x2f0920"
+        },
+        {
+          "control": "number",
+          "key": "radius",
+          "setting_rva": "0x2f0958"
+        },
+        {
+          "control": "boolean",
+          "key": "scale_radius",
+          "setting_rva": "0x2f0a20"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "c90abb45b39bc0779e7af41bf7b93c7c35ed9013fe2a5979090101a8e9db6dc4",
+        "settings": "58f8fab2e869568c5ea5aa1e670a51b643d25fcd2009c32444aac92b4bdddbcd"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2f0a88",
+          "size": 4
+        },
+        {
+          "rva": "0x2f0b60",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "ff07744004f1fb5dd8263dd8edc14dc5d9789e9cf73481b649a751fee2e7ff6d"
+    },
+    {
+      "module": "Block ESP",
+      "symbol": "block_esp",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Block_ESP.cpp",
+      "source_sha256": "2272052f269b6b268ba85435dbdfb4321c8c63407a58750f3d067ae148b82488",
+      "ui_rva": "0x3fb30",
+      "ui_unported_rva": null,
+      "settings_rva": "0x3fbe0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x3fb49",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3fb5b",
+          "setting_rva": "0x2f1a28"
+        },
+        {
+          "control": "list",
+          "call_rva": "0x3fb6d",
+          "setting_rva": "0x2f1950"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3fb7f",
+          "label": "Block render limit"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3fb91",
+          "setting_rva": "0x2f1a60"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3fbac",
+          "setting_rva": "0x2f19f0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3fbbe",
+          "label": "Customization"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x3fbd7",
+          "setting_rva": "0x2f19b8"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "range",
+          "setting_rva": "0x2f1a28"
+        },
+        {
+          "control": "list",
+          "key": "allowed_blocks",
+          "setting_rva": "0x2f1950"
+        },
+        {
+          "control": "boolean",
+          "key": "should_limit_block_render",
+          "setting_rva": "0x2f1a60"
+        },
+        {
+          "control": "number",
+          "key": "block_render_limit",
+          "setting_rva": "0x2f19f0"
+        },
+        {
+          "control": "number",
+          "key": "line_width",
+          "setting_rva": "0x2f19b8"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "ea4b9b721664230311955ba5abb0c2584410eda0f6491b1db486d21d80f0e090",
+        "settings": "b4f972bd9522181f8df8909d7a5d45d35e87026a0c27b9e9146520df0f42ebc3"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2f1a78",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "c5105a6ce50b30758570469c6456cf8b6ef4ea41b99b37fcc6de477aa3622240"
+    },
+    {
+      "module": "Item ESP",
+      "symbol": "item_esp",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Item_ESP.cpp",
+      "source_sha256": "84c01033a1c24abeba8a5670b7cc1d24c8aa6c38d90e5b5c5b27ecc3b2d8ccd1",
+      "ui_rva": "0x41700",
+      "ui_unported_rva": null,
+      "settings_rva": "0x417b0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x41719",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x4172b",
+          "setting_rva": "0x2f1cb0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x4173d",
+          "label": "Customization"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x4174f",
+          "setting_rva": "0x2f1c90"
+        },
+        {
+          "control": "list",
+          "call_rva": "0x41761",
+          "setting_rva": "0x2f1d28"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x41773",
+          "setting_rva": "0x2f1d08"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x41795",
+          "setting_rva": "0x2f1ce8"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "range",
+          "setting_rva": "0x2f1cb0"
+        },
+        {
+          "control": "boolean",
+          "key": "show_count",
+          "setting_rva": "0x2f1c90"
+        },
+        {
+          "control": "list",
+          "key": "allowed_items",
+          "setting_rva": "0x2f1d28"
+        },
+        {
+          "control": "boolean",
+          "key": "highlight_all",
+          "setting_rva": "0x2f1d08"
+        },
+        {
+          "control": "color",
+          "key": "default_color",
+          "setting_rva": "0x2f1ce8"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "5dceb2a07a2eca7dd0d6a9d70e47b967981f8190d436c83e7a7b6708436d1098",
+        "settings": "d969b90c0efde20c6b7cc8cfcc4efe2b6f5e8e38d79d17123d0b16af87989ff8"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2f1d20",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "83bef0a0773e6eb224f89bd8566f3cad5ae459b5997d96a993aa424371f1de26"
+    },
+    {
+      "module": "Timer Range",
+      "symbol": "timer_range",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Timer_Range.cpp",
+      "source_sha256": "5c993b632a281bfa97b4751ff6fc8207283617ee7221bed7126460a0726da929",
+      "ui_rva": "0x439e0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x43ad0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x439f9",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x43a0b",
+          "setting_rva": "0x2f33e0"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x43a1d",
+          "setting_rva": "0x2f34e8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x43a41",
+          "setting_rva": "0x2f34b0"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x43a53",
+          "setting_rva": "0x2f3440"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x43a6e",
+          "setting_rva": "0x2f3420"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x43a80",
+          "label": "Conditions"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x43a92",
+          "setting_rva": "0x2f3370"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x43aa4",
+          "setting_rva": "0x2f3390"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x43abd",
+          "setting_rva": "0x2f33b0"
+        },
+        {
+          "control": "number",
+          "setting_rva": "0x2f3478"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "mode",
+          "setting_rva": "0x2f33e0"
+        },
+        {
+          "control": "number",
+          "key": "min_dist",
+          "setting_rva": "0x2f34e8"
+        },
+        {
+          "control": "number",
+          "key": "duration",
+          "setting_rva": "0x2f3478"
+        },
+        {
+          "control": "number",
+          "key": "duration_legit",
+          "setting_rva": "0x2f34b0"
+        },
+        {
+          "control": "number",
+          "key": "cooldown",
+          "setting_rva": "0x2f3440"
+        },
+        {
+          "control": "boolean",
+          "key": "block_while_frozen",
+          "setting_rva": "0x2f3420"
+        },
+        {
+          "control": "boolean",
+          "key": "require_mouse_pressed",
+          "setting_rva": "0x2f3370"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2f3390"
+        },
+        {
+          "control": "boolean",
+          "key": "require_not_using_item",
+          "setting_rva": "0x2f33b0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "a083bbfc60cdb05db9a072e663df59f6633159601d4d74d68a8072c67fb2009c",
+        "settings": "f7fcf074fa8512197365f94c1299b39450aaa01c7e0c7816892d56b0701198c2"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2f3410",
+          "size": 4
+        }
+      ],
+      "ui_runtime_sha256": "760b1ed4b7667ad54c85b9e60de29dca9c1f901aa5eb0a80b9a50d2db5bdef84"
+    },
+    {
+      "module": "Trajectories",
+      "symbol": "trajectories",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Trajectories.cpp",
+      "source_sha256": "f8376927591cfe29199212a7672b120902b296854b58782b9148a8c86b51d210",
+      "ui_rva": "0x45dc0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x45e90",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x45dd9",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x45deb",
+          "setting_rva": "0x2f4000"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x45dfd",
+          "setting_rva": "0x2f4038"
+        },
+        {
+          "control": "color",
+          "call_rva": "0x45e0f",
+          "setting_rva": "0x2f4058"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x45e21",
+          "label": "Render when holding"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x45e33",
+          "setting_rva": "0x2f40d8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x45e45",
+          "setting_rva": "0x2f40b8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x45e57",
+          "setting_rva": "0x2f4078"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x45e79",
+          "setting_rva": "0x2f4098"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "line_width",
+          "setting_rva": "0x2f4000"
+        },
+        {
+          "control": "color",
+          "key": "color_hit",
+          "setting_rva": "0x2f4038"
+        },
+        {
+          "control": "color",
+          "key": "color_miss",
+          "setting_rva": "0x2f4058"
+        },
+        {
+          "control": "boolean",
+          "key": "render_throwables",
+          "setting_rva": "0x2f40d8"
+        },
+        {
+          "control": "boolean",
+          "key": "render_pearls",
+          "setting_rva": "0x2f40b8"
+        },
+        {
+          "control": "boolean",
+          "key": "render_bow",
+          "setting_rva": "0x2f4078"
+        },
+        {
+          "control": "boolean",
+          "key": "render_uncharged_bow",
+          "setting_rva": "0x2f4098"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "916b3057211128fbd62f02674f16c7952372d55ff4c774480f08372c6631ddad",
+        "settings": "e95eb46a123b5a06dd4959b45005fa61de06fe6247ce2649b616df0544db0c6c"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2f4090",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "eeb731a1f90f1bfb66422087b08d1579c4c47e24142b6a30e83d837828fcf01e"
+    },
+    {
+      "module": "Knockback Displace",
+      "symbol": "knockback_displace",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Knockback_Displace.cpp",
+      "source_sha256": "1fd318f10ffe6dce2f7088af5a271a16d5ea3f9b6b9fa47614bd1b0d87042a33",
+      "ui_rva": "0x4a930",
+      "ui_unported_rva": null,
+      "settings_rva": "0x4aa20",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x4a949",
+          "label": "Main"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x4a95b",
+          "setting_rva": "0x2f6088"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x4a97b",
+          "setting_rva": "0x2f60e8"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x4a98d",
+          "setting_rva": "0x2f5f70"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x4a99f",
+          "setting_rva": "0x2f5fa8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x4a9b1",
+          "setting_rva": "0x2f60c8"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x4a9c3",
+          "label": "Condition"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x4a9d5",
+          "setting_rva": "0x2f5fe0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x4a9e7",
+          "setting_rva": "0x2f6000"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x4a9f9",
+          "setting_rva": "0x2f6020"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x4aa12",
+          "setting_rva": "0x2f6040"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "choice",
+          "key": "direction",
+          "setting_rva": "0x2f6088"
+        },
+        {
+          "control": "boolean",
+          "key": "use_last_strafe",
+          "setting_rva": "0x2f60e8"
+        },
+        {
+          "control": "number",
+          "key": "angle",
+          "setting_rva": "0x2f5fa8"
+        },
+        {
+          "control": "number",
+          "key": "cooldown",
+          "setting_rva": "0x2f5f70"
+        },
+        {
+          "control": "boolean",
+          "key": "hide_rotation",
+          "setting_rva": "0x2f60c8"
+        },
+        {
+          "control": "boolean",
+          "key": "require_no_kb",
+          "setting_rva": "0x2f5fe0"
+        },
+        {
+          "control": "boolean",
+          "key": "require_weapon",
+          "setting_rva": "0x2f6000"
+        },
+        {
+          "control": "boolean",
+          "key": "require_kb_enchant",
+          "setting_rva": "0x2f6020"
+        },
+        {
+          "control": "boolean",
+          "key": "require_facing_away",
+          "setting_rva": "0x2f6040"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "1b63b1dd04d620ea5af3efb18ac5623ae5a37311225fd6afd42a50ec5e9ecf1a",
+        "settings": "06110fc521330dcd6299aa414fb1c83a647709518490459e2958577cf543e8be"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2f60b8",
+          "size": 4
+        }
+      ],
+      "ui_runtime_sha256": "4a8c6ed37a9de8b552dd7c8684cfa9417f3ed5f306681e0b77fdcf9ffe99e598"
+    },
+    {
+      "module": "Weapons",
+      "symbol": "weapons",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Weapons.cpp",
+      "source_sha256": "c21b44af8e2c59e2eab59b217fbe61d120a2f39613e7208144979e80e7528861",
+      "ui_rva": "0x381c0",
+      "ui_unported_rva": null,
+      "settings_rva": "0x38330",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x381d9",
+          "label": "Item types"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x381eb",
+          "setting_rva": "0x2eeb40"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x381fd",
+          "setting_rva": "0x2eed00"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3820f",
+          "setting_rva": "0x2eece0"
+        },
+        {
+          "control": "list",
+          "call_rva": "0x38221",
+          "setting_rva": "0x2eed20"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x38233",
+          "label": "Any item with"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x38245",
+          "setting_rva": "0x2eec80"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x38257",
+          "setting_rva": "0x2eeca0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x38269",
+          "setting_rva": "0x2eecc0"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x3827b",
+          "label": "Any item in"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3828d",
+          "setting_rva": "0x2eeb60"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3829f",
+          "setting_rva": "0x2eeb80"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x382b1",
+          "setting_rva": "0x2eeba0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x382c3",
+          "setting_rva": "0x2eebc0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x382d5",
+          "setting_rva": "0x2eebe0"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x382e7",
+          "setting_rva": "0x2eec00"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x382f9",
+          "setting_rva": "0x2eec20"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x3830b",
+          "setting_rva": "0x2eec40"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x38324",
+          "setting_rva": "0x2eec60"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "boolean",
+          "key": "fist",
+          "setting_rva": "0x2eeb40"
+        },
+        {
+          "control": "boolean",
+          "key": "swords",
+          "setting_rva": "0x2eed00"
+        },
+        {
+          "control": "boolean",
+          "key": "axes",
+          "setting_rva": "0x2eece0"
+        },
+        {
+          "control": "list",
+          "key": "extra_items",
+          "setting_rva": "0x2eed20"
+        },
+        {
+          "control": "boolean",
+          "key": "enchant_sharpness",
+          "setting_rva": "0x2eec80"
+        },
+        {
+          "control": "boolean",
+          "key": "enchant_knockback",
+          "setting_rva": "0x2eeca0"
+        },
+        {
+          "control": "boolean",
+          "key": "enchant_fire_aspect",
+          "setting_rva": "0x2eecc0"
+        },
+        {
+          "control": "boolean",
+          "key": "1",
+          "setting_rva": "0x2eeb60"
+        },
+        {
+          "control": "boolean",
+          "key": "2",
+          "setting_rva": "0x2eeb80"
+        },
+        {
+          "control": "boolean",
+          "key": "3",
+          "setting_rva": "0x2eeba0"
+        },
+        {
+          "control": "boolean",
+          "key": "4",
+          "setting_rva": "0x2eebc0"
+        },
+        {
+          "control": "boolean",
+          "key": "5",
+          "setting_rva": "0x2eebe0"
+        },
+        {
+          "control": "boolean",
+          "key": "6",
+          "setting_rva": "0x2eec00"
+        },
+        {
+          "control": "boolean",
+          "key": "7",
+          "setting_rva": "0x2eec20"
+        },
+        {
+          "control": "boolean",
+          "key": "8",
+          "setting_rva": "0x2eec40"
+        },
+        {
+          "control": "boolean",
+          "key": "9",
+          "setting_rva": "0x2eec60"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "391043e7af53790d56dfdc3ef41699666a6873c87165947b6a0f46202045fcfe",
+        "settings": "fb4cedd9f950f267255796e65bcddfd620220f3009d39be8347bc89606a6a916"
+      },
+      "ui_dynamic": false,
+      "ui_state_fields": [],
+      "ui_runtime_sha256": "905aacfbe5dcdc5ec21628730cb193a6b2b199796d719d730b0cf54128aa051f"
+    },
+    {
+      "module": "Inv Manager",
+      "symbol": "inv_manager",
+      "registration": "registered",
+      "file": "recovered_cpp/clean/surfaces/Surface_Inv_Manager.cpp",
+      "source_sha256": "53c3b64f41e734bc037ee385361bfd79603335bad1828b440bbbea58eec9d0b2",
+      "ui_rva": "0x47560",
+      "ui_unported_rva": null,
+      "settings_rva": "0x476e0",
+      "settings_only": false,
+      "ui_steps": [
+        {
+          "control": "section",
+          "call_rva": "0x47579",
+          "label": "Main"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x4758b",
+          "setting_rva": "0x2f4e50"
+        },
+        {
+          "control": "number",
+          "call_rva": "0x4759d",
+          "setting_rva": "0x2f5230"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x475af",
+          "setting_rva": "0x2f5268"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x475c1",
+          "setting_rva": "0x2f5210"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x475d3",
+          "label": "Equip armor"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x475e5",
+          "setting_rva": "0x2f4e88"
+        },
+        {
+          "control": "section",
+          "call_rva": "0x475f7",
+          "label": "Sort hotbar"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x47609",
+          "setting_rva": "0x2f4ea8"
+        },
+        {
+          "control": "checkbox",
+          "call_rva": "0x47628",
+          "setting_rva": "0x2f51f0"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x4763a",
+          "setting_rva": "0x2f4fb0"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x4764c",
+          "setting_rva": "0x2f4ff0"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x4765e",
+          "setting_rva": "0x2f5030"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x47670",
+          "setting_rva": "0x2f5070"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x47682",
+          "setting_rva": "0x2f50b0"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x47694",
+          "setting_rva": "0x2f50f0"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x476a6",
+          "setting_rva": "0x2f5130"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x476b8",
+          "setting_rva": "0x2f5170"
+        },
+        {
+          "control": "choice",
+          "call_rva": "0x476d1",
+          "setting_rva": "0x2f51b0"
+        }
+      ],
+      "settings_steps": [
+        {
+          "control": "number",
+          "key": "delay_after_open",
+          "setting_rva": "0x2f4e50"
+        },
+        {
+          "control": "number",
+          "key": "speed",
+          "setting_rva": "0x2f5230"
+        },
+        {
+          "control": "boolean",
+          "key": "smart_speed",
+          "setting_rva": "0x2f5268"
+        },
+        {
+          "control": "boolean",
+          "key": "randomize",
+          "setting_rva": "0x2f5210"
+        },
+        {
+          "control": "boolean",
+          "key": "equip_armor",
+          "setting_rva": "0x2f4e88"
+        },
+        {
+          "control": "boolean",
+          "key": "sort_hotbar",
+          "setting_rva": "0x2f4ea8"
+        },
+        {
+          "control": "boolean",
+          "key": "sort_hotbar_fallback",
+          "setting_rva": "0x2f51f0"
+        },
+        {
+          "control": "choice",
+          "key": "1",
+          "setting_rva": "0x2f4fb0"
+        },
+        {
+          "control": "choice",
+          "key": "2",
+          "setting_rva": "0x2f4ff0"
+        },
+        {
+          "control": "choice",
+          "key": "3",
+          "setting_rva": "0x2f5030"
+        },
+        {
+          "control": "choice",
+          "key": "4",
+          "setting_rva": "0x2f5070"
+        },
+        {
+          "control": "choice",
+          "key": "5",
+          "setting_rva": "0x2f50b0"
+        },
+        {
+          "control": "choice",
+          "key": "6",
+          "setting_rva": "0x2f50f0"
+        },
+        {
+          "control": "choice",
+          "key": "7",
+          "setting_rva": "0x2f5130"
+        },
+        {
+          "control": "choice",
+          "key": "8",
+          "setting_rva": "0x2f5170"
+        },
+        {
+          "control": "choice",
+          "key": "9",
+          "setting_rva": "0x2f51b0"
+        }
+      ],
+      "source_decompilation_sha256": {
+        "ui": "ecce310be115b2c47b4d910cd45ca4ff842b8d0f2704aa1d84587aab2c5d9ee1",
+        "settings": "3eb4328736b65ee761090d4a685e299f46fcdac93f0efbaaeae17f033daebd56"
+      },
+      "ui_dynamic": true,
+      "ui_state_fields": [
+        {
+          "rva": "0x2f4ec0",
+          "size": 1
+        }
+      ],
+      "ui_runtime_sha256": "8fafa0820d24ed2bd2eb249e8e5a2fce56e3480865d8acb5629afba3c83b98b8"
+    }
+  ]
+}

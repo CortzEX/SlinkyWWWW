@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "module": "Chams",
+  "total_cases": 1360,
+  "ui_cases": 64,
+  "settings_cases": 1296,
+  "instruction_coverage": {
+    "0x3e880": {
+      "expected": 17,
+      "reached": 17,
+      "unreached": []
+    },
+    "0x3e8c0": {
+      "expected": 6,
+      "reached": 6,
+      "unreached": []
+    },
+    "0xcef0": {
+      "expected": 20,
+      "reached": 20,
+      "unreached": []
+    },
+    "0xc210": {
+      "expected": 5,
+      "reached": 5,
+      "unreached": []
+    },
+    "0xc3b0": {
+      "expected": 51,
+      "reached": 51,
+      "unreached": []
+    }
+  },
+  "typed_settings_do_not_require_original_global_image": true,
+  "original_chams_local_routines_executed": true,
+  "original_boolean_settings_helper_executed": true,
+  "original_shared_ui_controls_and_dirty_setter_unhooked": true,
+  "full_widget_return_and_dirty_state_compared": true,
+  "actual_widget_target_matches_current_endpoint_table": true,
+  "native_widget_target_call_counts": {
+    "0": 24,
+    "1": 40
+  },
+  "full_settings_dirty_context_node_buffers_compared": true,
+  "renderer_and_json_endpoints_controlled": true,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Chams.cpp": "e89d3e96a37508e0d538ebb050b88758a9605ff23e6247dba1b8d208cf8d1b8b",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/module_ui_controls.cpp": "8b81c1e1aa062585cac5a3b7df89da197bbbd486f81c215512bd7eaff9fc685c",
+    "recovered_cpp/clean/Chams.hpp": "2df567c20eeeb72aa20dc7df3b73792907070ec15982d49d0d7b462a348396a2",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_ui_controls.hpp": "8361da2b66389f9338af4a5edc45b3c084e5a692b66d18a32719ec6382ea141a",
+    "analysis/recovered_native_source/verify_chams_local.py": "1470f1760369a44bb11553ce06bd0322c138eb2988c5fa4780439bb7634f7adb",
+    "analysis/recovered_native_source/verify_safe_walk_local.py": "a8b2763fee28f5388033e26f28ee82970414e49cbaf1298cf6d91dd06163dc05",
+    "analysis/recovered_native_source/verify_ghost_hand_settings.py": "245ddd6565ea912c68c27898c7da4471f8db847e849ed45bb2c117555db45d84",
+    "analysis/recovered_native/index.tsv": "e7ab9b23c6a1c3954cc4af517e1ae68a054f5c7c7dd82d33d355bc9671742e1f",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 20000
+  },
+  "full_module_rebuild": false,
+  "limits": [
+    "Original UI/settings, checkbox, dirty setter and Boolean helper execute unhooked. Widget/section and JSON endpoints remain controlled.",
+    "Full dirty/setting/context/node bytes, raw noncanonical values, endpoint identity and full widget return compare. Actual renderer semantics, runtime ownership and registration remain unverified."
+  ]
+}

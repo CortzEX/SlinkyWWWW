@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "ui_cases": 24,
+  "settings_cases": 864,
+  "direction_label_cases": 3,
+  "shared_ui_and_numeric_helpers_controlled": true,
+  "boolean_helper_executed_in_original": true,
+  "live_module_integration": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/Blink.cpp": "0cac9a6f1d9399728cf9c7edc6eee2eb9e8844782f8db4b77ff2713f2956896b",
+    "recovered_cpp/clean/Blink.hpp": "934d598a7bef27730e34094cc8f152924bed6d8c5aad9eaf8cd9ebabf53c39d5",
+    "analysis/recovered_native_source/verify_blink_local.py": "48df02085281835203b3b84bcc4a33251596e80601ce03d48ced9d0233584b55"
+  }
+}

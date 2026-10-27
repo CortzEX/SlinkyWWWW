@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "total_cases": 1668,
+  "comparison_counts": {
+    "0": 768,
+    "2": 192,
+    "3": 4,
+    "5": 320,
+    "14": 384
+  },
+  "recovered_callbacks": [
+    "0x33660",
+    "0x336d0",
+    "0x33750",
+    "0x33770",
+    "0x337c0"
+  ],
+  "dependency_wrappers_controlled": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Blink.cpp": "0cac9a6f1d9399728cf9c7edc6eee2eb9e8844782f8db4b77ff2713f2956896b",
+    "recovered_cpp/clean/Blink.hpp": "934d598a7bef27730e34094cc8f152924bed6d8c5aad9eaf8cd9ebabf53c39d5",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "analysis/module_behavior_recovery/blink/verify.py": "19f08443b46642e702208994faecaee997cf62688861e816bd34645b7e3b420a"
+  }
+}

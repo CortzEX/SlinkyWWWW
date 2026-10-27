@@ -1,0 +1,7989 @@
+{
+  "passed": true,
+  "module": "Chams",
+  "total_cases": 560,
+  "render_cases": 400,
+  "historical_render_cases": 384,
+  "post_begin_raw_constant_cases": 16,
+  "direct_flag_cases": 160,
+  "cases": [
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 1,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 2,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 51,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 255,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 1,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 2,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 51,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 0,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 1,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 2,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 51,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 2,
+      "config": 255,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 0,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 1,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 2,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 51,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xb3150001",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xb3150002",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0x3f800000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 255,
+      "config": 255,
+      "flags": "0xffffffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x0",
+        "0x1",
+        "0x8000000000000000"
+      ],
+      "floats": [
+        "0x0",
+        "0x80000001"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x0",
+        "0x1",
+        "0x8000000000000000"
+      ],
+      "floats": [
+        "0x0",
+        "0x80000001"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x1",
+        "0x8000000000000000",
+        "0x7ff0000000000000"
+      ],
+      "floats": [
+        "0x80000000",
+        "0x7f7fffff"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x1",
+        "0x8000000000000000",
+        "0x7ff0000000000000"
+      ],
+      "floats": [
+        "0x80000000",
+        "0x7f7fffff"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x8000000000000000",
+        "0x7ff0000000000000",
+        "0xfff0000000000000"
+      ],
+      "floats": [
+        "0x1",
+        "0x7f800000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x8000000000000000",
+        "0x7ff0000000000000",
+        "0xfff0000000000000"
+      ],
+      "floats": [
+        "0x1",
+        "0x7f800000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000000",
+        "0xfff0000000000000",
+        "0x7ff0000000000001"
+      ],
+      "floats": [
+        "0x80000001",
+        "0xff800000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000000",
+        "0xfff0000000000000",
+        "0x7ff0000000000001"
+      ],
+      "floats": [
+        "0x80000001",
+        "0xff800000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0xfff0000000000000",
+        "0x7ff0000000000001",
+        "0x7ff8000000001234"
+      ],
+      "floats": [
+        "0x7f7fffff",
+        "0x7fc12345"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0xfff0000000000000",
+        "0x7ff0000000000001",
+        "0x7ff8000000001234"
+      ],
+      "floats": [
+        "0x7f7fffff",
+        "0x7fc12345"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x7ff8000000001234",
+        "0xffffffffffffffff"
+      ],
+      "floats": [
+        "0x7f800000",
+        "0x7f800001"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x7ff8000000001234",
+        "0xffffffffffffffff"
+      ],
+      "floats": [
+        "0x7f800000",
+        "0x7f800001"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff8000000001234",
+        "0xffffffffffffffff",
+        "0x0"
+      ],
+      "floats": [
+        "0xff800000",
+        "0xffc54321"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff8000000001234",
+        "0xffffffffffffffff",
+        "0x0"
+      ],
+      "floats": [
+        "0xff800000",
+        "0xffc54321"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0xffffffffffffffff",
+        "0x0",
+        "0x1"
+      ],
+      "floats": [
+        "0x7fc12345",
+        "0x0"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0xffffffffffffffff",
+        "0x0",
+        "0x1"
+      ],
+      "floats": [
+        "0x7fc12345",
+        "0x0"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x0",
+        "0x1",
+        "0x8000000000000000"
+      ],
+      "floats": [
+        "0x7f800001",
+        "0x80000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x0",
+        "0x1",
+        "0x8000000000000000"
+      ],
+      "floats": [
+        "0x7f800001",
+        "0x80000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x1",
+        "0x8000000000000000",
+        "0x7ff0000000000000"
+      ],
+      "floats": [
+        "0xffc54321",
+        "0x1"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x1",
+        "0x8000000000000000",
+        "0x7ff0000000000000"
+      ],
+      "floats": [
+        "0xffc54321",
+        "0x1"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x0",
+        "0x1",
+        "0x8000000000000000"
+      ],
+      "floats": [
+        "0x0",
+        "0x80000001"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x0",
+        "0x1",
+        "0x8000000000000000"
+      ],
+      "floats": [
+        "0x0",
+        "0x80000001"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x1",
+        "0x8000000000000000",
+        "0x7ff0000000000000"
+      ],
+      "floats": [
+        "0x80000000",
+        "0x7f7fffff"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x1",
+        "0x8000000000000000",
+        "0x7ff0000000000000"
+      ],
+      "floats": [
+        "0x80000000",
+        "0x7f7fffff"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x8000000000000000",
+        "0x7ff0000000000000",
+        "0xfff0000000000000"
+      ],
+      "floats": [
+        "0x1",
+        "0x7f800000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x8000000000000000",
+        "0x7ff0000000000000",
+        "0xfff0000000000000"
+      ],
+      "floats": [
+        "0x1",
+        "0x7f800000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000000",
+        "0xfff0000000000000",
+        "0x7ff0000000000001"
+      ],
+      "floats": [
+        "0x80000001",
+        "0xff800000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000000",
+        "0xfff0000000000000",
+        "0x7ff0000000000001"
+      ],
+      "floats": [
+        "0x80000001",
+        "0xff800000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0xfff0000000000000",
+        "0x7ff0000000000001",
+        "0x7ff8000000001234"
+      ],
+      "floats": [
+        "0x7f7fffff",
+        "0x7fc12345"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0xfff0000000000000",
+        "0x7ff0000000000001",
+        "0x7ff8000000001234"
+      ],
+      "floats": [
+        "0x7f7fffff",
+        "0x7fc12345"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x7ff8000000001234",
+        "0xffffffffffffffff"
+      ],
+      "floats": [
+        "0x7f800000",
+        "0x7f800001"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x7ff8000000001234",
+        "0xffffffffffffffff"
+      ],
+      "floats": [
+        "0x7f800000",
+        "0x7f800001"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff8000000001234",
+        "0xffffffffffffffff",
+        "0x0"
+      ],
+      "floats": [
+        "0xff800000",
+        "0xffc54321"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff8000000001234",
+        "0xffffffffffffffff",
+        "0x0"
+      ],
+      "floats": [
+        "0xff800000",
+        "0xffc54321"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0xffffffffffffffff",
+        "0x0",
+        "0x1"
+      ],
+      "floats": [
+        "0x7fc12345",
+        "0x0"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0xffffffffffffffff",
+        "0x0",
+        "0x1"
+      ],
+      "floats": [
+        "0x7fc12345",
+        "0x0"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x0",
+        "0x1",
+        "0x8000000000000000"
+      ],
+      "floats": [
+        "0x7f800001",
+        "0x80000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x0",
+        "0x1",
+        "0x8000000000000000"
+      ],
+      "floats": [
+        "0x7f800001",
+        "0x80000000"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x1",
+        "0x8000000000000000",
+        "0x7ff0000000000000"
+      ],
+      "floats": [
+        "0xffc54321",
+        "0x1"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x1",
+        "0x8000000000000000",
+        "0x7ff0000000000000"
+      ],
+      "floats": [
+        "0xffc54321",
+        "0x1"
+      ],
+      "mutation": null,
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "env"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "settings"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "event"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "graphics_targets"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "env"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "settings"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "event"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "graphics_targets"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "env"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "settings"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "event"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "graphics_targets"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "env"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "settings"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "event"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "graphics_targets"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "env"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "settings"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "event"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "graphics_targets"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "env"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "settings"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "event"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "graphics_targets"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "env"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "settings"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "event"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "graphics_targets"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        272,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "env"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "settings"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "event"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "graphics_targets"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        728,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "table"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "global_metadata"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "field"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        816,
+        "graphics_cells"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 0,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 255,
+      "flags": "0xb315ffff",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": null,
+      "reset": false
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x3e730",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    },
+    {
+      "rva": "0x8350",
+      "enabled": 1,
+      "config": 0,
+      "flags": "0xb3150000",
+      "doubles": [
+        "0x7ff0000000000001",
+        "0x8000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "floats": [
+        "0x3f800000",
+        "0xc0000000"
+      ],
+      "mutation": [
+        256,
+        "offset_constants"
+      ],
+      "reset": true
+    }
+  ],
+  "flag_inputs": [
+    {
+      "raw_field": "0x0",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x0",
+      "mask": "0xffffffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x1",
+      "mask": "0xffffffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xffffffff",
+      "mask": "0xffffffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x80000000",
+      "mask": "0xffffffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7f800001",
+      "mask": "0xffffffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0x7fc12345",
+      "mask": "0xffffffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150000",
+      "mask": "0xffffffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150001",
+      "mask": "0xffffffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb3150002",
+      "mask": "0xffffffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x0",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x0",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x1",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x1",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x2",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x2",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x7",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x7",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0xffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0xffff",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x10000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x10000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x80000000",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0x80000000",
+      "variant": 1
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0xffffffff",
+      "variant": 0
+    },
+    {
+      "raw_field": "0xb315ffff",
+      "mask": "0xffffffff",
+      "variant": 1
+    }
+  ],
+  "instruction_coverage": {
+    "0x8350": {
+      "expected": 20,
+      "reached": 20,
+      "unreached": []
+    },
+    "0x3e730": {
+      "expected": 78,
+      "reached": 78,
+      "unreached": []
+    },
+    "0x2ace0": {
+      "expected": 18,
+      "reached": 18,
+      "unreached": []
+    },
+    "0x240d0": {
+      "expected": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x274f0": {
+      "expected": 23,
+      "reached": 23,
+      "unreached": []
+    }
+  },
+  "connected_entry_case_counts": {
+    "0x3e730": 400,
+    "0x274f0": 400,
+    "0x2ace0": 352,
+    "0x240d0": 352,
+    "0x8350": 200
+  },
+  "recovered_callable_entries": [
+    "0x8350",
+    "0x3e730"
+  ],
+  "original_helpers_unhooked": true,
+  "actual_native_target_matches_current_cells_and_tables": true,
+  "native_target_call_counts": {
+    "0x800002d8": 383,
+    "0x80000330": 268,
+    "0x80000100": 156,
+    "0x80000110": 152,
+    "0x80000120": 144,
+    "0x800012d8": 17,
+    "0x80001100": 8,
+    "0x80001110": 12,
+    "0x80001120": 20,
+    "0x80001330": 84
+  },
+  "typed_records_do_not_require_original_global_image": true,
+  "raw_render_argument_bits_and_full_return_compared": true,
+  "complete_event_bridge_metadata_tables_graphics_and_pages_compared": true,
+  "retained_sequences": 8,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Chams.cpp": "e89d3e96a37508e0d538ebb050b88758a9605ff23e6247dba1b8d208cf8d1b8b",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/module_ui_controls.cpp": "8b81c1e1aa062585cac5a3b7df89da197bbbd486f81c215512bd7eaff9fc685c",
+    "recovered_cpp/clean/Chams.hpp": "2df567c20eeeb72aa20dc7df3b73792907070ec15982d49d0d7b462a348396a2",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/module_ui_controls.hpp": "8361da2b66389f9338af4a5edc45b3c084e5a692b66d18a32719ec6382ea141a",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "analysis/recovered_native_source/verify_chams_cpp.py": "26b0a7fbf40a2931ed4f2940355e533a7758f5f2d835ee70b8684cfcfcab1149",
+    "analysis/recovered_native_source/chams_native_fixtures.c": "8d42cfa998e7f9b55075863f284992f3870eebc721e27f9f58d08a7169ecbd53",
+    "analysis/module_behavior_recovery/connected_chams/verify.py": "dfe191b3edd0806f9628192ce1dec269a95456a75d7685a5c55d732affbe965b",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651",
+    "analysis/module_behavior_recovery/connected_chams/rva_8350.asm": "6eed508ee39bec2521a0420c42877f258ba6bbda34f513d853219dbb1475bcb2",
+    "analysis/module_behavior_recovery/connected_chams/rva_3e730.asm": "f29fce6e42a48edd2b1a5f7a630ac154b358f493856a44d6520c0e34cb7701c3",
+    "analysis/module_behavior_recovery/connected_chams/rva_2ace0.asm": "2f62be6f7b4379c1ee8de12224db7c571e14c8701bfc37ebe07277f295fd9e4d",
+    "analysis/module_behavior_recovery/connected_chams/rva_240d0.asm": "b9657c208626badc748ac57b71c348395ae4a9335bdce6f3e26bc0fee9d07c80",
+    "analysis/module_behavior_recovery/connected_chams/rva_274f0.asm": "104ac5b089097e838d7bf5199f92edb133c77bec27d8c9931f622bf0c6e32c2f"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 10000
+  },
+  "native_original_executed": false,
+  "full_module_rebuild": false,
+  "limits": [
+    "Original outer hook, wrapper, flag test/getter and render forwarder execute unhooked until actual JNI and graphics endpoints.",
+    "Raw argument snapshots, float promotion, distinct full render/end returns, native target identity and eight retained four-call sequences compare. Actual graphics/JNI behavior and hook installation remain controlled or unresolved.",
+    "Production uses explicit bridge, flag setting, constants and mutable graphics pointer cells. Test-only adapters relocate original logical cells and update their corresponding owned records.",
+    "Typed UI/settings are linked here but require separate behavioral evidence. Metadata initialization, ownership, concurrency and floating exception flags remain unverified."
+  ]
+}

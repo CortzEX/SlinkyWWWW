@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "case_count": 6477,
+  "comparisons": {
+    "0x32b30": 2890,
+    "0x32cb0": 3587
+  },
+  "callbacks": [
+    "0x32b30/event0",
+    "0x32cb0/events2and3"
+  ],
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/fake_lag/fake_lag.cpp": "454c5b751b784f30b109c4f2aaeb54cfcf52f99689f4f2444ceb880662b87d16",
+    "recovered_cpp/behavior/module_behavior_recovery/fake_lag/fake_lag.h": "917c79f9e419dc646d607340dd85c82273c43ca28e09a8d217839a53a14c9f84",
+    "analysis/module_behavior_recovery/fake_lag/verify_fake_lag.py": "78258944c994572eaedc6c9e34c17f1fa671443b363ecaa64b5e73243617c39b"
+  },
+  "execution": "Original instruction ranges run only in Unicorn; dependency helper RVAs are controlled callbacks.",
+  "limits": "No helper body or full Fake Lag module is recovered. Interlocked exchanges preserve the recovered atomic operations and ordering; differential cases are single-threaded and do not model concurrent interleavings."
+}

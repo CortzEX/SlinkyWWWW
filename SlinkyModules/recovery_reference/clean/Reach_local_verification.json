@@ -1,0 +1,407 @@
+{
+  "passed": true,
+  "module": "Reach",
+  "total_cases": 41,
+  "ui_cases": 32,
+  "settings_cases": 9,
+  "ui_inputs": [
+    {
+      "fill": 0,
+      "returns": [
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 0,
+      "returns": [
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 0,
+      "returns": [
+        "0x1",
+        "0x0",
+        "0x1"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 0,
+      "returns": [
+        "0x1",
+        "0x0",
+        "0x1"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 0,
+      "returns": [
+        "0x100",
+        "0x101",
+        "0x100"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 0,
+      "returns": [
+        "0x100",
+        "0x101",
+        "0x100"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 0,
+      "returns": [
+        "0xffffffffffffffff",
+        "0xabcdef1200000100",
+        "0x1234567800000101"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 0,
+      "returns": [
+        "0xffffffffffffffff",
+        "0xabcdef1200000100",
+        "0x1234567800000101"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 1,
+      "returns": [
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 1,
+      "returns": [
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 1,
+      "returns": [
+        "0x1",
+        "0x0",
+        "0x1"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 1,
+      "returns": [
+        "0x1",
+        "0x0",
+        "0x1"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 1,
+      "returns": [
+        "0x100",
+        "0x101",
+        "0x100"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 1,
+      "returns": [
+        "0x100",
+        "0x101",
+        "0x100"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 1,
+      "returns": [
+        "0xffffffffffffffff",
+        "0xabcdef1200000100",
+        "0x1234567800000101"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 1,
+      "returns": [
+        "0xffffffffffffffff",
+        "0xabcdef1200000100",
+        "0x1234567800000101"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 128,
+      "returns": [
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 128,
+      "returns": [
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 128,
+      "returns": [
+        "0x1",
+        "0x0",
+        "0x1"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 128,
+      "returns": [
+        "0x1",
+        "0x0",
+        "0x1"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 128,
+      "returns": [
+        "0x100",
+        "0x101",
+        "0x100"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 128,
+      "returns": [
+        "0x100",
+        "0x101",
+        "0x100"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 128,
+      "returns": [
+        "0xffffffffffffffff",
+        "0xabcdef1200000100",
+        "0x1234567800000101"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 128,
+      "returns": [
+        "0xffffffffffffffff",
+        "0xabcdef1200000100",
+        "0x1234567800000101"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 255,
+      "returns": [
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 255,
+      "returns": [
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 255,
+      "returns": [
+        "0x1",
+        "0x0",
+        "0x1"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 255,
+      "returns": [
+        "0x1",
+        "0x0",
+        "0x1"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 255,
+      "returns": [
+        "0x100",
+        "0x101",
+        "0x100"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 255,
+      "returns": [
+        "0x100",
+        "0x101",
+        "0x100"
+      ],
+      "mutation": true
+    },
+    {
+      "fill": 255,
+      "returns": [
+        "0xffffffffffffffff",
+        "0xabcdef1200000100",
+        "0x1234567800000101"
+      ],
+      "mutation": false
+    },
+    {
+      "fill": 255,
+      "returns": [
+        "0xffffffffffffffff",
+        "0xabcdef1200000100",
+        "0x1234567800000101"
+      ],
+      "mutation": true
+    }
+  ],
+  "instruction_coverage": {
+    "0x30060": {
+      "expected": 33,
+      "reached": 33,
+      "unreached": []
+    },
+    "0x300e0": {
+      "expected": 19,
+      "reached": 19,
+      "unreached": []
+    },
+    "0xcf30": {
+      "expected": 30,
+      "reached": 30,
+      "unreached": []
+    },
+    "0xcef0": {
+      "expected": 20,
+      "reached": 20,
+      "unreached": []
+    },
+    "0xc210": {
+      "expected": 5,
+      "reached": 5,
+      "unreached": []
+    },
+    "0xc450": {
+      "expected": 69,
+      "reached": 68,
+      "unreached": [
+        "0xc4ef"
+      ]
+    },
+    "0xc3b0": {
+      "expected": 51,
+      "reached": 51,
+      "unreached": []
+    }
+  },
+  "original_local_controls_dirty_and_settings_helpers_unhooked": true,
+  "full_ui_returns_raw_arguments_and_current_endpoints_compared": true,
+  "native_widget_target_call_counts": {
+    "number_0": 36,
+    "checkbox_0": 12,
+    "number_1": 28,
+    "checkbox_1": 20
+  },
+  "typed_settings": true,
+  "shared_helper_gap_evidence": [
+    "recovered_cpp/clean/value_settings_verification.json",
+    "recovered_cpp/clean/Ghost_Hand_settings_verification.json"
+  ],
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Reach_typed.cpp": "2a62b0d50ddb005d6e2248cd92e9d80f267d927c1e0feed3136d3c7a7b2ed823",
+    "recovered_cpp/clean/module_game_access.cpp": "59a9517f00f2ee3c198e1b1894f4627b2c37c2dc46ecf26fe0b2a1450fd0f474",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/module_ui_controls.cpp": "8b81c1e1aa062585cac5a3b7df89da197bbbd486f81c215512bd7eaff9fc685c",
+    "recovered_cpp/clean/module_format.cpp": "bf4a67394200a8434978dcf21ac7774b300fbad8a03cdaf489934b1a69c182c3",
+    "recovered_cpp/clean/module_color_settings.cpp": "8d14d323ee66fc5c3b18be313cddb74b9902720026bb0d2bf73359b7b90ba419",
+    "recovered_cpp/clean/module_range_settings.cpp": "f42677b35a1fb4e38bfebe0f4d76ee9dceb390ceb97fe73f982337c1cae712d9",
+    "recovered_cpp/clean/module_list_settings.cpp": "6a0b66b44c856425b7b0837fd8eb9f3bd6b15063831d04e50c2c9ad7389ae63c",
+    "recovered_cpp/clean/module_item_lists.cpp": "6812f4abcbd1508e0081042adff29b78d6d20d4bc5f6fd2e5c2a49a3b2a9b6e5",
+    "recovered_cpp/clean/module_list_storage.cpp": "be1f4e94bae5853fbf0ab30484e833b0c4bce516f004013713e859285400360b",
+    "recovered_cpp/clean/module_named_lists.cpp": "36fb8e6d56e371fe22cf867d86445a98363aeb8c562bb21ce966b4f42052909f",
+    "recovered_cpp/clean/module_esp_lists.cpp": "74f462be4c4cea673aeb8b2e1e26241d681fe62285fd5057614545fdb8cf3474",
+    "recovered_cpp/clean/module_memory.cpp": "4fe065a5502c91d1fc12493a8df7253986f9ed1899540c17d3a0278c41d9b831",
+    "recovered_cpp/clean/module_item_catalog.cpp": "b914e1905336317ea170dcc4e9481bea6437f067531b601a6021b055e5e91044",
+    "recovered_cpp/clean/module_item_catalog_data.cpp": "92a709f20a68d886f2d205fb8739912ca168d9ac7c94c2cc91024dfb87b4a5e3",
+    "recovered_cpp/clean/module_surface.cpp": "fcbe1d25b4eee9771455440deb384783c23eaab9194cd54de13e55ea91b5d265",
+    "recovered_cpp/clean/Reach_typed.hpp": "02f94dc4377f4eca3f0463a693ad2b540cd17753401aed4fc6cfd0478ab4efbd",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_ui_controls.hpp": "8361da2b66389f9338af4a5edc45b3c084e5a692b66d18a32719ec6382ea141a",
+    "recovered_cpp/clean/module_format.hpp": "d034d8fe613d9c21e7cb5209fb563303ae1b3cd8fed51985afbe5ac06dd4c8a1",
+    "recovered_cpp/clean/module_color_settings.hpp": "22c884b1e71170622e2feb5ac472985f27a7b7a9df1d81a6ff0cc98827f572c2",
+    "recovered_cpp/clean/module_range_settings.hpp": "bae528b44ed5db121e983e05600b9e93a4d5feaeb807b68beb8b9c5e86cda0e8",
+    "recovered_cpp/clean/module_list_settings.hpp": "69637d6a6bce6906da722f0a0696db982a31dbe2e433cfc9ece4d2e7acc349f0",
+    "recovered_cpp/clean/module_item_lists.hpp": "ed1e99ac60e9f997486cf23ac304f2cc087e26e897c73fccaa92e3e17e2ea192",
+    "recovered_cpp/clean/module_list_storage.hpp": "43a35bd7ccede0f2d414ed47aa36bb47f2c65f6c1660e1fd862634d219ed5a2c",
+    "recovered_cpp/clean/module_named_lists.hpp": "00081812d97107193b406f4f00bab14d1d900e6541a6edc7881e814472e2848e",
+    "recovered_cpp/clean/module_esp_lists.hpp": "fd8bc825d69616c62ff2158db2fe29a1f36f848863aa1a63d7e1814d62d3bbe3",
+    "recovered_cpp/clean/module_memory.hpp": "1cbdaad9daa71d61088296111375df6e9f827fd1dc131c0b8333a7e87f400a73",
+    "recovered_cpp/clean/module_item_catalog.hpp": "3fc74d6aafe05868ec3f7d464cec5103c0c4993150b9dd3ec205df0661568680",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "recovered_cpp/clean/Timer.hpp": "43fd3a482508f022218ec04aca6c125e687c6a689b4ca0f4d61f1bbb36a52be3",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "analysis/recovered_native_source/verify_reach_local.py": "eb61804d83759a7491262b25d8d7c7a7241837f08cdf07d62f168894fbee0689",
+    "analysis/recovered_native_source/verify_safe_walk_local.py": "a8b2763fee28f5388033e26f28ee82970414e49cbaf1298cf6d91dd06163dc05",
+    "analysis/recovered_native_source/verify_standard_surfaces.py": "e75eb6de248a07bb6dd0fe926bef902eefc5c81e8a69712c63388fd864cdd4e1",
+    "analysis/recovered_native_source/ui_control_fixtures.c": "acf84ecf345b0de33adefe6ae68e18df2393309bc194289f7d8ce1051344354f",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651",
+    "analysis/recovered_native/index.tsv": "e7ab9b23c6a1c3954cc4af517e1ae68a054f5c7c7dd82d33d355bc9671742e1f",
+    "recovered_cpp/clean/surfaces/manifest.json": "439d93625f5e6fd528a8f7364894e0ec71e58ddb0d57ea85486f10d8e5a2c095",
+    "recovered_cpp/clean/value_settings_verification.json": "1c5d9c30a1f58950d1b19d5d3bed309f1c3e84c03fd714e662f4993cbe5b7a4a",
+    "recovered_cpp/clean/Ghost_Hand_settings_verification.json": "00786c99d67af4cc79d28b93dc80c453bda268a34b4483860cf082ea3a65d4b1"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 20000
+  },
+  "native_original_executed": false,
+  "full_module_rebuild": false,
+  "limits": [
+    "Renderer and JSON endpoints are controlled. Original local and shared instructions run unhooked.",
+    "Unreached shared persistence paths retain separate pinned helper evidence.",
+    "Original startup constructor, Java semantics, live wiring and concurrency remain open."
+  ]
+}

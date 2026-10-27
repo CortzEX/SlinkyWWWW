@@ -1,0 +1,2376 @@
+{
+  "summary": {
+    "docs_modules": 65,
+    "osp_modules": 68,
+    "high_severity": 40,
+    "medium_severity": 3,
+    "low_severity": 9,
+    "matching": 16
+  },
+  "modules": [
+    {
+      "module": "Aim Assist",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/aim-assist/",
+      "docs_settings": [
+        "Regular",
+        "Linear",
+        "Lock-on",
+        "Silent",
+        "Speed",
+        "Multipoint",
+        "Predict",
+        "Randomization",
+        "Mode",
+        "Range",
+        "FOV",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Mode",
+        "Horizontal speed",
+        "Vertical speed",
+        "Predict",
+        "Randomization",
+        "Horizontal",
+        "Vertical",
+        "Mode",
+        "Increased FOV while locked",
+        "Range",
+        "FOV",
+        "Sprinting",
+        "Mouse pressed",
+        "Mouse moved",
+        "Disable while breaking blocks",
+        "Holding weapon",
+        "Ignore invisibles",
+        "Not behind blocks",
+        "Mode",
+        "Horizontal speed",
+        "Vertical speed",
+        "Predict",
+        "Randomization",
+        "Horizontal",
+        "Vertical",
+        "Mode",
+        "Sort by",
+        "Range",
+        "FOV",
+        "Sprinting",
+        "Mouse pressed",
+        "Mouse moved",
+        "Disable while breaking blocks",
+        "Holding weapon",
+        "Ignore invisibles",
+        "Not behind blocks",
+        "Mode",
+        "Horizontal speed",
+        "Vertical speed",
+        "Predict",
+        "Randomization",
+        "Horizontal",
+        "Vertical",
+        "Mode",
+        "Increased FOV while locked",
+        "Range",
+        "FOV",
+        "Sprinting",
+        "Mouse pressed",
+        "Mouse moved",
+        "Disable while breaking blocks",
+        "Holding weapon",
+        "Ignore invisibles",
+        "Not behind blocks",
+        "Mode",
+        "Horizontal speed",
+        "Vertical speed",
+        "Predict",
+        "Randomization",
+        "Horizontal",
+        "Vertical",
+        "Mode",
+        "Sort by",
+        "Range",
+        "FOV",
+        "Sprinting",
+        "Mouse pressed",
+        "Mouse moved",
+        "Disable while breaking blocks",
+        "Holding weapon",
+        "Ignore invisibles",
+        "Not behind blocks",
+        "Mode",
+        "Vertical",
+        "Predict",
+        "Randomization",
+        "Horizontal",
+        "Vertical",
+        "Mode",
+        "Increased FOV while locked",
+        "Range",
+        "FOV",
+        "Sprinting",
+        "Mouse pressed",
+        "Mouse moved",
+        "Disable while breaking blocks",
+        "Holding weapon",
+        "Ignore invisibles",
+        "Not behind blocks",
+        "Mode",
+        "Vertical",
+        "Predict",
+        "Randomization",
+        "Horizontal",
+        "Vertical",
+        "Mode",
+        "Sort by",
+        "Range",
+        "FOV",
+        "Sprinting",
+        "Mouse pressed",
+        "Mouse moved",
+        "Disable while breaking blocks",
+        "Holding weapon",
+        "Ignore invisibles",
+        "Not behind blocks",
+        "Mode",
+        "Keep move direction",
+        "Ignore manual aim",
+        "Horizontal speed",
+        "Vertical speed",
+        "Predict",
+        "Randomization",
+        "Horizontal",
+        "Vertical",
+        "Mode",
+        "Increased FOV while locked",
+        "Range",
+        "FOV",
+        "Mouse pressed",
+        "Mouse moved",
+        "Disable while breaking blocks",
+        "Holding weapon",
+        "Ignore invisibles",
+        "Not behind blocks",
+        "Mode",
+        "Keep move direction",
+        "Ignore manual aim",
+        "Horizontal speed",
+        "Vertical speed",
+        "Predict",
+        "Randomization",
+        "Horizontal",
+        "Vertical",
+        "Mode",
+        "Sort by",
+        "Range",
+        "FOV",
+        "Mouse pressed",
+        "Mouse moved",
+        "Disable while breaking blocks",
+        "Holding weapon",
+        "Ignore invisibles",
+        "Not behind blocks"
+      ],
+      "discrepancies": [
+        "OSP setting 'Predict' not mentioned in docs",
+        "OSP setting 'FOV' not mentioned in docs",
+        "OSP setting 'Sprinting' not mentioned in docs",
+        "OSP setting 'Predict' not mentioned in docs",
+        "OSP setting 'Sort by' not mentioned in docs",
+        "OSP setting 'FOV' not mentioned in docs",
+        "OSP setting 'Sprinting' not mentioned in docs",
+        "OSP setting 'Predict' not mentioned in docs",
+        "OSP setting 'FOV' not mentioned in docs",
+        "OSP setting 'Sprinting' not mentioned in docs",
+        "OSP setting 'Predict' not mentioned in docs",
+        "OSP setting 'Sort by' not mentioned in docs",
+        "OSP setting 'FOV' not mentioned in docs",
+        "OSP setting 'Sprinting' not mentioned in docs",
+        "OSP setting 'Predict' not mentioned in docs",
+        "OSP setting 'FOV' not mentioned in docs",
+        "OSP setting 'Sprinting' not mentioned in docs",
+        "OSP setting 'Predict' not mentioned in docs",
+        "OSP setting 'Sort by' not mentioned in docs",
+        "OSP setting 'FOV' not mentioned in docs",
+        "OSP setting 'Sprinting' not mentioned in docs",
+        "OSP setting 'Predict' not mentioned in docs",
+        "OSP setting 'FOV' not mentioned in docs",
+        "OSP setting 'Predict' not mentioned in docs",
+        "OSP setting 'Sort by' not mentioned in docs",
+        "OSP setting 'FOV' not mentioned in docs",
+        "Docs setting 'Regular' has no matching OSP label",
+        "Docs setting 'Linear' has no matching OSP label",
+        "Docs setting 'Lock-on' has no matching OSP label",
+        "Docs setting 'Silent' has no matching OSP label",
+        "Docs setting 'Multipoint' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Anti Debuff",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/anti-debuff/",
+      "docs_settings": [
+        "Blindness",
+        "Nausea"
+      ],
+      "osp_settings": [
+        "Blindness",
+        "Nausea"
+      ],
+      "discrepancies": [
+        "OSP setting 'Nausea' not mentioned in docs"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Auto Block",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/auto-block/",
+      "docs_settings": [
+        "Range",
+        "Maximum hurt time",
+        "Maximum hold duration",
+        "Force block animation",
+        "Chance",
+        "Maximum duration",
+        "Prevent delaying attacks",
+        "Block again immediately",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Range",
+        "Maximum hurt time",
+        "Maximum hold duration",
+        "Enabled",
+        "Chance",
+        "Maximum duration",
+        "Prevent delaying attacks",
+        "Block again immediately",
+        "Left mouse pressed",
+        "Right mouse pressed",
+        "Damaged",
+        "Range",
+        "Maximum hurt time",
+        "Maximum hold duration",
+        "Enabled",
+        "Only within range",
+        "Chance",
+        "Maximum duration",
+        "Prevent delaying attacks",
+        "Block again immediately",
+        "Left mouse pressed",
+        "Right mouse pressed",
+        "Damaged"
+      ],
+      "discrepancies": [
+        "OSP setting 'Damaged' not mentioned in docs",
+        "OSP setting 'Damaged' not mentioned in docs",
+        "Docs setting 'Force block animation' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Auto Clicker",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/auto-clicker/",
+      "docs_settings": [
+        "Click pattern",
+        "Target CPS",
+        "Randomize",
+        "Simulate exhaust",
+        "Allow breaking blocks",
+        "Randomize speed",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Click pattern",
+        "Target CPS",
+        "Randomize",
+        "Simulate exhaust",
+        "Allow breaking blocks",
+        "Click in inventory",
+        "Holding weapon",
+        "Not using item",
+        "Click pattern",
+        "Target CPS",
+        "Randomize",
+        "Simulate exhaust",
+        "Allow breaking blocks",
+        "Click in inventory",
+        "Randomize speed",
+        "Holding weapon",
+        "Not using item"
+      ],
+      "discrepancies": [
+        "OSP setting 'Target CPS' not mentioned in docs",
+        "OSP setting 'Target CPS' not mentioned in docs",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Auto Soup",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/auto-soup/",
+      "docs_settings": [
+        "Maximum health",
+        "Randomization",
+        "Before switching slots",
+        "Between actions",
+        "Cooldown",
+        "Drop bowls",
+        "Override item type"
+      ],
+      "osp_settings": [
+        "Single use",
+        "Double use",
+        "Randomization",
+        "Before switching slots",
+        "Between actions",
+        "Cooldown",
+        "Drop bowls",
+        "Override item type",
+        "Single use",
+        "Double use",
+        "Randomization",
+        "Before switching slots",
+        "Between actions",
+        "Cooldown",
+        "Drop bowls",
+        "Override item type",
+        "Items"
+      ],
+      "discrepancies": [
+        "OSP setting 'Items' not mentioned in docs",
+        "Docs setting 'Maximum health' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Auto Tool",
+      "category": "Block",
+      "docs_url": "https://docs.slinky.gg/modules/block/auto-tool/",
+      "docs_settings": [
+        "Activation time",
+        "Switch back when done",
+        "Allow while using",
+        "Restrict allowed blocks"
+      ],
+      "osp_settings": [
+        "Activation time",
+        "Switch back when done",
+        "Sword",
+        "Tool",
+        "Fists",
+        "Other",
+        "Sneaking",
+        "Restrict allowed blocks",
+        "Activation time",
+        "Switch back when done",
+        "Sword",
+        "Tool",
+        "Fists",
+        "Other",
+        "Sneaking",
+        "Restrict allowed blocks",
+        "Allowed blocks"
+      ],
+      "discrepancies": [
+        "OSP setting 'Sword' not mentioned in docs",
+        "OSP setting 'Tool' not mentioned in docs",
+        "OSP setting 'Fists' not mentioned in docs",
+        "OSP setting 'Sneaking' not mentioned in docs",
+        "OSP setting 'Sword' not mentioned in docs",
+        "OSP setting 'Tool' not mentioned in docs",
+        "OSP setting 'Fists' not mentioned in docs",
+        "OSP setting 'Sneaking' not mentioned in docs",
+        "Auto Tool allowed_blocks likely needs block suggestions, currently returns items",
+        "Docs setting 'Allow while using' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Backtrack",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/backtrack/",
+      "docs_settings": [
+        "Target distance",
+        "Maximum delay",
+        "Maximum hurt time",
+        "Cooldown",
+        "Real position indicator",
+        "Disable on hit",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Target distance",
+        "Maximum delay",
+        "Maximum hurt time",
+        "Cooldown",
+        "Disable when hit",
+        "Enabled",
+        "Mouse pressed",
+        "Holding weapon",
+        "Target distance",
+        "Maximum delay",
+        "Maximum hurt time",
+        "Cooldown",
+        "Disable when hit",
+        "Enabled",
+        "Color",
+        "Line width",
+        "Filled",
+        "Apply head rotation",
+        "Mouse pressed",
+        "Holding weapon"
+      ],
+      "discrepancies": [
+        "OSP setting 'Cooldown' not mentioned in docs",
+        "OSP setting 'Mouse pressed' not mentioned in docs",
+        "OSP setting 'Cooldown' not mentioned in docs",
+        "OSP setting 'Color' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Mouse pressed' not mentioned in docs",
+        "Docs setting 'Real position indicator' has no matching OSP label",
+        "Docs setting 'Disable on hit' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Blink",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/blink/",
+      "docs_settings": [
+        "Direction",
+        "Maximum duration",
+        "Disable on"
+      ],
+      "osp_settings": [
+        "Direction",
+        "Maximum duration",
+        "Attack",
+        "Block dig",
+        "Block interact"
+      ],
+      "discrepancies": [
+        "OSP setting 'Direction' not mentioned in docs",
+        "OSP setting 'Attack' not mentioned in docs",
+        "Docs setting 'Disable on' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Block ESP",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/block-esp/",
+      "docs_settings": [
+        "Range",
+        "Limit per chunk",
+        "Block types",
+        "Customization"
+      ],
+      "osp_settings": [
+        "Range",
+        "Block types",
+        "Enabled",
+        "Line width",
+        "Range",
+        "Block types",
+        "Enabled",
+        "Limit per chunk",
+        "Line width"
+      ],
+      "discrepancies": [
+        "OSP setting 'Enabled' not mentioned in docs",
+        "OSP setting 'Enabled' not mentioned in docs",
+        "Docs setting 'Customization' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Block In",
+      "category": "Block",
+      "docs_url": "https://docs.slinky.gg/modules/block/block-in/",
+      "docs_settings": [
+        "Speed",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Speed",
+        "On ground"
+      ],
+      "discrepancies": [
+        "OSP setting 'Speed' not mentioned in docs",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Chest ESP",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/chest-esp/",
+      "docs_settings": [
+        "Range",
+        "Target",
+        "Line width",
+        "Filled",
+        "Colors"
+      ],
+      "osp_settings": [
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Beacons",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Trapped chests",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Trapped chests",
+        "Beacons",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Ender chests",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Ender chests",
+        "Beacons",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Ender chests",
+        "Trapped chests",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Regular chests",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Regular chests",
+        "Beacons",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Regular chests",
+        "Trapped chests",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Regular chests",
+        "Trapped chests",
+        "Beacons",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Regular chests",
+        "Ender chests",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Regular chests",
+        "Ender chests",
+        "Beacons",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Filled",
+        "Range",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Line width",
+        "Regular chests",
+        "Ender chests",
+        "Trapped chests",
+        "Beacons",
+        "Filled"
+      ],
+      "discrepancies": [
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Beacons' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "Docs setting 'Target' has no matching OSP label",
+        "Docs setting 'Colors' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Clutch",
+      "category": "Block",
+      "docs_url": "https://docs.slinky.gg/modules/block/clutch/",
+      "docs_settings": [
+        "Range",
+        "FOV",
+        "Minimum height",
+        "Click speed",
+        "Randomization",
+        "No",
+        "On depletion",
+        "Always",
+        "Only place sideways",
+        "Base speed",
+        "Acceleration",
+        "Acceleration strength",
+        "Multipoint",
+        "Delay",
+        "Duration",
+        "Keep jump direction",
+        "Disable afterwards",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Range",
+        "FOV",
+        "Minimum height",
+        "Click speed",
+        "Randomization",
+        "Select blocks",
+        "Only place sideways",
+        "Base speed",
+        "Acceleration",
+        "Acceleration strength",
+        "Multipoint",
+        "Delay",
+        "Duration",
+        "Keep jump direction",
+        "Disable afterwards",
+        "In air",
+        "Damaged",
+        "Moving backwards"
+      ],
+      "discrepancies": [
+        "OSP setting 'Range' not mentioned in docs",
+        "OSP setting 'FOV' not mentioned in docs",
+        "OSP setting 'Acceleration' not mentioned in docs",
+        "OSP setting 'Multipoint' not mentioned in docs",
+        "OSP setting 'Delay' not mentioned in docs",
+        "OSP setting 'Damaged' not mentioned in docs",
+        "Docs setting 'No' has no matching OSP label",
+        "Docs setting 'On depletion' has no matching OSP label",
+        "Docs setting 'Always' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Fake Lag",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/fake-lag/",
+      "docs_settings": [
+        "Static",
+        "Pulse",
+        "Delay",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Mode",
+        "Inbound",
+        "Outbound",
+        "Realtime damage",
+        "Holding weapon",
+        "Attacked",
+        "In-game"
+      ],
+      "discrepancies": [
+        "OSP setting 'Inbound' not mentioned in docs",
+        "OSP setting 'Outbound' not mentioned in docs",
+        "OSP setting 'In-game' not mentioned in docs",
+        "Docs setting 'Static' has no matching OSP label",
+        "Docs setting 'Pulse' has no matching OSP label",
+        "Docs setting 'Delay' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Fast Accel",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/fast-accel/",
+      "docs_settings": [
+        "Boost",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Boost",
+        "Not damaged",
+        "Holding weapon"
+      ],
+      "discrepancies": [
+        "OSP setting 'Boost' not mentioned in docs",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Free Look",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/free-look/",
+      "docs_settings": [
+        "Switch to"
+      ],
+      "osp_settings": [
+        "Switch to"
+      ],
+      "discrepancies": [
+        "OSP setting 'Switch to' not mentioned in docs"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "GUI",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/gui/",
+      "docs_settings": [
+        "Scale",
+        "Accent color",
+        "Allow input while open",
+        "Compact",
+        "Wide"
+      ],
+      "osp_settings": [
+        "Scale",
+        "Accent color",
+        "Allow input while open",
+        "Compact",
+        "Wide"
+      ],
+      "discrepancies": [
+        "OSP setting 'Compact' not mentioned in docs",
+        "OSP setting 'Wide' not mentioned in docs"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Ghost Hand",
+      "category": "Block",
+      "docs_url": "https://docs.slinky.gg/modules/block/ghost-hand/",
+      "docs_settings": [
+        "Non-player entities",
+        "Friendlies",
+        "Bots",
+        "Enemies",
+        "Allow while using",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Non-player entities",
+        "Friendlies",
+        "Bots",
+        "Enemies",
+        "Sword",
+        "Tool",
+        "Fists",
+        "Bucket",
+        "Flint and steel",
+        "Cobweb",
+        "Other",
+        "Mouse pressed"
+      ],
+      "discrepancies": [
+        "OSP setting 'Friendlies' not mentioned in docs",
+        "OSP setting 'Bots' not mentioned in docs",
+        "OSP setting 'Enemies' not mentioned in docs",
+        "OSP setting 'Tool' not mentioned in docs",
+        "OSP setting 'Fists' not mentioned in docs",
+        "OSP setting 'Bucket' not mentioned in docs",
+        "OSP setting 'Cobweb' not mentioned in docs",
+        "Docs setting 'Allow while using' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Hit Select",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/hit-select/",
+      "docs_settings": [
+        "Pause duration",
+        "Burst",
+        "Criticals",
+        "Use server attack time",
+        "Fake swing",
+        "In combat",
+        "Missed swings"
+      ],
+      "osp_settings": [
+        "Mode",
+        "Pause duration",
+        "Wait for first hit",
+        "Hit later in trades",
+        "Use server attack time",
+        "Fake swing",
+        "In combat",
+        "Missed swings",
+        "Sprinting",
+        "Holding weapon",
+        "Mode",
+        "Pause duration",
+        "Use server attack time",
+        "Fake swing",
+        "Disable during knockback",
+        "Only while damaged",
+        "In combat",
+        "Missed swings",
+        "Sprinting",
+        "Holding weapon"
+      ],
+      "discrepancies": [
+        "OSP setting 'Sprinting' not mentioned in docs",
+        "OSP setting 'Holding weapon' not mentioned in docs",
+        "OSP setting 'Sprinting' not mentioned in docs",
+        "OSP setting 'Holding weapon' not mentioned in docs",
+        "Docs setting 'Burst' has no matching OSP label",
+        "Docs setting 'Criticals' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Indicators",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/indicators/",
+      "docs_settings": [
+        "Warn for",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Scale",
+        "Radius",
+        "Arrows",
+        "Fireballs",
+        "Ender pearls",
+        "Coming closer"
+      ],
+      "discrepancies": [
+        "OSP setting 'Scale' not mentioned in docs",
+        "OSP setting 'Radius' not mentioned in docs",
+        "OSP setting 'Arrows' not mentioned in docs",
+        "OSP setting 'Fireballs' not mentioned in docs",
+        "Docs setting 'Warn for' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Keep Sprint",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/keep-sprint/",
+      "docs_settings": [
+        "Chance",
+        "Retained speed",
+        "Allow reducing"
+      ],
+      "osp_settings": [
+        "Chance",
+        "Retained speed",
+        "Allow reducing",
+        "On ground"
+      ],
+      "discrepancies": [
+        "OSP setting 'On ground' not mentioned in docs"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Knockback Delay",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/knockback-delay/",
+      "docs_settings": [
+        "Distance to target",
+        "Maximum delay",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Distance to target",
+        "Chance",
+        "Maximum delay",
+        "In air",
+        "Looking at player",
+        "Mouse pressed",
+        "Holding weapon"
+      ],
+      "discrepancies": [
+        "OSP setting 'Chance' not mentioned in docs",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Knockback Displace",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/knockback-displace/",
+      "docs_settings": [
+        "Left / Right / Random",
+        "Strafe",
+        "Strafe (inverted)",
+        "Use last strafe direction",
+        "Cooldown",
+        "Angle",
+        "Hide rotation from players",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Direction",
+        "Cooldown",
+        "Angle",
+        "Hide rotation from players",
+        "Not taking knockback",
+        "Holding weapon",
+        "Knockback enchantment",
+        "Target facing away",
+        "Direction",
+        "Cooldown",
+        "Angle",
+        "Hide rotation from players",
+        "Not taking knockback",
+        "Holding weapon",
+        "Knockback enchantment",
+        "Target facing away",
+        "Direction",
+        "Cooldown",
+        "Angle",
+        "Hide rotation from players",
+        "Not taking knockback",
+        "Holding weapon",
+        "Knockback enchantment",
+        "Target facing away",
+        "Direction",
+        "Use last strafe direction",
+        "Cooldown",
+        "Angle",
+        "Hide rotation from players",
+        "Not taking knockback",
+        "Holding weapon",
+        "Knockback enchantment",
+        "Target facing away",
+        "Direction",
+        "Use last strafe direction",
+        "Cooldown",
+        "Angle",
+        "Hide rotation from players",
+        "Not taking knockback",
+        "Holding weapon",
+        "Knockback enchantment",
+        "Target facing away"
+      ],
+      "discrepancies": [
+        "OSP setting 'Cooldown' not mentioned in docs",
+        "OSP setting 'Cooldown' not mentioned in docs",
+        "OSP setting 'Cooldown' not mentioned in docs",
+        "OSP setting 'Cooldown' not mentioned in docs",
+        "OSP setting 'Cooldown' not mentioned in docs",
+        "Docs setting 'Left / Right / Random' has no matching OSP label",
+        "Docs setting 'Strafe (inverted)' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Lag Range",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/lag-range/",
+      "docs_settings": [
+        "Maximum delay",
+        "Sprint reset",
+        "Used splash potion",
+        "Real position indicator",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Maximum delay",
+        "Sprint reset",
+        "Used splash potion",
+        "Enabled",
+        "Holding weapon",
+        "Maximum delay",
+        "Sprint reset",
+        "Used splash potion",
+        "Enabled",
+        "Color",
+        "Line width",
+        "Filled",
+        "Holding weapon"
+      ],
+      "discrepancies": [
+        "OSP setting 'Color' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "Docs setting 'Real position indicator' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Mod Overlay",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/mod-overlay/",
+      "docs_settings": [
+        "Visible categories",
+        "Text size",
+        "Padding X/Y",
+        "Rounding",
+        "Text color",
+        "Details color",
+        "Lowercase",
+        "Show details",
+        "Conditionals"
+      ],
+      "osp_settings": [
+        "Combat",
+        "Move",
+        "Block",
+        "Visual",
+        "Utility",
+        "Text size",
+        "Padding X",
+        "Padding Y",
+        "Rounding",
+        "Text color",
+        "Details color",
+        "Lowercase",
+        "Show details",
+        "Only bound modules"
+      ],
+      "discrepancies": [
+        "OSP setting 'Combat' not mentioned in docs",
+        "OSP setting 'Move' not mentioned in docs",
+        "OSP setting 'Block' not mentioned in docs",
+        "OSP setting 'Visual' not mentioned in docs",
+        "OSP setting 'Utility' not mentioned in docs",
+        "Docs setting 'Visible categories' has no matching OSP label",
+        "Docs setting 'Padding X/Y' has no matching OSP label",
+        "Docs setting 'Conditionals' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Name Tags",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/name-tags/",
+      "docs_settings": [
+        "Range",
+        "Scale",
+        "Show own name tag",
+        "Distance scaling",
+        "Background",
+        "Text shadow",
+        "Health",
+        "Distance",
+        "Equipment",
+        "Enchantments"
+      ],
+      "osp_settings": [
+        "Range",
+        "Scale",
+        "Show own name tag",
+        "Use display name format",
+        "Distance scaling",
+        "Text background",
+        "Text shadow",
+        "Health",
+        "Distance",
+        "Equipment",
+        "Range",
+        "Scale",
+        "Show own name tag",
+        "Use display name format",
+        "Distance scaling",
+        "Text background",
+        "Text shadow",
+        "Health",
+        "Distance",
+        "Equipment",
+        "Enchantments",
+        "Range",
+        "Scale",
+        "Show own name tag",
+        "Use display name format",
+        "Distance scaling",
+        "Text background",
+        "Text shadow",
+        "Health",
+        "Health format",
+        "Distance",
+        "Equipment",
+        "Range",
+        "Scale",
+        "Show own name tag",
+        "Use display name format",
+        "Distance scaling",
+        "Text background",
+        "Text shadow",
+        "Health",
+        "Health format",
+        "Distance",
+        "Equipment",
+        "Enchantments"
+      ],
+      "discrepancies": [
+        "OSP setting 'Scale' not mentioned in docs",
+        "OSP setting 'Scale' not mentioned in docs",
+        "OSP setting 'Scale' not mentioned in docs",
+        "OSP setting 'Scale' not mentioned in docs"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "No Item Release",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/no-item-release/",
+      "docs_settings": [
+        "Consumable",
+        "Sword",
+        "All"
+      ],
+      "osp_settings": [
+        "Mode"
+      ],
+      "discrepancies": [
+        "OSP setting 'Mode' not mentioned in docs",
+        "Docs setting 'Consumable' has no matching OSP label",
+        "Docs setting 'Sword' has no matching OSP label",
+        "Docs setting 'All' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "No Slow",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/no-slow/",
+      "docs_settings": [
+        "Retained speed"
+      ],
+      "osp_settings": [
+        "Sword",
+        "Bow",
+        "Consumables"
+      ],
+      "discrepancies": [
+        "OSP setting 'Consumables' not mentioned in docs",
+        "Docs setting 'Retained speed' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Notifications",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/notifications/",
+      "docs_settings": [
+        "Hide if",
+        "Visible mod categories"
+      ],
+      "osp_settings": [
+        "In-game",
+        "Hold bind is used",
+        "Module is bind-only",
+        "Combat",
+        "Move",
+        "Block",
+        "Visual",
+        "Utility"
+      ],
+      "discrepancies": [
+        "OSP setting 'In-game' not mentioned in docs",
+        "OSP setting 'Combat' not mentioned in docs",
+        "OSP setting 'Move' not mentioned in docs",
+        "OSP setting 'Block' not mentioned in docs",
+        "OSP setting 'Visual' not mentioned in docs",
+        "OSP setting 'Utility' not mentioned in docs",
+        "Docs setting 'Hide if' has no matching OSP label",
+        "Docs setting 'Visible mod categories' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Piercing",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/piercing/",
+      "docs_settings": [
+        "Sort targets by",
+        "Non-player entities",
+        "Friendlies",
+        "Bots",
+        "Enemies",
+        "Blocks",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Sort targets by",
+        "Non-player entities",
+        "Friendlies",
+        "Bots",
+        "Enemies",
+        "Blocks",
+        "Holding weapon",
+        "Inside entity hitbox"
+      ],
+      "discrepancies": [
+        "OSP setting 'Bots' not mentioned in docs",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Player ESP",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/player-esp/",
+      "docs_settings": [
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Hurt effect",
+        "Line width",
+        "Filled",
+        "Colors"
+      ],
+      "osp_settings": [
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Override target color",
+        "Line width",
+        "Show box",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Override target color",
+        "Line width",
+        "Show box",
+        "Filled",
+        "Hurt effect",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Override target color",
+        "Target color",
+        "Line width",
+        "Show box",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Override target color",
+        "Target color",
+        "Line width",
+        "Show box",
+        "Filled",
+        "Hurt effect",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Enemy color",
+        "Friendly color",
+        "Override target color",
+        "Line width",
+        "Show box",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Enemy color",
+        "Friendly color",
+        "Override target color",
+        "Line width",
+        "Show box",
+        "Filled",
+        "Hurt effect",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Enemy color",
+        "Friendly color",
+        "Override target color",
+        "Target color",
+        "Line width",
+        "Show box",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Enemy color",
+        "Friendly color",
+        "Override target color",
+        "Target color",
+        "Line width",
+        "Show box",
+        "Filled",
+        "Hurt effect",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Override target color",
+        "Line width",
+        "Show box",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Override target color",
+        "Line width",
+        "Show box",
+        "Filled",
+        "Hurt effect",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Override target color",
+        "Target color",
+        "Line width",
+        "Show box",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Override target color",
+        "Target color",
+        "Line width",
+        "Show box",
+        "Filled",
+        "Hurt effect",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Enemy color",
+        "Override target color",
+        "Line width",
+        "Show box",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Enemy color",
+        "Override target color",
+        "Line width",
+        "Show box",
+        "Filled",
+        "Hurt effect",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Enemy color",
+        "Override target color",
+        "Target color",
+        "Line width",
+        "Show box",
+        "Show health bar",
+        "Range",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Enemy color",
+        "Override target color",
+        "Target color",
+        "Line width",
+        "Show box",
+        "Filled",
+        "Hurt effect",
+        "Show health bar"
+      ],
+      "discrepancies": [
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs",
+        "OSP setting 'Filled' not mentioned in docs"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Pointers",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/pointers/",
+      "docs_settings": [
+        "Range",
+        "Ignore within FOV",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Transition between",
+        "Scale",
+        "Radius",
+        "Distance-based radius"
+      ],
+      "osp_settings": [
+        "Range",
+        "Ignore within FOV",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Transition between",
+        "Near color",
+        "Far color",
+        "Scale",
+        "Radius",
+        "Distance-based radius",
+        "Range",
+        "Ignore within FOV",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Transition between",
+        "Scale",
+        "Radius",
+        "Distance-based radius",
+        "Range",
+        "Ignore within FOV",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Transition between",
+        "Enemy color",
+        "Friendly color",
+        "Scale",
+        "Radius",
+        "Distance-based radius",
+        "Range",
+        "Ignore within FOV",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Transition between",
+        "Near color",
+        "Far color",
+        "Scale",
+        "Radius",
+        "Distance-based radius",
+        "Range",
+        "Ignore within FOV",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Transition between",
+        "Scale",
+        "Radius",
+        "Distance-based radius",
+        "Range",
+        "Ignore within FOV",
+        "Hide friendlies",
+        "Style",
+        "Colors",
+        "Transition between",
+        "Enemy color",
+        "Scale",
+        "Radius",
+        "Distance-based radius"
+      ],
+      "discrepancies": [
+        "OSP setting 'Scale' not mentioned in docs",
+        "OSP setting 'Scale' not mentioned in docs",
+        "OSP setting 'Scale' not mentioned in docs",
+        "OSP setting 'Scale' not mentioned in docs",
+        "OSP setting 'Scale' not mentioned in docs",
+        "OSP setting 'Scale' not mentioned in docs"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Refill",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/refill/",
+      "docs_settings": [
+        "Use non-health potions",
+        "Simulate button",
+        "Delay after open",
+        "Delay before close",
+        "Speed",
+        "Smart speed"
+      ],
+      "osp_settings": [
+        "Potions",
+        "Soups",
+        "Simulate button",
+        "Delay after open",
+        "Delay before close",
+        "Speed",
+        "Smart speed",
+        "Potions",
+        "Allow non-health potions",
+        "Soups",
+        "Simulate button",
+        "Delay after open",
+        "Delay before close",
+        "Speed",
+        "Smart speed"
+      ],
+      "discrepancies": [
+        "OSP setting 'Soups' not mentioned in docs",
+        "OSP setting 'Soups' not mentioned in docs"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Safe Walk",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/safe-walk/",
+      "docs_settings": [
+        "Motion",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Motion",
+        "Holding blocks",
+        "Looking down",
+        "Not moving forward"
+      ],
+      "discrepancies": [
+        "OSP setting 'Motion' not mentioned in docs",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Sprint",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/sprint/",
+      "docs_settings": [
+        "Allow while"
+      ],
+      "osp_settings": [
+        "Using item",
+        "Backwards",
+        "Sideways",
+        "In inventory"
+      ],
+      "discrepancies": [
+        "OSP setting 'Backwards' not mentioned in docs",
+        "OSP setting 'Sideways' not mentioned in docs",
+        "Docs setting 'Allow while' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Sprint Reset",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/sprint-reset/",
+      "docs_settings": [
+        "WTap",
+        "Sneak",
+        "NoStop",
+        "Delay after attack",
+        "Stop duration",
+        "Randomize",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Mode",
+        "Delay",
+        "Stop duration",
+        "Randomize",
+        "Damaged",
+        "Holding weapon"
+      ],
+      "discrepancies": [
+        "OSP setting 'Damaged' not mentioned in docs",
+        "Docs setting 'WTap' has no matching OSP label",
+        "Docs setting 'Sneak' has no matching OSP label",
+        "Docs setting 'NoStop' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Timer",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/timer/",
+      "docs_settings": [
+        "Speed",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Speed",
+        "Mouse pressed",
+        "Damage",
+        "Falling"
+      ],
+      "discrepancies": [
+        "OSP setting 'Falling' not mentioned in docs",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Timer Range",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/timer-range/",
+      "docs_settings": [
+        "Regular",
+        "Legit",
+        "Duration",
+        "Cooldown",
+        "Block while frozen",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Mode",
+        "Minimum distance",
+        "Duration",
+        "Cooldown",
+        "Block while frozen",
+        "Mouse pressed",
+        "Holding weapon",
+        "Not using item",
+        "Mode",
+        "Minimum distance",
+        "Duration",
+        "Cooldown",
+        "Mouse pressed",
+        "Holding weapon",
+        "Not using item"
+      ],
+      "discrepancies": [
+        "OSP setting 'Cooldown' not mentioned in docs",
+        "OSP setting 'Cooldown' not mentioned in docs",
+        "Docs setting 'Regular' has no matching OSP label",
+        "Docs setting 'Legit' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Trajectories",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/trajectories/",
+      "docs_settings": [
+        "Line width",
+        "Colors",
+        "Render uncharged bow"
+      ],
+      "osp_settings": [
+        "Line width",
+        "Hit color",
+        "Miss color",
+        "Snowballs/eggs",
+        "Enderpearls",
+        "Bow",
+        "Line width",
+        "Hit color",
+        "Miss color",
+        "Snowballs/eggs",
+        "Enderpearls",
+        "Bow",
+        "Bow (uncharged)"
+      ],
+      "discrepancies": [
+        "OSP setting 'Snowballs/eggs' not mentioned in docs",
+        "OSP setting 'Enderpearls' not mentioned in docs",
+        "OSP setting 'Snowballs/eggs' not mentioned in docs",
+        "OSP setting 'Enderpearls' not mentioned in docs",
+        "Docs setting 'Colors' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Velocity",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/velocity/",
+      "docs_settings": [
+        "Regular",
+        "Jump",
+        "Reduce",
+        "Ignore",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Mode",
+        "Chance",
+        "FOV",
+        "Reduce to",
+        "Reduce delay",
+        "Looking at player",
+        "Mouse pressed",
+        "Moving forward",
+        "Holding weapon",
+        "Mode",
+        "Chance",
+        "Looking at player",
+        "Mouse pressed",
+        "Moving forward",
+        "Holding weapon",
+        "Sprinting",
+        "Mode",
+        "Allow for double-clicks",
+        "Moving forward",
+        "Holding weapon",
+        "Mode",
+        "Ignore vertical",
+        "Chance",
+        "Looking at player",
+        "Mouse pressed",
+        "Moving forward",
+        "Holding weapon"
+      ],
+      "discrepancies": [
+        "OSP setting 'FOV' not mentioned in docs",
+        "OSP setting 'Sprinting' not mentioned in docs",
+        "Docs setting 'Regular' has no matching OSP label",
+        "Docs setting 'Jump' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Weapons",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/weapons/",
+      "docs_settings": [
+        "Item types",
+        "Enchantments",
+        "Hotbar slots"
+      ],
+      "osp_settings": [
+        "Fist",
+        "Swords",
+        "Axes",
+        "Extra",
+        "Sharpness",
+        "Knockback",
+        "Fire aspect",
+        "Slot 1",
+        "Slot 2",
+        "Slot 3",
+        "Slot 4",
+        "Slot 5",
+        "Slot 6",
+        "Slot 7",
+        "Slot 8",
+        "Slot 9"
+      ],
+      "discrepancies": [
+        "OSP setting 'Fist' not mentioned in docs",
+        "OSP setting 'Swords' not mentioned in docs",
+        "OSP setting 'Axes' not mentioned in docs",
+        "OSP setting 'Extra' not mentioned in docs",
+        "OSP setting 'Sharpness' not mentioned in docs",
+        "OSP setting 'Knockback' not mentioned in docs",
+        "OSP setting 'Fire aspect' not mentioned in docs",
+        "Docs setting 'Item types' has no matching OSP label",
+        "Docs setting 'Enchantments' has no matching OSP label",
+        "Docs setting 'Hotbar slots' has no matching OSP label"
+      ],
+      "severity": "high"
+    },
+    {
+      "module": "Chest Stealer",
+      "category": "unknown",
+      "docs_url": null,
+      "discrepancies": [
+        "OSP module not found in docs"
+      ],
+      "severity": "medium"
+    },
+    {
+      "module": "Debug",
+      "category": "unknown",
+      "docs_url": null,
+      "discrepancies": [
+        "OSP module not found in docs"
+      ],
+      "severity": "medium"
+    },
+    {
+      "module": "Speed",
+      "category": "unknown",
+      "docs_url": null,
+      "discrepancies": [
+        "OSP module not found in docs"
+      ],
+      "severity": "medium"
+    },
+    {
+      "module": "Anti Bot",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/anti-bot/",
+      "docs_settings": [
+        "Invalid UUID",
+        "Always invisible",
+        "Always stationary",
+        "Sleeping",
+        "Entity age"
+      ],
+      "osp_settings": [
+        "Invalid UUID",
+        "Invalid username",
+        "Always invisible",
+        "Always stationary",
+        "Sleeping",
+        "Minimum entity age"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Auto Pot",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/auto-pot/",
+      "docs_settings": [
+        "Delay between actions",
+        "Prevent wasting health",
+        "Automatically do multiple splashes",
+        "Use non-health potions"
+      ],
+      "osp_settings": [
+        "Delay between actions",
+        "Prevent wasting health",
+        "Automatically do multiple splashes",
+        "Use non-health potions"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Auto Rod",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/auto-rod/",
+      "docs_settings": [
+        "Retract speed",
+        "Delay between actions",
+        "Randomize delays",
+        "Always switch back to weapon",
+        "Allow using snowballs/eggs",
+        "Throw speed",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Retract speed",
+        "Delay between actions",
+        "Randomize delays",
+        "Always switch back to weapon",
+        "Allow using snowballs/eggs",
+        "Throw speed",
+        "Not within melee range"
+      ],
+      "discrepancies": [
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "low"
+    },
+    {
+      "module": "Auto Weapon",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/auto-weapon/",
+      "docs_settings": [
+        "Activation time",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Activation time",
+        "Mouse pressed"
+      ],
+      "discrepancies": [
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "low"
+    },
+    {
+      "module": "Bridge Assist",
+      "category": "Block",
+      "docs_url": "https://docs.slinky.gg/modules/block/bridge-assist/",
+      "docs_settings": [
+        "Edge offset",
+        "Unsneak delay",
+        "No",
+        "On depletion",
+        "Always",
+        "Randomize",
+        "Sneak on jump",
+        "Avoid double-sneaking",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Edge offset",
+        "Unsneak delay",
+        "Select blocks",
+        "Randomize",
+        "Sneak on jump",
+        "Avoid double-sneaking",
+        "Sneak key pressed",
+        "Holding blocks",
+        "Looking down",
+        "Not moving forward"
+      ],
+      "discrepancies": [
+        "Docs setting 'On depletion' has no matching OSP label",
+        "Docs setting 'Always' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "low"
+    },
+    {
+      "module": "Chams",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/chams/",
+      "docs_settings": [
+        "Hide friendlies"
+      ],
+      "osp_settings": [
+        "Hide friendlies"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Criticals",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/criticals/",
+      "docs_settings": [
+        "Packet",
+        "Timer",
+        "Chance",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Mode",
+        "Chance",
+        "Maximum delay",
+        "Holding weapon",
+        "Mouse pressed",
+        "Mode",
+        "Chance",
+        "Timer speed",
+        "Boost",
+        "Holding weapon",
+        "Mouse pressed"
+      ],
+      "discrepancies": [
+        "Docs setting 'Packet' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "low"
+    },
+    {
+      "module": "Fast Mine",
+      "category": "Block",
+      "docs_url": "https://docs.slinky.gg/modules/block/fast-mine/",
+      "docs_settings": [
+        "Speed",
+        "Break delay",
+        "Always decrease break delay"
+      ],
+      "osp_settings": [
+        "Speed",
+        "Break delay",
+        "Always decrease break delay"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Fast Place",
+      "category": "Block",
+      "docs_url": "https://docs.slinky.gg/modules/block/fast-place/",
+      "docs_settings": [
+        "Maximum CPS",
+        "Activate delay"
+      ],
+      "osp_settings": [
+        "Maximum CPS",
+        "Activate delay"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Friends",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/friends/",
+      "docs_settings": [
+        "Middle-click to add"
+      ],
+      "osp_settings": [
+        "Middle-click to add"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Hitboxes",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/hitboxes/",
+      "docs_settings": [
+        "Expand"
+      ],
+      "osp_settings": [
+        "Expand"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Instant Stop",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/instant-stop/",
+      "docs_settings": [],
+      "osp_settings": [],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Inv Manager",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/inv-manager/",
+      "docs_settings": [
+        "Delay after open",
+        "Speed",
+        "Smart speed",
+        "Randomize",
+        "Equip armor",
+        "Smart fallbacks"
+      ],
+      "osp_settings": [
+        "Delay after open",
+        "Speed",
+        "Smart speed",
+        "Randomize",
+        "Enabled",
+        "Enabled",
+        "Delay after open",
+        "Speed",
+        "Smart speed",
+        "Randomize",
+        "Enabled",
+        "Enabled",
+        "Smart fallbacks",
+        "Slot 1",
+        "Slot 2",
+        "Slot 3",
+        "Slot 4",
+        "Slot 5",
+        "Slot 6",
+        "Slot 7",
+        "Slot 8",
+        "Slot 9"
+      ],
+      "discrepancies": [
+        "Docs setting 'Equip armor' has no matching OSP label"
+      ],
+      "severity": "low"
+    },
+    {
+      "module": "Inv Walk",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/inv-walk/",
+      "docs_settings": [
+        "Vanilla",
+        "Spoof"
+      ],
+      "osp_settings": [
+        "Mode",
+        "Mode",
+        "Mode",
+        "Mode",
+        "Stop on interact",
+        "Stop duration",
+        "Always stop",
+        "Mode",
+        "Stop on interact",
+        "Stop duration",
+        "Always stop",
+        "Mode",
+        "Stop on interact",
+        "Always stop"
+      ],
+      "discrepancies": [
+        "Docs setting 'Vanilla' has no matching OSP label",
+        "Docs setting 'Spoof' has no matching OSP label"
+      ],
+      "severity": "low"
+    },
+    {
+      "module": "Item ESP",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/item-esp/",
+      "docs_settings": [
+        "Range",
+        "Show count",
+        "Item types",
+        "Highlight all items"
+      ],
+      "osp_settings": [
+        "Range",
+        "Show count",
+        "Item types",
+        "Highlight all items",
+        "Range",
+        "Show count",
+        "Item types",
+        "Highlight all items",
+        "Default color"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Item Use Fix",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/item-use-fix/",
+      "docs_settings": [],
+      "osp_settings": [],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "No Hit Delay",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/no-hit-delay/",
+      "docs_settings": [
+        "Regular",
+        "Legit"
+      ],
+      "osp_settings": [
+        "Mode"
+      ],
+      "discrepancies": [
+        "Docs setting 'Regular' has no matching OSP label",
+        "Docs setting 'Legit' has no matching OSP label"
+      ],
+      "severity": "low"
+    },
+    {
+      "module": "No Hurt Cam",
+      "category": "Visual",
+      "docs_url": "https://docs.slinky.gg/modules/visual/no-hurt-cam/",
+      "docs_settings": [],
+      "osp_settings": [],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "No Jump Delay",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/no-jump-delay/",
+      "docs_settings": [],
+      "osp_settings": [],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "No Use Delay",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/no-use-delay/",
+      "docs_settings": [
+        "Allow desync abuse"
+      ],
+      "osp_settings": [
+        "Allow desync abuse"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Null Move",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/null-move/",
+      "docs_settings": [],
+      "osp_settings": [],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Ping Fix",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/ping-fix/",
+      "docs_settings": [],
+      "osp_settings": [],
+      "discrepancies": [],
+      "severity": "none"
+    },
+    {
+      "module": "Reach",
+      "category": "Combat",
+      "docs_url": "https://docs.slinky.gg/modules/combat/reach/",
+      "docs_settings": [
+        "Distance",
+        "Activate for",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Distance",
+        "Activate for",
+        "Sprinting"
+      ],
+      "discrepancies": [
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "low"
+    },
+    {
+      "module": "Strafe",
+      "category": "Move",
+      "docs_url": "https://docs.slinky.gg/modules/move/strafe/",
+      "docs_settings": [
+        "Strength",
+        "Conditions"
+      ],
+      "osp_settings": [
+        "Jump",
+        "Ground",
+        "Air",
+        "Maximum hurt time",
+        "Holding weapon"
+      ],
+      "discrepancies": [
+        "Docs setting 'Strength' has no matching OSP label",
+        "Docs setting 'Conditions' has no matching OSP label"
+      ],
+      "severity": "low"
+    },
+    {
+      "module": "Teams",
+      "category": "Utility",
+      "docs_url": "https://docs.slinky.gg/modules/utility/teams/",
+      "docs_settings": [
+        "Match own nametag",
+        "Colors"
+      ],
+      "osp_settings": [
+        "Match own nametag",
+        "Colors"
+      ],
+      "discrepancies": [],
+      "severity": "none"
+    }
+  ]
+}

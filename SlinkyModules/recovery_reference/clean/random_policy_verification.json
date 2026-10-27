@@ -1,0 +1,3813 @@
+{
+  "passed": true,
+  "total_cases": 731,
+  "historical_cases": 143,
+  "historical_inputs": [
+    {
+      "name": "a6d0_first",
+      "draw_a7c9_plus8": 1,
+      "draw_a720_plus12": 1
+    },
+    {
+      "name": "a6d0_retry_first",
+      "draw_a7c9_plus8": 3,
+      "draw_a720_plus12": 3
+    },
+    {
+      "name": "a6d0_existing",
+      "draw_a7c9_plus8": 0,
+      "draw_a720_plus12": 1
+    },
+    "a510_no_clamp",
+    "a510_lazy",
+    "a510_reject",
+    {
+      "name": "a6d0_seed_0",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_1",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_2",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_3",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_4",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 3
+    },
+    {
+      "name": "a6d0_seed_5",
+      "first": 1,
+      "draw8": 2,
+      "draw12": 2
+    },
+    {
+      "name": "a6d0_seed_6",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 2
+    },
+    {
+      "name": "a6d0_seed_7",
+      "first": 1,
+      "draw8": 3,
+      "draw12": 3
+    },
+    {
+      "name": "a6d0_seed_8",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_9",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_10",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_11",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_12",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 4
+    },
+    {
+      "name": "a6d0_seed_13",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_14",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_15",
+      "first": 1,
+      "draw8": 2,
+      "draw12": 2
+    },
+    {
+      "name": "a6d0_seed_16",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_17",
+      "first": 1,
+      "draw8": 3,
+      "draw12": 3
+    },
+    {
+      "name": "a6d0_seed_18",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_19",
+      "first": 1,
+      "draw8": 3,
+      "draw12": 3
+    },
+    {
+      "name": "a6d0_seed_20",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_21",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_22",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_23",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_24",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_25",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_26",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 3
+    },
+    {
+      "name": "a6d0_seed_27",
+      "first": 1,
+      "draw8": 2,
+      "draw12": 2
+    },
+    {
+      "name": "a6d0_seed_28",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 2
+    },
+    {
+      "name": "a6d0_seed_29",
+      "first": 1,
+      "draw8": 2,
+      "draw12": 2
+    },
+    {
+      "name": "a6d0_seed_30",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_31",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_32",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_33",
+      "first": 1,
+      "draw8": 5,
+      "draw12": 5
+    },
+    {
+      "name": "a6d0_seed_34",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_35",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_36",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_37",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_38",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_39",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_40",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 2
+    },
+    {
+      "name": "a6d0_seed_41",
+      "first": 1,
+      "draw8": 2,
+      "draw12": 2
+    },
+    {
+      "name": "a6d0_seed_42",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_43",
+      "first": 1,
+      "draw8": 2,
+      "draw12": 2
+    },
+    {
+      "name": "a6d0_seed_44",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_45",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_46",
+      "first": 0,
+      "draw8": 0,
+      "draw12": 1
+    },
+    {
+      "name": "a6d0_seed_47",
+      "first": 1,
+      "draw8": 1,
+      "draw12": 1
+    },
+    {
+      "name": "a510_no_refresh_positive_0",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_no_refresh_positive_1",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_no_refresh_positive_2",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_no_refresh_positive_3",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_no_refresh_positive_4",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_no_refresh_positive_5",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_no_refresh_positive_6",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_no_refresh_positive_7",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_equal_sum_0",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_equal_sum_1",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_equal_sum_2",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_equal_sum_3",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_equal_sum_4",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_equal_sum_5",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_equal_sum_6",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_equal_sum_7",
+      "refresh_expected": false,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_positive_0",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_positive_1",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_positive_2",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_positive_3",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_positive_4",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_positive_5",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_positive_6",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_positive_7",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_zero_duration_0",
+      "refresh_expected": true,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_refresh_zero_duration_1",
+      "refresh_expected": true,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_refresh_zero_duration_2",
+      "refresh_expected": true,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_refresh_zero_duration_3",
+      "refresh_expected": true,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_refresh_zero_duration_4",
+      "refresh_expected": true,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_refresh_zero_duration_5",
+      "refresh_expected": true,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_refresh_zero_duration_6",
+      "refresh_expected": true,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_refresh_zero_duration_7",
+      "refresh_expected": true,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_refresh_negative_duration_0",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_negative_duration_1",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_negative_duration_2",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_negative_duration_3",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_negative_duration_4",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_negative_duration_5",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_negative_duration_6",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_refresh_negative_duration_7",
+      "refresh_expected": true,
+      "return_class": "finite"
+    },
+    {
+      "name": "a510_unordered_no_refresh_0",
+      "refresh_expected": false,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_unordered_no_refresh_1",
+      "refresh_expected": false,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_unordered_no_refresh_2",
+      "refresh_expected": false,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_unordered_no_refresh_3",
+      "refresh_expected": false,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_unordered_no_refresh_4",
+      "refresh_expected": false,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_unordered_no_refresh_5",
+      "refresh_expected": false,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_unordered_no_refresh_6",
+      "refresh_expected": false,
+      "return_class": "nan"
+    },
+    {
+      "name": "a510_unordered_no_refresh_7",
+      "refresh_expected": false,
+      "return_class": "nan"
+    },
+    "aa30",
+    {
+      "name": "aa30_bool_0",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_1",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_2",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_3",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_4",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_5",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_6",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_7",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_8",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_9",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_10",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_11",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_12",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_13",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_14",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_15",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_16",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_17",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_18",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_19",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_20",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_21",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_22",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_23",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_24",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_25",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_26",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_27",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_28",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_29",
+      "return_al": 1
+    },
+    {
+      "name": "aa30_bool_30",
+      "return_al": 0
+    },
+    {
+      "name": "aa30_bool_31",
+      "return_al": 1
+    },
+    "ab00_cached",
+    "ab00_retry_sqrt",
+    "ab00_negative_sqrt",
+    "ab00_nan_gate",
+    {
+      "name": "ab00_cache_byte_0",
+      "raw_cache_byte": 0,
+      "cache_hit": false
+    },
+    {
+      "name": "ab00_cache_byte_1",
+      "raw_cache_byte": 1,
+      "cache_hit": true
+    },
+    {
+      "name": "ab00_cache_byte_2",
+      "raw_cache_byte": 2,
+      "cache_hit": true
+    },
+    {
+      "name": "ab00_cache_byte_255",
+      "raw_cache_byte": 255,
+      "cache_hit": true
+    }
+  ],
+  "additional_cases": [
+    {
+      "name": "integer_reuse_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_1",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_2",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_3",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_4",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_5",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_6",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_7",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_8",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_9",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_10",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_11",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_12",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_13",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_14",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_15",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_16",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_17",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_18",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_19",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_20",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_21",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_22",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_23",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_24",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_25",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_26",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_27",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_28",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_29",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_30",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_31",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_32",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_33",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_34",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_35",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_36",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_37",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_38",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_39",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_40",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_41",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_42",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_43",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_44",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_45",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_46",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_47",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_48",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_49",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_50",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_51",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_52",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_53",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_54",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_55",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_56",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_57",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_58",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_59",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_60",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_61",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_62",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_63",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_64",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_65",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_66",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_67",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_68",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_69",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_70",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_71",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_72",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_73",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_74",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_75",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_76",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_77",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_78",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_79",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_80",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_81",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_82",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_83",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_84",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_85",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_86",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_87",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_88",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_89",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_90",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_91",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_92",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_93",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_94",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_95",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_96",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_97",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_98",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_99",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_100",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_101",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_102",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_103",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_104",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_105",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_106",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_107",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_108",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_109",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_110",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_111",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_112",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_113",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_114",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_115",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_116",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_117",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_118",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_119",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_120",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_121",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_122",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_123",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_124",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_125",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_126",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_127",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_128",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_129",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_130",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_131",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_132",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_133",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_134",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_135",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_136",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_137",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_138",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_139",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_140",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_141",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_142",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_143",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_144",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_145",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_146",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_147",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_148",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_149",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_150",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_151",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_152",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_153",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_154",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_155",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_156",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_157",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_158",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_159",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_160",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_161",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_162",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_163",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_164",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_165",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_166",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_167",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_168",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_169",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_170",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_171",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_172",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_173",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_174",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_175",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_176",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_177",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_178",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_179",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_180",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_181",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_182",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_183",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_184",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_185",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_186",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_187",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_188",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_189",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_190",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_191",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_192",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_193",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_194",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_195",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_196",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_197",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_198",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_199",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_200",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_201",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_202",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_203",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_204",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_205",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_206",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_207",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_208",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_209",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_210",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_211",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_212",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_213",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_214",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_215",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_216",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_217",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_218",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_219",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_220",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_221",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_222",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_223",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_224",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_225",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_226",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_227",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_228",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_229",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_230",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_231",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_232",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_233",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_234",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_235",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_236",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_237",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_238",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_239",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_240",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_241",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_242",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_243",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_244",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_245",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_246",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_247",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_248",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_249",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_250",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_251",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_252",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_253",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_254",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_256",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_257",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_258",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_259",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_260",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_261",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_262",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_263",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_264",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_265",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_266",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_267",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_268",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_269",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_270",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_271",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_272",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_273",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_274",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_275",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_276",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_277",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_278",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_279",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_280",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_281",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_282",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_283",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_284",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_285",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_286",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_287",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_288",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_289",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_290",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_291",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_292",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_293",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_294",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_295",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_296",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_297",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_298",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_299",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_300",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_301",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_302",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_303",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_304",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_305",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_306",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_307",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_308",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_309",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_310",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_311",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_312",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_313",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_314",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_315",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_316",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_317",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_318",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_319",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_320",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_321",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_322",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_323",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_324",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_325",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_326",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_327",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_328",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_329",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_330",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_331",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_332",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_333",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_334",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_335",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_336",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_337",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_338",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_339",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_340",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_341",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_342",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_343",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_344",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_345",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_346",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_347",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_348",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_349",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_350",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_351",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_352",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_353",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_354",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_355",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_356",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_357",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_358",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_359",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_360",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_361",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_362",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_363",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_364",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_365",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_366",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_367",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_368",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_369",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_370",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_371",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_372",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_373",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_374",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_375",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_376",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_377",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_378",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_379",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_380",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_381",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_382",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_383",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_384",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_385",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_386",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_387",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_388",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_389",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_390",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_391",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_392",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_393",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_394",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_395",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_396",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_397",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_398",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_399",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_400",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_401",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_402",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_403",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_404",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_405",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_406",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_407",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_408",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_409",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_410",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_411",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_412",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_413",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_414",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_415",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_416",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_417",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_418",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_419",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_420",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_421",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_422",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_423",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_424",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_425",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_426",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_427",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_428",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_429",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_430",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_431",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_432",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_433",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_434",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_435",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_436",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_437",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_438",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_439",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_440",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_441",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_442",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_443",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_444",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_445",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_446",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_447",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_448",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_449",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_450",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_451",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_452",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_453",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_454",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_455",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_456",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_457",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_458",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_459",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_460",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_461",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_462",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_463",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_464",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_465",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_466",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_467",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_468",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_469",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_470",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_471",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_472",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_473",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_474",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_475",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_476",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_477",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_478",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_479",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_480",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_481",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_482",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_483",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_484",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_485",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_486",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_487",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_488",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_489",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_490",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_491",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_492",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_493",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_494",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_495",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_496",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_497",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_498",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_499",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_500",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_501",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_502",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_503",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_504",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_505",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_506",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_507",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_508",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_509",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_510",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "integer_reuse_511",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_0_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_0_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_80000000_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_80000000_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_bf800000_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_bf800000_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_7f800000_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_7f800000_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_ff800000_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_ff800000_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_7fc12345_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e920_7fc12345_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_0_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_0_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_80000000_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_80000000_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_1_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_1_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_bf800000_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_bf800000_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_7f800000_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_7f800000_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_7fc12345_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e924_7fc12345_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e930_0_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e930_0_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e930_7fffffff_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e930_7fffffff_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e930_ffffffff_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e930_ffffffff_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e930_ff800000_0",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "initializer_constant_13e930_ff800000_255",
+      "rva": "0xa6d0",
+      "native_return": null
+    },
+    {
+      "name": "refresh_constants_bf800000_33800000_ffffffff",
+      "rva": "0xa510",
+      "native_return": "0x3f000000"
+    },
+    {
+      "name": "refresh_constants_7fc12345_33800000_7fffffff",
+      "rva": "0xa510",
+      "native_return": "0x7fc12345"
+    },
+    {
+      "name": "refresh_constants_3f800000_7f800000_ffffffff",
+      "rva": "0xa510",
+      "native_return": "0xffc00000"
+    },
+    {
+      "name": "refresh_constants_0_0_0",
+      "rva": "0xa510",
+      "native_return": "0x3f000000"
+    },
+    {
+      "name": "gate_constant_13e978_bf800000",
+      "rva": "0xaa30",
+      "native_return": "0x0"
+    },
+    {
+      "name": "gate_constant_13e978_7fc12345",
+      "rva": "0xaa30",
+      "native_return": "0x0"
+    },
+    {
+      "name": "gate_constant_13e97c_7fc12345",
+      "rva": "0xaa30",
+      "native_return": "0x0"
+    },
+    {
+      "name": "gate_constant_13e97c_80000000",
+      "rva": "0xaa30",
+      "native_return": "0x0"
+    },
+    {
+      "name": "gaussian_bank_0_mutation_0",
+      "rva": "0xab00",
+      "native_return": "0xbfddddde"
+    },
+    {
+      "name": "gaussian_bank_0_cache_after_0",
+      "rva": "0xab00",
+      "native_return": "0xbdd11160"
+    },
+    {
+      "name": "gaussian_bank_0_mutation_1",
+      "rva": "0xab00",
+      "native_return": "0xbfbf05ca"
+    },
+    {
+      "name": "gaussian_bank_0_cache_after_1",
+      "rva": "0xab00",
+      "native_return": "0x3fefccc4"
+    },
+    {
+      "name": "gaussian_bank_0_mutation_2",
+      "rva": "0xab00",
+      "native_return": "0x40266666"
+    },
+    {
+      "name": "gaussian_bank_0_cache_after_2",
+      "rva": "0xab00",
+      "native_return": "0x3e1ccd08"
+    },
+    {
+      "name": "gaussian_bank_0_mutation_3",
+      "rva": "0xab00",
+      "native_return": "0xbfddddde"
+    },
+    {
+      "name": "gaussian_bank_0_cache_after_3",
+      "rva": "0xab00",
+      "native_return": "0xbdd11160"
+    },
+    {
+      "name": "gaussian_bank_0_mutation_4",
+      "rva": "0xab00",
+      "native_return": "0x40266666"
+    },
+    {
+      "name": "gaussian_bank_0_cache_after_4",
+      "rva": "0xab00",
+      "native_return": "0x3e1ccd08"
+    },
+    {
+      "name": "gaussian_bank_1_mutation_0",
+      "rva": "0xab00",
+      "native_return": "0xbfddddde"
+    },
+    {
+      "name": "gaussian_bank_1_cache_after_0",
+      "rva": "0xab00",
+      "native_return": "0xbdd11160"
+    },
+    {
+      "name": "gaussian_bank_1_mutation_1",
+      "rva": "0xab00",
+      "native_return": "0xbfbf05ca"
+    },
+    {
+      "name": "gaussian_bank_1_cache_after_1",
+      "rva": "0xab00",
+      "native_return": "0x3fefccc4"
+    },
+    {
+      "name": "gaussian_bank_1_mutation_2",
+      "rva": "0xab00",
+      "native_return": "0x40266666"
+    },
+    {
+      "name": "gaussian_bank_1_cache_after_2",
+      "rva": "0xab00",
+      "native_return": "0x3e1ccd08"
+    },
+    {
+      "name": "gaussian_bank_1_mutation_3",
+      "rva": "0xab00",
+      "native_return": "0xbfddddde"
+    },
+    {
+      "name": "gaussian_bank_1_cache_after_3",
+      "rva": "0xab00",
+      "native_return": "0xbdd11160"
+    },
+    {
+      "name": "gaussian_bank_1_mutation_4",
+      "rva": "0xab00",
+      "native_return": "0x40266666"
+    },
+    {
+      "name": "gaussian_bank_1_cache_after_4",
+      "rva": "0xab00",
+      "native_return": "0x3e1ccd08"
+    }
+  ],
+  "independent_allocation_cases": [
+    {
+      "name": "independent_allocations_0",
+      "rva": "0xa510",
+      "duration": 0.125,
+      "return_bits": "0xc1687639"
+    },
+    {
+      "name": "independent_allocations_1",
+      "rva": "0xa510",
+      "duration": 0.25,
+      "return_bits": "0x3ee89880"
+    },
+    {
+      "name": "independent_allocations_2",
+      "rva": "0xa510",
+      "duration": 0.375,
+      "return_bits": "0xc0a9c784"
+    },
+    {
+      "name": "independent_allocations_3",
+      "rva": "0xa510",
+      "duration": 0.5,
+      "return_bits": "0x3f09fa38"
+    },
+    {
+      "name": "independent_allocations_4",
+      "rva": "0xa510",
+      "duration": 0.625,
+      "return_bits": "0xbfc5d871"
+    },
+    {
+      "name": "independent_allocations_5",
+      "rva": "0xa510",
+      "duration": 0.75,
+      "return_bits": "0x3f52983a"
+    },
+    {
+      "name": "independent_allocations_6",
+      "rva": "0xa510",
+      "duration": 0.875,
+      "return_bits": "0xbf2f718f"
+    },
+    {
+      "name": "independent_allocations_7",
+      "rva": "0xa510",
+      "duration": 1.0,
+      "return_bits": "0x3e968ae6"
+    },
+    {
+      "name": "independent_allocations_8",
+      "rva": "0xa510",
+      "duration": 1.125,
+      "return_bits": "0xc0077559"
+    },
+    {
+      "name": "independent_allocations_9",
+      "rva": "0xa510",
+      "duration": 1.25,
+      "return_bits": "0x3e58b413"
+    },
+    {
+      "name": "independent_allocations_10",
+      "rva": "0xa510",
+      "duration": 1.375,
+      "return_bits": "0xbf64c848"
+    },
+    {
+      "name": "independent_allocations_11",
+      "rva": "0xa510",
+      "duration": 1.5,
+      "return_bits": "0xbeb6b88a"
+    },
+    {
+      "name": "independent_allocations_12",
+      "rva": "0xa510",
+      "duration": 1.625,
+      "return_bits": "0xbfbc6246"
+    },
+    {
+      "name": "independent_allocations_13",
+      "rva": "0xa510",
+      "duration": 1.75,
+      "return_bits": "0xbe8955c5"
+    },
+    {
+      "name": "independent_allocations_14",
+      "rva": "0xa510",
+      "duration": 1.875,
+      "return_bits": "0xc03ac247"
+    },
+    {
+      "name": "independent_allocations_15",
+      "rva": "0xa510",
+      "duration": 2.0,
+      "return_bits": "0xbdd9712c"
+    }
+  ],
+  "comparison_counts": {
+    "0xa510": 71,
+    "0xa6d0": 595,
+    "0xaa30": 37,
+    "0xab00": 28
+  },
+  "historical_comparison_counts": {
+    "0xa510": 51,
+    "0xa6d0": 51,
+    "0xaa30": 33,
+    "0xab00": 8
+  },
+  "nan_classification_observations": [
+    {
+      "name": "a510_refresh_zero_duration_0",
+      "native_bits": "0xffc00000",
+      "original_bits": "0xffc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_refresh_zero_duration_1",
+      "native_bits": "0xffc00000",
+      "original_bits": "0xffc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_refresh_zero_duration_2",
+      "native_bits": "0xffc00000",
+      "original_bits": "0xffc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_refresh_zero_duration_3",
+      "native_bits": "0xffc00000",
+      "original_bits": "0xffc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_refresh_zero_duration_4",
+      "native_bits": "0xffc00000",
+      "original_bits": "0xffc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_refresh_zero_duration_5",
+      "native_bits": "0xffc00000",
+      "original_bits": "0xffc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_refresh_zero_duration_6",
+      "native_bits": "0xffc00000",
+      "original_bits": "0xffc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_refresh_zero_duration_7",
+      "native_bits": "0xffc00000",
+      "original_bits": "0xffc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_unordered_no_refresh_0",
+      "native_bits": "0x7fc00000",
+      "original_bits": "0x7fc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_unordered_no_refresh_1",
+      "native_bits": "0x7fc00000",
+      "original_bits": "0x7fc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_unordered_no_refresh_2",
+      "native_bits": "0x7fc00000",
+      "original_bits": "0x7fc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_unordered_no_refresh_3",
+      "native_bits": "0x7fc00000",
+      "original_bits": "0x7fc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_unordered_no_refresh_4",
+      "native_bits": "0x7fc00000",
+      "original_bits": "0x7fc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_unordered_no_refresh_5",
+      "native_bits": "0x7fc00000",
+      "original_bits": "0x7fc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_unordered_no_refresh_6",
+      "native_bits": "0x7fc00000",
+      "original_bits": "0x7fc00000",
+      "bits_equal": true
+    },
+    {
+      "name": "a510_unordered_no_refresh_7",
+      "native_bits": "0x7fc00000",
+      "original_bits": "0x7fc00000",
+      "bits_equal": true
+    }
+  ],
+  "instruction_coverage": {
+    "expected": 348,
+    "reached": 348,
+    "unreached": []
+  },
+  "actual_native_endpoint_call_counts": {
+    "0:pair_filter": 13,
+    "0:radial_source": 9,
+    "0:negative_sqrt": 5,
+    "1:pair_filter": 7,
+    "1:radial_source": 5,
+    "1:negative_sqrt": 2
+  },
+  "typed_records_do_not_require_original_global_image": true,
+  "full_sampler_rng_and_constant_pages_compared": true,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_random_policy.cpp": "503438dcee4f295bdd039093ab7b54041446e2f31193ae3a7f4b994e9ad89c99",
+    "recovered_cpp/clean/module_random_policy.hpp": "af948042bd4b64335a4e5e92ff87aec07541dcb7bf3d3b7d0b07041a566a9efe",
+    "recovered_cpp/clean/module_random.cpp": "e1f242c1bb71fa014746d966e2a30837bf5dd6982739a2bbb527076f1d80aac1",
+    "recovered_cpp/clean/module_random.hpp": "516f47e199187adc8b9a015409b6aadb6b48cbcb6fe0f583c26fb6dcea58a430",
+    "analysis/recovered_native_source/verify_random_policy_cpp.py": "6bf7bb1aa89650cad229d6c560298edf5e28931783c3d41cd11d3ec743484a45",
+    "analysis/module_behavior_recovery/random_policy/verify.py": "000f84c86ed365db15e570b07cd32a2c458d41e626315cdd93d421d67b40474d",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651",
+    "analysis/module_behavior_recovery/random_policy/original_policy.asm": "b291dc384e46bec83cb5c61c6022989ebfb874727e2de3d760bc413c21bda4d4",
+    "analysis/module_behavior_recovery/random_policy/constants.txt": "ab1a83b3eeea8c5affd2005daa0a3e2018227b4a45973c6a14d2ea165d0a9b3c"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 100000
+  },
+  "full_module_rebuild": false,
+  "limits": [
+    "The frozen matrix retains NaN classification comparisons for exceptional-duration results; additional comparisons use raw bits.",
+    "Pair, radial and negative square-root endpoints are controlled. Their algorithms, concurrent access, floating exception flags, alternate modes and live wiring remain unverified."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "total_cases": 2351,
+  "comparison_counts": {
+    "0x321d0": 7,
+    "0x32420": 7,
+    "0x32400": 59,
+    "0x321e0": 261,
+    "0x32220": 49,
+    "0x3bca0": 7,
+    "0x3c190": 7,
+    "0x3c170": 59,
+    "0x3bcb0": 7,
+    "0x3beb0": 297,
+    "0x32170": 25,
+    "0x3b380": 30,
+    "0x32180": 1536
+  },
+  "modules": [
+    "Teams",
+    "Friends"
+  ],
+  "instruction_coverage": {
+    "0x321d0": {
+      "instructions": 5,
+      "reached": 5,
+      "unreached": []
+    },
+    "0x321e0": {
+      "instructions": 14,
+      "reached": 14,
+      "unreached": []
+    },
+    "0x32220": {
+      "instructions": 131,
+      "reached": 131,
+      "unreached": []
+    },
+    "0x32400": {
+      "instructions": 8,
+      "reached": 8,
+      "unreached": []
+    },
+    "0x32420": {
+      "instructions": 5,
+      "reached": 5,
+      "unreached": []
+    },
+    "0x32170": {
+      "instructions": 7,
+      "reached": 7,
+      "unreached": []
+    },
+    "0x32180": {
+      "instructions": 26,
+      "reached": 26,
+      "unreached": []
+    },
+    "0x3bca0": {
+      "instructions": 5,
+      "reached": 5,
+      "unreached": []
+    },
+    "0x3bcb0": {
+      "instructions": 100,
+      "reached": 100,
+      "unreached": []
+    },
+    "0x3beb0": {
+      "instructions": 223,
+      "reached": 223,
+      "unreached": []
+    },
+    "0x3c170": {
+      "instructions": 8,
+      "reached": 8,
+      "unreached": []
+    },
+    "0x3c190": {
+      "instructions": 5,
+      "reached": 5,
+      "unreached": []
+    },
+    "0x3b380": {
+      "instructions": 21,
+      "reached": 21,
+      "unreached": []
+    }
+  },
+  "bound_count_name_add_remove_clear_compared": true,
+  "string_length_comparison_sorted_insert_and_memmove_controlled": true,
+  "settings_connection_verified": false,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_named_lists.cpp": "36fb8e6d56e371fe22cf867d86445a98363aeb8c562bb21ce966b4f42052909f",
+    "recovered_cpp/clean/module_named_lists.hpp": "00081812d97107193b406f4f00bab14d1d900e6541a6edc7881e814472e2848e",
+    "recovered_cpp/clean/module_list_settings.hpp": "69637d6a6bce6906da722f0a0696db982a31dbe2e433cfc9ece4d2e7acc349f0",
+    "recovered_cpp/clean/module_color_settings.hpp": "22c884b1e71170622e2feb5ac472985f27a7b7a9df1d81a6ff0cc98827f572c2",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "analysis/recovered_native_source/verify_named_lists.py": "8d056d2dd295500c0c17fd7c1e56d69f9599c7349f0e0dc0e88b0a90dc6645c9"
+  }
+}

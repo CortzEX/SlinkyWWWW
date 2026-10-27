@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "total_cases": 476,
+  "comparison_counts": {
+    "0x40000": 7,
+    "0x40010": 4,
+    "0x40030": 4,
+    "0x40240": 61,
+    "0x40340": 4,
+    "0x40050": 133,
+    "0x40410": 25,
+    "0x41890": 7,
+    "0x418a0": 4,
+    "0x418c0": 4,
+    "0x41a20": 61,
+    "0x41a60": 4,
+    "0x418e0": 133,
+    "0x41830": 25
+  },
+  "modules": [
+    "Block ESP",
+    "Item ESP"
+  ],
+  "instruction_coverage": {
+    "0x40000": {
+      "instructions": 5,
+      "reached": 5,
+      "unreached": []
+    },
+    "0x40010": {
+      "instructions": 7,
+      "reached": 7,
+      "unreached": []
+    },
+    "0x40030": {
+      "instructions": 7,
+      "reached": 7,
+      "unreached": []
+    },
+    "0x40050": {
+      "instructions": 118,
+      "reached": 118,
+      "unreached": []
+    },
+    "0x40240": {
+      "instructions": 56,
+      "reached": 56,
+      "unreached": []
+    },
+    "0x40340": {
+      "instructions": 46,
+      "reached": 46,
+      "unreached": []
+    },
+    "0x40410": {
+      "instructions": 6,
+      "reached": 6,
+      "unreached": []
+    },
+    "0x41890": {
+      "instructions": 5,
+      "reached": 5,
+      "unreached": []
+    },
+    "0x418a0": {
+      "instructions": 7,
+      "reached": 7,
+      "unreached": []
+    },
+    "0x418c0": {
+      "instructions": 7,
+      "reached": 7,
+      "unreached": []
+    },
+    "0x418e0": {
+      "instructions": 88,
+      "reached": 88,
+      "unreached": []
+    },
+    "0x41a20": {
+      "instructions": 17,
+      "reached": 17,
+      "unreached": []
+    },
+    "0x41a60": {
+      "instructions": 14,
+      "reached": 14,
+      "unreached": []
+    },
+    "0x41830": {
+      "instructions": 6,
+      "reached": 6,
+      "unreached": []
+    }
+  },
+  "bound_count_name_color_add_remove_clear_compared": true,
+  "state_at_dependency_boundaries_and_release_order_compared": true,
+  "catalog_search_growth_move_and_release_controlled": true,
+  "settings_connection_verified": false,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_esp_lists.cpp": "74f462be4c4cea673aeb8b2e1e26241d681fe62285fd5057614545fdb8cf3474",
+    "recovered_cpp/clean/module_esp_lists.hpp": "fd8bc825d69616c62ff2158db2fe29a1f36f848863aa1a63d7e1814d62d3bbe3",
+    "recovered_cpp/clean/module_list_settings.hpp": "69637d6a6bce6906da722f0a0696db982a31dbe2e433cfc9ece4d2e7acc349f0",
+    "recovered_cpp/clean/module_color_settings.hpp": "22c884b1e71170622e2feb5ac472985f27a7b7a9df1d81a6ff0cc98827f572c2",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "analysis/recovered_native_source/verify_esp_lists.py": "816ce5d39c844d357200667ed926a8dc2e160f55fbc19c9e7271428842af24e1"
+  }
+}

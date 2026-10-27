@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "module": "Item Use Fix",
+  "all_two_public_entrypoints_checked": true,
+  "independently_owned_state_checked": true,
+  "default_binding_populated": true,
+  "late_state_reload_and_exact_one_gate_checked": true,
+  "original_constructor_recovered": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Item_Use_Fix_typed.cpp": "f869c7c8f4d34447b5c6fd479cdfefa10d099204b3840c8a7a8c2a354cf6fa2e",
+    "recovered_cpp/clean/module_access_helpers.cpp": "b0c1c5035ff57b414a467e4327f4a6d6328e51fc43a7456b966f0ef33616a1d0",
+    "recovered_cpp/clean/module_game_access.cpp": "59a9517f00f2ee3c198e1b1894f4627b2c37c2dc46ecf26fe0b2a1450fd0f474",
+    "recovered_cpp/clean/Item_Use_Fix_typed.hpp": "a144d717d5e24c0ba7442d59cdd6b4c996f2f01ce3b5797a9fcec13a66626748",
+    "recovered_cpp/clean/module_access_helpers.hpp": "2b25dde3890978799da2faa6eb55b32b49b6fad367cd534a54f758451728b0d1",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/Timer.hpp": "43fd3a482508f022218ec04aca6c125e687c6a689b4ca0f4d61f1bbb36a52be3",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "analysis/recovered_native_source/item_use_fix_module_check.cpp": "74cafbd739ed71b2daa1e5955432053a897ba7a81444cfa5078e77128c9caa6b",
+    "analysis/recovered_native_source/verify_item_use_fix_module.py": "80abfe446443cac1bad5569ca7db54976980053012748bf2b324d00167e8719f"
+  },
+  "native_original_executed": false,
+  "full_module_rebuild": false,
+  "bounds": {
+    "compiler_seconds": 30,
+    "executable_seconds": 10
+  },
+  "limits": [
+    "Public module routing and retained byte state with controlled access endpoints.",
+    "The separate typed callback report establishes finite behavior against the original actual helpers and JNI boundaries."
+  ]
+}

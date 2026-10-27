@@ -1,0 +1,7291 @@
+{
+  "passed": true,
+  "module": "Fast Mine",
+  "total_cases": 298,
+  "historical_callback_cases": 51,
+  "recovered_callbacks": [
+    "0x41a90",
+    "0x41b30"
+  ],
+  "scenario_inputs": [
+    {
+      "config": {
+        "current": 0,
+        "limit": 1077936128,
+        "decrement": 0,
+        "previous": 0,
+        "controller": 0
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 3,
+        "limit": 1077936128,
+        "decrement": 0,
+        "previous": 0,
+        "controller": 4478310
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 3,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 20,
+        "limit": 1084227584,
+        "decrement": 0,
+        "previous": 0,
+        "controller": 4478310
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 20,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 8,
+        "limit": 1077936128,
+        "decrement": 1,
+        "previous": 8,
+        "controller": 4478310
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 8,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 8,
+        "limit": 1077936128,
+        "decrement": 255,
+        "previous": 8,
+        "controller": 4478310
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 8,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 8,
+        "limit": 1077936128,
+        "decrement": 1,
+        "previous": 7,
+        "controller": 4478310
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 8,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 1084227584,
+        "decrement": 1,
+        "previous": 4294967295,
+        "controller": 4478310
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 2143289410,
+        "decrement": 1,
+        "previous": 2147483648,
+        "controller": 4478310
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 3,
+        "limit": 1082130432,
+        "decrement": 1,
+        "previous": 3,
+        "controller": 4478310
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 3,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 3,
+        "limit": 1082130432,
+        "decrement": 255,
+        "previous": 2,
+        "controller": 4478310
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 3,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 9,
+        "limit": 1077936128,
+        "previous": 9,
+        "decrement": 1,
+        "controller": 4478310,
+        "mutation": "descriptor",
+        "mutated_limit": 1073741824
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 9,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 9,
+        "limit": 1077936128,
+        "previous": 9,
+        "decrement": 1,
+        "controller": 4478310,
+        "mutation": "event_game",
+        "mutated_limit": 1073741824
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 9,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 9,
+        "limit": 1077936128,
+        "previous": 9,
+        "decrement": 1,
+        "controller": 4478310,
+        "mutation": "table",
+        "mutated_limit": 1073741824
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 9,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 9,
+        "limit": 1077936128,
+        "previous": 9,
+        "decrement": 1,
+        "controller": 4478310,
+        "mutation": "limit",
+        "mutated_limit": 1073741824
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 9,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1061158912,
+        "saved": 0,
+        "speed": 1077936128,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1065353216,
+        "saved": 1065353216,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 1065353216,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 0,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3229614080,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 0,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483648,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 8388607,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1056964608,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1061158912,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1065353216,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143289410,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095106,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        0,
+        0,
+        18,
+        18
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        },
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current"
+          ]
+        },
+        {
+          "event": 18,
+          "saved_progress_bits": 1048576000,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress"
+          ]
+        },
+        {
+          "event": 18,
+          "saved_progress_bits": 1048576000,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1056964608,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        0,
+        0,
+        18,
+        18
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1056964608,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        },
+        {
+          "event": 0,
+          "saved_progress_bits": 1056964608,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current"
+          ]
+        },
+        {
+          "event": 18,
+          "saved_progress_bits": 1056964608,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress"
+          ]
+        },
+        {
+          "event": 18,
+          "saved_progress_bits": 1056964608,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1061158912,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        0,
+        0,
+        18,
+        18
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1061158912,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        },
+        {
+          "event": 0,
+          "saved_progress_bits": 1061158912,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current"
+          ]
+        },
+        {
+          "event": 18,
+          "saved_progress_bits": 1061158912,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress"
+          ]
+        },
+        {
+          "event": 18,
+          "saved_progress_bits": 1061158912,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1065353216,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        0,
+        0,
+        18,
+        18
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1065353216,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        },
+        {
+          "event": 0,
+          "saved_progress_bits": 1065353216,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current"
+          ]
+        },
+        {
+          "event": 18,
+          "saved_progress_bits": 1065353216,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress"
+          ]
+        },
+        {
+          "event": 18,
+          "saved_progress_bits": 1065353216,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress",
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 3,
+        "limit": 1082130432,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 1056964608,
+        "saved": 0,
+        "speed": 1073741824,
+        "controller": 4478310
+      },
+      "events": [
+        18,
+        0,
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        },
+        {
+          "event": 0,
+          "saved_progress_bits": 1056964608,
+          "last_current": 3,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress",
+            "query",
+            "progress",
+            "current"
+          ]
+        },
+        {
+          "event": 18,
+          "saved_progress_bits": 1056964608,
+          "last_current": 3,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress",
+            "query",
+            "progress",
+            "current",
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 0,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 0,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 2147483648,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 2147483648,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 1,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 1,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 1065353216,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 1065353216,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 3212836864,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 3212836864,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 2139095040,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 2139095040,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 4286578688,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 4286578688,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 2143363909,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 2143363909,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 2139169605,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 2139169605,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 1325400064,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 1325400064,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 3472883712,
+        "decrement": 0,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 0,
+        "limit": 3472883712,
+        "decrement": 255,
+        "previous": 0,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 0,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 0,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 2147483648,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 2147483648,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 1,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 1,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 1065353216,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 1065353216,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 3212836864,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 3212836864,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 2139095040,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 2139095040,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 4286578688,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 4286578688,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 2143363909,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 2143363909,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 2139169605,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 2139169605,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 1325400064,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 1325400064,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 3472883712,
+        "decrement": 0,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 1,
+        "limit": 3472883712,
+        "decrement": 255,
+        "previous": 1,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 1,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 0,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 0,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 2147483648,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 2147483648,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 1,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 1,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 1065353216,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 1065353216,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 3212836864,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 3212836864,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 2139095040,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 2139095040,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 4286578688,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 4286578688,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 2143363909,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 2143363909,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 2139169605,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 2139169605,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 1325400064,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 1325400064,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 3472883712,
+        "decrement": 0,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 4294967295,
+        "limit": 3472883712,
+        "decrement": 255,
+        "previous": 4294967295,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 4294967295,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 0,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 0,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 2147483648,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 2147483648,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 1,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 1,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 1065353216,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 1065353216,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 3212836864,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 3212836864,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 2139095040,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 2139095040,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 4286578688,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 4286578688,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 2143363909,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 2143363909,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 2139169605,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 2139169605,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 1325400064,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 1325400064,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 3472883712,
+        "decrement": 0,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483648,
+        "limit": 3472883712,
+        "decrement": 255,
+        "previous": 2147483648,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483648,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 0,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 0,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 2147483648,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 2147483648,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 1,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 1,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 1065353216,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 1065353216,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 3212836864,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 3212836864,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 2139095040,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 2139095040,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 4286578688,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 4286578688,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 2143363909,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 2143363909,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 2139169605,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 2139169605,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 1325400064,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 1325400064,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 3472883712,
+        "decrement": 0,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 2147483647,
+        "limit": 3472883712,
+        "decrement": 255,
+        "previous": 2147483647,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 2147483647,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 0,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 0,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 2147483648,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 2147483648,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 1,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 1,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 1065353216,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 1065353216,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 3212836864,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 3212836864,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 2139095040,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 2139095040,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 4286578688,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 4286578688,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 2143363909,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 2143363909,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 2139169605,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 2139169605,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 1325400064,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 1325400064,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 3472883712,
+        "decrement": 0,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 16777217,
+        "limit": 3472883712,
+        "decrement": 255,
+        "previous": 16777217,
+        "progress": 2139169605
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 2139169605,
+          "last_current": 16777217,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2147483649,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 3204448256,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095039,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578687,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139095040,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 4286578688,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2143363909,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 0,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 2147483648,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 1,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 2147483649,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 1065353216,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 3212836864,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 2139095040,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 4286578688,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 2143363909,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 2139169605,
+        "speed": 2139169605,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 2147483648
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 2147483648,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 1
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 1,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 2147483649
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 2147483649,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 1065353216
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 1065353216,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 2139095040
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 2139095040,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 4286578688
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 4286578688,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 2143363909
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 2143363909,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 2139169605
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 2139169605,
+          "last_current": 0,
+          "setter_calls": 0,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 3,
+        "limit": 1082130432,
+        "previous": 3,
+        "decrement": 1,
+        "target_variant": 0
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 3,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 0,
+        "mutation": "descriptor",
+        "target_variant": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 0,
+        "mutation": "event_game",
+        "target_variant": 0
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "current": 3,
+        "limit": 1082130432,
+        "previous": 3,
+        "decrement": 1,
+        "target_variant": 4096
+      },
+      "events": [
+        0
+      ],
+      "steps": [
+        {
+          "event": 0,
+          "saved_progress_bits": 1048576000,
+          "last_current": 3,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "current",
+            "set_current"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 0,
+        "mutation": "descriptor",
+        "target_variant": 4096
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "progress": 1048576000,
+        "saved": 0,
+        "mutation": "event_game",
+        "target_variant": 4096
+      },
+      "events": [
+        18
+      ],
+      "steps": [
+        {
+          "event": 18,
+          "saved_progress_bits": 0,
+          "last_current": 0,
+          "setter_calls": 1,
+          "ordered_endpoint_ops": [
+            "query",
+            "progress",
+            "set_progress"
+          ]
+        }
+      ]
+    }
+  ],
+  "instruction_coverage": {
+    "0x41a90": {
+      "listing": "../module_behavior_recovery/instructions/rva_41a90.asm",
+      "expected_nonpadding": 48,
+      "reached": 48,
+      "unreached": []
+    },
+    "0x41b30": {
+      "listing": "../module_behavior_recovery/instructions/rva_41b30.asm",
+      "expected_nonpadding": 66,
+      "reached": 66,
+      "unreached": []
+    },
+    "0x22df0": {
+      "listing": "../module_behavior_recovery/interaction_access/rva_22df0.asm",
+      "expected_nonpadding": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x27df0": {
+      "listing": "../module_behavior_recovery/mining_access/rva_27df0.asm",
+      "expected_nonpadding": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x27e10": {
+      "listing": "../module_behavior_recovery/mining_access/rva_27e10.asm",
+      "expected_nonpadding": 10,
+      "reached": 10,
+      "unreached": []
+    },
+    "0x27e40": {
+      "listing": "../module_behavior_recovery/mining_access/rva_27e40.asm",
+      "expected_nonpadding": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x27e60": {
+      "listing": "../module_behavior_recovery/mining_access/rva_27e60.asm",
+      "expected_nonpadding": 10,
+      "reached": 10,
+      "unreached": []
+    },
+    "0xb2920": {
+      "listing": "../module_behavior_recovery/float_ceiling/rva_b2920.asm",
+      "expected_nonpadding": 44,
+      "reached": 44,
+      "unreached": []
+    }
+  },
+  "connected_entry_case_counts": {
+    "0x41a90": 157,
+    "0x22df0": 298,
+    "0x27df0": 296,
+    "0x27e40": 156,
+    "0x27e60": 76,
+    "0x41b30": 141,
+    "0xb2920": 240,
+    "0x27e10": 120
+  },
+  "native_target_call_counts": {
+    "0x8400c100": 295,
+    "0x8400c120": 293,
+    "0x8400c140": 155,
+    "0x8400c160": 74,
+    "0x8400d160": 2,
+    "0x8400c180": 118,
+    "0x8400d100": 3,
+    "0x8400d120": 3,
+    "0x8400d140": 1,
+    "0x8400d180": 2
+  },
+  "clean_fast_mine_dependencies_bound": true,
+  "actual_jni_target_matches_current_table": true,
+  "typed_state_and_settings_do_not_require_original_global_image": true,
+  "original_helper_bodies_executed": true,
+  "complete_event_settings_state_and_jni_buffers_compared": true,
+  "retained_sequence_independent_state_checked": true,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Fast_Mine.cpp": "67e74b3ff64d9c9d19c302631b8cdf2fb4880a0b538037d0cad052be2224798f",
+    "recovered_cpp/clean/module_float_ceiling.cpp": "2d76c8a90fbb547a0fc07b2b2cae683e352a1efdb3dba572dc84bcd44a570d09",
+    "recovered_cpp/clean/module_access_helpers.cpp": "b0c1c5035ff57b414a467e4327f4a6d6328e51fc43a7456b966f0ef33616a1d0",
+    "recovered_cpp/clean/module_game_access.cpp": "59a9517f00f2ee3c198e1b1894f4627b2c37c2dc46ecf26fe0b2a1450fd0f474",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/module_ui_controls.cpp": "8b81c1e1aa062585cac5a3b7df89da197bbbd486f81c215512bd7eaff9fc685c",
+    "recovered_cpp/clean/module_format.cpp": "bf4a67394200a8434978dcf21ac7774b300fbad8a03cdaf489934b1a69c182c3",
+    "recovered_cpp/clean/Fast_Mine.hpp": "a2a9c5ca11084bd8b87cc86ecf53225edf107ea49f8f12ea488289813768d984",
+    "recovered_cpp/clean/Sprint.hpp": "8993a4d3881d62c43e1412102d2f91783fe066180c26ee21cb39823282ea799d",
+    "recovered_cpp/clean/module_float_ceiling.hpp": "6b9303fe0ca543f05aaf9b5479078e0c1eb97671b3bc89530ed4409ecb8330aa",
+    "recovered_cpp/clean/module_access_helpers.hpp": "2b25dde3890978799da2faa6eb55b32b49b6fad367cd534a54f758451728b0d1",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_ui_controls.hpp": "8361da2b66389f9338af4a5edc45b3c084e5a692b66d18a32719ec6382ea141a",
+    "recovered_cpp/clean/module_format.hpp": "d034d8fe613d9c21e7cb5209fb563303ae1b3cd8fed51985afbe5ac06dd4c8a1",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "analysis/module_behavior_recovery/runtime_fast_mine/native_float_fixtures.c": "6fb13292728c0a9a662dfb301f11d39281241773eac2324d80cc4d381f5df729",
+    "analysis/module_behavior_recovery/runtime_fast_mine/verify.py": "3fa2ae4ef4d624300b20e843451e13c8e14fa188ed2db66c766a41b70fa88706",
+    "analysis/recovered_native_source/verify_fast_mine_cpp.py": "4d556b2fc7854de00f7ed6a4ac0903877b44572d40ddc1f88a21fc6885328f66",
+    "analysis/module_behavior_recovery/instructions/rva_41a90.asm": "bc4b88f1818715fc9d3f40fbe8ef0a82f9647f3b45b0344c67607010ce0845e8",
+    "analysis/module_behavior_recovery/instructions/rva_41b30.asm": "ca5a38788c484874bd0f35cf21dc2c5894baf061aa112b1f15709f6010af8ee6",
+    "analysis/module_behavior_recovery/interaction_access/rva_22df0.asm": "659727b2805dea3b38053c6ac5b5dbeedc36303fa95d1056a0caf5bf723d9f71",
+    "analysis/module_behavior_recovery/mining_access/rva_27df0.asm": "0fb9d78db4f4c40aea93282f3ec516e47c83e98bad44f75dec69f81bf9ab792d",
+    "analysis/module_behavior_recovery/mining_access/rva_27e10.asm": "e741cf4fb9450624e6e9240438336ac603f8407226bb3c32846dbb7cc376fe79",
+    "analysis/module_behavior_recovery/mining_access/rva_27e40.asm": "57eb423efabba3bafe3e89c1df3ddac08b8ece0ec2ba306ca5c452c32df8651d",
+    "analysis/module_behavior_recovery/mining_access/rva_27e60.asm": "d39c0792a1039d6b0a591580949728ab0589d9002e91e03ca88818430dcd0f61",
+    "analysis/module_behavior_recovery/float_ceiling/rva_b2920.asm": "6c854e80a44a6051b9de9ce55570195c463bdd5ee187c99ff38a90e53d596d53"
+  },
+  "bounds": {
+    "compiler_seconds": 45,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 20000
+  },
+  "native_original_executed": false,
+  "full_module_rebuild": false,
+  "limits": [
+    "Original callback and six helper bodies execute unhooked until actual JNI endpoints. All ordinary listed instructions are reached.",
+    "Only test adapters address the original image; production takes explicit settings, state, constants and dependencies.",
+    "All frozen retained sequences and additional raw counter/limit/progress/speed/saved-state cases compare calls and complete buffers.",
+    "Default MXCSR raw outputs are checked. Floating exception flags, alternate rounding/flush modes, live registration, metadata discovery and concurrency remain unverified.",
+    "Typed UI, settings and label source are linked here but require separate behavioral evidence. Neighbor entry 0x41d20 belongs to Safe Walk and is excluded."
+  ]
+}

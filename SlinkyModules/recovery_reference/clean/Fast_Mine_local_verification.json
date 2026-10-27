@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "total_cases": 1568,
+  "ui_cases": 32,
+  "settings_cases": 1536,
+  "instruction_coverage": {
+    "0x41c20": {
+      "expected": 25,
+      "reached": 25,
+      "unreached": []
+    },
+    "0x41c80": {
+      "expected": 19,
+      "reached": 19,
+      "unreached": []
+    },
+    "0xcef0": {
+      "expected": 20,
+      "reached": 20,
+      "unreached": []
+    },
+    "0xcf30": {
+      "expected": 30,
+      "reached": 30,
+      "unreached": []
+    },
+    "0xc210": {
+      "expected": 5,
+      "reached": 5,
+      "unreached": []
+    },
+    "0xc3b0": {
+      "expected": 51,
+      "reached": 51,
+      "unreached": []
+    },
+    "0xc450": {
+      "expected": 69,
+      "reached": 69,
+      "unreached": []
+    }
+  },
+  "typed_settings_do_not_require_original_global_image": true,
+  "original_fast_mine_local_routines_executed": true,
+  "original_boolean_settings_helper_executed": true,
+  "original_number_settings_helper_executed": true,
+  "original_shared_ui_controls_and_dirty_setter_unhooked": true,
+  "raw_float_widget_arguments_and_full_returns_compared": true,
+  "native_widget_target_call_counts": {
+    "number_0": 36,
+    "checkbox_0": 12,
+    "number_1": 28,
+    "checkbox_1": 20
+  },
+  "actual_widget_target_matches_current_endpoint_table": true,
+  "full_settings_dirty_context_node_buffers_compared": true,
+  "renderer_and_json_endpoints_controlled": true,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Fast_Mine.cpp": "67e74b3ff64d9c9d19c302631b8cdf2fb4880a0b538037d0cad052be2224798f",
+    "recovered_cpp/clean/module_float_ceiling.cpp": "2d76c8a90fbb547a0fc07b2b2cae683e352a1efdb3dba572dc84bcd44a570d09",
+    "recovered_cpp/clean/module_access_helpers.cpp": "b0c1c5035ff57b414a467e4327f4a6d6328e51fc43a7456b966f0ef33616a1d0",
+    "recovered_cpp/clean/module_game_access.cpp": "59a9517f00f2ee3c198e1b1894f4627b2c37c2dc46ecf26fe0b2a1450fd0f474",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/module_ui_controls.cpp": "8b81c1e1aa062585cac5a3b7df89da197bbbd486f81c215512bd7eaff9fc685c",
+    "recovered_cpp/clean/module_format.cpp": "bf4a67394200a8434978dcf21ac7774b300fbad8a03cdaf489934b1a69c182c3",
+    "recovered_cpp/clean/Fast_Mine.hpp": "a2a9c5ca11084bd8b87cc86ecf53225edf107ea49f8f12ea488289813768d984",
+    "recovered_cpp/clean/Sprint.hpp": "8993a4d3881d62c43e1412102d2f91783fe066180c26ee21cb39823282ea799d",
+    "recovered_cpp/clean/module_float_ceiling.hpp": "6b9303fe0ca543f05aaf9b5479078e0c1eb97671b3bc89530ed4409ecb8330aa",
+    "recovered_cpp/clean/module_access_helpers.hpp": "2b25dde3890978799da2faa6eb55b32b49b6fad367cd534a54f758451728b0d1",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_ui_controls.hpp": "8361da2b66389f9338af4a5edc45b3c084e5a692b66d18a32719ec6382ea141a",
+    "recovered_cpp/clean/module_format.hpp": "d034d8fe613d9c21e7cb5209fb563303ae1b3cd8fed51985afbe5ac06dd4c8a1",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "analysis/recovered_native_source/verify_fast_mine_local.py": "2cde7778296b73f54c6df82532796af1e6f1699feb4a5d79216a7fea81bd4b5b",
+    "analysis/recovered_native_source/ui_control_fixtures.c": "acf84ecf345b0de33adefe6ae68e18df2393309bc194289f7d8ce1051344354f",
+    "analysis/recovered_native_source/verify_safe_walk_local.py": "a8b2763fee28f5388033e26f28ee82970414e49cbaf1298cf6d91dd06163dc05",
+    "analysis/recovered_native_source/verify_timer_local.py": "3823337eae91cc757bdce5af0a2bc41a86c852e75567e8fd4292294d605642ed",
+    "analysis/recovered_native/index.tsv": "e7ab9b23c6a1c3954cc4af517e1ae68a054f5c7c7dd82d33d355bc9671742e1f",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 20000
+  },
+  "full_module_rebuild": false,
+  "limits": [
+    "Original local routines, controls, dirty setter and settings helpers execute unhooked. Actual widgets, sections and JSON endpoints remain controlled.",
+    "Cross-page settings records, raw widget arguments, full return bits and endpoint replacement are compared. Renderer semantics, registration and runtime ownership remain unverified."
+  ]
+}

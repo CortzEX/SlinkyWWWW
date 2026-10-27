@@ -1,0 +1,7522 @@
+{
+  "passed": true,
+  "total_cases": 295,
+  "cases": [
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f50624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf50624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x42a0624dd2f1a9fb",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x42a0624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x42a0624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc2a0624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f50624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf50624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x42a0624dd2f1a9fb",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x42a0624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x42a0624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc2a0624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340624dd2f1a9fc",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x3ff0000000000000",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x3ff0000000000000",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x3ff0000000000000",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x3ff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x433fffffffffffff",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x3ff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x3ff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x3ff0000000000000",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x3ff0000000000000",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x43e0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x3ff0000000000000",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc3e0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xbff0000000000000",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xbff0000000000000",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xbff0000000000000",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xbff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc33fffffffffffff",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xbff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xbff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xbff0000000000000",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xbff0000000000000",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc3e0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xbff0000000000000",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x43e0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4008000000000000",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4008000000000000",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3fd5555555555555",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4008000000000000",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbfd5555555555555",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4008000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4325555555555555",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4008000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4325555555555555",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4008000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4325555555555555",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4008000000000000",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc325555555555555",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4008000000000000",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x43c5555555555555",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4008000000000000",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc3c5555555555555",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xc010000000000000",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xc010000000000000",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbfd0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xc010000000000000",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3fd0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xc010000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc31fffffffffffff",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xc010000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc320000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xc010000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc320000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xc010000000000000",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4320000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xc010000000000000",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc3c0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xc010000000000000",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x43c0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x1",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x1",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x1",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x1",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x1",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x1",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x1",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x1",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x1",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff0000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7fefffffffffffff",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7fefffffffffffff",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7fefffffffffffff",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8004000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7fefffffffffffff",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x340000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7fefffffffffffff",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x340000000000001",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7fefffffffffffff",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x340000000000001",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7fefffffffffffff",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8340000000000001",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7fefffffffffffff",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3e0000000000001",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7fefffffffffffff",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x83e0000000000001",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xfff0000000000000",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xfff0000000000000",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xfff0000000000000",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xfff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xfff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xfff0000000000000",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xfff0000000000000",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xfff0000000000000",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0xfff0000000000000",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0123456789abc",
+      "frequency": 1000,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0123456789abc",
+      "frequency": 1000,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0123456789abc",
+      "frequency": 1000,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0123456789abc",
+      "frequency": 1000,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0123456789abc",
+      "frequency": 1000,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0123456789abc",
+      "frequency": 1000,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0123456789abc",
+      "frequency": 1000,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0123456789abc",
+      "frequency": 1000,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0123456789abc",
+      "frequency": 1000,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 0,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff8000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 0,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff8000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 0,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 0,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 0,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 0,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 0,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 0,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 0,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 0,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 0,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 0,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 0,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 0,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 0,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 0,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 0,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 0,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xfff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          0
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x433fffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x433fffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x43e0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x43e0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc3e0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc3e0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -1,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -1,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -1,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -1,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -1,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -1,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -1,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc33fffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -1,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc33fffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -1,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -1,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -1,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -1,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -1,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -1,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4340000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -1,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc3e0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -1,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc3e0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -1,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x43e0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -1,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x43e0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18446744073709551615
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740991,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740991,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740991,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ca0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740991,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ca0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740991,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbca0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740991,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbca0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740991,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740991,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740991,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740991,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740991,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740991,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740991,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740991,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740991,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4090000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740991,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4090000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740991,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc090000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740991,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc090000000000001",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740991
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740992,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740992,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740992,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740992,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740992,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740992,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740992,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3fefffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740992,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3fefffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740992,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740992,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740992,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740992,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740992,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740992,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740992,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740992,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740992,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740992,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740992
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740993,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740993,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740993,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740993,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740993,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740993,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740993,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3fefffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740993,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3fefffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740993,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740993,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740993,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740993,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740993,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740993,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740993,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740993,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9007199254740993,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9007199254740993,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9007199254740993
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9007199254740993,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9007199254740993,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9007199254740993,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9007199254740993,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9007199254740993,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9007199254740993,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ca0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9007199254740993,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbfefffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9007199254740993,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbfefffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9007199254740993,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9007199254740993,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9007199254740993,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9007199254740993,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9007199254740993,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9007199254740993,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9007199254740993,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9007199254740993,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9007199254740993,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9007199254740993,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4090000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          18437736874454810623
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9223372036854775807,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9223372036854775807,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9223372036854775807,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3c00000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9223372036854775807,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3c00000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9223372036854775807,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbc00000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9223372036854775807,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbc00000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9223372036854775807,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f4fffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9223372036854775807,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f4fffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9223372036854775807,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9223372036854775807,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9223372036854775807,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9223372036854775807,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9223372036854775807,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9223372036854775807,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9223372036854775807,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9223372036854775807,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 9223372036854775807,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 9223372036854775807,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775807
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9223372036854775808,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9223372036854775808,
+      "counter": 0,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x8000000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          0
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9223372036854775808,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbc00000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9223372036854775808,
+      "counter": 1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbc00000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          1
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9223372036854775808,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3c00000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9223372036854775808,
+      "counter": -1,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3c00000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          18446744073709551615
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9223372036854775808,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf4fffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9223372036854775808,
+      "counter": 9007199254740991,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf4fffffffffffff",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740991
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9223372036854775808,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9223372036854775808,
+      "counter": 9007199254740992,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740992
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9223372036854775808,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9223372036854775808,
+      "counter": 9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbf50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9007199254740993
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9223372036854775808,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9223372036854775808,
+      "counter": -9007199254740993,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3f50000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          18437736874454810623
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9223372036854775808,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9223372036854775808,
+      "counter": 9223372036854775807,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xbff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775807
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": -9223372036854775808,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": -9223372036854775808,
+      "counter": -9223372036854775808,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x3ff0000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          9223372036854775808
+        ],
+        [
+          1,
+          1895966656,
+          9223372036854775808
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "frequency_cache",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "frequency_cache",
+      "returns": [
+        "0xffffffffffffffff",
+        "0x100"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "frequency_cache",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "frequency_cache",
+      "returns": [
+        "0xffffffffffffffff",
+        "0x100"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x4000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "frequency_cache",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4093880000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "frequency_cache",
+      "returns": [
+        "0xffffffffffffffff",
+        "0x100"
+      ],
+      "output": "0x4093880000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "counter_cache",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc083880000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "counter_cache",
+      "returns": [
+        "0xffffffffffffffff",
+        "0x100"
+      ],
+      "output": "0xc083880000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "counter_cache",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc083880000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "counter_cache",
+      "returns": [
+        "0xffffffffffffffff",
+        "0x100"
+      ],
+      "output": "0xc083880000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x4000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "counter_cache",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0xc083880000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x4000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "counter_cache",
+      "returns": [
+        "0xffffffffffffffff",
+        "0x100"
+      ],
+      "output": "0xc083880000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "target",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1929380096,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "target",
+      "returns": [
+        "0xffffffffffffffff",
+        "0x100"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1929380096,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "target",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1929380096,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "target",
+      "returns": [
+        "0xffffffffffffffff",
+        "0x100"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1929380096,
+          2500
+        ]
+      ],
+      "mutations": [
+        1,
+        1
+      ]
+    },
+    {
+      "cache": "0x4000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "target",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4093880000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x4000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "target",
+      "returns": [
+        "0xffffffffffffffff",
+        "0x100"
+      ],
+      "output": "0x4093880000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x408f400000000000",
+      "frequency": 1,
+      "counter": 3000,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4008000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          3000
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x0",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x8000000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          0,
+          1896027808,
+          1000
+        ],
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x408f400000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x4004000000000000",
+      "calls": [
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff0000000000000",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x0",
+      "calls": [
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    },
+    {
+      "cache": "0x7ff8123456789abc",
+      "frequency": 1000,
+      "counter": 2500,
+      "mutation": "none",
+      "returns": [
+        "0x0",
+        "0x0"
+      ],
+      "output": "0x7ff8123456789abc",
+      "calls": [
+        [
+          1,
+          1895966656,
+          2500
+        ]
+      ],
+      "mutations": [
+        0,
+        0
+      ]
+    }
+  ],
+  "double_export_checks": 5,
+  "double_export_inputs": [
+    "0x0",
+    "0x8000000000000000",
+    "0x408f400000000000",
+    "0x7ff0000000000000",
+    "0x7ff8123456789abc"
+  ],
+  "actual_native_target_matches_current_encoded_cells": true,
+  "native_target_call_counts": {
+    "0x710316a0": 195,
+    "0x710227c0": 296,
+    "0x73000100": 4
+  },
+  "typed_cache_and_cells_do_not_require_original_global_image": true,
+  "original_helper_and_protected_paths_unhooked": true,
+  "full_cache_pages_and_encoded_cells_compared": true,
+  "shared_output_address_compared": true,
+  "instruction_coverage": {
+    "0x4c270": {
+      "expected": 23,
+      "reached": 23,
+      "unreached": []
+    },
+    "saved_protected_paths": {
+      "expected": 127,
+      "reached": 127,
+      "unreached": []
+    }
+  },
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_clock.cpp": "55d5958f16e7051b14f053284119105c566f1ba60afef31458e92697a62a9f61",
+    "recovered_cpp/clean/module_clock.hpp": "852f535b0b5ffea3a7dcf26643adf24c149d6693a4443f38717a3e000ab345db",
+    "analysis/recovered_native_source/verify_clock_cpp.py": "f10f4b6c45be585fa1dafe6a1e70b4babfaf7af8a1fc1067b4d28cb74d92873e",
+    "analysis/module_behavior_recovery/clock_query/verify.py": "56be18bbe39f321f831c956d6b80529911deb1bfbb747f6c97ad039cfa5eaeea",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651",
+    "analysis/module_behavior_recovery/clock_query/rva_4c270.asm": "491ddd1767554d32d9ecf5937f9ac217a6d0cbb6d447f118dd4339389433ecfc",
+    "analysis/module_behavior_recovery/clock_query/trace_0.json": "f79486302f95182740119da0317af9c261993f127181cc2c81637783a8dc9ab4",
+    "analysis/module_behavior_recovery/clock_query/trace_1.json": "f3d807d9796f64288f89fbde2c4a502cc87536e95fdd1c2340ae347be5d51efa"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 10000
+  },
+  "full_module_rebuild": false,
+  "limits": [
+    "The frozen matrix compares original instructions with native C++ and fresh actual decoded target identities. External implementations and symbol identities remain unresolved.",
+    "Endpoints initialize the signed output; missing-output paths, floating exception flags, alternate floating modes, concurrent cache access and live wiring remain unverified."
+  ]
+}

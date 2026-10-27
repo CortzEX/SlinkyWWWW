@@ -1,0 +1,88 @@
+# Block ESP reconstruction
+
+Registration: `registered`. Candidate interval: ['0x3f4c0', '0x40de0'].
+
+The algorithm bodies below reuse the supplied recovered C/C++ implementation. Semantic function names are inferred. Native data offsets, raw byte/DWORD tests, operation order, endpoint identities and explicit scalar/SSE arithmetic are retained. C++ casts and lexical scopes were adjusted where the supplied C-derived component failed C++ compilation. No startup state or live registry wiring was added.
+
+## Source evidence
+
+- `recovered_cpp/behavior/module_behavior_recovery/block_esp_lifecycle/block_esp_lifecycle.cpp`, SHA-256 `4c782aeaa89adf90e051d351e9c3480b8974d471bac31b28fdc132cd5bcf6ff0`. Manifest field `cpp_differentially_verified` is false; this is an unrerun component, not a recorded failing comparison.
+- `recovered_cpp/behavior/module_behavior_recovery/block_esp_render/block_esp_render.cpp`, SHA-256 `99129bf8b0bd7b548f99dac85592d015edbe14d378a55ca19235c654212cde68`. Manifest field `cpp_differentially_verified` is false; this is an unrerun component, not a recorded failing comparison.
+- Shared UI/configuration source: `native/verified/surfaces/Surface_Block_ESP.cpp`, copied with identical bytes.
+
+## Function accounting
+
+| Native RVA | Kind | Implementation status |
+| --- | --- | --- |
+| `0x3f400` | local helper, corrected ownership | Algorithm body: `releaseWorldCollection` |
+| `0x3f4c0` | callback | Algorithm body: `updateWorld` |
+| `0x3f6a0` | callback | Algorithm body: `onModuleStateChanged` |
+| `0x3f7b0` | callback | Algorithm body: `renderBlocks` |
+| `0x3fa40` | callback | Algorithm body: `onBlockEvent` |
+| `0x3fa50` | callback | Algorithm body: `releaseCollections` |
+| `0x3fb30` | ui | Reused verified shared surface |
+| `0x3fbe0` | settings | Reused verified shared surface |
+| `0x3fc60` | candidate_local | Algorithm body: `releaseRegion` |
+| `0x3fcc0` | candidate_local | Algorithm body: `rebuildMesh` |
+| `0x3fed0` | candidate_local | Algorithm body: `collectLoadedRegions` |
+| `0x3ffb0` | candidate_local | Algorithm body: `appendCatalogCharacter` |
+| `0x40000` | candidate_local | Exact reuse: `recovered_esp_list_count` |
+| `0x40010` | candidate_local | Exact reuse: `recovered_esp_list_name` |
+| `0x40030` | candidate_local | Exact reuse: `recovered_esp_list_color` |
+| `0x40050` | candidate_local | Exact reuse: `recovered_block_esp_list_add` |
+| `0x40240` | candidate_local | Exact reuse: `recovered_block_esp_list_remove` |
+| `0x40340` | candidate_local | Exact reuse: `recovered_block_esp_list_clear` |
+| `0x40410` | candidate_local | Exact reuse: `recovered_esp_list_compare` |
+| `0x40420` | candidate_local | Algorithm body: `onRegionChange` |
+| `0x40960` | candidate_local | Algorithm body: `compareRegionKey` |
+| `0x40980` | candidate_local | Algorithm body: `scanByteIds` |
+| `0x40af0` | candidate_local | Algorithm body: `scanPackedIds` |
+| `0x40c90` | candidate_local | Algorithm body: `findOrCreateRegion` |
+
+## Instruction audit and reuse
+
+`BlockCollection.cpp` reconstructs the region destructor, mesh builder, loaded-region collector, catalog input filter, region update handler, key comparator, both SSE scanners and region insertion/search. It preserves 80-byte region records, 16-byte block/vertex records, unsigned coordinate packing, wrapping key subtraction, arithmetic packed-ID shifts, allocation failure exits, callback-dependent loads, 16 section iterations and 16-bit mesh indices. Comparator and scanner pointer identities use an explicit caller-provided native base. Lifecycle callbacks now call the reconstructed mesh, loaded-region collector and region update bodies directly. Their public signatures accept `BlockEndpoint` with five native argument slots and an explicit native base where pointer identity is required. JNI, allocator, search and memory-transfer calls remain visible endpoints. `releaseWorldCollection` at `0x3f400` is implemented in `block_esp_lifecycle.cpp`. The shared policy-list implementations are reused directly from the byte-preserved `module_esp_lists.cpp`; the supplied 476-case report covers both Block ESP and Item ESP list routines.
+
+## Source organization
+
+`Module.hpp` declares the recovered algorithms and named settings storage offsets. Offsets combine the config key setting address from `MetadataCatalog.json` with `offsetof` from the recovered setting structs. The metadata is runtime evidence and no current or saved value is installed as a startup default. Typed record layouts use static assertions where the supplied source establishes their sizes.
+
+| Implementation file | SHA-256 |
+| --- | --- |
+| `block_esp_lifecycle.cpp` | `54d876460621f1f5f6e4dd4648e074cbc34d583a71dfd8f0dee2f251c9e99386` |
+| `block_esp_render.cpp` | `d0ab797666e554dc0170d6aa6cbf57ceb02fef5eb373042c1e3d2960b504ff01` |
+| `BlockCollection.cpp` | `52969fc028fbfcf175a52141deb56392124323ae611bbc74025cd57da06d206b` |
+| `Module.hpp` | `55b467df029c44fa6d6ce80dc15d25cae5d4b0b4d094406755c914fa406806d4` |
+
+## Boundaries and verification
+
+The 28 newly organized algorithm translation units across this rendering/interface group pass clang-cl 22.1.8 with C++20, `/EHsc /fp:strict /Zs`. The group check took 8.02 seconds; two declaration attribute warnings were corrected and the affected source rechecked without warnings. Block ESP was rechecked after wiring the local helpers directly; all three sources pass. Local quoted includes resolve. The 206 copied clean files remain byte-identical to evidence. These checks compile the reconstruction; they do not execute the supplied binary or recovered callbacks.
+
+The new names, C++ repairs and native-instruction reconstructions have not been differentially rerun. Historical comparison reports cover their stated controlled paths and do not prove live scheduling, startup initialization, Java, graphics, fonts, JSON, allocation ownership or concurrency. Source-present shared numerical/text/render routines are separate reconstruction work, not an absence of evidence. Genuine game/JNI, CRT and graphics/font backend calls remain dependency contracts. No callback uses an invented default state.
+
+<!-- SHARED_SCOPE_DOCUMENTARY_AUDIT -->
+## Current shared-scope documentary audit
+
+This appendix supersedes older helper-progress and copy-preservation statements above. Historical reports apply only to their recorded source versions and scopes.
+
+The Block ESP interval has 23 accounted function rows: 21 direct bodies/ABI ports, 2 shared surfaces and 0 excluded/corrected-owner rows. Registration is `registered` with 5 callback slots. **local_accounting_complete=true**, local pending=0; ordinary local rows have concrete bodies/shared surfaces or explicit ownership exclusions. **whole_module_native_equivalence=false**. Local completeness is separate from shared contract review.
+
+The supplied direct graph lists 28 helper/container targets (25 concrete_resolver_binding, 1 indirect_external_cell, 2 protected_transfer). Body/index/resolver accounting is not independent proof of every caller ABI or complete transitive behavior.
+
+Established captured contracts: 0x13cfd0 to ucrtbase.dll!hypot, 0x13d0e0 to ucrtbase.dll!bsearch. Static proofs establish exact argument/result lanes, saved-state restoration and each entry's continuation, including any return adjustment or caller stack compensation. Permanent startup binding and external engine implementation remain separate evidence limits; these frame analyses are closed. External cells in this direct graph: 0x13cf70. Exact captured allocator destinations are now identified in ExternalCellObservation.json; startup permanence is separate.
+
+Ordinary shared path, FontStash, atlas, glyph/cache/packing, font-table/TT/CFF outline and raster bodies are concrete. Scoped checks: path 1,832; FontStash 640; atlas 34; glyph/cache/packing 127; font tables/outlines 1,275; CFF 2,362; curves/sort 328; raster/wrapper 225; float-log/Gaussian 3,814; six ordinary startup helpers 240; F4730 lifecycle/bound services 508; Window query/caller routes 353 (336 ordinary comparisons and 17 decoded-cell/full-Word contracts). Protected entries are intercepted before execution, and Window tests use synthetic endpoints with no OS input. The font ledger identifies 42 named transitive entries with no ordinary font pending rows. Controlled provider comparisons remain scoped; final protected/caller/startup analysis is separate. Common modal has 97 cases, color section 2,122 and profile transitions 126, without claiming complete UI equivalence.
+
+[The ordinary raster CPU supplement](../FontRasterizerCpuVerification.json) has 225 captured-body versus rebuilt CPU memory/trace/default-MXCSR matches with controlled providers and declared arena-address normalization. All 215 CPU/emulator MXCSR differences remain recorded in the unchanged raw report; the CPU results agree in every supplied fixture. Its executable mapping contains only seven fixed ordinary bodies, controlled shape/box/error stubs and INT3 elsewhere. Masked exceptions and default MXCSR only are tested; startup, protected dispatch, OS/JVM/driver services, other rounding/DAZ/FTZ, traps, faults and concurrency are outside this scope.
+
+The established captured-contract register contains 27 entries (26 service/resolver leaves plus the F4730 body), with 4 separate pending GUI/original-TLS/original-PE/provenance rows. Newly integrated ordinary C220/C290/4C7B0 GUI composition and captured DCDBE0 directory-service contract have 65 profile-action, 50 composition, 66 rendering-route and 91 adapter cases. C290 opens the profile directory; no Windows service executes in these fixtures. DCDBE0/cellACC76A are transitive additions outside the original415/1,995 catalogues. Current complete static-library and whole-object link snapshots pass with stable source sets including this batch. The available original TLS worksheet now tracks all seventeen saved register/flags words through a second physical layout; preferred-base/original-zero and captured-base/observed-bias bootstrap effects agree, with captured patch writer/order still unproved.
+
+The broad GUI continuation worker stopped after content-safety screening for possible cybersecurity risk. Further broad continuation is paused at the stable126-packet/89-prefix checkpoint7716F8, with a separate86-record root physical scratch/parity audit. A separate759FC6 worksheet is provisional. The pause does not imply missing bytes or irrecoverability. This delivery remains incomplete with four pending rows; no new broad protected-initialization continuation is claimed.
+
+The PE continuation worker also stopped after content-safety screening for possible cybersecurity risk. Further continuation is paused without retry. Its preserved stable worksheet records 2,875 selected fingerprints, next handler `captured_base+153126C`, stream `0x7ffbfd90ff7a`, key `0x770730978aeb950e`, `RSP=F` and `RDI=C-8, C=(S-8)&~40`. This is a tooling stop, not missing evidence or an irrecoverability conclusion; complete original PE effects remain pending. TLS stays at its separately saved checkpoint.
+
+All four original inputs and all 480 extracted files match their recorded hashes/ZIP bytes. The retained working checkpoint is **202 byte-identical + four hash-pinned approved adaptations**: the two module_surface files add caller-owned UI frames; the two module_list_storage files preserve E310's calloc `(8 records, record stride)` contract. Evidence originals remain unchanged. Claims that all 206 retained files are unchanged are superseded. Runtime metadata/values remain observations, never startup defaults.
+
+Current build/check snapshot status is recorded in [VERIFICATION_STATUS](../../VERIFICATION_STATUS.md). Syntax/link and finite helper traces do not prove the entire module, startup, real JNI/graphics, all pointer faults/concurrency or all FP modes. Available protected/startup analysis and concrete caller reviews persist in [PENDING_RECOVERY](../../PENDING_RECOVERY.md); actual evidence limits are separately stated in [UNRESOLVED](../../UNRESOLVED.md). See [README](../../README.md), [GLOBAL_AUDIT](../../GLOBAL_AUDIT.md) and [EvidencePreservation](../EvidencePreservation.md).
+
+Selected independent GUI, PE, TLS-header and Window static reviews have a separate [input-integrity ledger](../IndependentStaticAuditInputs.md). The [TLS worksheet chain](../TlsStaticProofInputIntegrity.md) also pins its recorded inputs. [The preserved PE report's integrity audit](../PeStaticProofInputIntegrity.md) checks 44 declared hashes for its 2,875 selected records without proof replay or new-byte interpretation. These read-only consistency checks do not execute original/protected code or close the full GUI, original TLS or PE entry; the current fixed-prefix checkpoints remain available analysis in PendingAnalysis.json.

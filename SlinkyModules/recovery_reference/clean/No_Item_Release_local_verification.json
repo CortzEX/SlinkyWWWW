@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "total_cases": 836,
+  "ui_cases": 36,
+  "settings_cases": 800,
+  "typed_settings_do_not_require_original_global_image": true,
+  "original_no_item_release_local_routines_executed": true,
+  "original_choice_settings_helper_executed": true,
+  "renderer_and_json_endpoints_controlled": true,
+  "instruction_coverage": {
+    "0x335c0": {
+      "instructions": 17,
+      "reached": 17,
+      "unreached": []
+    },
+    "0x33600": {
+      "instructions": 6,
+      "reached": 6,
+      "unreached": []
+    },
+    "0xc6f0": {
+      "instructions": 73,
+      "reached": 73,
+      "unreached": []
+    }
+  },
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/No_Item_Release.cpp": "901cb7f10a854a6eedeedb35bca2606e127dc275d74c20ba3be6158a1d043c65",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/module_format.cpp": "bf4a67394200a8434978dcf21ac7774b300fbad8a03cdaf489934b1a69c182c3",
+    "recovered_cpp/clean/module_access_helpers.cpp": "b0c1c5035ff57b414a467e4327f4a6d6328e51fc43a7456b966f0ef33616a1d0",
+    "recovered_cpp/clean/module_game_access.cpp": "59a9517f00f2ee3c198e1b1894f4627b2c37c2dc46ecf26fe0b2a1450fd0f474",
+    "recovered_cpp/clean/No_Item_Release.hpp": "f44fd294c2d5aad4d0b86f76ad2610aff06310bb3ac1716e4f74868e997ef8fd",
+    "recovered_cpp/clean/module_format.hpp": "d034d8fe613d9c21e7cb5209fb563303ae1b3cd8fed51985afbe5ac06dd4c8a1",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "recovered_cpp/clean/module_access_helpers.hpp": "2b25dde3890978799da2faa6eb55b32b49b6fad367cd534a54f758451728b0d1",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "analysis/recovered_native_source/verify_no_item_release_local.py": "bd0303dec3db77593757b99f347d81b96c1e28e0020bcc8fbda0e0978f78eeb3",
+    "analysis/recovered_native/index.tsv": "e7ab9b23c6a1c3954cc4af517e1ae68a054f5c7c7dd82d33d355bc9671742e1f"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 10000
+  },
+  "limits": [
+    "Finite module UI-call and choice settings comparisons leave renderer and JSON endpoints controlled.",
+    "Real descriptor ownership, default metadata initialization, event hooks and live runtime integration remain unverified."
+  ],
+  "full_module_rebuild": false
+}

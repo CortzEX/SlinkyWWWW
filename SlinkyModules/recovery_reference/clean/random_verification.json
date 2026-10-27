@@ -1,0 +1,1142 @@
+{
+  "passed": true,
+  "total_cases": 104,
+  "comparison_counts": {
+    "0xa050": 9,
+    "0xa3e0": 45,
+    "0xa460": 50
+  },
+  "cases": [
+    {
+      "name": "pack_float_bits_0",
+      "rva": "0xa050",
+      "return": "0x3f80000000000000"
+    },
+    {
+      "name": "pack_float_bits_1",
+      "rva": "0xa050",
+      "return": "0x3f800000bf800000"
+    },
+    {
+      "name": "pack_float_bits_2",
+      "rva": "0xa050",
+      "return": "0xbf8000003f800000"
+    },
+    {
+      "name": "pack_float_bits_3",
+      "rva": "0xa050",
+      "return": "0x80000000"
+    },
+    {
+      "name": "pack_float_bits_4",
+      "rva": "0xa050",
+      "return": "0x3f0000003f000000"
+    },
+    {
+      "name": "pack_float_bits_5",
+      "rva": "0xa050",
+      "return": "0x7f7fffff00000001"
+    },
+    {
+      "name": "pack_float_bits_6",
+      "rva": "0xa050",
+      "return": "0xff8000007f800000"
+    },
+    {
+      "name": "pack_float_bits_7",
+      "rva": "0xa050",
+      "return": "0x3f8000007fc12345"
+    },
+    {
+      "name": "pack_float_bits_8",
+      "rva": "0xa050",
+      "return": "0x7fc12345bf800000"
+    },
+    {
+      "name": "checkpoint_zero_bounds_0",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x0",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_bounds_1",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xbf800000",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_bounds_2",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f800000",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_bounds_3",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f000000",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_bounds_4",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x0",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_bounds_5",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x1",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_bounds_6",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xffc00000",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_bounds_7",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xffc00000",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_bounds_8",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x7fc12345",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "seed_small_bounds_0",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x0",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_bounds_1",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xbf800000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_bounds_2",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f800000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_bounds_3",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f000000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_bounds_4",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x0",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_bounds_5",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x1",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_bounds_6",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xffc00000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_bounds_7",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xffc00000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_bounds_8",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x7fc12345",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_mixed_bounds_0",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3d888888",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_bounds_1",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xbf5dddde",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_bounds_2",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f5dddde",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_bounds_3",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f000000",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_bounds_4",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x0",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_bounds_5",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x7d888887",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_bounds_6",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xffc00000",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_bounds_7",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x7f800000",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_bounds_8",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x7fc12345",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_high_bits_bounds_0",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f25a5a5",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_bounds_1",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3e969694",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_bounds_2",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xbe969694",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_bounds_3",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f000000",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_bounds_4",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x0",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_bounds_5",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x7f25a5a4",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_bounds_6",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xffc00000",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_bounds_7",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x7f800000",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_bounds_8",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x7fc12345",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_single_word_bounds_0",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x0",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_bounds_1",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xbf800000",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_bounds_2",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f800000",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_bounds_3",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x3f000000",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_bounds_4",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x0",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_bounds_5",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x1",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_bounds_6",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xffc00000",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_bounds_7",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0xffc00000",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_bounds_8",
+      "rva": "0xa3e0",
+      "return_xmm0_bits": "0x7fc12345",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_0",
+      "rva": "0xa460",
+      "return_eax": "0x0",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_1",
+      "rva": "0xa460",
+      "return_eax": "0x0",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_2",
+      "rva": "0xa460",
+      "return_eax": "0x0",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_3",
+      "rva": "0xa460",
+      "return_eax": "0x1",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_4",
+      "rva": "0xa460",
+      "return_eax": "0x1",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_5",
+      "rva": "0xa460",
+      "return_eax": "0x1",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_6",
+      "rva": "0xa460",
+      "return_eax": "0x1",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_7",
+      "rva": "0xa460",
+      "return_eax": "0x1",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_8",
+      "rva": "0xa460",
+      "return_eax": "0x0",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "checkpoint_zero_threshold_9",
+      "rva": "0xa460",
+      "return_eax": "0x0",
+      "state": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_0",
+      "rva": "0xa460",
+      "return_eax": "0x3000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_1",
+      "rva": "0xa460",
+      "return_eax": "0x3000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_2",
+      "rva": "0xa460",
+      "return_eax": "0x3000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_3",
+      "rva": "0xa460",
+      "return_eax": "0x3001",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_4",
+      "rva": "0xa460",
+      "return_eax": "0x3001",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_5",
+      "rva": "0xa460",
+      "return_eax": "0x3001",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_6",
+      "rva": "0xa460",
+      "return_eax": "0x3001",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_7",
+      "rva": "0xa460",
+      "return_eax": "0x3001",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_8",
+      "rva": "0xa460",
+      "return_eax": "0x3000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_small_threshold_9",
+      "rva": "0xa460",
+      "return_eax": "0x3000",
+      "state": [
+        "0x7",
+        "0x0",
+        "0x402",
+        "0x3000"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_0",
+      "rva": "0xa460",
+      "return_eax": "0x3234300",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_1",
+      "rva": "0xa460",
+      "return_eax": "0x3234300",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_2",
+      "rva": "0xa460",
+      "return_eax": "0x3234300",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_3",
+      "rva": "0xa460",
+      "return_eax": "0x3234301",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_4",
+      "rva": "0xa460",
+      "return_eax": "0x3234301",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_5",
+      "rva": "0xa460",
+      "return_eax": "0x3234301",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_6",
+      "rva": "0xa460",
+      "return_eax": "0x3234301",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_7",
+      "rva": "0xa460",
+      "return_eax": "0x3234301",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_8",
+      "rva": "0xa460",
+      "return_eax": "0x3234300",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_mixed_threshold_9",
+      "rva": "0xa460",
+      "return_eax": "0x3234300",
+      "state": [
+        "0x76543210",
+        "0x83254856",
+        "0x602476a6",
+        "0x3234323"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_0",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2900",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_1",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2900",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_2",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2900",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_3",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2900",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_4",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2900",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_5",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2901",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_6",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2901",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_7",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2901",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_8",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2900",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_high_bits_threshold_9",
+      "rva": "0xa460",
+      "return_eax": "0x2d2d2900",
+      "state": [
+        "0xda5a5a5a",
+        "0x0",
+        "0x80000000",
+        "0x2d2d292d"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_0",
+      "rva": "0xa460",
+      "return_eax": "0x800",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_1",
+      "rva": "0xa460",
+      "return_eax": "0x800",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_2",
+      "rva": "0xa460",
+      "return_eax": "0x800",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_3",
+      "rva": "0xa460",
+      "return_eax": "0x801",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_4",
+      "rva": "0xa460",
+      "return_eax": "0x801",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_5",
+      "rva": "0xa460",
+      "return_eax": "0x801",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_6",
+      "rva": "0xa460",
+      "return_eax": "0x801",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_7",
+      "rva": "0xa460",
+      "return_eax": "0x801",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_8",
+      "rva": "0xa460",
+      "return_eax": "0x800",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    },
+    {
+      "name": "seed_single_word_threshold_9",
+      "rva": "0xa460",
+      "return_eax": "0x800",
+      "state": [
+        "0x1",
+        "0x0",
+        "0x0",
+        "0x800"
+      ]
+    }
+  ],
+  "instruction_coverage": {
+    "0xa050": {
+      "expected": 7,
+      "reached": 7,
+      "unreached": []
+    },
+    "0xa3e0": {
+      "expected": 30,
+      "reached": 30,
+      "unreached": []
+    },
+    "0xa460": {
+      "expected": 40,
+      "reached": 40,
+      "unreached": []
+    }
+  },
+  "typed_state_and_constants_do_not_require_original_global_image": true,
+  "full_eax_and_raw_float_bits_compared": true,
+  "state_words_and_constants_compared": true,
+  "native_original_executed": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_random.cpp": "e1f242c1bb71fa014746d966e2a30837bf5dd6982739a2bbb527076f1d80aac1",
+    "recovered_cpp/clean/module_random.hpp": "516f47e199187adc8b9a015409b6aadb6b48cbcb6fe0f583c26fb6dcea58a430",
+    "analysis/recovered_native_source/random_bits.cpp": "42d64037c96a8ae8bd07015af6a58886c7fa33476f915c38a7b4f15a72eda918",
+    "analysis/recovered_native_source/verify_random_cpp.py": "97c2580c7b70bb5a20b0a6ff01db0c23401a4817b83ef2694329d9716487499e",
+    "analysis/module_behavior_recovery/random_primitives/verify.py": "6881cc11895968c8b7325426a3ab1f0e220840bbdbd897ea4d0f54f411b139a6",
+    "analysis/module_behavior_recovery/random_primitives/original_primitives.asm": "5f474dc9fa7fe39631dc076c35df7d51b7cdb9ab3a6f68d823c901986cabc758",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651"
+  },
+  "limits": [
+    "Sequential state transitions, default rounding and sampled bounds/thresholds are compared; concurrency and exception flags remain unverified.",
+    "Packing callers must retain the original raw float tokens. The test float ABI covers quiet NaNs and signed zero; signaling NaN argument conversion is not independently established."
+  ],
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 10000
+  },
+  "full_module_rebuild": false
+}

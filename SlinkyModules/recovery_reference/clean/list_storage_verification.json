@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "total_cases": 1580,
+  "comparison_counts": {
+    "insert": 812,
+    "growth": 768
+  },
+  "instruction_coverage": {
+    "0xe0b0": {
+      "instructions": 95,
+      "reached": 95,
+      "unreached": []
+    },
+    "0xe310": {
+      "instructions": 38,
+      "reached": 38,
+      "unreached": []
+    }
+  },
+  "fatal_allocation_boundary_and_state_checked": true,
+  "first_growth_allocation_requests_eight_bytes": true,
+  "incoming_rsi_return_bytes_checked": true,
+  "allocator_and_memory_endpoints_controlled": true,
+  "module_settings_connections_verified": false,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_list_storage.cpp": "be1f4e94bae5853fbf0ab30484e833b0c4bce516f004013713e859285400360b",
+    "recovered_cpp/clean/module_list_storage.hpp": "43a35bd7ccede0f2d414ed47aa36bb47f2c65f6c1660e1fd862634d219ed5a2c",
+    "recovered_cpp/clean/module_memory.cpp": "4fe065a5502c91d1fc12493a8df7253986f9ed1899540c17d3a0278c41d9b831",
+    "recovered_cpp/clean/module_memory.hpp": "1cbdaad9daa71d61088296111375df6e9f827fd1dc131c0b8333a7e87f400a73",
+    "analysis/recovered_native_source/list_storage_test_bridge.cpp": "57e54ee0fac6e8e341ee15cdb2514efcba0f0dbedb22b48b4d4d105e9b5529d7",
+    "analysis/recovered_native_source/verify_list_storage.py": "552ae368fa03a6f964ea5025687d128455a47109f8fcdf50e356ec728f084813"
+  }
+}

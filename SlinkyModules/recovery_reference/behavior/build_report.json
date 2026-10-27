@@ -1,0 +1,833 @@
+{
+  "component_count": 74,
+  "compiled_as_cpp": 38,
+  "compiler": "MSVC cl /std:c++20 /EHsc /c /TP",
+  "results": [
+    {
+      "cpp": "recovered_cpp/behavior/recovered_native_source/sprint_behavior.cpp",
+      "cpp_sha256": "6509e9ea5c510df013dc395f268a54d3fb04b14be1cd702c9edb460b100d194a",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\recovered_native_source\\sprint_behavior.cpp(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\recovered_native_source\\sprint_behavior.cpp(22): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\recovered_native_source\\sprint_behavior.cpp(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\recovered_native_source\\sprint_behavior.cpp(23): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\recovered_native_source\\sprint_behavior.cpp(23): error C2086: 'int _Static_assert': redefinition"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/access_events/access_events.cpp",
+      "cpp_sha256": "9ca8a77cf7d04b10401d060a4d366886268fc05a9b6d21bca8b33dc94f1e8576",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/aim_assist_events/aim_assist_events.cpp",
+      "cpp_sha256": "0e4e85c073c7a6549e5eacd1b498a0e6a26bcadf66c432745ecec3a80325e162",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/aim_assist_selection/aim_assist_selection.cpp",
+      "cpp_sha256": "a7efa441f93bde232b99f9eb6e88d98e57ae3125e929229abc94d71a490a1753",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\aim_assist_selection\\aim_assist_selection.cpp(110): error C2362: initialization of 'count' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\aim_assist_selection\\aim_assist_selection.cpp(78): error C2362: initialization of 'current' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\aim_assist_selection\\aim_assist_selection.cpp(52): error C2362: initialization of 'predicate' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\aim_assist_selection\\aim_assist_selection.cpp(110): error C2362: initialization of 'count' is skipped by 'goto clear_active'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\aim_assist_selection\\aim_assist_selection.cpp(78): error C2362: initialization of 'current' is skipped by 'goto clear_active'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\aim_assist_selection\\aim_assist_selection.cpp(52): error C2362: initialization of 'predicate' is skipped by 'goto clear_active'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/aim_assist_update/aim_assist_update.cpp",
+      "cpp_sha256": "965fc05172a262bc0181ff5e2e65ef853c7614c4b85ad48416dfee9ebb37f716",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/anti_bot/anti_bot.cpp",
+      "cpp_sha256": "998d83098099e47cda587a39b2bb4e98e16316daabac8f1f77d033ac45da5367",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\anti_bot\\anti_bot.cpp(102): error C2362: initialization of 'age' is skipped by 'goto ignored'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\anti_bot\\anti_bot.cpp(93): error C2362: initialization of 'mode' is skipped by 'goto ignored'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_clicker/auto_clicker.cpp",
+      "cpp_sha256": "83f4066215bfd4599ab9f766e69fb2b599bd9c29af611c0d647bfb2042921a8b",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_clicker\\auto_clicker.cpp(51): error C2362: initialization of 'slot_id' is skipped by 'goto idle_delay'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_clicker\\auto_clicker.cpp(49): error C2362: initialization of 'slot' is skipped by 'goto idle_delay'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_clicker\\auto_clicker.cpp(48): error C2362: initialization of 'inventory' is skipped by 'goto idle_delay'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_clicker\\auto_clicker.cpp(47): error C2362: initialization of 'screen' is skipped by 'goto idle_delay'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_clicker\\auto_clicker.cpp(46): error C2362: initialization of 'game' is skipped by 'goto idle_delay'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_pot/auto_pot.cpp",
+      "cpp_sha256": "52332bea03bf1c07963bf9abf7d5c3e05a4af1d2b3a77ca13564c4292365503e",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_soup/auto_soup.cpp",
+      "cpp_sha256": "5960b270f533904799cd8993897730616c5cb8841944dbe17b8cf8aa834c5b17",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_tool/auto_tool.cpp",
+      "cpp_sha256": "4d60d2ca2bce645f927dc1773bd38b0cfbd5ab109da88f20213453f37ec24041",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(92): error C2362: initialization of 'locked' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(81): error C2362: initialization of 'best_index' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(80): error C2362: initialization of 'best' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(79): error C2362: initialization of 'scan_game' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(71): error C2362: initialization of 'slot' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(70): error C2362: initialization of 'z' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(70): error C2362: initialization of 'y' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(70): error C2362: initialization of 'x' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(66): error C2362: initialization of 'entity' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(60): error C2362: initialization of 'active' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(58): error C2362: initialization of 'bridge' is skipped by 'goto failed'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(92): error C2362: initialization of 'locked' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(81): error C2362: initialization of 'best_index' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(80): error C2362: initialization of 'best' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(79): error C2362: initialization of 'scan_game' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(71): error C2362: initialization of 'slot' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(70): error C2362: initialization of 'z' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(70): error C2362: initialization of 'y' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(70): error C2362: initialization of 'x' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(66): error C2362: initialization of 'entity' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(60): error C2362: initialization of 'active' is skipped by 'goto restore'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_tool\\auto_tool.cpp(58): error C2362: initialization of 'bridge' is skipped by 'goto restore'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_weapon/auto_weapon.cpp",
+      "cpp_sha256": "dba2417b20679074d8354097a3a95d93d8da2fa53ce415c59b6cd1362cad988b",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\auto_weapon\\auto_weapon.cpp(26): error C2362: initialization of 'count' is skipped by 'goto reset'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/backtrack_packet/backtrack_packet.cpp",
+      "cpp_sha256": "c0f40794ab030b04a3318a5ceb907219b2cbcad3e32cdcceff2aef7246ea2b86",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_packet\\backtrack_packet.cpp(16): error C2362: initialization of 'game' is skipped by 'goto unlock'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_packet\\backtrack_packet.cpp(15): error C2362: initialization of 'packet' is skipped by 'goto unlock'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/backtrack_render/backtrack_render.cpp",
+      "cpp_sha256": "66a59d9d1cfd7e3fb81827e5fa2492f80ae37b3693d3c97a226a73fcfd6a0826",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/backtrack_update/backtrack_update.cpp",
+      "cpp_sha256": "cee27058a45d211f89a4a7e48b9432a8929ca3c34d77cd2bb19c2b2302957344",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(84): error C2362: initialization of 'metric' is skipped by 'goto unlock'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(84): error C2362: initialization of 'metric' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(60): error C2362: initialization of 'old_id' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(59): error C2362: initialization of 'limit' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(57): error C2362: initialization of 'self_id' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(56): error C2362: initialization of 'target_id' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(55): error C2362: initialization of 'angles' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(45): error C2362: initialization of 'maximum' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(43): error C2362: initialization of 'distance' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(42): error C2362: initialization of 'minimum' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(40): error C2362: initialization of 'hurt' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(38): error C2362: initialization of 'entity' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(37): error C2362: initialization of 'target' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(35): error C2362: initialization of 'current' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\backtrack_update\\backtrack_update.cpp(34): error C2362: initialization of 'previous' is skipped by 'goto reject'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/blink/blink.cpp",
+      "cpp_sha256": "d17e2e272e573f4473bc348d3c5f53ce7a215a0bbc2925983965b81a151cb737",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/block_esp_lifecycle/block_esp_lifecycle.cpp",
+      "cpp_sha256": "4c782aeaa89adf90e051d351e9c3480b8974d471bac31b28fdc132cd5bcf6ff0",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/block_esp_render/block_esp_render.cpp",
+      "cpp_sha256": "99129bf8b0bd7b548f99dac85592d015edbe14d378a55ca19235c654212cde68",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/block_in_events/block_in_events.cpp",
+      "cpp_sha256": "e69452b8a9a6eb82739ffd18c79b0394a2b88eae12cfbd07423feff4a6b09243",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/block_in_update/block_in_update.cpp",
+      "cpp_sha256": "21a07b1788ef9b1606035a85e07da40deec79609239b86eefa8e056e46fa7aaf",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(121): error C2362: initialization of 'direct' is skipped by 'goto aim'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(175): error C2362: initialization of 'sz' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(175): error C2362: initialization of 'sx' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(168): error C2362: initialization of 'ay' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(168): error C2362: initialization of 'ax' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(168): error C2362: initialization of 'mask' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(166): error C2362: initialization of 'result' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(165): error C2362: initialization of 'cy' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(165): error C2362: initialization of 'cx' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(164): error C2362: initialization of 'sign' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(162): error C2362: initialization of 'setting' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(162): error C2362: initialization of 'rate' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(161): error C2362: initialization of 'ry' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(160): error C2362: initialization of 'rx' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(159): error C2362: initialization of 'period' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(159): error C2362: initialization of 'bounds' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(158): error C2362: initialization of 'hi' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(158): error C2362: initialization of 'lo' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(157): error C2362: initialization of 'scaled' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(156): error C2362: initialization of 'factor' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(156): error C2362: initialization of 'half' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(155): error C2362: initialization of 'yaw' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(155): error C2362: initialization of 'pitch' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(154): error C2362: initialization of 'delta' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(153): error C2362: initialization of 'desired' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(151): error C2362: initialization of 'position' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(150): error C2362: initialization of 'combined' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(149): error C2362: initialization of 'offset' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(149): error C2362: initialization of 'angle' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(147): error C2362: initialization of 'item' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(121): error C2362: initialization of 'direct' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(81): error C2362: initialization of 'game' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(81): error C2362: initialization of 'cache' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(80): error C2362: initialization of 'z' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(80): error C2362: initialization of 'y' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(80): error C2362: initialization of 'x' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(78): error C2362: initialization of 'fz' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(77): error C2362: initialization of 'fy' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(76): error C2362: initialization of 'fx' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(76): error C2362: initialization of 'selfy' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(70): error C2362: initialization of 'ground' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\block_in_update\\block_in_update.cpp(180): fatal error C1003: error count exceeds 100; stopping compilation"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/bridge_events/bridge_events.cpp",
+      "cpp_sha256": "142b77826bb0511f94c2bf03f371804d81a9fb789968acc2aca6b573962c6bdb",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(68): error C2362: initialization of 'upper' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(66): error C2362: initialization of 'margin' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(65): error C2362: initialization of 'rz' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(64): error C2362: initialization of 'rx' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(63): error C2362: initialization of 'end_x' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(62): error C2362: initialization of 'inside_z' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(61): error C2362: initialization of 'unit' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(57): error C2362: initialization of 'dy' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(54): error C2362: initialization of 'object' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(46): error C2362: initialization of 'folded' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(45): error C2362: initialization of 'angle' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(44): error C2362: initialization of 'packed' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(40): error C2362: initialization of 'right' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(39): error C2362: initialization of 'left' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(38): error C2362: initialization of 'forward' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(37): error C2362: initialization of 'settings' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(32): error C2362: initialization of 'hit' is skipped by 'goto fallback'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_events\\bridge_events.cpp(72): fatal error C1003: error count exceeds 100; stopping compilation"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/bridge_update/bridge_update.cpp",
+      "cpp_sha256": "9764e3aab0cd84d5fe7c3e0bb4973838a987dd6956cb99c58addbbe49565e1ae",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_update\\bridge_update.cpp(72): error C2362: initialization of 'next' is skipped by 'goto finish_flag'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_update\\bridge_update.cpp(72): error C2362: initialization of 'next' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_update\\bridge_update.cpp(44): error C2362: initialization of 'world' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_update\\bridge_update.cpp(43): error C2362: initialization of 'down' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_update\\bridge_update.cpp(21): error C2362: initialization of 'player' is skipped by 'goto reject'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\bridge_update\\bridge_update.cpp(21): error C2362: initialization of 'game' is skipped by 'goto reject'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/chest_esp/chest_esp.cpp",
+      "cpp_sha256": "96448ede63d71779c650bba508bb417e1ce00aec043d7552bbc3068a191a09d0",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/clutch_events/clutch_events.cpp",
+      "cpp_sha256": "60ebc4a98f7a8f4badb3f83ee139254449bc0028c03de8ce292d928bcabba460",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/clutch_update/clutch_update.cpp",
+      "cpp_sha256": "6a1f89e0d0bbba5c8228638b7cc27b1edd8a05195738564475c32a07ccf151c4",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/connected_auto_block/connected_auto_block.cpp",
+      "cpp_sha256": "0aebf55c22c46a82ef1d6fb103d8c19b8d033ae3377e68916e591888e234c8c6",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\connected_auto_block\\connected_auto_block.cpp(27): error C2664: 'uint64_t recovered_access_25760(uint8_t *,uint32_t,endpoint)': cannot convert argument 1 from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\connected_auto_block\\connected_auto_block.cpp(28): error C2664: 'uint64_t recovered_access_258c0(uint8_t *,uint32_t,endpoint)': cannot convert argument 1 from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\connected_auto_block\\connected_auto_block.cpp(32): error C2440: 'initializing': cannot convert from 'void *' to 'frame *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\connected_auto_block\\connected_auto_block.cpp(32): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/connected_auto_rod_access/connected_auto_rod_access.cpp",
+      "cpp_sha256": "3cff33d24110a0f2ab84e68a5f300666d37234d7c9350cef64f4eb69389e6656",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\connected_auto_rod_access\\connected_auto_rod_access.cpp(34): error C2664: 'void recovered_auto_rod_44340(uint8_t *,uint8_t *)': cannot convert argument 1 from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\connected_auto_rod_access\\connected_auto_rod_access.cpp(38): error C2440: 'initializing': cannot convert from 'void *' to 'frame *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\connected_auto_rod_access\\connected_auto_rod_access.cpp(38): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\connected_auto_rod_access\\connected_auto_rod_access.cpp(54): error C2664: 'uint32_t recovered_registry_request_284f0(uint8_t *,uint8_t *,uint8_t,uint64_t,endpoint)': cannot convert argument 2 from 'void *' to 'uint8_t *'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/criticals/criticals.cpp",
+      "cpp_sha256": "2ba1096f5a5e0385f1eae90ce9c70e7a110f7b961256a40109e34d4d08fcd7b7",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\criticals\\criticals.cpp(25): error C2362: initialization of 'counter' is skipped by 'goto select_mode'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/debug/debug.cpp",
+      "cpp_sha256": "f41ece4abff6199a64b17c7655be7f071da4173a2482cc75b23f99263c83dde4",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/fake_lag/fake_lag.cpp",
+      "cpp_sha256": "1a844de091db8b4d994a0fe1665bd1b59830d4174d1c9084ec830771e6ca7edb",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(7): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(8): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(8): error C2086: 'int _Static_assert': redefinition",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(9): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(9): error C2086: 'int _Static_assert': redefinition",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(10): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(10): error C2086: 'int _Static_assert': redefinition",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(11): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(11): error C2086: 'int _Static_assert': redefinition",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(12): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(12): error C2086: 'int _Static_assert': redefinition",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(13): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(13): error C2086: 'int _Static_assert': redefinition",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(14): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\fake_lag\\fake_lag.cpp(14): error C2086: 'int _Static_assert': redefinition"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/fast_accel/fast_accel.cpp",
+      "cpp_sha256": "5f65784913f735dc585aeb441615dbbd887766e19eb5d2c1ec54e1dbc62cff4f",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/fast_mine/fast_mine.cpp",
+      "cpp_sha256": "634881e00fdc0572eb56db7e1a9d6184ae2c6982727546ae56962728f4ddd537",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/fast_place/fast_place.cpp",
+      "cpp_sha256": "71fe9ee944ba3c141ce5b8918a859aef4f69c49d8e3b706e8ad7c921680a838c",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/friends/friends.cpp",
+      "cpp_sha256": "ac3716c7e6adf02792529256ad931622717004f375bea46dfc541109e8611556",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/gui/gui.cpp",
+      "cpp_sha256": "502f5f083b7f3c92d615da1c4841ad976a89209c20cbf8f50bb6e818db01c8fa",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/hit_select/hit_select.cpp",
+      "cpp_sha256": "702d7e4012e7fb1cb4deeaaaa27b15d972501f1892365782da9421c6e3a62540",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(56): error C2362: initialization of 'mode' is skipped by 'goto always_cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(54): error C2362: initialization of 'state' is skipped by 'goto always_cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(48): error C2362: initialization of 'rising' is skipped by 'goto always_cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(47): error C2362: initialization of 'ground' is skipped by 'goto always_cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(46): error C2362: initialization of 'threshold' is skipped by 'goto always_cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(56): error C2362: initialization of 'mode' is skipped by 'goto cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(54): error C2362: initialization of 'state' is skipped by 'goto cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(48): error C2362: initialization of 'rising' is skipped by 'goto cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(47): error C2362: initialization of 'ground' is skipped by 'goto cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(46): error C2362: initialization of 'threshold' is skipped by 'goto cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(39): error C2362: initialization of 'missing_target' is skipped by 'goto cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(38): error C2362: initialization of 'target' is skipped by 'goto cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(56): error C2362: initialization of 'mode' is skipped by 'goto allow'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(54): error C2362: initialization of 'state' is skipped by 'goto allow'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(48): error C2362: initialization of 'rising' is skipped by 'goto allow'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(47): error C2362: initialization of 'ground' is skipped by 'goto allow'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(46): error C2362: initialization of 'threshold' is skipped by 'goto allow'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(39): error C2362: initialization of 'missing_target' is skipped by 'goto allow'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\hit_select\\hit_select.cpp(38): error C2362: initialization of 'target' is skipped by 'goto allow'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/indicators/indicators.cpp",
+      "cpp_sha256": "575aa17eec1d60a689480b8b1552d745696033e9b537839b4110add01afeef97",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\indicators\\indicators.cpp(71): error C2362: initialization of 'local' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\indicators\\indicators.cpp(69): error C2362: initialization of 'env' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\indicators\\indicators.cpp(67): error C2362: initialization of 'row' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\indicators\\indicators.cpp(67): error C2362: initialization of 'old' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\indicators\\indicators.cpp(63): error C2362: initialization of 'distance' is skipped by 'goto next'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/instant_stop/instant_stop.cpp",
+      "cpp_sha256": "7f3197b3eabd60f03020c1e721600dd7a75bba20e3718cf3e2c9e13b57cac313",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(137): error C2362: initialization of 'last_value' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(131): error C2362: initialization of 'first_value' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(101): error C2362: initialization of 'index' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(100): error C2362: initialization of 'origin_distance' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(99): error C2362: initialization of 'third_distance' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(98): error C2362: initialization of 'current_min' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(97): error C2362: initialization of 'third' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(96): error C2362: initialization of 'global' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(90): error C2362: initialization of 'rate' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(88): error C2362: initialization of 'yaw' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(82): error C2362: initialization of 'player' is skipped by 'goto store'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\instant_stop\\instant_stop.cpp(55): error C2362: initialization of 'active_mode' is skipped by 'goto store'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/inv_manager/inv_manager.cpp",
+      "cpp_sha256": "66d0a33d06b01a680f8c18e6805861803751cbc934f8a8d89d7397b7bc01b5f1",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/inv_walk_events/inv_walk_events.cpp",
+      "cpp_sha256": "be6a69661af1ca298fa4f3c1493f143ddf8b2883accdb1637c5b4471bb93fabc",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_events\\inv_walk_events.cpp(70): error C2362: initialization of 'retained' is skipped by 'goto cancel'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_events\\inv_walk_events.cpp(69): error C2362: initialization of 'env' is skipped by 'goto cancel'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/inv_walk_update/inv_walk_update.cpp",
+      "cpp_sha256": "5b340b7c50f38a5b9e4fefabc60a5456ef860ee97d7658129be650fa40386b59",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(71): error C2362: initialization of 'state' is skipped by 'goto options'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(70): error C2362: initialization of 'allowed' is skipped by 'goto options'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(58): error C2362: initialization of 'held' is skipped by 'goto options'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(57): error C2362: initialization of 'destination' is skipped by 'goto options'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(56): error C2362: initialization of 'object' is skipped by 'goto options'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(55): error C2362: initialization of 'inventory' is skipped by 'goto options'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(71): error C2362: initialization of 'state' is skipped by 'goto apply'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(70): error C2362: initialization of 'allowed' is skipped by 'goto apply'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(58): error C2362: initialization of 'held' is skipped by 'goto apply'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(57): error C2362: initialization of 'destination' is skipped by 'goto apply'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(56): error C2362: initialization of 'object' is skipped by 'goto apply'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(55): error C2362: initialization of 'inventory' is skipped by 'goto apply'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(36): error C2362: initialization of 'inventory_screen' is skipped by 'goto apply'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(35): error C2362: initialization of 'moving' is skipped by 'goto apply'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(71): error C2362: initialization of 'state' is skipped by 'goto set_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(70): error C2362: initialization of 'allowed' is skipped by 'goto set_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(58): error C2362: initialization of 'held' is skipped by 'goto set_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(57): error C2362: initialization of 'destination' is skipped by 'goto set_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(56): error C2362: initialization of 'object' is skipped by 'goto set_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(55): error C2362: initialization of 'inventory' is skipped by 'goto set_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(71): error C2362: initialization of 'state' is skipped by 'goto zero_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(70): error C2362: initialization of 'allowed' is skipped by 'goto zero_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(58): error C2362: initialization of 'held' is skipped by 'goto zero_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(57): error C2362: initialization of 'destination' is skipped by 'goto zero_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(56): error C2362: initialization of 'object' is skipped by 'goto zero_keys'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\inv_walk_update\\inv_walk_update.cpp(55): error C2362: initialization of 'inventory' is skipped by 'goto zero_keys'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/item_esp/item_esp.cpp",
+      "cpp_sha256": "ecddfb5edfe4a030d02b43b85429f85a84dc8f9e8b2ffb3e4049847e33a2997b",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/item_esp_update/item_esp_update.cpp",
+      "cpp_sha256": "aca9dd71e36ce3864d5be462f19cfe1a47df01d0d95692a658deb16c7a634afd",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/keep_sprint/keep_sprint.cpp",
+      "cpp_sha256": "ff693175feef4393b381b1098f0ef64b7972929224ec17ba4595e121c0d0c7ba",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/knockback_delay_packet/knockback_delay_packet.cpp",
+      "cpp_sha256": "3593bd77a41e935c52bc9372299280b716bc1a19092e005ea4c7994f92e73194",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_delay_packet\\knockback_delay_packet.cpp(36): error C2362: initialization of 'result' is skipped by 'goto reset'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_delay_packet\\knockback_delay_packet.cpp(33): error C2362: initialization of 'remaining_bits' is skipped by 'goto reset'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/knockback_delay_update/knockback_delay_update.cpp",
+      "cpp_sha256": "d294477a8574a30233fa74bf72728781da4cd5d1b3feb07424076fffcff82f83",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_delay_update\\knockback_delay_update.cpp(30): error C2362: initialization of 'range' is skipped by 'goto finish'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/knockback_displace/knockback_displace.cpp",
+      "cpp_sha256": "9ee20091f577859ca858fac74f12739dc41edd135f9177401db9acac0b2af532",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(114): error C2362: initialization of 'slot' is skipped by 'goto clear'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(112): error C2362: initialization of 'inventory' is skipped by 'goto clear'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(107): error C2362: initialization of 'displacement' is skipped by 'goto clear'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(106): error C2362: initialization of 'angle' is skipped by 'goto clear'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(102): error C2362: initialization of 'sign' is skipped by 'goto clear'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(101): error C2362: initialization of 'movement' is skipped by 'goto clear'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(100): error C2362: initialization of 'movement_bits' is skipped by 'goto clear'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(114): error C2362: initialization of 'slot' is skipped by 'goto finish'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(112): error C2362: initialization of 'inventory' is skipped by 'goto finish'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(107): error C2362: initialization of 'displacement' is skipped by 'goto finish'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\knockback_displace\\knockback_displace.cpp(106): error C2362: initialization of 'angle' is skipped by 'goto finish'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/lag_range_packet/lag_range_packet.cpp",
+      "cpp_sha256": "50169b30afa9f04200b469d72ef23b1c150a7136ea9832e209ef2b4cf532b20a",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/lag_range_render/lag_range_render.cpp",
+      "cpp_sha256": "1c6000e1ccfa0ebfffddf0ad0f8c2e23733d484df3983f529cdd09fd574a2ae1",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/lag_range_update/lag_range_update.cpp",
+      "cpp_sha256": "12693ed949145b99a2f6655b42e39daad6e3bc7ef9595b94c6360c284bde2b51",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\lag_range_update\\lag_range_update.cpp(53): error C2362: initialization of 'render' is skipped by 'goto reset'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\lag_range_update\\lag_range_update.cpp(52): error C2362: initialization of 'fresh' is skipped by 'goto reset'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\lag_range_update\\lag_range_update.cpp(50): error C2362: initialization of 'radius' is skipped by 'goto reset'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\lag_range_update\\lag_range_update.cpp(49): error C2362: initialization of 'radius_bits' is skipped by 'goto reset'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\lag_range_update\\lag_range_update.cpp(48): error C2362: initialization of 'random' is skipped by 'goto reset'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\lag_range_update\\lag_range_update.cpp(47): error C2362: initialization of 'distance' is skipped by 'goto reset'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\lag_range_update\\lag_range_update.cpp(45): error C2362: initialization of 'target' is skipped by 'goto reset'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\lag_range_update\\lag_range_update.cpp(35): error C2362: initialization of 'sprint_delay' is skipped by 'goto reset'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\lag_range_update\\lag_range_update.cpp(34): error C2362: initialization of 'sprint' is skipped by 'goto reset'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/mod_overlay_extended/mod_overlay.cpp",
+      "cpp_sha256": "fe7fb5d6a0053f8b090c98064d62f27bcf795ede61934967e430784079867a46",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/mod_overlay_render/mod_overlay_render.cpp",
+      "cpp_sha256": "51fde7512b0ab23020613e05bf4d00b7ba893e65b0cdb9c8ce94977f724ea645",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\mod_overlay_render\\mod_overlay_render.cpp(28): error C2664: 'uint64_t recovered_mod_overlay_compare_34fb0(const uint8_t *,const uint8_t *,endpoint)': cannot convert argument 1 from 'void *' to 'const uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\mod_overlay_render\\mod_overlay_render.cpp(30): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/name_tags/name_tags.cpp",
+      "cpp_sha256": "0ea8ab2ba5628609a793cae8e4d03075be0dfe7f99e49e0c9a38e526a75c5547",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags\\name_tags.cpp(48): error C2664: 'void recovered_name_tags_release_3d800(uint8_t *,uint8_t *,endpoint)': cannot convert argument 1 from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags\\name_tags.cpp(51): error C2664: 'void recovered_name_tags_release_3d800(uint8_t *,uint8_t *,endpoint)': cannot convert argument 1 from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags\\name_tags.cpp(55): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags\\name_tags.cpp(74): error C2362: initialization of 'left_x' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags\\name_tags.cpp(72): error C2362: initialization of 'left' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags\\name_tags.cpp(71): error C2362: initialization of 'negative_width' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags\\name_tags.cpp(70): error C2362: initialization of 'size' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags\\name_tags.cpp(69): error C2362: initialization of 'factor' is skipped by 'goto next'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/name_tags_update/name_tags_update.cpp",
+      "cpp_sha256": "85a10e22bb2986eaca972bbfc061271c1117adc0ce9846d2cb89d20bf7ffd4d1",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(37): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(38): error C2664: 'void recovered_name_tags_release_3d800(uint8_t *,uint8_t *,endpoint)': cannot convert argument 1 from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(67): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(98): error C2362: initialization of 'dist' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(96): error C2362: initialization of 'row' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(96): error C2362: initialization of 'count' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(94): error C2362: initialization of 'version' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(93): error C2362: initialization of 'global_entity' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(92): error C2362: initialization of 'label' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(61): error C2362: initialization of 'range' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(61): error C2362: initialization of 'distance' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(58): error C2362: initialization of 'flags' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(53): error C2362: initialization of 'distance_red' is skipped by 'goto sorted'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(53): error C2362: initialization of 'health_scale' is skipped by 'goto sorted'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(53): error C2362: initialization of 'health_red' is skipped by 'goto sorted'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(53): error C2362: initialization of 'health_yellow' is skipped by 'goto sorted'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(53): error C2362: initialization of 'max_absorb' is skipped by 'goto sorted'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\name_tags_update\\name_tags_update.cpp(53): error C2362: initialization of 'max_health' is skipped by 'goto sorted'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/no_item_release/no_item_release.cpp",
+      "cpp_sha256": "6b302d6ea5e0f12f5754e839652f0843e0c3940c60d162b85d5abbd8e018ca71",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/notifications/notifications.cpp",
+      "cpp_sha256": "90f743d4199e5b3707e6384aa6e9602605cf1fd3b0a5e276c247c78295c00872",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\notifications\\notifications.cpp(20): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/notifications_render/notifications_render.cpp",
+      "cpp_sha256": "8abc6d25e316a3727b99bc9018ba10efc0b9616f1440d2669cc47d6d01d2c244",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\notifications_render\\notifications_render.cpp(22): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/null_move/null_move.cpp",
+      "cpp_sha256": "8bf18b59c0a084c53867e8427d4082e3159e0708e993b2dd74ebb99825f7a4cc",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/player_esp_render_2d/player_esp_render_2d.cpp",
+      "cpp_sha256": "1e18ad61b3f7734c0ca783c292d1d3ae47cdf18be2cab9b09e3ecc5e06e8e1be",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(46): error C2362: initialization of 'blue' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(46): error C2362: initialization of 'green' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(46): error C2362: initialization of 'red' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(46): error C2362: initialization of 'hurt' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(44): error C2362: initialization of 'height' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(44): error C2362: initialization of 'width' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(37): error C2362: initialization of 'maxy' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(37): error C2362: initialization of 'miny' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(37): error C2362: initialization of 'maxx' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_render_2d\\player_esp_render_2d.cpp(37): error C2362: initialization of 'minx' is skipped by 'goto next'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/player_esp_render_3d/player_esp_render_3d.cpp",
+      "cpp_sha256": "d1e1f74a56403acb01423d2e5f6562d7ea9b31c32f7bf232c3c8486fa370849b",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/player_esp_update/player_esp_update.cpp",
+      "cpp_sha256": "67861a349d6fd39fa4e5a490ee0042bd91bd0922e243f619465384a6e0958824",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(59): error C2362: initialization of 'fraction' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(59): error C2362: initialization of 'total' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(57): error C2362: initialization of 'extra' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(57): error C2362: initialization of 'health' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(52): error C2362: initialization of 'row' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(52): error C2362: initialization of 'count' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(39): error C2362: initialization of 'highlight' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(37): error C2362: initialization of 'range' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(36): error C2362: initialization of 'distance' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\player_esp_update\\player_esp_update.cpp(33): error C2362: initialization of 'flags' is skipped by 'goto next'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/pointers/pointers.cpp",
+      "cpp_sha256": "16ceca88bfce898bcc7b3578816f180cae6ed0e4d886ab33f5757b997b811c04",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(35): error C2664: 'uint32_t recovered_pointers_compare_3e570(const uint8_t *,const uint8_t *)': cannot convert argument 1 from 'void *' to 'const uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(63): error C2362: initialization of 'mode' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(59): error C2362: initialization of 'current_distance' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(57): error C2362: initialization of 'row' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(57): error C2362: initialization of 'old' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(54): error C2362: initialization of 'wrapped' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(54): error C2362: initialization of 'angle' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(53): error C2362: initialization of 'angle_bits' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(53): error C2362: initialization of 'dz' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(53): error C2362: initialization of 'dx' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(52): error C2362: initialization of 'range' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(52): error C2362: initialization of 'distance' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\pointers\\pointers.cpp(50): error C2362: initialization of 'flags' is skipped by 'goto next'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/refill/refill.cpp",
+      "cpp_sha256": "f6d208e390ca5bdee3d54a73c5e02e08ee587b26489bc5cf285ea41c58953cbb",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\refill\\refill.cpp(52): error C2362: initialization of 'chance_high' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\refill\\refill.cpp(52): error C2362: initialization of 'chance_low' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\refill\\refill.cpp(51): error C2362: initialization of 'factor_base' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\refill\\refill.cpp(51): error C2362: initialization of 'sample_scale' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\refill\\refill.cpp(50): error C2362: initialization of 'sample_limit' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\refill\\refill.cpp(49): error C2362: initialization of 'angle_limit' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\refill\\refill.cpp(49): error C2362: initialization of 'index_limit' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\refill\\refill.cpp(48): error C2362: initialization of 'state' is skipped by 'goto cleanup'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\refill\\refill.cpp(44): error C2362: initialization of 'delay' is skipped by 'goto cleanup'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/safe_walk/safe_walk.cpp",
+      "cpp_sha256": "5665779037c49284284c268b21b543e1e860a0f5e4482dd32ebe1aeb2250c63d",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/simple_events/simple_events.cpp",
+      "cpp_sha256": "da95eded1f48b6ef11ae7309f515c7a509497a51d1c2116405854b90bc8cf67e",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/sprint_reset/sprint_reset.cpp",
+      "cpp_sha256": "019bc671cc533b7836fdaee2ec7bb5c47cb76e29c6dcdf7bc3eb2685b9439c79",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(7): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(8): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(8): error C2086: 'int _Static_assert': redefinition",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(9): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(9): error C2086: 'int _Static_assert': redefinition",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(10): error C2374: '_Static_assert': redefinition; multiple initialization",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\sprint_reset\\sprint_reset.cpp(10): error C2086: 'int _Static_assert': redefinition"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/state_events/state_events.cpp",
+      "cpp_sha256": "706fce7c5630684af6b95a1b08d9384e626f07742877b02a5b50655b006de29e",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/strafe/strafe.cpp",
+      "cpp_sha256": "a95fda2f7e8224e393c6ecd0fa275d8ae5b18843db554e6e9126e3bb06604cb9",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/teams/teams.cpp",
+      "cpp_sha256": "9524f533b7c69aa9103e49a443910eb6386e482b1616c5e41639ebb3b3a06b40",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/timer_range_events/timer_range_events.cpp",
+      "cpp_sha256": "ce61621da13a13ac6535337dd62fde6cf6a546f7f1087b3bf70917ea25f56031",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/timer_range_update/timer_range_update.cpp",
+      "cpp_sha256": "c7c3eb68d78f5120e821e3f63bb88be0f356ca994bec858205374654e735527d",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/trajectories/trajectories.cpp",
+      "cpp_sha256": "b83da9cc073af70a690881791595a6f6ade3a2045314c02b3a499e9ce251fc72",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories\\trajectories.cpp(45): error C2664: 'void recovered_trajectory_launch_45f40(uint8_t *,double *,uint64_t,float,double *,double *,uint8_t *,endpoint)': cannot convert argument 1 from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories\\trajectories.cpp(56): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/trajectories_update/trajectories_update.cpp",
+      "cpp_sha256": "b4a8a752d8aa1225f0cf9520e0ea3c44e5d03371fb42b074fa29b466b355f24a",
+      "compiled_as_cpp": false,
+      "errors": [
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(64): error C2440: 'initializing': cannot convert from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(120): error C2664: 'uint8_t *recovered_vector_index_ddc0(uint8_t *,uint32_t,const void *,uint32_t)': cannot convert argument 1 from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(123): error C2664: 'uint8_t *recovered_vector_index_ddc0(uint8_t *,uint32_t,const void *,uint32_t)': cannot convert argument 1 from 'void *' to 'uint8_t *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(96): error C2362: initialization of 'box_object' is skipped by 'goto next'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(105): error C2362: initialization of 'block_size' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(105): error C2362: initialization of 'drag' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(87): error C2362: initialization of 'high' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(87): error C2362: initialization of 'low' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(87): error C2362: initialization of 'horizontal' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(86): error C2362: initialization of 'list' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(83): error C2362: initialization of 'angle' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(69): error C2362: initialization of 'entity_flag' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(69): error C2362: initialization of 'block_flag' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(69): error C2362: initialization of 'id' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(68): error C2362: initialization of 'item' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(66): error C2362: initialization of 'settings' is skipped by 'goto inactive'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(135): error C2664: 'double *recovered_box_sorted_96e0(double *,const double *,const double *)': cannot convert argument 1 from 'void *' to 'double *'",
+        "C:\\Users\\Michael\\Downloads\\slinky stuff\\recovered_cpp\\behavior\\module_behavior_recovery\\trajectories_update\\trajectories_update.cpp(136): error C2664: 'double *recovered_box_expand_9770(double *,double *,double)': cannot convert argument 1 from 'void *' to 'double *'"
+      ]
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/velocity/velocity.cpp",
+      "cpp_sha256": "66b73928d18d7ed8fb78f40f55cfe57b834bdbcc2fe8aa507ea909eb892b94ea",
+      "compiled_as_cpp": true,
+      "errors": []
+    },
+    {
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/weapons/weapons.cpp",
+      "cpp_sha256": "acca2979866bbd84fd910e42e10f6945782b737eaca23f999bde355960253212",
+      "compiled_as_cpp": true,
+      "errors": []
+    }
+  ]
+}

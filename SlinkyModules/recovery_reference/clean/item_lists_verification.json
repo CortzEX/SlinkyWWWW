@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "total_cases": 127,
+  "comparison_counts": {
+    "0x2ab70": 7,
+    "0x2ac50": 7,
+    "0x2ab80": 7,
+    "0x2ac20": 25,
+    "0x2abb0": 21,
+    "0x2ac30": 60
+  },
+  "modules_using_shared_callbacks": [
+    "Auto Soup",
+    "Auto Tool",
+    "Weapons"
+  ],
+  "catalog_lookup_sorted_insert_and_memmove_controlled": true,
+  "index_arithmetic_and_count_store_executed_in_original": true,
+  "bound_setting_count_name_add_remove_clear_compared": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_item_lists.hpp": "ed1e99ac60e9f997486cf23ac304f2cc087e26e897c73fccaa92e3e17e2ea192",
+    "recovered_cpp/clean/module_item_lists.cpp": "6812f4abcbd1508e0081042adff29b78d6d20d4bc5f6fd2e5c2a49a3b2a9b6e5",
+    "recovered_cpp/clean/module_list_settings.hpp": "69637d6a6bce6906da722f0a0696db982a31dbe2e433cfc9ece4d2e7acc349f0",
+    "recovered_cpp/clean/module_color_settings.hpp": "22c884b1e71170622e2feb5ac472985f27a7b7a9df1d81a6ff0cc98827f572c2",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "analysis/recovered_native_source/verify_item_lists.py": "7baff8ad629cb39b039005bb54b58099feb86ee3424550f0bbb52698025b54cd"
+  }
+}
