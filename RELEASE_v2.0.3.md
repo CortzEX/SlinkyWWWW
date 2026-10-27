@@ -1,5 +1,5 @@
 ## OpenSlinky+ v2.0.3: payload StackMapTable crash fix :cherry_blossom:
-**OpenSlinky+ by lallu**, built on OpenSlinky by **Skid Solutions**.
+**OpenSlinky+ by CortzEX**, built on OpenSlinky by **Skid Solutions**.
 
 ### What's new
 - **Fixed `java.lang.ClassFormatError: StackMapTable format error: bad verification type` on Lunar / Java 17 (menu open crash):** the payload `InlineModuleSettings.suggestions` method carried a corrupt stack map table from the earlier bytecode patch. All four payload jars were rebuilt from pristine sources with the ASM tree API + `COMPUTE_FRAMES`, so every frame now matches the patched bytecode; the rebuilt classes pass a spec-exact StackMapTable validator (511 classes × 4 jars) and ASM's full dataflow analyzer.

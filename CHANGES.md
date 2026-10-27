@@ -7,7 +7,7 @@
 - **All four payload jars rebuilt from pristine sources** (`slinky-named`, `slinky-official`, `slinky-srg`, `slinky-intermediary`) with the ASM tree API (`ClassReader` → `ClassNode` → replace method instructions → `ClassWriter(COMPUTE_FRAMES)`), so regenerated frames always match the new body. Suggestions behavior is unchanged: *Block ESP* / *Auto Tool* return the block list and *Teams* returns the 16 vanilla color names.
 - **New release gate: `tools/verify_stackmaps.py`** — a spec-exact StackMapTable parser (JVMS 4.7.9) that validates frame tags, verification-type info, `ITEM_Object` / `ITEM_Uninitialized` payloads and frame offsets for every class in every payload jar (511 classes × 4 jars must pass).
 
-This project is **OpenSlinky+ by lallu** (credits: Skid Solutions).
+This project is **OpenSlinky+ by CortzEX** (credits: Skid Solutions).
 
 ## OpenSlinky+ v2.0.2: Lunar menu crash fix
 
@@ -63,7 +63,7 @@ Applied to the Java source and patched into all three prebuilt jars (verified wi
 
 ## Branding
 Display names, chat prefix, GUI title, console banner/title/status messages, window title, READMEs and the output exe
-(`OpenSlinkyPlus.exe`) now say OpenSlinky+ / lallu, with credits to Skid Solutions. Technical identifiers (packages,
+(`OpenSlinkyPlus.exe`) now say OpenSlinky+ / CortzEX, with credits to Skid Solutions. Technical identifiers (packages,
 `SlinkyNative.dll`, resource paths, `/slinky` command, config file names, log file names) are unchanged on purpose.
 The Discord links were removed. `assets/` images and the `docs.slinky.gg` help links inside the GUI metadata are untouched.
 

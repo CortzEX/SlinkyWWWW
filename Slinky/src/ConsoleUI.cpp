@@ -87,7 +87,7 @@ void ConsoleUI::PrintBanner() {
         }
         printf("\x1b[0m\n");
     }
-    printf("\x1b[38;2;255;170;215m  OpenSlinky+\x1b[0m by \x1b[38;2;160;215;255mlallu\x1b[0m   |   credits: \x1b[38;2;255;255;255mSkid Solutions\x1b[0m\n");
+    printf("\x1b[38;2;255;170;215m  OpenSlinky+\x1b[0m by \x1b[38;2;160;215;255mCortzEX\x1b[0m   |   credits: \x1b[38;2;255;255;255mSkid Solutions\x1b[0m\n");
     fflush(stdout);
 }
 
@@ -100,7 +100,7 @@ void ConsoleUI::Initialize() {
         SetConsoleMode(s_hConsole, s_OriginalConsoleMode | 0x0004);
     }
 
-    SetConsoleTitleW(L"OpenSlinky+ by lallu");
+    SetConsoleTitleW(L"OpenSlinky+ by CortzEX");
     strcpy_s(s_StatusText, "SCANNING");
 
     PrintBanner();
@@ -167,7 +167,7 @@ void ConsoleUI::StopAnimation() {
 
 DWORD WINAPI ConsoleUI::AnimationThread(LPVOID lpParam) {
     const char* spinner[] = { "-", "\\", "|", "/" };
-    const char* brandLine = "   OpenSlinky+ by lallu  |  credits: Skid Solutions";
+    const char* brandLine = "   OpenSlinky+ by CortzEX  |  credits: Skid Solutions";
     int frame = 0;
 
     while (s_Running) {
