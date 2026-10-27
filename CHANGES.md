@@ -1,5 +1,12 @@
 # Changes in this build
 
+## OpenSlinky+ v2.0.3: payload StackMapTable crash fix
+
+### What's new
+- **Fixed `java.lang.ClassFormatError: StackMapTable format error: bad verification type` (opening the Slinky menu on Lunar / Java 17):** the payload `InlineModuleSettings.suggestions` method carried a corrupt stack map table written by the earlier bytecode patch — 7 frames where the patched body needs 3, plus frames at offsets beyond the end of the method and an invalid verification-type tag (0x10). Java 8 verifiers tolerated it; Java 9+ (Lunar, modern JDKs) do not.
+- **All four payload jars rebuilt from pristine sources** (`slinky-named`, `slinky-official`, `slinky-srg`, `slinky-intermediary`) with the ASM tree API (`ClassReader` → `ClassNode` → replace method instructions → `ClassWriter(COMPUTE_FRAMES)`), so regenerated frames always match the new body. Suggestions behavior is unchanged: *Block ESP* / *Auto Tool* return the block list and *Teams* returns the 16 vanilla color names.
+- **New release gate: `tools/verify_stackmaps.py`** — a spec-exact StackMapTable parser (JVMS 4.7.9) that validates frame tags, verification-type info, `ITEM_Object` / `ITEM_Uninitialized` payloads and frame offsets for every class in every payload jar (511 classes × 4 jars must pass).
+
 This project is **OpenSlinky+ by lallu** (credits: Skid Solutions).
 
 ## OpenSlinky+ v2.0.2: Lunar menu crash fix

@@ -1,13 +1,12 @@
-## OpenSlinky+ v2.0.2: Lunar menu crash fix :cherry_blossom:
+## OpenSlinky+ v2.0.3: payload StackMapTable crash fix :cherry_blossom:
 **OpenSlinky+ by lallu**, built on OpenSlinky by **Skid Solutions**.
 
 ### What's new
-- **Fixed immediate crash on Lunar Client when opening the Slinky menu:** removed the explicit `Mouse.setCursorPosition` call from the GUI open path. Lunar (and several other custom clients) handle cursor warping internally when the mouse is ungrabbed, so the manual call was causing a native crash.
-- **Fixed GUI "Allow input while open" behavior:** when this setting is enabled, the render loop no longer forces the mouse ungrabbed every frame, so the camera keeps working correctly on Lunar/Badlion-style clients.
+- **Fixed `java.lang.ClassFormatError: StackMapTable format error: bad verification type` on Lunar / Java 17 (menu open crash):** the payload `InlineModuleSettings.suggestions` method carried a corrupt stack map table from the earlier bytecode patch. All four payload jars were rebuilt from pristine sources with the ASM tree API + `COMPUTE_FRAMES`, so every frame now matches the patched bytecode; the rebuilt classes pass a spec-exact StackMapTable validator (511 classes × 4 jars) and ASM's full dataflow analyzer.
+- **Suggestions behavior unchanged:** *Block ESP* / *Auto Tool* return the block list, *Teams* returns the 16 vanilla color names, everything else returns the default item list.
+- **Lunar native crash fixed (v2.0.2):** removed the explicit `Mouse.setCursorPosition` call from the GUI open path; Lunar and several custom clients handle cursor warping internally when the mouse is ungrabbed.
 - **Teams color list fixed (v2.0.1):** the `Colors` setting now shows the 16 vanilla Minecraft color names instead of every block in the game.
 - **Auto Tool "Allowed blocks" fixed (v2.0.1):** the search list now returns blocks, not items.
-- **Build cleaned up (v2.0.1):** eliminated the remaining MSVC compiler warnings.
-- **Docs parity pass (v2.0.1):** scraped and compared every module page on `docs.slinky.gg` against OpenSlinky+ settings. The full report is included as `docs_comparison_report.json`.
 
 ### Supported clients (Minecraft 1.8.9)
 Forge · Vanilla · OptiFine · Lunar · Badlion · Legacy Fabric (experimental)
@@ -18,13 +17,13 @@ Forge · Vanilla · OptiFine · Lunar · Badlion · Legacy Fabric (experimental)
 - Output: `dist\OpenSlinkyPlus.exe` + `dist\SlinkyNative.dll` (keep them together), plus `build\lib\Release\shareable_modules.lib`.
 
 ### Also in the repo
+- `tools/verify_stackmaps.py` — StackMapTable validator (JVMS 4.7.9) used as the release gate for the payload jars.
 - `SlinkyModules/recovery_reference/` holds reference material (decompiler views, readable ports, verification ledgers). It is documentation only and is not part of the build.
 - `docs_comparison_report.json` contains the docs-vs-OpenSlinky+ module/setting comparison.
 
 ### Notes
 - Windows 64-bit, Minecraft 1.8.9 only.
-- No new modules or payload remapping in this release; this is a bug-fix release.
 - Antivirus or SmartScreen may warn about this kind of program, because it loads a DLL into another process.
 
 ### Verify your download
-SHA-256 of `OpenSlinkyPlus-v2.0.2.zip`: `DBBCFAD1A40CC111AEB3D253F369EC582F28E620C8DB8C76749792C63D6B726B`
+SHA-256 of `OpenSlinkyPlus-v2.0.3.zip`: `FBE04FABB6369A7E97C1DAA066FD54A53B0453366775DEA21FCBE69132EC0F04`
