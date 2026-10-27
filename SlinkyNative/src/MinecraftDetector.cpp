@@ -11,11 +11,13 @@ namespace SlinkyNative {
 
 namespace {
 
-// Minecraft 1.8.9 is visible to us under one of two CLASS names:
+// Minecraft 1.8.9 is visible to us under one of three CLASS names:
 //   net/minecraft/client/Minecraft : Forge (SRG members), MCP/dev (named members)
 //   ave                            : Vanilla, OptiFine, Lunar, Badlion (notch / obfuscated)
-const char* const kNamedClassSig    = "Lnet/minecraft/client/Minecraft;";
-const char* const kOfficialClassSig = "Lave;";
+//   net/minecraft/class_1600       : Legacy Fabric intermediary members
+const char* const kNamedClassSig       = "Lnet/minecraft/client/Minecraft;";
+const char* const kOfficialClassSig    = "Lave;";
+const char* const kIntermediaryClassSig = "Lnet/minecraft/class_1600;";
 const jint kAccStatic = 0x0008;
 
 void FreeJvmti(jvmtiEnv* jvmti, char* p) {
@@ -63,16 +65,39 @@ struct Verdict {
     std::string fieldName;   // static field holding the Minecraft instance
 };
 
+// Which naming scheme a Minecraft candidate class carries.
+enum CandidateScheme {
+    SchemeNamed = 0,
+    SchemeOfficial = 1,
+    SchemeIntermediary = 2,
+};
+
+const char* SelfSigFor(int scheme) {
+    switch (scheme) {
+    case SchemeOfficial:     return kOfficialClassSig;
+    case SchemeIntermediary: return kIntermediaryClassSig;
+    default:                 return kNamedClassSig;
+    }
+}
+
+const char* DisplayNameFor(int scheme) {
+    switch (scheme) {
+    case SchemeOfficial:     return "ave";
+    case SchemeIntermediary: return "net.minecraft.class_1600";
+    default:                 return "net.minecraft.client.Minecraft";
+    }
+}
+
 bool Contains(const std::vector<std::string>& v, const char* s) {
     return std::find(v.begin(), v.end(), s) != v.end();
 }
 
-Verdict Classify(JNIEnv* env, jvmtiEnv* jvmti, jclass cls, bool officialClass) {
+Verdict Classify(JNIEnv* env, jvmtiEnv* jvmti, jclass cls, int scheme) {
     Verdict v;
-    const char* selfSig = officialClass ? kOfficialClassSig : kNamedClassSig;
+    const char* selfSig = SelfSigFor(scheme);
     std::vector<std::string> statics = SelfTypedStaticFields(jvmti, cls, selfSig);
 
-    if (officialClass) {
+    if (scheme == SchemeOfficial) {
         // notch names: ave.S is the singleton in 1.8.9. Accept any lone self-typed static as well.
         if (Contains(statics, "S") || HasStaticField(env, cls, "S", selfSig)) {
             v.mapping = MappingType::Official;
@@ -80,6 +105,21 @@ Verdict Classify(JNIEnv* env, jvmtiEnv* jvmti, jclass cls, bool officialClass) {
         } else if (statics.size() == 1) {
             v.mapping = MappingType::Official;
             v.fieldName = statics[0];
+        }
+        return v;
+    }
+
+    if (scheme == SchemeIntermediary) {
+        // Legacy Fabric intermediary names: the Minecraft singleton is field_3774.
+        // Accept any lone self-typed static and confirm through the method_2965 accessor.
+        if (Contains(statics, "field_3774") || HasStaticField(env, cls, "field_3774", selfSig)) {
+            v.mapping = MappingType::Intermediary;
+            v.fieldName = "field_3774";
+        } else if (statics.size() == 1) {
+            if (HasStaticMethod(env, cls, "method_2965", "()Lnet/minecraft/class_1600;")) {
+                v.mapping = MappingType::Intermediary;
+                v.fieldName = statics[0];
+            }
         }
         return v;
     }
@@ -139,7 +179,7 @@ std::string ClassNameOf(JNIEnv* env, jobject obj) {
 
 struct Candidate {
     jint index;
-    bool official;
+    int scheme;   // CandidateScheme
 };
 
 void ReleaseClasses(JNIEnv* env, jvmtiEnv* jvmti, jclass* classes, jint count) {
@@ -175,9 +215,11 @@ bool MinecraftDetector::Detect(MinecraftInfo& outInfo) {
                 char* generic = nullptr;
                 if (jvmti->GetClassSignature(classes[i], &signature, &generic) == JVMTI_ERROR_NONE && signature) {
                     if (std::strcmp(signature, kNamedClassSig) == 0) {
-                        candidates.push_back({ i, false });
+                        candidates.push_back({ i, SchemeNamed });
                     } else if (std::strcmp(signature, kOfficialClassSig) == 0) {
-                        candidates.push_back({ i, true });
+                        candidates.push_back({ i, SchemeOfficial });
+                    } else if (std::strcmp(signature, kIntermediaryClassSig) == 0) {
+                        candidates.push_back({ i, SchemeIntermediary });
                     }
                 }
                 FreeJvmti(jvmti, signature);
@@ -187,9 +229,9 @@ bool MinecraftDetector::Detect(MinecraftInfo& outInfo) {
             bool sawUnknown = false;
             for (const Candidate& c : candidates) {
                 jclass cls = classes[c.index];
-                const char* selfSig = c.official ? kOfficialClassSig : kNamedClassSig;
-                Verdict verdict = Classify(env, jvmti, cls, c.official);
-                const char* className = c.official ? "ave" : "net.minecraft.client.Minecraft";
+                const char* selfSig = SelfSigFor(c.scheme);
+                Verdict verdict = Classify(env, jvmti, cls, c.scheme);
+                const char* className = DisplayNameFor(c.scheme);
 
                 if (verdict.mapping == MappingType::Unknown) {
                     sawUnknown = true;
@@ -207,7 +249,8 @@ bool MinecraftDetector::Detect(MinecraftInfo& outInfo) {
                     if (!announcedWait) {
                         Logger::Log(L"%hs is loaded (%hs names) but the game object is not created yet; waiting",
                             className, verdict.mapping == MappingType::Srg ? "srg" :
-                            (verdict.mapping == MappingType::Official ? "official" : "named"));
+                            (verdict.mapping == MappingType::Official ? "official" :
+                            (verdict.mapping == MappingType::Intermediary ? "intermediary" : "named")));
                         announcedWait = true;
                     }
                     continue;
@@ -216,9 +259,10 @@ bool MinecraftDetector::Detect(MinecraftInfo& outInfo) {
 
                 outInfo.mapping = verdict.mapping;
                 switch (verdict.mapping) {
-                case MappingType::Named:    outInfo.mappingName = "named";    outInfo.resourceId = 101; break;
-                case MappingType::Srg:      outInfo.mappingName = "srg";      outInfo.resourceId = 102; break;
-                default:                    outInfo.mappingName = "official"; outInfo.resourceId = 103; break;
+                case MappingType::Named:        outInfo.mappingName = "named";        outInfo.resourceId = 101; break;
+                case MappingType::Srg:          outInfo.mappingName = "srg";          outInfo.resourceId = 102; break;
+                case MappingType::Intermediary: outInfo.mappingName = "intermediary"; outInfo.resourceId = 104; break;
+                default:                        outInfo.mappingName = "official";     outInfo.resourceId = 103; break;
                 }
                 outInfo.minecraftClass = static_cast<jclass>(env->NewGlobalRef(cls));
 
@@ -240,7 +284,7 @@ bool MinecraftDetector::Detect(MinecraftInfo& outInfo) {
                 if (unknownSince == 0) unknownSince = GetTickCount64();
                 if (GetTickCount64() - unknownSince > unknownGiveUpMs) {
                     Logger::Log(L"Minecraft classes were found but use a naming scheme this build does not support");
-                    Logger::Log(L"(send this log to the developer; supported: Forge/SRG, Vanilla/OptiFine/Lunar/Badlion/notch, MCP)");
+                    Logger::Log(L"(send this log to the developer; supported: Forge/SRG, Vanilla/OptiFine/Lunar/Badlion/notch, MCP, Legacy Fabric intermediary)");
                     return false;
                 }
             } else {

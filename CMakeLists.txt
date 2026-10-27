@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.15)
-project(OpenSlinkyPlus VERSION 1.0.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.20)
+project(OpenSlinkyPlus VERSION 2.0.0 LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -15,5 +15,6 @@ endif()
 
 add_subdirectory(Slinky)
 add_subdirectory(SlinkyNative)
+add_subdirectory(SlinkyModules)
 
 add_dependencies(Slinky SlinkyNative)

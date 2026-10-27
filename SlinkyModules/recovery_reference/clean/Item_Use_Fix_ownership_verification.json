@@ -1,0 +1,395 @@
+{
+  "passed": true,
+  "module": "Item Use Fix",
+  "registered_callbacks": [
+    {
+      "event": 14,
+      "rva": "0x42b80",
+      "priority": 0
+    },
+    {
+      "event": 15,
+      "rva": "0x42be0",
+      "priority": 0
+    }
+  ],
+  "ui_rva": null,
+  "settings_rva": null,
+  "actual_callback_state": "0x3043d4",
+  "captured_state": 0,
+  "proximity_only_candidate": "0x42c30",
+  "resolved_candidate_owner": "Timer Range",
+  "owner_enabled_byte": "0x2f3174",
+  "candidate_references": [
+    {
+      "instruction": "0x42c34",
+      "target": "0x2f3174",
+      "write": false,
+      "assembly": "cmp byte ptr [rip + 0x2b0539], 1"
+    },
+    {
+      "instruction": "0x42c3d",
+      "target": "0x3043d8",
+      "write": false,
+      "assembly": "cmp dword ptr [rip + 0x2c1794], 0"
+    },
+    {
+      "instruction": "0x42c47",
+      "target": "0x3043dc",
+      "write": false,
+      "assembly": "or al, byte ptr [rip + 0x2c178f]"
+    }
+  ],
+  "registered_owner_producer_references": {
+    "0x42c60": [
+      {
+        "instruction": "0x42c77",
+        "target": "0x3043d8",
+        "write": false,
+        "assembly": "cmp dword ptr [rip + 0x2c175a], 0"
+      },
+      {
+        "instruction": "0x42c93",
+        "target": "0x3043d8",
+        "write": false,
+        "assembly": "mov eax, dword ptr [rip + 0x2c173f]"
+      },
+      {
+        "instruction": "0x42c9c",
+        "target": "0x3043d8",
+        "write": true,
+        "assembly": "mov dword ptr [rip + 0x2c1736], eax"
+      },
+      {
+        "instruction": "0x42ca2",
+        "target": "0x2f3410",
+        "write": false,
+        "assembly": "or eax, dword ptr [rip + 0x2b0768]"
+      },
+      {
+        "instruction": "0x42d20",
+        "target": "0x3043dd",
+        "write": true,
+        "assembly": "mov byte ptr [rip + 0x2c16b6], 0"
+      },
+      {
+        "instruction": "0x42d38",
+        "target": "0x1548c0",
+        "write": false,
+        "assembly": "movsd xmm0, qword ptr [rip + 0x111b80]"
+      },
+      {
+        "instruction": "0x42d74",
+        "target": "0x2f3388",
+        "write": false,
+        "assembly": "cmp byte ptr [rip + 0x2b060d], 1"
+      },
+      {
+        "instruction": "0x42d89",
+        "target": "0x2f33a8",
+        "write": false,
+        "assembly": "cmp byte ptr [rip + 0x2b0618], 1"
+      },
+      {
+        "instruction": "0x42da2",
+        "target": "0x2f33c8",
+        "write": false,
+        "assembly": "cmp byte ptr [rip + 0x2b061f], 1"
+      },
+      {
+        "instruction": "0x42ee3",
+        "target": "0x3043e0",
+        "write": false,
+        "assembly": "movss xmm0, dword ptr [rip + 0x2c14f5]"
+      },
+      {
+        "instruction": "0x42ef2",
+        "target": "0x3043dd",
+        "write": false,
+        "assembly": "seta byte ptr [rip + 0x2c14e4]"
+      }
+    ],
+    "0x42f00": [
+      {
+        "instruction": "0x42f82",
+        "target": "0x3043dc",
+        "write": false,
+        "assembly": "cmp byte ptr [rip + 0x2c1453], 1"
+      },
+      {
+        "instruction": "0x42f8f",
+        "target": "0x3043f8",
+        "write": false,
+        "assembly": "movsd xmm0, qword ptr [rip + 0x2c1461]"
+      },
+      {
+        "instruction": "0x42f9c",
+        "target": "0x3043f8",
+        "write": true,
+        "assembly": "movsd qword ptr [rip + 0x2c1454], xmm0"
+      },
+      {
+        "instruction": "0x43029",
+        "target": "0x1548d0",
+        "write": false,
+        "assembly": "movss xmm2, dword ptr [rip + 0x11189f]"
+      },
+      {
+        "instruction": "0x43039",
+        "target": "0x3043dc",
+        "write": true,
+        "assembly": "mov byte ptr [rip + 0x2c139c], 0"
+      },
+      {
+        "instruction": "0x43042",
+        "target": "0x3043e8",
+        "write": true,
+        "assembly": "xchg byte ptr [rip + 0x2c13a0], al"
+      },
+      {
+        "instruction": "0x43048",
+        "target": "0x2f3410",
+        "write": false,
+        "assembly": "mov eax, dword ptr [rip + 0x2b03c2]"
+      },
+      {
+        "instruction": "0x43054",
+        "target": "0x2f3438",
+        "write": false,
+        "assembly": "and cl, byte ptr [rip + 0x2b03de]"
+      },
+      {
+        "instruction": "0x430a2",
+        "target": "0x2f3410",
+        "write": false,
+        "assembly": "mov eax, dword ptr [rip + 0x2b0368]"
+      },
+      {
+        "instruction": "0x430b3",
+        "target": "0x3043d8",
+        "write": false,
+        "assembly": "cvtsi2ss xmm2, dword ptr [rip + 0x2c131d]"
+      },
+      {
+        "instruction": "0x430c3",
+        "target": "0x3043f0",
+        "write": false,
+        "assembly": "movsd xmm0, qword ptr [rip + 0x2c1325]"
+      },
+      {
+        "instruction": "0x430da",
+        "target": "0x3043f0",
+        "write": true,
+        "assembly": "movsd qword ptr [rip + 0x2c130e], xmm0"
+      },
+      {
+        "instruction": "0x430e7",
+        "target": "0x3043dd",
+        "write": false,
+        "assembly": "cmp byte ptr [rip + 0x2c12ef], 1"
+      },
+      {
+        "instruction": "0x431ee",
+        "target": "0x1548d8",
+        "write": false,
+        "assembly": "movsd xmm9, qword ptr [rip + 0x1116e1]"
+      },
+      {
+        "instruction": "0x431fc",
+        "target": "0x1548e0",
+        "write": false,
+        "assembly": "movsd xmm1, qword ptr [rip + 0x1116dc]"
+      },
+      {
+        "instruction": "0x4324e",
+        "target": "0x2f3410",
+        "write": false,
+        "assembly": "cmp dword ptr [rip + 0x2b01bb], 0"
+      },
+      {
+        "instruction": "0x43255",
+        "target": "0x2f3478",
+        "write": false,
+        "assembly": "lea rax, [rip + 0x2b021c]"
+      },
+      {
+        "instruction": "0x4325c",
+        "target": "0x2f34b0",
+        "write": false,
+        "assembly": "lea rcx, [rip + 0x2b024d]"
+      },
+      {
+        "instruction": "0x4327b",
+        "target": "0x1548f0",
+        "write": false,
+        "assembly": "xorps xmm8, xmmword ptr [rip + 0x11166d]"
+      },
+      {
+        "instruction": "0x432b6",
+        "target": "0x154900",
+        "write": false,
+        "assembly": "movsd xmm6, qword ptr [rip + 0x111642]"
+      },
+      {
+        "instruction": "0x432be",
+        "target": "0x154908",
+        "write": false,
+        "assembly": "movsd xmm7, qword ptr [rip + 0x111642]"
+      },
+      {
+        "instruction": "0x432cd",
+        "target": "0x154910",
+        "write": false,
+        "assembly": "movsd xmm8, qword ptr [rip + 0x11163a]"
+      },
+      {
+        "instruction": "0x432d6",
+        "target": "0x154918",
+        "write": false,
+        "assembly": "movsd xmm9, qword ptr [rip + 0x111639]"
+      },
+      {
+        "instruction": "0x432e3",
+        "target": "0x154928",
+        "write": false,
+        "assembly": "movsd xmm10, qword ptr [rip + 0x11163c]"
+      },
+      {
+        "instruction": "0x432ec",
+        "target": "0x154930",
+        "write": false,
+        "assembly": "movsd xmm15, qword ptr [rip + 0x11163b]"
+      },
+      {
+        "instruction": "0x43509",
+        "target": "0x3043e0",
+        "write": false,
+        "assembly": "movss xmm11, dword ptr [rip + 0x2c0ece]"
+      },
+      {
+        "instruction": "0x43512",
+        "target": "0x3043e4",
+        "write": false,
+        "assembly": "movss xmm12, dword ptr [rip + 0x2c0ec9]"
+      },
+      {
+        "instruction": "0x4362f",
+        "target": "0x2f3410",
+        "write": false,
+        "assembly": "cmp dword ptr [rip + 0x2afdda], 1"
+      },
+      {
+        "instruction": "0x43870",
+        "target": "0x2f3518",
+        "write": false,
+        "assembly": "movss xmm1, dword ptr [rip + 0x2afca0]"
+      },
+      {
+        "instruction": "0x43894",
+        "target": "0x2f3410",
+        "write": false,
+        "assembly": "cmp dword ptr [rip + 0x2afb75], 1"
+      },
+      {
+        "instruction": "0x43919",
+        "target": "0x3043d8",
+        "write": true,
+        "assembly": "mov dword ptr [rip + 0x2c0ab8], r15d"
+      },
+      {
+        "instruction": "0x4392c",
+        "target": "0x154920",
+        "write": false,
+        "assembly": "mulsd xmm0, qword ptr [rip + 0x110fec]"
+      },
+      {
+        "instruction": "0x43934",
+        "target": "0x3043f8",
+        "write": true,
+        "assembly": "movsd qword ptr [rip + 0x2c0abc], xmm0"
+      },
+      {
+        "instruction": "0x4393c",
+        "target": "0x2f3470",
+        "write": false,
+        "assembly": "movss xmm0, dword ptr [rip + 0x2afb2c]"
+      }
+    ],
+    "0x43950": [
+      {
+        "instruction": "0x43954",
+        "target": "0x3043e8",
+        "write": false,
+        "assembly": "movzx eax, byte ptr [rip + 0x2c0a8d]"
+      }
+    ],
+    "0x43970": [
+      {
+        "instruction": "0x4397b",
+        "target": "0x2f3160",
+        "write": false,
+        "assembly": "lea rax, [rip + 0x2af7de]"
+      },
+      {
+        "instruction": "0x439a1",
+        "target": "0x154938",
+        "write": false,
+        "assembly": "movss xmm2, dword ptr [rip + 0x110f8f]"
+      },
+      {
+        "instruction": "0x439b1",
+        "target": "0x3043dc",
+        "write": true,
+        "assembly": "mov byte ptr [rip + 0x2c0a24], 0"
+      },
+      {
+        "instruction": "0x439b8",
+        "target": "0x3043d8",
+        "write": true,
+        "assembly": "mov dword ptr [rip + 0x2c0a16], 0"
+      },
+      {
+        "instruction": "0x439c4",
+        "target": "0x3043e8",
+        "write": true,
+        "assembly": "xchg byte ptr [rip + 0x2c0a1e], al"
+      }
+    ]
+  },
+  "item_use_callback_references": {
+    "0x42b80": [
+      {
+        "instruction": "0x42bb2",
+        "target": "0x3043d4",
+        "write": true,
+        "assembly": "setne byte ptr [rip + 0x2c181b]"
+      }
+    ],
+    "0x42be0": [
+      {
+        "instruction": "0x42beb",
+        "target": "0x3043d4",
+        "write": false,
+        "assembly": "cmp byte ptr [rip + 0x2c17e2], 1"
+      },
+      {
+        "instruction": "0x42c14",
+        "target": "0x3043d4",
+        "write": false,
+        "assembly": "movzx r8d, byte ptr [rip + 0x2c17b8]"
+      }
+    ]
+  },
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "analysis/recovered_native_source/module_registry_catalog.json": "062626e6c4035821fae19e75cb30efd26fd3b20aa55ee228984d27bdbb3616f0",
+    "analysis/recovered_native/index.tsv": "e7ab9b23c6a1c3954cc4af517e1ae68a054f5c7c7dd82d33d355bc9671742e1f",
+    "analysis/recovered_native_source/verify_item_use_fix_ownership.py": "662b0a294d58d8f75ef9002b74110867d67a85fca02701083097349d686d215f"
+  },
+  "native_original_executed": false,
+  "full_module_rebuild": false,
+  "limits": [
+    "Ownership is inferred from the recovered descriptor enabled byte and original registered producer references.",
+    "The historical proximity-based decompiler view remains unchanged; this report resolves the typed-source assignment."
+  ]
+}

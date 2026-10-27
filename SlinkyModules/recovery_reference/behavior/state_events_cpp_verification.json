@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "comparison_counts": {
+    "timer_update": 2048,
+    "timer_lifecycle": 32,
+    "free_look_lifecycle": 768,
+    "free_look_rotation": 4
+  },
+  "total_cases": 2852,
+  "recovered_callbacks": [
+    "0x328f0",
+    "0x329b0",
+    "0x37020",
+    "0x37100"
+  ],
+  "dependency_wrappers_controlled": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/state_events/state_events.cpp": "596eb061a202b440d2cf01a72e9aa48a5cc04464d765a3b0aac0d268117ad982",
+    "analysis/module_behavior_recovery/state_events/verify.py": "9566350e60b76799931c27d28ff1941cfabe24e23f8a15c837fb579aaca9f6d0"
+  }
+}

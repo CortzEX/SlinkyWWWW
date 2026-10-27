@@ -5,7 +5,7 @@ verify_payload.py - static check that a Slinky payload jar really speaks the nam
 Parses every dev/slinky/**.class constant pool (no JVM needed) and reports references to Minecraft
 classes/members that still use the WRONG naming scheme for the target namespace.
 
-usage: python verify_payload.py <jar> <named|srg|official> <mappings-file>
+usage: python verify_payload.py <jar> <named|srg|official|intermediary> <mappings-file>
 """
 import sys, zipfile, struct, collections
 
@@ -61,7 +61,9 @@ def main(jar, ns, mapfile):
             total += 1
             problem = None
             if ns == 'named': continue
-            if ns == 'official':
+            if ns in ('official', 'intermediary'):
+                # official notch jars and Legacy Fabric intermediary jars both fully rename
+                # every mapped Minecraft class and member; anything still MCP-named is a miss
                 if owner.startswith('net/minecraft/') and owner in named_classes and cl[owner] != owner:
                     problem = 'class-not-remapped'
                 elif owner in target_classes and mname in named_only and len(mname) > 2:

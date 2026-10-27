@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "total_cases": 649,
+  "comparison_counts": {
+    "0x466e0": 205,
+    "0x46900": 334,
+    "0x46850": 74,
+    "0x468c0": 36
+  },
+  "recovered_callbacks": [
+    "0x466e0",
+    "0x46900",
+    "0x46850",
+    "0x468c0"
+  ],
+  "dependency_wrappers_controlled": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/debug/debug.cpp": "3b33548d4191ef0f8008861c530b778b58dde795cd7232e6b5506e82bd342630",
+    "analysis/module_behavior_recovery/debug/verify.py": "bad33863a990a30dd5a584922bcedb15eb09bf76f0e0762e696d60525d049294",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651"
+  },
+  "instruction_coverage": {
+    "0x466e0": {
+      "expected": 95,
+      "reached": 95
+    },
+    "0x46850": {
+      "expected": 33,
+      "reached": 33
+    },
+    "0x468c0": {
+      "expected": 12,
+      "reached": 12
+    },
+    "0x46900": {
+      "expected": 59,
+      "reached": 59
+    }
+  },
+  "asserted_helper_mutations": [
+    [
+      "0x466e0",
+      "0x239f0"
+    ],
+    [
+      "0x466e0",
+      "0x23760"
+    ],
+    [
+      "0x466e0",
+      "0x23690"
+    ],
+    [
+      "0x466e0",
+      "0x23f90"
+    ],
+    [
+      "0x466e0",
+      "0x291f0"
+    ],
+    [
+      "0x466e0",
+      "0x23760"
+    ],
+    [
+      "0x46850",
+      "0x26580"
+    ],
+    [
+      "0x46850",
+      "0x264f0"
+    ],
+    [
+      "0x46900",
+      "0x23760"
+    ],
+    [
+      "0x46900",
+      "0x291f0"
+    ]
+  ],
+  "limits": [
+    "Game and packet queries and the variable-argument message formatter remain controlled endpoints.",
+    "All seven meaningful arguments are checked for hurt/click messages and four for item-use messages; unused stack garbage is not part of the formatter contract.",
+    "Atomic use-state exchanges are preserved, but concurrency is unverified."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "cases": 480,
+  "original_color_parser_executed": true,
+  "json_dependencies_controlled": true,
+  "live_module_integration": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_color_settings.hpp": "22c884b1e71170622e2feb5ac472985f27a7b7a9df1d81a6ff0cc98827f572c2",
+    "recovered_cpp/clean/module_color_settings.cpp": "8d14d323ee66fc5c3b18be313cddb74b9902720026bb0d2bf73359b7b90ba419",
+    "analysis/recovered_native_source/verify_color_settings.py": "4c0e734faf81b15c8b544864280ece74c1ec2647bfd69326493a5f7c4bb6d817"
+  }
+}

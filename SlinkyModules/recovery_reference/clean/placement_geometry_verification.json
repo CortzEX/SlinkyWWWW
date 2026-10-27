@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "total_cases": 46,
+  "native_matrix_cases": 47,
+  "native_comparison_cases_excluded": 1,
+  "compiled_cpp_original_same_emulator_cases": 47,
+  "compiled_cpp_matches_original_in_same_emulator": true,
+  "case_counts": {
+    "construct": 3,
+    "add": 9,
+    "pair": 3,
+    "intersects": 32
+  },
+  "instruction_coverage": {
+    "0x93b0": {
+      "expected": 8,
+      "reached": 8,
+      "unreached": []
+    },
+    "0x9400": {
+      "expected": 12,
+      "reached": 12,
+      "unreached": []
+    },
+    "0x96b0": {
+      "expected": 13,
+      "reached": 13,
+      "unreached": []
+    },
+    "0x97d0": {
+      "expected": 25,
+      "reached": 25,
+      "unreached": []
+    }
+  },
+  "explicit_typed_geometry_records": true,
+  "all_buffers_returned_pointers_overlap_order_and_raw_double_words_compared": true,
+  "nan_payload_observations": [
+    {
+      "case": "two_qnan_payloads_each_lane",
+      "lane": 0,
+      "c_bits": "0x7ff8000000000011",
+      "unicorn_bits": "0x7ff80000000000a1"
+    },
+    {
+      "case": "two_qnan_payloads_each_lane",
+      "lane": 1,
+      "c_bits": "0x7ff8000000000022",
+      "unicorn_bits": "0x7ff80000000000b2"
+    }
+  ],
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "compiled_cpp_sha256": "efb1141ac843eb86c878610ffa88f5b6f269c634ecaa2c55c70eef33eb67812c",
+  "source_sha256": {
+    "recovered_cpp/clean/module_placement_geometry.cpp": "81a2fb4a9dab7f6dac55abd135cf62bfd4ac7f81dce7101ac60a3b30c9617a97",
+    "recovered_cpp/clean/module_placement_geometry.hpp": "f3886f69206a68db85cdf1b6671d8d040823396aea5e3eacce8ad5a751772db4",
+    "recovered_cpp/clean/Fast_Place.hpp": "5946323a3f699e9573ab5bd422fd4b6eb840e0c038e8ae4df4a78a7c40b5bf88",
+    "recovered_cpp/clean/Timer.hpp": "43fd3a482508f022218ec04aca6c125e687c6a689b4ca0f4d61f1bbb36a52be3",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/module_random_policy.hpp": "af948042bd4b64335a4e5e92ff87aec07541dcb7bf3d3b7d0b07041a566a9efe",
+    "recovered_cpp/clean/module_random.hpp": "516f47e199187adc8b9a015409b6aadb6b48cbcb6fe0f583c26fb6dcea58a430",
+    "recovered_cpp/clean/module_ui_controls.hpp": "8361da2b66389f9338af4a5edc45b3c084e5a692b66d18a32719ec6382ea141a",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_format.hpp": "d034d8fe613d9c21e7cb5209fb563303ae1b3cd8fed51985afbe5ac06dd4c8a1",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "analysis/module_behavior_recovery/geometry_helpers/verify_geometry_helpers.py": "81ecb784539172aaa47ce8c0b217ff8e35c7fd1031dd2a4f9eb381c0952b976c",
+    "analysis/recovered_native/index.tsv": "e7ab9b23c6a1c3954cc4af517e1ae68a054f5c7c7dd82d33d355bc9671742e1f",
+    "analysis/recovered_native_source/verify_placement_geometry.py": "0742e1ec484478d0e925a04d25b16dcb6c41ffb5aba4f090a79103e7ec9a0341"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 200
+  },
+  "native_original_executed": false,
+  "full_module_rebuild": false,
+  "limits": [
+    "Finite raw-word, overlap and intersection cases preserve destination pointers and complete buffers.",
+    "One packed-double dual-NaN case has two native/Unicorn payload differences and is excluded from passing native comparisons. The compiled source and original agree for the full matrix in the same emulator.",
+    "Exception flags, other floating modes, concurrency and arbitrary invalid pointers remain unverified."
+  ]
+}

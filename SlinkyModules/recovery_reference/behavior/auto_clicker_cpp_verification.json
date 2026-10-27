@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "total_cases": 310,
+  "comparison_counts": {
+    "0x2ca10": 30,
+    "0x2d140": 27,
+    "0x2ca90": 253
+  },
+  "recovered_callbacks": [
+    "0x2ca10",
+    "0x2d140",
+    "0x2ca90"
+  ],
+  "dependency_wrappers_controlled": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/auto_clicker/auto_clicker.cpp": "d237f944cc9af396dad2b9ead147f33bb84478047e255411b3a39d41e28acf98",
+    "analysis/module_behavior_recovery/auto_clicker/verify.py": "37e0661e16e1f38760920a4f6c5e0045c1cc5188b4fb4ed0ca85b3fe0e71a62e",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651"
+  },
+  "instruction_coverage": {
+    "0x2ca10": {
+      "expected": 36,
+      "reached": 36
+    },
+    "0x2ca90": {
+      "expected": 363,
+      "reached": 363
+    },
+    "0x2d140": {
+      "expected": 22,
+      "reached": 22
+    }
+  },
+  "asserted_helper_mutations": [
+    [
+      "0x2ca10",
+      "0x25270"
+    ],
+    [
+      "0x2ca10",
+      "0x23170"
+    ],
+    [
+      "0x2d140",
+      "0x22e10"
+    ],
+    [
+      "0x2ca90",
+      "0x22c70"
+    ],
+    [
+      "0x2ca90",
+      "0x259a0"
+    ],
+    [
+      "0x2ca90",
+      "0x4c390"
+    ],
+    [
+      "0x2ca90",
+      "0x23170"
+    ],
+    [
+      "0x2ca90",
+      "0x2d3b0"
+    ],
+    [
+      "0x2ca90",
+      "0x25b60"
+    ],
+    [
+      "0x2ca90",
+      "0x259a0"
+    ],
+    [
+      "0x2ca90",
+      "0x22c70"
+    ],
+    [
+      "0x2ca90",
+      "0x4c390"
+    ],
+    [
+      "0x2ca90",
+      "0x2d3b0"
+    ],
+    [
+      "0x2ca90",
+      "0x26190"
+    ]
+  ],
+  "sequential_event_paths": 1,
+  "limitations": [
+    "Input emission 0x4c390, game access, random/smoothing and interval adjustment remain controlled; no operating-system input is emitted.",
+    "The original timing loop has no fixed iteration bound. Tests use terminating timing inputs and bounded verifier/emulator execution.",
+    "The native copy relocates only the descriptor pointer at 0x1505a0; original constant values remain unchanged.",
+    "Concurrent input/event updates, floating-point exception flags and exhaustive NaN payload fidelity remain unverified."
+  ]
+}

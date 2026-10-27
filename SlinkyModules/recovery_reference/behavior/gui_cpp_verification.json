@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "total_cases": 534,
+  "comparison_counts": {
+    "0x32600": 141,
+    "0x325c0": 5,
+    "0x32730": 256,
+    "0x327c0": 4,
+    "0x32740": 128
+  },
+  "recovered_callbacks": [
+    "0x32600",
+    "0x325c0",
+    "0x32730",
+    "0x327c0",
+    "0x32740"
+  ],
+  "dependency_wrappers_controlled": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/gui/gui.cpp": "6e1c848caef39dfd81084a9bd1aeda160c003c34d1662afc52a7fded7fc83cd8",
+    "analysis/module_behavior_recovery/gui/verify.py": "97669323b3a268c3474b04f12b6b8211a2da960d5d3be70a560910594f763cb0",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651"
+  },
+  "instruction_coverage": {
+    "rva_325c0": {
+      "expected": 19,
+      "reached": 19
+    },
+    "rva_32600": {
+      "expected": 84,
+      "reached": 84
+    },
+    "rva_32730": {
+      "expected": 5,
+      "reached": 5
+    },
+    "rva_32740": {
+      "expected": 28,
+      "reached": 28
+    },
+    "rva_327c0": {
+      "expected": 5,
+      "reached": 5
+    },
+    "rva_11800": {
+      "expected": 6,
+      "reached": 6
+    },
+    "rva_12a80": {
+      "expected": 4,
+      "reached": 4
+    },
+    "rva_12a90": {
+      "expected": 6,
+      "reached": 6
+    },
+    "rva_74130": {
+      "expected": 9,
+      "reached": 9
+    }
+  },
+  "linked_helper_entries": {
+    "0x11800": 62,
+    "0x12a80": 63,
+    "0x12a90": 63,
+    "0x74130": 128
+  },
+  "asserted_helper_mutations": [
+    [
+      "0x32600",
+      "0x25840"
+    ],
+    [
+      "0x32600",
+      "0x27a60"
+    ],
+    [
+      "0x32600",
+      "0x27a90"
+    ],
+    [
+      "0x32600",
+      "0x25880"
+    ],
+    [
+      "0x325c0",
+      "0x25840"
+    ],
+    [
+      "0x32600",
+      "0xbbd0"
+    ],
+    [
+      "0x32600",
+      "0x165f0"
+    ],
+    [
+      "0x32600",
+      "0x22e60"
+    ]
+  ],
+  "limits": [
+    "The GUI drawing engine at 11820 and reset target 165f0 remain controlled, as do game/window access and the clock.",
+    "These callback bodies and small helpers do not recover all interactive GUI behavior.",
+    "The test compares 72-byte event payloads and raw copied float/double values, without emitting OS input or executing the original natively."
+  ]
+}

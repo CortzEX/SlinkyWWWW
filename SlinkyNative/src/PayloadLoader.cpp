@@ -511,10 +511,18 @@ bool PayloadLoader::LaunchBootstrap(JNIEnv* env, jobject classLoader, const Mine
     std::vector<char> u8JarPath(u8Len);
     WideCharToMultiByte(CP_UTF8, 0, jarPath.c_str(), -1, u8JarPath.data(), u8Len, nullptr, nullptr);
 
-    jstring jMapping = env->NewStringUTF(mcInfo.mappingName.c_str());
+    // Java Platform$Namespace only knows named/srg/official. The intermediary payload is a
+    // byte-remap of the official payload (identical slinky-internal names + official bridge
+    // column shape), so the Java side keeps running in the 'official' namespace while the
+    // jar itself carries intermediary names. Logs and disk names stay 'intermediary'.
+    std::string nsArg = mcInfo.mappingName;
+    if (nsArg == "intermediary") nsArg = "official";
+
+    jstring jMapping = env->NewStringUTF(nsArg.c_str());
     jstring jPayloadPath = env->NewStringUTF(u8JarPath.data());
 
-    Logger::Log(L"Bootstrap.start calling with mapping=%hs, payload=%ls", mcInfo.mappingName.c_str(), jarPath.c_str());
+    Logger::Log(L"Bootstrap.start calling with mapping=%hs (namespace arg %hs), payload=%ls",
+        mcInfo.mappingName.c_str(), nsArg.c_str(), jarPath.c_str());
     env->CallStaticVoidMethod(bootstrapClass, startMethod, jMapping, jPayloadPath);
 
     env->DeleteLocalRef(jMapping);

@@ -1,0 +1,670 @@
+{
+  "passed": true,
+  "module_count": 60,
+  "ui_cases": 1629,
+  "settings_cases": 750,
+  "per_module": [
+    {
+      "module": "Bridge Assist",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Reach",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Timer",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Fake Lag",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Notifications",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Sprint",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Auto Pot",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Keep Sprint",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Sprint Reset",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Chams",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "No Use Delay",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Indicators",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Fast Mine",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Safe Walk",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Strafe",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Fast Accel",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Auto Rod",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Anti Debuff",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Piercing",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Knockback Delay",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Debug",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Chest Stealer",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Clutch",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Auto Weapon",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Block In",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Speed",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Fast Place",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Anti Bot",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "No Item Release",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Hitboxes",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Free Look",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Friends",
+      "ui_cases": 2,
+      "settings_cases": 39,
+      "connected_native_list_entries_executed": [
+        "0xe0b0",
+        "0x3bca0",
+        "0x3bcb0",
+        "0x3beb0",
+        "0x3c190",
+        "0xab910",
+        "0xabbf0"
+      ],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "No Hit Delay",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "No Slow",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 0,
+      "runtime_ui_call_sites_executed": 0
+    },
+    {
+      "module": "Aim Assist",
+      "ui_cases": 63,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 26,
+      "runtime_ui_call_sites_executed": 26
+    },
+    {
+      "module": "Auto Clicker",
+      "ui_cases": 18,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 12,
+      "runtime_ui_call_sites_executed": 12
+    },
+    {
+      "module": "Auto Soup",
+      "ui_cases": 338,
+      "settings_cases": 39,
+      "connected_native_list_entries_executed": [
+        "0xe0b0",
+        "0xe3c0",
+        "0xe420",
+        "0x2ab70",
+        "0x2ab80",
+        "0x2abb0",
+        "0x2ac50",
+        "0xab910",
+        "0xabbf0"
+      ],
+      "runtime_ui_call_sites": 12,
+      "runtime_ui_call_sites_executed": 12
+    },
+    {
+      "module": "Player ESP",
+      "ui_cases": 462,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 15,
+      "runtime_ui_call_sites_executed": 15
+    },
+    {
+      "module": "Velocity",
+      "ui_cases": 21,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 14,
+      "runtime_ui_call_sites_executed": 14
+    },
+    {
+      "module": "Auto Block",
+      "ui_cases": 18,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 16,
+      "runtime_ui_call_sites_executed": 16
+    },
+    {
+      "module": "Teams",
+      "ui_cases": 2,
+      "settings_cases": 39,
+      "connected_native_list_entries_executed": [
+        "0xe0b0",
+        "0x321d0",
+        "0x321e0",
+        "0x32220",
+        "0x32420",
+        "0xab910",
+        "0xabbf0"
+      ],
+      "runtime_ui_call_sites": 3,
+      "runtime_ui_call_sites_executed": 3
+    },
+    {
+      "module": "GUI",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 7,
+      "runtime_ui_call_sites_executed": 7
+    },
+    {
+      "module": "Criticals",
+      "ui_cases": 21,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 8,
+      "runtime_ui_call_sites_executed": 8
+    },
+    {
+      "module": "Chest ESP",
+      "ui_cases": 270,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 14,
+      "runtime_ui_call_sites_executed": 14
+    },
+    {
+      "module": "Mod Overlay",
+      "ui_cases": 2,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 17,
+      "runtime_ui_call_sites_executed": 17
+    },
+    {
+      "module": "Backtrack",
+      "ui_cases": 18,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 15,
+      "runtime_ui_call_sites_executed": 15
+    },
+    {
+      "module": "Auto Tool",
+      "ui_cases": 18,
+      "settings_cases": 39,
+      "connected_native_list_entries_executed": [
+        "0xe0b0",
+        "0xe3c0",
+        "0xe420",
+        "0x2ab70",
+        "0x2ab80",
+        "0x2abb0",
+        "0x2ac50",
+        "0xab910",
+        "0xabbf0"
+      ],
+      "runtime_ui_call_sites": 12,
+      "runtime_ui_call_sites_executed": 12
+    },
+    {
+      "module": "Hit Select",
+      "ui_cases": 21,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 15,
+      "runtime_ui_call_sites_executed": 15
+    },
+    {
+      "module": "Refill",
+      "ui_cases": 18,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 10,
+      "runtime_ui_call_sites_executed": 10
+    },
+    {
+      "module": "Inv Walk",
+      "ui_cases": 63,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 6,
+      "runtime_ui_call_sites_executed": 6
+    },
+    {
+      "module": "Lag Range",
+      "ui_cases": 18,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 12,
+      "runtime_ui_call_sites_executed": 12
+    },
+    {
+      "module": "Name Tags",
+      "ui_cases": 30,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 14,
+      "runtime_ui_call_sites_executed": 14
+    },
+    {
+      "module": "Pointers",
+      "ui_cases": 42,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 14,
+      "runtime_ui_call_sites_executed": 14
+    },
+    {
+      "module": "Block ESP",
+      "ui_cases": 18,
+      "settings_cases": 39,
+      "connected_native_list_entries_executed": [
+        "0xe310",
+        "0xe3c0",
+        "0xe420",
+        "0x40000",
+        "0x40010",
+        "0x40030",
+        "0x40050",
+        "0x40340",
+        "0xab910"
+      ],
+      "runtime_ui_call_sites": 8,
+      "runtime_ui_call_sites_executed": 8
+    },
+    {
+      "module": "Item ESP",
+      "ui_cases": 18,
+      "settings_cases": 39,
+      "connected_native_list_entries_executed": [
+        "0xe310",
+        "0xe3c0",
+        "0xe420",
+        "0x41890",
+        "0x418a0",
+        "0x418c0",
+        "0x418e0",
+        "0x41a60",
+        "0xab910"
+      ],
+      "runtime_ui_call_sites": 7,
+      "runtime_ui_call_sites_executed": 7
+    },
+    {
+      "module": "Timer Range",
+      "ui_cases": 21,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 10,
+      "runtime_ui_call_sites_executed": 10
+    },
+    {
+      "module": "Trajectories",
+      "ui_cases": 18,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 9,
+      "runtime_ui_call_sites_executed": 9
+    },
+    {
+      "module": "Knockback Displace",
+      "ui_cases": 21,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 11,
+      "runtime_ui_call_sites_executed": 11
+    },
+    {
+      "module": "Weapons",
+      "ui_cases": 2,
+      "settings_cases": 39,
+      "connected_native_list_entries_executed": [
+        "0xe0b0",
+        "0xe3c0",
+        "0xe420",
+        "0x2ab70",
+        "0x2ab80",
+        "0x2abb0",
+        "0x2ac50",
+        "0xab910",
+        "0xabbf0"
+      ],
+      "runtime_ui_call_sites": 19,
+      "runtime_ui_call_sites_executed": 19
+    },
+    {
+      "module": "Inv Manager",
+      "ui_cases": 18,
+      "settings_cases": 9,
+      "connected_native_list_entries_executed": [],
+      "runtime_ui_call_sites": 19,
+      "runtime_ui_call_sites_executed": 19
+    }
+  ],
+  "shared_ui_helpers_controlled": true,
+  "ui_state_combinations_and_mid_render_mutation_checked": true,
+  "auto_soup_nan_infinity_signed_zero_clamp_checked": true,
+  "nonempty_original_item_list_callbacks_connected": [
+    "Auto Soup",
+    "Auto Tool",
+    "Weapons"
+  ],
+  "nonempty_original_named_list_callbacks_connected": [
+    "Friends",
+    "Teams"
+  ],
+  "nonempty_original_esp_list_callbacks_connected": [
+    "Block ESP",
+    "Item ESP"
+  ],
+  "esp_search_allocator_and_release_controlled": true,
+  "item_search_and_allocator_controlled": true,
+  "original_and_clean_memory_move_and_copy_connected": true,
+  "original_sorted_insertion_and_growth_executed": true,
+  "clean_sorted_insertion_and_growth_connected": true,
+  "original_and_clean_catalog_wrappers_connected": true,
+  "native_catalog_data_replaced_with_verified_readable_cpp_tables": true,
+  "boolean_number_choice_color_range_list_settings_helpers_executed_in_original": true,
+  "json_lookup_writers_and_string_compare_controlled": true,
+  "live_module_integration": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/module_color_settings.hpp": "22c884b1e71170622e2feb5ac472985f27a7b7a9df1d81a6ff0cc98827f572c2",
+    "recovered_cpp/clean/module_color_settings.cpp": "8d14d323ee66fc5c3b18be313cddb74b9902720026bb0d2bf73359b7b90ba419",
+    "recovered_cpp/clean/module_range_settings.hpp": "bae528b44ed5db121e983e05600b9e93a4d5feaeb807b68beb8b9c5e86cda0e8",
+    "recovered_cpp/clean/module_range_settings.cpp": "f42677b35a1fb4e38bfebe0f4d76ee9dceb390ceb97fe73f982337c1cae712d9",
+    "recovered_cpp/clean/module_list_settings.hpp": "69637d6a6bce6906da722f0a0696db982a31dbe2e433cfc9ece4d2e7acc349f0",
+    "recovered_cpp/clean/module_list_settings.cpp": "6a0b66b44c856425b7b0837fd8eb9f3bd6b15063831d04e50c2c9ad7389ae63c",
+    "recovered_cpp/clean/module_item_lists.hpp": "ed1e99ac60e9f997486cf23ac304f2cc087e26e897c73fccaa92e3e17e2ea192",
+    "recovered_cpp/clean/module_item_lists.cpp": "6812f4abcbd1508e0081042adff29b78d6d20d4bc5f6fd2e5c2a49a3b2a9b6e5",
+    "recovered_cpp/clean/module_named_lists.hpp": "00081812d97107193b406f4f00bab14d1d900e6541a6edc7881e814472e2848e",
+    "recovered_cpp/clean/module_named_lists.cpp": "36fb8e6d56e371fe22cf867d86445a98363aeb8c562bb21ce966b4f42052909f",
+    "recovered_cpp/clean/module_esp_lists.hpp": "fd8bc825d69616c62ff2158db2fe29a1f36f848863aa1a63d7e1814d62d3bbe3",
+    "recovered_cpp/clean/module_esp_lists.cpp": "74f462be4c4cea673aeb8b2e1e26241d681fe62285fd5057614545fdb8cf3474",
+    "recovered_cpp/clean/module_list_storage.hpp": "43a35bd7ccede0f2d414ed47aa36bb47f2c65f6c1660e1fd862634d219ed5a2c",
+    "recovered_cpp/clean/module_list_storage.cpp": "be1f4e94bae5853fbf0ab30484e833b0c4bce516f004013713e859285400360b",
+    "recovered_cpp/clean/module_memory.hpp": "1cbdaad9daa71d61088296111375df6e9f827fd1dc131c0b8333a7e87f400a73",
+    "recovered_cpp/clean/module_memory.cpp": "4fe065a5502c91d1fc12493a8df7253986f9ed1899540c17d3a0278c41d9b831",
+    "recovered_cpp/clean/module_item_catalog.hpp": "3fc74d6aafe05868ec3f7d464cec5103c0c4993150b9dd3ec205df0661568680",
+    "recovered_cpp/clean/module_item_catalog.cpp": "b914e1905336317ea170dcc4e9481bea6437f067531b601a6021b055e5e91044",
+    "recovered_cpp/clean/module_item_catalog_data.cpp": "92a709f20a68d886f2d205fb8739912ca168d9ac7c94c2cc91024dfb87b4a5e3",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "recovered_cpp/clean/module_surface.cpp": "fcbe1d25b4eee9771455440deb384783c23eaab9194cd54de13e55ea91b5d265",
+    "analysis/export_standard_surfaces.py": "e231273f59fbc740b424f0acfaeeff17aaeb4c10a4809c7694d50e8f97340550",
+    "analysis/module_ui_programs.py": "7f78a3d23486222720b2836c5ac461ac9e13b276f6cd84c839440931c5565ec6",
+    "analysis/recovered_native_source/verify_standard_surfaces.py": "e75eb6de248a07bb6dd0fe926bef902eefc5c81e8a69712c63388fd864cdd4e1",
+    "recovered_cpp/clean/surfaces/manifest.json": "439d93625f5e6fd528a8f7364894e0ec71e58ddb0d57ea85486f10d8e5a2c095",
+    "recovered_cpp/clean/surfaces/Surface_Bridge_Assist.cpp": "376539d947783866884bee7edda1a02b12585c701ad231d35c7e5dd07e539e94",
+    "recovered_cpp/clean/surfaces/Surface_Reach.cpp": "91abf989b1381f95722be7abcf9d4c7e488e728e54e56f1e643c23deafb24a72",
+    "recovered_cpp/clean/surfaces/Surface_Timer.cpp": "df9625ceba86312e279c535e5c4d3b9fe649f55f669d6797973ca14853ce96f1",
+    "recovered_cpp/clean/surfaces/Surface_Fake_Lag.cpp": "20adf0e760b98761358c891265b25a16a2578cd05e04e0ca24a8c756b04892ea",
+    "recovered_cpp/clean/surfaces/Surface_Notifications.cpp": "bf84f15b34368ee69ef64676c7b11fd9a8a2541bd4de32728b43821dac9d0371",
+    "recovered_cpp/clean/surfaces/Surface_Sprint.cpp": "50bb294e2238856fa9a70636eebe016e63ea7f2285664eecbc51751d7a35ecee",
+    "recovered_cpp/clean/surfaces/Surface_Auto_Pot.cpp": "15c6e51fda09bc9aac9122ee3813c891e03c1566d9cd505c60489b0ab6c4fc23",
+    "recovered_cpp/clean/surfaces/Surface_Keep_Sprint.cpp": "e408df193e3f85a458d0bf1707f23ab8bf7c61923faac83496323f4cacd228a1",
+    "recovered_cpp/clean/surfaces/Surface_Sprint_Reset.cpp": "2f427cbf411feadc6e449e407e9fece4dd2522ab20ee7b338ad43e9f12bbfc2c",
+    "recovered_cpp/clean/surfaces/Surface_Chams.cpp": "9ef85b36c464bd8fb2bcc867a0dea9b811391247df88d97ac06ba4e616724b1d",
+    "recovered_cpp/clean/surfaces/Surface_No_Use_Delay.cpp": "7b2ce4ea0b4829c450550584d9325367306a9ea20fbe96ac5f9ef933a835cc82",
+    "recovered_cpp/clean/surfaces/Surface_Indicators.cpp": "081768624cba2a4b22d77503678154177c4963bdecc4cd44eb45bdf9a0882717",
+    "recovered_cpp/clean/surfaces/Surface_Fast_Mine.cpp": "ee465a46758ebe07cd961f7db1c52bc00db652bc685d20eefeb2b2e22da1882a",
+    "recovered_cpp/clean/surfaces/Surface_Safe_Walk.cpp": "f4c195657a55d1436dee64b69ea3d61511f82545e11ea3303f83daa453945475",
+    "recovered_cpp/clean/surfaces/Surface_Strafe.cpp": "5060a875d1e970b028b0e8fbfe4839bf00c97cfb32935b7603a57ab22f484f98",
+    "recovered_cpp/clean/surfaces/Surface_Fast_Accel.cpp": "b36cbe3bbc97cf63886b19c24b49198bd2fb9baeb8a531eb30529357793e6567",
+    "recovered_cpp/clean/surfaces/Surface_Auto_Rod.cpp": "fec6ce2fa6e55041d8a4d552db7ae6c981cfa09102f6f5b841af019c597f5671",
+    "recovered_cpp/clean/surfaces/Surface_Anti_Debuff.cpp": "430cb66e39c3e14a147c3a68d12ed0a162ac7eefe5e3f4fa8623f2cb79372fd1",
+    "recovered_cpp/clean/surfaces/Surface_Piercing.cpp": "b6c669ad9c600f5969399d82cf63a63a4f336961a5cafb02403113c6889a2fb9",
+    "recovered_cpp/clean/surfaces/Surface_Knockback_Delay.cpp": "883deafb3c383c6e41f7d4ccec48d69581dd4f0ff252226a14e732fd1eac57f0",
+    "recovered_cpp/clean/surfaces/Surface_Debug.cpp": "27a08d0e797eba06bc7875f08bab5470445c4e4142012391fba3955b42ce5c1b",
+    "recovered_cpp/clean/surfaces/Surface_Chest_Stealer.cpp": "28dbb35525cf0bff1016497bea3c091a470f2a5fff60ba8badc9cdbcc9ae953d",
+    "recovered_cpp/clean/surfaces/Surface_Clutch.cpp": "e8f7777d90e1502cbfd06aee8ec87ef1a0bb5c46f3522aef6d2e5f2919ca2953",
+    "recovered_cpp/clean/surfaces/Surface_Auto_Weapon.cpp": "5624d279a796686ef0f08398060c22c7da526398e57c203e6f1ce76a04e76958",
+    "recovered_cpp/clean/surfaces/Surface_Block_In.cpp": "bcdb60b108609a948b8491e152ce1a57b904e6f60a93b3f9c0569dacaeb83062",
+    "recovered_cpp/clean/surfaces/Surface_Speed.cpp": "6b18d788dcd7d12e4a07a5d39e46af98f3b5a88f3ca925f01206dddf85ebb353",
+    "recovered_cpp/clean/surfaces/Surface_Fast_Place.cpp": "202b8baa7b3bc107fa4aa95c9403629cb6920f3027b013092f9f2b905984473b",
+    "recovered_cpp/clean/surfaces/Surface_Anti_Bot.cpp": "09d35165bc68b767a578830ee6a9bbccf76b4bfbb03f79d4c49da36498c22ddc",
+    "recovered_cpp/clean/surfaces/Surface_No_Item_Release.cpp": "32379222e26e473cbbfb120822f95928d5f3dbcb5116a4352c389f2c03655702",
+    "recovered_cpp/clean/surfaces/Surface_Hitboxes.cpp": "6a37ec27eb129190f058bd4ec57d6521f6d365647db7bfeea1636ee47799bea4",
+    "recovered_cpp/clean/surfaces/Surface_Free_Look.cpp": "2e45ef992fcbcf81b864e65f930db73b7d98c59f76938eda7dac833e1bbd892f",
+    "recovered_cpp/clean/surfaces/Surface_Friends.cpp": "c02cae29834d56a78cdc1eb86f7155da62020c2be06de9cf63c69b713ce90fa6",
+    "recovered_cpp/clean/surfaces/Surface_No_Hit_Delay.cpp": "93ca79b6fffd2113b6b7f986cd6de43eec8b004085ccba56452ad512f910fa16",
+    "recovered_cpp/clean/surfaces/Surface_No_Slow.cpp": "66a14dcbd1ab72b6f3e72263cbe19635e64fd8910467da888fe4ff3fb522dbc9",
+    "recovered_cpp/clean/surfaces/Surface_Aim_Assist.cpp": "d4a265866a7836f25937a5e7c967a9f04ae2d4baf8b32a302471f1697ccab33b",
+    "recovered_cpp/clean/surfaces/Surface_Auto_Clicker.cpp": "1afae70dbf4b9228b1ade715f5ecf70bfe7827bc1ad88c6c4dfccf2c47194652",
+    "recovered_cpp/clean/surfaces/Surface_Auto_Soup.cpp": "2106dec9b6e59f57048cbd3ee3a9463b48d1201c2da487f8951b432460e127cf",
+    "recovered_cpp/clean/surfaces/Surface_Player_ESP.cpp": "a6cc62aafa1edb3e752934c545f3dc6f6d4861b6cfdac10337b60606e653a0c5",
+    "recovered_cpp/clean/surfaces/Surface_Velocity.cpp": "95cec2820b658a385ad55b5f7b5c2b599e3f7f1897d801c222422caab1eb573d",
+    "recovered_cpp/clean/surfaces/Surface_Auto_Block.cpp": "56426ca4a8fd9dcb44e3d4f2f2d7c6794b345f4d9b2acd6adcc3a8f22ec4a268",
+    "recovered_cpp/clean/surfaces/Surface_Teams.cpp": "f43b38dfd680bf0fc89bf530166f01d62fa52405b84da80a5f8558f2272a970b",
+    "recovered_cpp/clean/surfaces/Surface_GUI.cpp": "c07979213ddd461a948f54069121b373ebab9978e06cd6e57bbf31d055ce1d02",
+    "recovered_cpp/clean/surfaces/Surface_Criticals.cpp": "9b99012caed3c5b26a97ca6665e2a19d0f3730a90fad1b2037e8abe45ca4f9bc",
+    "recovered_cpp/clean/surfaces/Surface_Chest_ESP.cpp": "5bf20458c98bf2a1d0a1e49011c3c0d75eaff4471b6122b8a3636a0aa1a2f7d8",
+    "recovered_cpp/clean/surfaces/Surface_Mod_Overlay.cpp": "06bbed09f5bf379db614c2b89627c167df34cddc6d43f50fd8cfbb28bfd1e2cc",
+    "recovered_cpp/clean/surfaces/Surface_Backtrack.cpp": "e5b094f42cbbf51575786b02cef47474eb5ba68cd35de861b484787b8a2d648f",
+    "recovered_cpp/clean/surfaces/Surface_Auto_Tool.cpp": "c5184d9ce4e00155602eb7755b5afbfc3699ec1719c552c6512491fb7b9ed3ea",
+    "recovered_cpp/clean/surfaces/Surface_Hit_Select.cpp": "36c859e9b54a63d648db1fd2530fd9d54f5d444f5473534819c6893d7ae9a213",
+    "recovered_cpp/clean/surfaces/Surface_Refill.cpp": "08ebe92eff880bfe269d18133b8a08584291f6dfc468cb8ca1b3e8c3c6c9ad47",
+    "recovered_cpp/clean/surfaces/Surface_Inv_Walk.cpp": "c41e2bd295dfa14a327ee7d4ab117aa9bf89bcf9a5d4ef240ac8cb619f25e995",
+    "recovered_cpp/clean/surfaces/Surface_Lag_Range.cpp": "34145dcf0a4ee7d2c0c42621884b47d9711cd7f19e88966b12eb729f7703f219",
+    "recovered_cpp/clean/surfaces/Surface_Name_Tags.cpp": "847dded72ba1f09bf73fca582d5e30cc12d0c132a657cf523ef5f7d9cad77b20",
+    "recovered_cpp/clean/surfaces/Surface_Pointers.cpp": "ddc00239444e5d47a72f89ab1189a04d5c10552dfa60da9114830ce020b9a3d9",
+    "recovered_cpp/clean/surfaces/Surface_Block_ESP.cpp": "2272052f269b6b268ba85435dbdfb4321c8c63407a58750f3d067ae148b82488",
+    "recovered_cpp/clean/surfaces/Surface_Item_ESP.cpp": "84c01033a1c24abeba8a5670b7cc1d24c8aa6c38d90e5b5c5b27ecc3b2d8ccd1",
+    "recovered_cpp/clean/surfaces/Surface_Timer_Range.cpp": "5c993b632a281bfa97b4751ff6fc8207283617ee7221bed7126460a0726da929",
+    "recovered_cpp/clean/surfaces/Surface_Trajectories.cpp": "f8376927591cfe29199212a7672b120902b296854b58782b9148a8c86b51d210",
+    "recovered_cpp/clean/surfaces/Surface_Knockback_Displace.cpp": "1fd318f10ffe6dce2f7088af5a271a16d5ea3f9b6b9fa47614bd1b0d87042a33",
+    "recovered_cpp/clean/surfaces/Surface_Weapons.cpp": "c21b44af8e2c59e2eab59b217fbe61d120a2f39613e7208144979e80e7528861",
+    "recovered_cpp/clean/surfaces/Surface_Inv_Manager.cpp": "53c3b64f41e734bc037ee385361bfd79603335bad1828b440bbbea58eec9d0b2"
+  }
+}

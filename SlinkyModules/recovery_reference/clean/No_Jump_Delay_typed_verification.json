@@ -1,0 +1,3279 @@
+{
+  "passed": true,
+  "total_cases": 268,
+  "all_ready_byte_cases": 256,
+  "extra_callback_cases": 8,
+  "direct_helper_cases": 4,
+  "results": [
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        146304,
+        220496
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        220496
+      ],
+      "jni_calls": 0,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        146304,
+        220496
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        146304,
+        220496
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        146304,
+        220496
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        146304,
+        220496
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        146304,
+        220496
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        146304,
+        220496
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        146304,
+        220496
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": false,
+      "entries": [
+        "0x35d50"
+      ],
+      "reached": [
+        146304,
+        220496
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": true,
+      "entries": [
+        "0x23b80"
+      ],
+      "reached": [
+        146304
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": true,
+      "entries": [
+        "0x23b80"
+      ],
+      "reached": [
+        146304
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": true,
+      "entries": [
+        "0x23b80"
+      ],
+      "reached": [
+        146304
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    },
+    {
+      "direct": true,
+      "entries": [
+        "0x23b80"
+      ],
+      "reached": [
+        146304
+      ],
+      "jni_calls": 1,
+      "frame_token": "0xfedcba9876543210",
+      "args5": []
+    }
+  ],
+  "instruction_coverage": {
+    "0x35d50": {
+      "expected": 12,
+      "reached": 12,
+      "unreached": []
+    },
+    "0x23b80": {
+      "expected": 10,
+      "reached": 10,
+      "unreached": []
+    }
+  },
+  "actual_access_binding": true,
+  "original_callback_and_helper_unhooked": true,
+  "native_original_executed": false,
+  "full_module_rebuild": false,
+  "public_module_actual_jni_binding_checked": true,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/No_Jump_Delay_typed.cpp": "0d45f5531d540ceada10f280a0e9969b80b18736de7311cdbdddace832177c07",
+    "recovered_cpp/clean/module_access_helpers.cpp": "b0c1c5035ff57b414a467e4327f4a6d6328e51fc43a7456b966f0ef33616a1d0",
+    "recovered_cpp/clean/module_game_access.cpp": "59a9517f00f2ee3c198e1b1894f4627b2c37c2dc46ecf26fe0b2a1450fd0f474",
+    "recovered_cpp/clean/No_Jump_Delay_typed.hpp": "0a54a4d0cb884dc33f4baa675a73eef58f3c5ef7060783898c62e0daffc18193",
+    "recovered_cpp/clean/module_access_helpers.hpp": "2b25dde3890978799da2faa6eb55b32b49b6fad367cd534a54f758451728b0d1",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/Timer.hpp": "43fd3a482508f022218ec04aca6c125e687c6a689b4ca0f4d61f1bbb36a52be3",
+    "recovered_cpp/clean/module_surface.hpp": "301d2514892e22852940794940ccf3c282512c0881bd5746c3d78ae1ca185cf2",
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "analysis/recovered_native_source/verify_access_helpers_cpp.py": "92616c46c13513908bfb528bd2d31681c194f6bb58f5d8b9272e60bf7b5a396c",
+    "analysis/recovered_native/index.tsv": "e7ab9b23c6a1c3954cc4af517e1ae68a054f5c7c7dd82d33d355bc9671742e1f",
+    "analysis/recovered_native_source/no_jump_delay_module_check.cpp": "0693bd62c0b795f93739195cdd1c9ba781d307897386f339f68c8d35935ed731",
+    "analysis/recovered_native_source/verify_no_jump_delay_typed.py": "4b85e784d54c53ccf8dcb920758c4112aeabc7f63ec7a5b5ff61868ead7c86df"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "executable_seconds": 10,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 10000
+  },
+  "limits": [
+    "Finite callback/helper behavior and full fixture buffers with actual bound access.",
+    "JNI implementation, live event registration, exceptions and concurrency remain controlled or unverified."
+  ]
+}

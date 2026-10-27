@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "cases_passed": 2403,
+  "original_instruction_callbacks_executed": true,
+  "dependency_helpers_stubbed_by_exact_rva": [
+    "0x27960",
+    "0x23c10",
+    "0x279c0",
+    "0x23e60",
+    "0x23e90",
+    "0x23b80",
+    "0x22df0",
+    "0x27e90",
+    "0x27eb0",
+    "0x22e90",
+    "0x22e10",
+    "0x24b50",
+    "0x22eb0",
+    "0x23f90",
+    "0x23bb0",
+    "0x22cf0",
+    "0x24f90",
+    "0x25430",
+    "0x23f40",
+    "0x25a60",
+    "0x25490",
+    "0x25460",
+    "0x23fc0"
+  ],
+  "xmm2_low32_compared": [
+    "0x23e60",
+    "0x23e90"
+  ],
+  "module_registry_callbacks_confirmed": {
+    "Anti Debuff": [
+      "0x44940"
+    ],
+    "No Jump Delay": [
+      "0x35d50"
+    ],
+    "Item Use Fix": [
+      "0x42b80",
+      "0x42be0"
+    ],
+    "No Hit Delay": [
+      "0x3e590"
+    ],
+    "No Use Delay": [
+      "0x3e8e0"
+    ]
+  },
+  "callback_raw_byte_sha256": {
+    "anti_debuff": "987cdc72e43ad6e046e8e9db32f6a0a4a63baa9bcecbe47a200b796a09860ae9",
+    "no_jump_delay": "a5d8c1c2c208193a346b1db9916a12cec37b532b99ecb85caec949b8d218f31a",
+    "item_use_fix_pre": "27991f1c55d44afa2117197549818f03549c06558af043a99d5318da2882dd32",
+    "item_use_fix_post": "ac571e84ff88c0d4ebbe53a99056040d36e934e84c6872e8320e912fd8c415f6",
+    "no_hit_delay": "34712622f5ec28e48773e3fb4c75ad2d03bb20c89f842f125df8bc80d71e591f",
+    "no_use_delay": "bfc7a9a39e6d4eaf7b0ae21817e0b08e0c2eddd8d1fd9f6a68a8fcc22f5178c4"
+  },
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/Anti_Debuff.cpp": "6c908d6227dd1a76748f34a2fb3665360e3f061ab83e86901e12766d6fd284ec",
+    "recovered_cpp/clean/No_Jump_Delay.cpp": "116a67dd849e90a3e0ebc4ffeaed03193c7f373822b45bc478bd65f1269cd80e",
+    "recovered_cpp/clean/Item_Use_Fix.cpp": "f6d8d1169737281bfdcaa549ae01ba5d0aec2f6c62d40b47147b927e2726c50e",
+    "recovered_cpp/clean/No_Hit_Delay.cpp": "28a1eb9bd0755f0d627416ace1d9bdac7dd925f888ace4e409557521b52c3649",
+    "recovered_cpp/clean/No_Use_Delay.cpp": "cebb26852422b6ca9d417172c840af455e34f8750cd8a167649b17074912ef96",
+    "recovered_cpp/clean/access_events.hpp": "123c17042b2b90f1467dfea2674f3478548ab9fd74813008e3c8b718b2a2bdfa",
+    "analysis/module_behavior_recovery/access_events/verify_access_events.py": "4391d3e77590775430cbf3928262f04f6dbd7c7788f9881730e44b6dad69eac7"
+  },
+  "observed_xmm2_low32_values": [
+    0
+  ],
+  "limitations": [
+    "Game/JNI dependency helper bodies are explicit callback stubs; no original module was run natively.",
+    "Semantics beyond callback effects and registry metadata are not claimed."
+  ]
+}

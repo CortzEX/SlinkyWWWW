@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "total_cases": 388,
+  "comparison_counts": {
+    "0x35000": 152,
+    "0x35960": 29,
+    "0x35a30": 28,
+    "0x35af0": 27,
+    "0x351a0": 152
+  },
+  "recovered_callbacks": [
+    "0x35000",
+    "0x35960",
+    "0x35a30",
+    "0x35af0",
+    "0x351a0"
+  ],
+  "dependency_wrappers_controlled": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/notifications/notifications.cpp": "f61136392536de73628db95b8c30624f8f00392d5a8b2d0e1dd2e3e3ac0fbe3b",
+    "analysis/module_behavior_recovery/notifications/verify.py": "776b595feeaceb9e9b377015e0ee70582f1434430a8ef71e492cc92ea346544f",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651"
+  },
+  "instruction_coverage": {
+    "0x35000": {
+      "expected": 91,
+      "reached": 91,
+      "unreached": []
+    },
+    "0x351a0": {
+      "expected": 159,
+      "reached": 159,
+      "unreached": []
+    },
+    "0x35960": {
+      "expected": 46,
+      "reached": 46,
+      "unreached": []
+    },
+    "0x35a30": {
+      "expected": 44,
+      "reached": 44,
+      "unreached": []
+    },
+    "0x35af0": {
+      "expected": 37,
+      "reached": 37,
+      "unreached": []
+    }
+  },
+  "asserted_mutations": [
+    [
+      "0x351a0",
+      1
+    ],
+    [
+      "0x351a0",
+      1
+    ]
+  ],
+  "persistent_sequence_initial_counts": [
+    0,
+    9,
+    10
+  ],
+  "limits": [
+    "Formatter and key-name conversion are controlled endpoints. The lock-prefixed latch uses an interlocked operation; concurrent schedules are not tested.",
+    "Notification renderer 0x354b0 remains unresolved. Event type values outside the observed 0/1/2 contract for 0x35960 are not tested."
+  ]
+}

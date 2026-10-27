@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "total_cases": 1590,
+  "direct_helper_cases": 91,
+  "connected_callback_cases": 1499,
+  "connected_modules": [
+    "No Slow",
+    "Reach",
+    "Ping Fix"
+  ],
+  "original_helper_entries_executed": true,
+  "clean_game_access_dependencies_bound": true,
+  "original_and_clean_endpoint_calls_and_mutations_compared": true,
+  "helper_entry_counts": {
+    "0x239d0": 426,
+    "0x23f40": 64,
+    "0x25a60": 64,
+    "0x25ab0": 50,
+    "0x25c50": 39,
+    "0x26c80": 20,
+    "0x26cc0": 20,
+    "0x23690": 370,
+    "0x23f90": 49,
+    "0x28a50": 58,
+    "0x42a20": 39,
+    "0x2ffb0": 1440,
+    "0x3e6d0": 10,
+    "0x3e700": 10
+  },
+  "instruction_coverage": {
+    "0x239d0": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x23f40": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x25a60": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x25ab0": {
+      "instructions": 9,
+      "reached": 9,
+      "unreached": []
+    },
+    "0x25c50": {
+      "instructions": 13,
+      "reached": 13,
+      "unreached": []
+    },
+    "0x26c80": {
+      "instructions": 18,
+      "reached": 18,
+      "unreached": []
+    },
+    "0x26cc0": {
+      "instructions": 18,
+      "reached": 18,
+      "unreached": []
+    },
+    "0x28a50": {
+      "instructions": 40,
+      "reached": 40,
+      "unreached": []
+    },
+    "0x23690": {
+      "instructions": 13,
+      "reached": 13,
+      "unreached": []
+    },
+    "0x23f90": {
+      "instructions": 13,
+      "reached": 13,
+      "unreached": []
+    },
+    "0x42a20": {
+      "instructions": 46,
+      "reached": 46,
+      "unreached": []
+    },
+    "0x2ffb0": {
+      "instructions": 45,
+      "reached": 45,
+      "unreached": []
+    },
+    "0x3e6d0": {
+      "instructions": 15,
+      "reached": 15,
+      "unreached": []
+    },
+    "0x3e700": {
+      "instructions": 15,
+      "reached": 15,
+      "unreached": []
+    }
+  },
+  "connected_entry_case_counts": {
+    "0x23f90": 39,
+    "0x42a20": 39,
+    "0x23f40": 37,
+    "0x25a60": 37,
+    "0x25ab0": 35,
+    "0x25c50": 33,
+    "0x28a50": 37,
+    "0x2ffb0": 1440,
+    "0x23690": 360,
+    "0x239d0": 420,
+    "0x26c80": 10,
+    "0x3e6d0": 10,
+    "0x26cc0": 10,
+    "0x3e700": 10
+  },
+  "comparison_counts": {
+    "recovered_game_last_attacker_time": 6,
+    "recovered_game_inventory": 6,
+    "recovered_game_inventory_index": 6,
+    "recovered_game_inventory_array": 6,
+    "recovered_game_item_numeric_id": 6,
+    "recovered_game_s00_keepalive_predicate": 10,
+    "recovered_game_c00_keepalive_predicate": 10,
+    "recovered_game_sprinting": 10,
+    "recovered_game_using_item": 10,
+    "recovered_game_item_object": 21,
+    "no_slow": 39,
+    "reach": 1440,
+    "ping_in": 10,
+    "ping_out": 10
+  },
+  "comparison": "MSVC C++20 versus original reconstructed-image instructions in bounded Unicorn; only JNI table endpoints are controlled",
+  "limits": [
+    "JNI table endpoints and metadata identifiers are synthetic; live game integration remains unverified.",
+    "Finite valid-backed cases do not prove full modules, exceptions, invalid pointers or concurrent bridge mutation.",
+    "Volatile registers, flags and floating-point traps are not compared."
+  ],
+  "live_game_integration": false,
+  "original_image_loaded_natively": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "original_binary_sha256": "be03bbecbf14b03458de36c8b3848c1b7325ad0aeb6a61b6e0f9206fc40b4af7",
+  "source_sha256": {
+    "recovered_cpp/clean/module_game_access.cpp": "59a9517f00f2ee3c198e1b1894f4627b2c37c2dc46ecf26fe0b2a1450fd0f474",
+    "recovered_cpp/clean/No_Slow.cpp": "7e052237007f394f97d953d3c574a0edd8a7b6664d84d726ce0f55e895230e3f",
+    "recovered_cpp/clean/Reach.cpp": "71c30a6243f3ffb75cb6c12664b5806eb03c321f6a098331ca3a1bdebf154084",
+    "recovered_cpp/clean/Ping_Fix.cpp": "c71f391f94590d7b1a07daa494b254c1a4784fa60fd5355316e6235372f90495",
+    "recovered_cpp/clean/module_game_access.hpp": "8a49faa3350f55af89850a70355aa7df17c8a1489d8d0ff4d9e1baa66b0b4d28",
+    "recovered_cpp/clean/event_callbacks.hpp": "ce52dd84bc0295a3dc5665a1d9bb65d82ea2542b13a6f7255485022ed83dcfe6",
+    "analysis/recovered_native_source/verify_game_access_cpp.py": "5d6e93669c0b6f271794aaaaf7f3eb8b328a9014fe01b6df8b03c0992a45db4a"
+  },
+  "bounds": {
+    "compiler_seconds": 30,
+    "emulator_microseconds_per_call": 1000000,
+    "emulator_instruction_limit_per_call": 5000
+  }
+}

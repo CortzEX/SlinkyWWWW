@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "case_count": 3315,
+  "helper_calls_compared": 22427,
+  "recovered_ranges": [
+    "0x3ad10-0x3afb9",
+    "0x3b150-0x3b1f1"
+  ],
+  "controlled_boundaries": [
+    "0x4c270",
+    "0x23760",
+    "0x239d0",
+    "0x239f0",
+    "0x22cf0",
+    "0x25030",
+    "0x25210",
+    "0x250d0",
+    "0x236c0",
+    "0x25490",
+    "0x25460",
+    "0xa050",
+    "0xa510",
+    "0xaa30",
+    "0xa3e0",
+    "0x380b0"
+  ],
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/sprint_reset/sprint_reset.cpp": "1ee85515eef4a7dfb5739842ce3586476b3456f7512fc5cfed4d4f85907eab0c",
+    "recovered_cpp/behavior/module_behavior_recovery/sprint_reset/sprint_reset.h": "94dec256b682f889b82673089caa2cec2be9e58b8e9076b762301f2c77528dd3",
+    "analysis/module_behavior_recovery/sprint_reset/verify_sprint_reset.py": "dc86c4b6077681899d178b1a5f170759ac1d5827617c7539a2b8f0502151ca9c"
+  },
+  "execution": "Original callback and local action helper executed only in Unicorn; every direct helper outside these ranges is controlled.",
+  "limits": "External state queries, clock/random utilities, selector functions, and final action endpoint are fixture boundaries, not recovered implementations. Unspecified volatile-register artifacts at the final indirect action edge are not treated as recovered behavior."
+}

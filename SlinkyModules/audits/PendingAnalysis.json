@@ -1,0 +1,589 @@
+{
+  "schema": "pending_available_analysis_v1",
+  "scope": "Captured protected transforms, caller contracts and initializer analysis; availability is not an irrecoverability claim",
+  "items": [
+    {
+      "scope": "captured_protected_transform",
+      "rva": "0x129b0",
+      "state": "pending_available_analysis",
+      "caller_evidence": [
+        "GUI state wrapper 0x32450, raw Teams interval; captured ordinary GUI prefix"
+      ],
+      "known_facts": "The ordinary GUI prefix and its selected captured paths are available. The current fixed worksheet records 126 packet checks and 89 prefix fingerprints. Decoded image cells identify five captured operand streams and address B+E7DC88; a subsequent fixed WORD read has no established semantic/protection role from the read alone. Current handler 0x7716f8, stream 0x1094c7d, key 0xe963a537693d526f, physical RSP=P=S-308. Saved caller registers, relocation bias and authored working slots are explicitly tracked. Full GUI-state effects remain unproved. The broad continuation worker stopped after content-safety screening for possible cybersecurity risk; further broad GUI continuation is paused. This is an execution-status fact, not a missing-byte or irrecoverability conclusion.",
+      "remaining_work": "Finish selected7716F8 on fifth captured stream1094C7D and subsequent available packets to GUI field effects or an exact runtime-input-dependent boundary. Finish unified original/virtual saved-frame ledger; individual fixed operand equations are not a complete GUI callback body. Independently review the complete symbolic frame ledger, including the8D6A05/375618 bridge equations and stack effects. Broad continuation is paused after the stated content-safety screening; available captured bytes are not labelled insufficient or irrecoverable. No original/protected instructions or services are executed.",
+      "progress_reports": [
+        "reconstruction/reports/ProtectedGuiFrameStaticCheckpoint.json"
+      ],
+      "ordinary_binding_batch": {
+        "state": "concrete_and_canonical_callers_connected",
+        "bodies": [
+          "0xc220",
+          "0xc290",
+          "0x4c7b0"
+        ],
+        "known_contract": "C290 opens the profile directory; it is not a profile reset. The 4C7B0/DCDBE0 captured ShellExecuteW service frame and canonical cell adapter are established.",
+        "verification_reports": [
+          "reconstruction/reports/GuiProfileActionsVerification.json",
+          "reconstruction/reports/GuiCompositionVerification.json",
+          "reconstruction/reports/GuiDirectoryRoutingVerification.json",
+          "reconstruction/reports/DirectoryServiceAdapterVerification.json"
+        ],
+        "build_scope": "CombinedBuild.json and CombinedLinkAudit.json pass with stable complete source snapshots including this binder batch. Full protected GUI129B0 state effects remain separate pending static analysis."
+      },
+      "execution_status": {
+        "state": "broad_continuation_paused_after_content_safety_screening",
+        "reason": "The broad GUI continuation worker stopped after content-safety screening for possible cybersecurity risk.",
+        "evidence_availability_conclusion": "This pause does not establish missing bytes or irrecoverability.",
+        "stable_checkpoint": {
+          "packet_checks": 126,
+          "prefix_fingerprints": 89,
+          "handler_rva": "0x7716f8"
+        },
+        "provisional_work": "A separate759FC6 worksheet is provisional and is not promoted as the selected completed continuation."
+      }
+    },
+    {
+      "scope": "original_file_protected_TLS_startup",
+      "rva": "0x1a72c5e",
+      "state": "pending_available_analysis",
+      "caller_evidence": [
+        "Original lib_win TLSdirectory2635458 and callback array2635480"
+      ],
+      "known_facts": "The original-file preferred-base TLS table is 1A72C5E, AAFD0, AB050, NULL. The first callback tests EDX==1 and transfers to 1B4ED2A only on that branch; otherwise it returns. Its protected bytes are present. Ordinary AAFD0 and AB050 callbacks are separately recovered. Selected fixed packets transport the sixteen saved words and original R11, decode literal/image-word values and retain/add virtual-frame addresses. Three relocated reads prove neutral values 0, 28 hex and 8; the fourth, if published, proves 10 hex. The 179A78B packet adds 8 to retained pointer S-8 and stores S at S-10, with consumed flags and scratch overlaps fixed. No unknown incoming value has affected the selected transport branches. Further packets prove S\u2192~S\u219227 hex-S\u2192S-28, switch the virtual top to S-28, and replace physical F+110 with S-28. The virtual S-28 cell holds an authored image word rather than original R10. These are frame-cell lifetime facts, not global defaults. Two exact image-cell reads decode preferred pointers 181ABA2A6 and 181A7C536; later packets relocate them to B+1ABA2A6 and B+1A7C536. Physical F+110 is explicitly overwritten again with S-38. Four subsequent copies retain original RBP/RSI/RDI/RBX at F+118/120/128/130. The 15F59CB packet stores authored B+1A7C536 at F+C0, then replaces virtual S-38 with unchanged original RDX from F+100. The selected recurring 14A8994 header consumes pre-NOT EDX52C72B60 and selects normal14CD210; the earlier hypothetical internal-entry diagnostic is withdrawn. Later fixed packets transport all seventeen saved register/flags words through a second physical layout. RDI changes from virtual top to a backward image operand cursor; RSI becomes the saved-frame cursor. At10FC555 the original zero immediate at preferred base180000000 and captured biasB\u2212180000000 at the relocated captured base give the same bootstrap seed181A7C536/header/key/relative entry. Zero itself is not a gap; the captured patch writer/order is unproved. A hypothetical relocated-base/unchanged-zero row is counterfactual only. All source words remain transported, never invoked or used as defaults. The next fixed packet writes authored literal1C7EBEEBCAE846F0 atS-38 and preferred-image address value1812DA6FA atS-40, after original RCX/RDX were retained in the second physical layout. Their purposes are unassigned. Fixed final RORCF0 and the common unsigned threshold select the next handler while skipping physical REP MOVSB. The following packet reads exact original/captured image qwordE3814115B54B0800 atB+12DA6FA intoS-40. PUSH RDX precedes ADD-bias and storeszero, fixing all later scratch operands independently of relocation bias. The next packet adds that word to literal1C7EBEEBCAE846F0, storing preferred-image address value180334EF0 atS-38, then transports saved biasF+F8 toS-40. No callable identity, protection-control purpose or initializer purpose is inferred from that address value. Latest checkpoint: handler 0x14a5b3b, stream 0x1a7c4ea, key 0x1c7ebeeb35a0b12a, RSP=F, operand RDI=B+1A7C4EA (backward operand cursor), frame RSI=S-40 (now saved-bias cell). These are narrow static dataflow facts, not complete TLS effects or guessed binding identities.",
+      "remaining_work": "Available 0x14a5b3b instructions remain unanalysed beyond the delivery checkpoint. Complete target/frame/state effects and initializer order remain open; no new protected-initialization or broad continuation work is undertaken in this delivery batch. Distinguish original TLS metadata from observed runtime bindings. No missing incoming input has been found on the selected fixed prefix. Do not initialize the PE or execute original TLS.",
+      "progress_reports": [
+        "reconstruction/reports/TlsContextCopyStaticReview.json",
+        "reconstruction/reports/TlsR11ImmediatesStaticReview.json",
+        "reconstruction/reports/TlsRelocatedZeroAndBiasStaticReview.json",
+        "reconstruction/reports/TlsBiasAndTopSlotsStaticReview.json",
+        "reconstruction/reports/TlsThreeFrameCopiesStaticReview.json",
+        "reconstruction/reports/TlsRbxAndLiteralStaticReview.json",
+        "reconstruction/reports/TlsSecondRelocatedWordStaticReview.json",
+        "reconstruction/reports/TlsVirtualPointerLiteralStaticReview.json",
+        "reconstruction/reports/TlsThirdRelocatedWordStaticReview.json",
+        "reconstruction/reports/TlsTopAddAndLiteralStaticReview.json",
+        "reconstruction/reports/TlsFourthRelocatedWordStaticReview.json",
+        "reconstruction/reports/TlsFrameComplementStaticReview.json",
+        "reconstruction/reports/TlsFrameOffsetStaticReview.json",
+        "reconstruction/reports/TlsFrameOffsetComplementStaticReview.json",
+        "reconstruction/reports/TlsVirtualTopSwitchStaticReview.json",
+        "reconstruction/reports/TlsSaveVirtualTopStaticReview.json",
+        "reconstruction/reports/TlsBiasAndCellLiteralsStaticReview.json",
+        "reconstruction/reports/TlsPreferredPointerStaticReview.json",
+        "reconstruction/reports/TlsRelocatePreferredPointerStaticReview.json",
+        "reconstruction/reports/TlsSecondPreferredPointerStaticReview.json",
+        "reconstruction/reports/TlsSecondPointerFrameStaticReview.json",
+        "reconstruction/reports/TlsSecondFourFrameCopiesStaticReview.json",
+        "reconstruction/reports/TlsPointerAndRdxExchangeStaticReview.json",
+        "reconstruction/reports/TlsRegisterFrameTransportStaticReview.json",
+        "reconstruction/reports/TlsPointerRoleTransitionStaticReview.json",
+        "reconstruction/reports/TlsSecondStreamBootstrapStaticReview.json",
+        "reconstruction/reports/TlsSecondStreamTransportStaticReview.json",
+        "reconstruction/reports/TlsRemainingRegisterTransportStaticReview.json",
+        "reconstruction/reports/TlsFinalFrameRepackStaticReview.json",
+        "reconstruction/reports/TlsSecondStreamLiteralsStaticReview.json",
+        "reconstruction/reports/TlsSecondStreamImageReadStaticReview.json",
+        "reconstruction/reports/TlsSecondStreamPointerAddStaticReview.json"
+      ],
+      "independent_reviews": [
+        "reconstruction/reports/Tls14A8994IndependentHeaderAudit.json",
+        "reconstruction/reports/TlsPhysicalOffsetConventionAudit.json",
+        "reconstruction/reports/TlsBootstrapPairedBaseAudit.json"
+      ]
+    },
+    {
+      "scope": "original_file_protected_PE_startup",
+      "rva": "0x255fcc7",
+      "state": "pending_available_analysis",
+      "caller_evidence": [
+        "Original lib_win PE AddressOfEntryPoint255FCC7; .slinky2 rawfile bytes"
+      ],
+      "known_facts": "The original entry saves R14/flags and calls1A99724. Current fixed context/operand worksheets check 2875 selected fingerprints with original/capture equality. Register and caller-stack transports, relocation-aware image reads, authored records and stack-mask lanes are accounted for in their scoped report. Current RSP=F, RDI=C-8, C=(S-8)&~40, stream RSI=0x7ffbfd90ff7a, key R9=0x770730978aeb950e, handler R10=captured_base+153126C. No missing byte or runtime-input invariant gap is found in that subset; complete initialization semantics remain open. The PE continuation worker stopped after content-safety screening for possible cybersecurity risk. Further continuation is paused; its stable report is preserved. This is an execution-status fact, not a missing-byte or irrecoverability conclusion.",
+      "remaining_work": "Continue153126C with stream 0x255ff7a, rolling key 0x770730978aeb950e, RDI=C-8, C=(S-8)&~40, RSP=F. Its aligned1536-byte inventory is available in stage49. F+B8 remainsfullQWORD40 iff q==1; virtualtopisfullQWORD80 iff q==1, otherwise0. Its startup/protection role is not established. Available analysis work, not a missing-byte/input gap; no original input value or expanded initialization purpose is assumed. Full initializer, binding, lifecycle and return semantics remain open. Further continuation is paused after the stated content-safety screening; no PE analysis retry, loading or original entry execution is performed.",
+      "progress_reports": [
+        "reconstruction/reports/PeContextContinuationStaticReview.json"
+      ],
+      "independent_reviews": [
+        "reconstruction/reports/Pe14AFE0AIndependentCarryAudit.json",
+        "reconstruction/reports/Pe1529D32IndependentWidthAudit.json"
+      ],
+      "execution_status": {
+        "state": "continuation_paused_after_content_safety_screening",
+        "reason": "The PE continuation worker stopped after content-safety screening for possible cybersecurity risk.",
+        "evidence_availability_conclusion": "This pause does not establish missing bytes or irrecoverability.",
+        "stable_checkpoint": {
+          "selected_instruction_fingerprints_checked": 2875,
+          "RSP": "F",
+          "RDI": "C-8, C=(S-8)&~40",
+          "RSI": "0x7ffbfd90ff7a",
+          "R9": "0x770730978aeb950e",
+          "R10": "captured_base+153126C"
+        },
+        "continuation_policy": "No PE analysis retry or expansion is undertaken in this delivery batch."
+      }
+    },
+    {
+      "scope": "startup_mutable_table_provenance_limit",
+      "path": "Earlier initializer/callback table bindings and pristine state",
+      "state": "precise_provenance_limit_with_named_available_binding_paths",
+      "caller_evidence": [
+        "SharedStartupStateLedger.json",
+        "StartupFunctionMapping.json",
+        "StartupVerification.json",
+        "native/verified/module_registry.cpp and module_lifecycle.cpp; supplied captured-baseline settings initializers"
+      ],
+      "known_facts": "ConcreteAAFD0 uses an instruction-fixed empty interval[2CB5C8,2CB5C8). AB0D0 guard/order/reverse callbacks and AB080 cursor reload are concrete. Capture2BA978 points2CB600,countFFFFFFFF,first callback2CB608NULL; shutdown cursor2F65F8 points nullslot2CB618; guard3065E8 is1. The checked tables expose no ordinary callback-body backlog. Registry initialization28000 is concrete and zeroes0x300 bytes atregistry+0x10; supplied settings initializers explicitly restore captured baselines.",
+      "remaining_work": "A pristine trace/checkpoint tied to this build is not supplied. Earlier mutable-table contents and binding/registration ownership require the specifically listed PE entry 255FCC7/TLS callback 1A72C5E analysis or additional initial-state evidence. The captured 13D030 registration dispatch and all eight F4730 service frames are established separately. Their known event writes do not prove earlier table contents or source defaults. No generic ordinary-initializer inventory task remains after the concrete six-helper recovery."
+    }
+  ],
+  "closed_items": [
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13cfd0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!hypot",
+      "caller_evidence": [
+        "Block ESP, Clutch, Fast Accel, Strafe, Timer Range and Velocity consumers"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xfef6c6, native decode add 0x2d2898a5, and deterministic tail dispatch to exact captured ucrtbase.dll!hypot at 0x7ffc6295a680. Signature: double engine(double firstXmm0, double secondXmm1). Restored registers: ; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedNumericStaticReview.json",
+        "reconstruction/reports/ProtectedNumericStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13cfb0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!atan2",
+      "caller_evidence": [
+        "Indicators and Pointers direction consumers; exact raw references retained by update_maps.py"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xf48782, native decode subtract 0x327EB16A at64-bit width, and deterministic tail dispatch to exact captured ucrtbase.dll!atan2 at 0x7ffc62958bc0. Signature: double engine(double firstXmm0,double secondXmm1). Restored registers: RDI, R12, R13, RBP; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedDirectionStaticReview.json",
+        "reconstruction/reports/ProtectedDirectionStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13cfa0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!acos",
+      "caller_evidence": [
+        "Clutch and Velocity raw callsites, projected-dot consumers; exact raw references retained by update_maps.py"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xae5156, native decode Subtract0x2BD9C5AC at64-bit pointer width, and deterministic tail dispatch to exact captured ucrtbase.dll!acos at 0x7ffc62958020. Signature: Binary64 result provider with original incomingXMM0; exact captured exportacos. Restored registers: RBP, RCX, R9, R10; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedProjectionStaticReview.json",
+        "reconstruction/reports/ProtectedProjectionStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13cfc0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!atan2f",
+      "caller_evidence": [
+        "Canonical direction/angle helper consumers and explicit typed providers"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xac1e69, native decode Add0x7936CC91 at64-bit pointer width, and deterministic tail dispatch to exact captured ucrtbase.dll!atan2f at 0x7ffc629592d0. Signature: float engine(float firstXmm0,float secondXmm1). Restored registers: RAX, RDX, R12, RBX, R8, R14; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedFloatDirectionStaticReview.json",
+        "reconstruction/reports/ProtectedFloatDirectionStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13d190",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!acosf",
+      "caller_evidence": [
+        "Canonical angle helper consumers and explicit typed providers"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xe3bdff, native decode Subtract0x7A471C96 at64-bit pointer width, and deterministic tail dispatch to exact captured ucrtbase.dll!acosf at 0x7ffc629582d0. Signature: Binary32 unary service with original incomingXMM0; exact captured exportacosf. Restored registers: RDI, RCX, R12, R14, R10; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedFloatUnaryStaticReview.json",
+        "reconstruction/reports/ProtectedFloatUnaryStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13d0e0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!bsearch",
+      "caller_evidence": [
+        "Block ESP and Item ESP policy-table search consumers"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0x1082312, native decode 64-bit addition0x481B1DCF, and deterministic tail dispatch to exact captured ucrtbase.dll!bsearch at 0x7ffc6293ef10. Signature: void* (const void* key,const void* base,uint64_t count,uint64_t stride,int comparator(const void*,const void*)). Restored registers: RAX, RBP, RCX; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedSearchStaticReview.json",
+        "reconstruction/reports/ProtectedSearchStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13d0f0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!qsort",
+      "caller_evidence": [
+        "Mod Overlay, Name Tags, Player ESP and Pointers collection consumers"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xea2361, native decode 64-bit subtraction0x1E5013D4, and deterministic tail dispatch to exact captured ucrtbase.dll!qsort at 0x7ffc6293f370. Signature: void (void* array,uint64_t count,uint64_t stride,int comparator(const void*,const void*)). Restored registers: RDX, R11; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedSortStaticReview.json",
+        "reconstruction/reports/ProtectedSortStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13d0a0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!strcmp",
+      "caller_evidence": [
+        "Mod Overlay and Teams raw compare consumers"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xb5f1fa, native decode 64-bit addition0x6F098693, and deterministic tail dispatch to exact captured ucrtbase.dll!strcmp at 0x7ffc6294c0f0. Signature: int32_t engine(const char* firstRCX,const char* secondRDX). Restored registers: RBX, RSI, R14; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedCompareStaticReview.json",
+        "reconstruction/reports/ProtectedCompareStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13d0d0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!_time64",
+      "caller_evidence": [
+        "Friends command caller 0x3B200 and neighboring Sprint Reset interval references"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xad4fb0, native decode 64-bit subtraction0x4E49C46C, and deterministic tail dispatch to exact captured ucrtbase.dll!_time64 at 0x7ffc62947f50. Signature: int64_t engine(int64_t* optionalOutputRCX). Restored registers: RAX, R10, R13; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedClockStaticReview.json",
+        "reconstruction/reports/ProtectedClockStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13d0b0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!strncpy",
+      "caller_evidence": [
+        "Bounded static selected native bytes plus audited fixed-width, stack and branch arithmetic; no protected instruction interpreter or replay"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xb02390, native decode Subtract0x2b487396 at64-bit pointer width, and deterministic tail dispatch to exact captured ucrtbase.dll!strncpy at 0x7ffc6294d270. Signature: Original pointer/pointer/uint64 copy arguments and fullword return service; exactcapturedstrncpy. Restored registers: RCX, R9; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedCopyStaticReview.json",
+        "reconstruction/reports/ProtectedCopyStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13cfe0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!powf",
+      "caller_evidence": [
+        "Bounded static selected native bytes plus audited fixed-width, stack and branch arithmetic; no protected instruction interpreter or replay"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xb49c28, native decode Subtract0x73f18291 at64-bit pointer width, and deterministic tail dispatch to exact captured ucrtbase.dll!powf at 0x7ffc62954600. Signature: Binary32 two-scalar service with originalXMM0/XMM1; exactcapturedpowf. Restored registers: RAX, R14, RCX, R12, R9, RDI; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedBinaryScalarStaticReview.json",
+        "reconstruction/reports/ProtectedBinaryScalarStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x13d030",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!_register_onexit_function",
+      "caller_evidence": [
+        "Concrete4D0B0 registration wrapper and AB0D0 initializer consumer",
+        "reports/native/startup_13d030.asm; StartupFunctionMapping.json"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xbb32b0, native decode Subtract0x356c00f6 at64-bit pointer width, and deterministic tail dispatch to exact captured ucrtbase.dll!_register_onexit_function at 0x7ffc62944400. Signature: int __cdecl _register_onexit_function(_onexit_table_t *table, _onexit_t function). Restored registers: RAX, RBP, RDX, R15; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP/return are restored.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedRegistrationStaticReview.json",
+        "reconstruction/reports/ProtectedRegistrationStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_resolution",
+      "rva": "0x32ecfb",
+      "state": "captured_resolver_contract_established",
+      "engine_export": "ucrtbase.dll!tolower",
+      "caller_evidence": [
+        "Mod Overlay caller 0x34E90 actual CALL site 0x34EEB targets 0x32ECFB"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xe8d88f, native decode 64-bit addition0x7539B2BB, and exact captured ucrtbase.dll!tolower at 0x7ffc62946150. Resolver: Resolve captured character service into R15; restore original RCX/RDI/R9/flags; return to originalcallerreturn+2 with ordinary caller post-call RSP.. Continuation: At callsite34EEB, return34EF0 is advanced to34EF2. Two inline bytes are skipped. Subsequent ordinary34F00 loop supplies signedBYTE->int32 ECX, CALL R15 and stores AL.. All XMM lanes are untouched; no external engine invocation occurs in the resolver.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedOverlayCharacterStaticReview.json",
+        "reconstruction/reports/ProtectedOverlayCharacterStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed.",
+      "related_container_rvas": [
+        "0x32ecf3"
+      ]
+    },
+    {
+      "scope": "captured_protected_service_resolution",
+      "rva": "0xbb8f39",
+      "state": "captured_resolver_contract_established",
+      "engine_export": "ucrtbase.dll!tolower",
+      "caller_evidence": [
+        "Mod Overlay collection/update caller references"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xe8d88f, native decode 64-bit addition0x7539B2BB, and exact captured ucrtbase.dll!tolower at 0x7ffc62946150. Resolver: Actual34F69 PUSH RAX/34F6A CALL resolves captured tolower into RBX; restores original RAX/RCX/RSI/R9/R10/R11/R14/R15/flags and consumes the caller-saved RAX slot.. Continuation: Originalreturn34F6F advances by1 to34F70; return RSP=S+16 restores the outer caller stack. Ordinary status loop passes signed-byte->int32 ECX, CALL RBX, stores AL and reloads length each iteration.. All XMM lanes are untouched; no external engine invocation occurs in the resolver.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedOverlayStatusCharacterStaticReview.json",
+        "reconstruction/reports/ProtectedOverlayStatusCharacterStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0xe28595",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ucrtbase.dll!tolower",
+      "caller_evidence": [
+        "Mod Overlay render 0x34080 callgraph"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xe8d88f, native decode 64-bit addition0x7539B2BB, and deterministic tail dispatch to exact captured ucrtbase.dll!tolower at 0x7ffc62946150. Signature: int32_t engine(int32_t originalCharacterECX). Restored registers: RAX, R12, R14, RSI; original saved flags and incoming XMM lanes are retained. Continuation: Actual34245 caller return3424A advances to3424B. Engine sees originalRSP/character and returns directly to ordinary AL-store/length-reload loop.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedOverlayRenderStatusStaticReview.json",
+        "reconstruction/reports/ProtectedOverlayRenderStatusStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_resolution",
+      "rva": "0xe6314d",
+      "state": "captured_resolver_contract_established",
+      "engine_export": "ucrtbase.dll!tolower",
+      "caller_evidence": [
+        "Mod Overlay render 0x34080 callgraph"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xe8d88f, native decode 64-bit addition0x7539B2BB, and exact captured ucrtbase.dll!tolower at 0x7ffc62946150. Resolver: Sets R12 to the exact decoded captured tolower address; invokes no external engine.. Continuation: Actual34194 caller return34199 is unchanged; resolver returns with RSP=S rather thanS+8, compensating caller34192 POP R12 and restoring its removed word at[S].. All XMM lanes are untouched; no external engine invocation occurs in the resolver.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedOverlayRenderNameStaticReview.json",
+        "reconstruction/reports/ProtectedOverlayRenderNameStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0xe042c7",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ntdll.dll!RtlInitializeCriticalSection",
+      "caller_evidence": [
+        "ActualF4730 caller, fixed selected captured instructions/stack algebra; no protected replay or service invocation"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0x33b543, native decode 64-bit addition0x25A6AC40, and deterministic tail dispatch to exact captured ntdll.dll!RtlInitializeCriticalSection at 0x7ffc6548c730. Signature: Original RCX pointer argument; external service return is forwarded without post-return conversion and ignored by the actual F4730 caller.. Restored registers: RDI, RDX; original saved flags and incoming XMM lanes are retained. Continuation: Original caller RSP=S and RCX pointer are retained; returnF484C advances by1 toF484D. Actual caller ignores result and unconditionally stores guard1.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedStartupInitializeStaticReview.json",
+        "reconstruction/reports/ProtectedStartupInitializeStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0xf7922b",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ntdll.dll!RtlDeleteCriticalSection",
+      "caller_evidence": [
+        "ActualF4730 caller, fixed selected captured instructions/stack algebra; no protected replay or service invocation"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xbd64d6, native decode 64-bit subtraction0x24693085, and deterministic tail dispatch to exact captured ntdll.dll!RtlDeleteCriticalSection at 0x7ffc6548ac40. Signature: Original RCX pointer argument; external service return is forwarded without post-return conversion and ignored by the actual F4730 caller.. Restored registers: RSI, RDI, R8, R9, R12, R13, R14; original saved flags and incoming XMM lanes are retained. Continuation: Consumes the actual caller extraPUSH RSI slot. Engine entryRSP=S+8 has unchangedreturnF48C3; engine return restores ordinary callerRSP=S+16.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedStartupDeleteStaticReview.json",
+        "reconstruction/reports/ProtectedStartupDeleteStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0xe3c461",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ntdll.dll!RtlLeaveCriticalSection",
+      "caller_evidence": [
+        "Actual F4730 callerF4860 PUSH RDX/F4861 CALL; fixed selected capture algebra only, no protected replay"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xfc80e4, native decode 64-bit addition0x5CBCB3B5, and deterministic tail dispatch to exact captured ntdll.dll!RtlLeaveCriticalSection at 0x7ffc65456f90. Signature: Original RCX pointer argument; external result forwarded without post-return conversion and ignored by actualF4730 caller.. Restored registers: RDX, RBP, R10, R9, R13, RSI; original saved flags and incoming XMM lanes are retained. Continuation: Consumes actualcaller extraPUSH RDX. Engine entryRSP=S+8 contains unchangedreturnF4866; afterengine return ordinary callerRSP=S+16 andF4866 jumps toconstant1 exitF48C3.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedStartupReleaseStaticReview.json",
+        "reconstruction/reports/ProtectedStartupReleaseStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_resolution",
+      "rva": "0xae25c1",
+      "state": "captured_resolver_contract_established",
+      "engine_export": "kernel32.dll!TlsGetValue",
+      "caller_evidence": [
+        "ActualF47FB PUSH RAX/F47FC CALL and ordinaryreason3 node loop; fixedselectedcapturealgebra only"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xea03ed, native decode 64-bit addition0x300CE5CC, and exact captured kernel32.dll!TlsGetValue at 0x7ffc63ea0d30. Resolver: Decode captured cellEA03ED+300CE5CC intoRBX as exactcaptured kernel32!TlsGetValue. No service invocation occurs in resolver. Ordinarycaller consumes ECX=nodeDWORD and pointerRAX fromtheprovider.. Continuation: Consumes callerextraPUSH RAX; advances originalreturnF4801 by1 toF4802; ordinarycallerRSP=S+16. Originalflags andallGPRexceptresultRBX are restored/retained; incomingXMM/MXCSR/x87 untouched.. All XMM lanes are untouched; no external engine invocation occurs in the resolver.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedStartupThreadResolverStaticReview.json",
+        "reconstruction/reports/ProtectedStartupThreadResolverStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0xb012ba",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ntdll.dll!RtlEnterCriticalSection",
+      "caller_evidence": [
+        "Actual F4730 caller and complete selected capture frame algebra; no protected replay"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xf94ba9, native decode 64-bit addition0x7E3634DC, and deterministic tail dispatch to exact captured ntdll.dll!RtlEnterCriticalSection at 0x7ffc65451a90. Signature: Original RCX critical-section pointer; all external return lanes forwarded unchanged and ignored by actual F4730 caller.. Restored registers: RAX, RSI, R12, RBP; original saved flags and incoming XMM lanes are retained. Continuation: Consumes actualcaller extraPUSH RAX; externalentryRSP=S+8 contains unchangedreturnF47EF; originalRCX is retained.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedStartupEnterStaticReview.json",
+        "reconstruction/reports/ProtectedStartupEnterStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0xf56385",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ntdll.dll!RtlLeaveCriticalSection",
+      "caller_evidence": [
+        "Actual F4730 caller and complete selected capture frame algebra; no protected replay"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xfc80e4, native decode 64-bit addition0x5CBCB3B5, and deterministic tail dispatch to exact captured ntdll.dll!RtlLeaveCriticalSection at 0x7ffc65456f90. Signature: Original RCX critical-section pointer; all external return lanes forwarded unchanged and ignored by actual F4730 caller.. Restored registers: RBX, R13, R8, R12; original saved flags and incoming XMM lanes are retained. Continuation: Consumes actualcaller extraPUSH RBX; externalentryRSP=S+8 contains unchangedreturnF4875; originalRCX is retained.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedStartupReason0ReleaseStaticReview.json",
+        "reconstruction/reports/ProtectedStartupReason0ReleaseStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0xb30557",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "ntdll.dll!RtlEnterCriticalSection",
+      "caller_evidence": [
+        "ActualF476E CALLB30557 and advancedF4774 continuation; fixedselectedcapturealgebra only"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xf94ba9, native decode 64-bit addition0x7E3634DC, and deterministic tail dispatch to exact captured ntdll.dll!RtlEnterCriticalSection at 0x7ffc65451a90. Signature: OriginalRCX criticalsectionpointer; all external returnlanes forwarded unchanged and ignored by actualcaller.. Restored registers: RAX, RCX, RBX, RSI; original saved flags and incoming XMM lanes are retained. Continuation: OriginalentryRSP S is exposed toengine; originalreturnF4773 advanced by1 toF4774. NoextraPUSH waspresentatcaller.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedStartupReason0EnterStaticReview.json",
+        "reconstruction/reports/ProtectedStartupReason0EnterStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "captured_protected_service_resolution",
+      "rva": "0xbbbc7e",
+      "state": "captured_resolver_contract_established",
+      "engine_export": "kernel32.dll!TlsGetValue",
+      "caller_evidence": [
+        "Actual F4784 POP RBX/F4785 CALL BBBC7E and reason0 ordinary linked-node continuation; selected static fingerprint/stack/constant algebra only."
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xea03ed, native decode qword reload plus wrapping uint64 addition0x300CE5CC, and exact captured kernel32.dll!TlsGetValue at 0x7ffc63ea0d30. Resolver: RBX receives the decoded callable from cell EA03ED. This resolver does not invoke the external engine.. Continuation: Original return F478A advances by1 to F478B. Final RSP=S, where S is BBBC7E entry RSP, compensates the actual caller POP. Original RBX remains at [S] for the ordinary F4730 frame.. All XMM lanes are untouched; no external engine invocation occurs in the resolver.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedStartupProcessResolverStaticReview.json",
+        "reconstruction/reports/ProtectedStartupProcessResolverStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "mixed_startup_reason_static_call_contracts",
+      "rva": "0xf4730",
+      "state": "captured_mixed_startup_call_contracts_established",
+      "caller_evidence": [
+        "AAFD0/AB050 ordinary callbacks; reports/StartupCallSiteIdentity.json pins all eight actual relative CALL destinations"
+      ],
+      "known_facts": "All eight actual calls have complete selected cell/frame/continuation proofs: B30557/B012BA Enter, E042C7 Initialize, E3C461/F56385 Leave and F7922B Delete exact captured ntdll critical-section services; BBBC7E/AE25C1 resolve exact captured kernel32 TlsGetValue intoRBX with distinct compensating callerframes. Ordinary node loops reload raw2CBFB8, exactcaptured GetLastError, consume DWORD nodeID/pointerTLSresult/EAXlast-error and retain callback mutation/link reload semantics. AD0557/EB0962/323424/E9437D diagnostics are not actual selected paths. Reason2 FNINIT and guard/caller lifecycle chunks are separate concrete instructions.",
+      "proof_reports": [
+        "reconstruction/reports/StartupCallSiteIdentity.json",
+        "reconstruction/reports/ProtectedStartupInitializeStaticReview.json",
+        "reconstruction/reports/ProtectedStartupDeleteStaticReview.json",
+        "reconstruction/reports/ProtectedStartupReleaseStaticReview.json",
+        "reconstruction/reports/ProtectedStartupThreadResolverStaticReview.json",
+        "reconstruction/reports/ProtectedStartupEnterStaticReview.json",
+        "reconstruction/reports/ProtectedStartupReason0ReleaseStaticReview.json",
+        "reconstruction/reports/ProtectedStartupReason0EnterStaticReview.json",
+        "reconstruction/reports/ProtectedStartupProcessResolverStaticReview.json"
+      ],
+      "remaining_evidence_limits": "Static caller and service-frame analysis is closed. Production semantic integration and finite caller fixtures are recorded separately in StartupReasonRuntime reports. Original pristine critical-section/list state, permanent binding, callback identity, external thread/TLS/locking/fault policy and protected PE/TLS initializer order remain separate evidence limits.",
+      "ordinary_body": {
+        "source": "reconstruction/shared/StartupReasonRuntime.cpp",
+        "symbol": "reconstruction::startup::lifecycle_f4730",
+        "verification": "reconstruction/reports/StartupReasonVerification.json",
+        "cases": 508,
+        "ordinary_native_comparison_cases": 492,
+        "rebuilt_service_contract_cases": 16,
+        "scope": "All four ordinary reason branches and exact caller-owned service adapters; protected entries intercepted before execution. Original full TLS/PE initialization and external engines are unclaimed."
+      }
+    },
+    {
+      "scope": "captured_protected_service_dispatch",
+      "rva": "0x103762f",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "user32.dll!GetActiveWindow",
+      "caller_evidence": [
+        "SharedNativeState.hpp::mouseMessage and OwnedNativeBindings.hpp route4C390",
+        "SharedDependencyCoverage.json entries4C390/103762F; OwnedDynamicDependencyAudit.json"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xf947c2, native decode Add0x13A545F1 at64-bit pointer width, and deterministic tail dispatch to exact captured user32.dll!GetActiveWindow at 0x7ffc651c2410. Signature: uint64_t externalGetActiveWindow(void); nativeWindows HWND fullpointer return. Restored registers: RAX, RDI, RSI, R9, R15; original saved flags and incoming XMM lanes are retained. Continuation: Actualreturn4C3BA+1\u21924C3BB; engineRSP equalsoriginalprotectedentryS. Messagecell wascachedbeforequery.",
+      "proof_reports": [
+        "reconstruction/reports/ProtectedWindowQueryStaticReview.json",
+        "reconstruction/reports/ProtectedWindowQueryStaticReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed."
+    },
+    {
+      "scope": "transitive_captured_directory_service_dispatch",
+      "rva": "0xdcdbe0",
+      "state": "captured_dispatch_contract_established",
+      "engine_export": "shell32.dll!ShellExecuteW",
+      "caller_evidence": [
+        "Exact caller and ABI retained by proof report"
+      ],
+      "known_facts": "Complete static cell/frame derivation proves inline cell 0xacc76a, native decode Subtract1C611EAD at64-bit pointer width, and deterministic tail dispatch to exact captured shell32.dll!ShellExecuteW at 0x7ffc647495c0. Signature: uint64_t externalShellExecuteW(uint64_t,constuint16_t*,constuint16_t*,uint64_t,uint64_t,uint32_t). Restored registers: RAX, R10, R14, RDX; original saved flags and incoming XMM lanes are retained. Continuation: S+8",
+      "proof_reports": [
+        "reconstruction/reports/DirectoryServiceStaticFrameReview.json",
+        "reconstruction/reports/DirectoryServiceStaticFrameReview.md"
+      ],
+      "remaining_evidence_limits": "Captured binding identity does not establish original source import spelling, startup cell selection or permanent rebinding. Numerical/service exceptional policy belongs to the exact external engine. Readable valid frame/cell is assumed; no substituted host library or universal environment/fault equivalence is claimed.",
+      "outside_historical_direct_415": true,
+      "outside_historical_global_1995_cell": "0xacc76a",
+      "ordinary_body": {
+        "source": "reconstruction/shared/DecodedDirectoryService.cpp",
+        "verification": "reconstruction/reports/DirectoryServiceAdapterVerification.json",
+        "cases": 91,
+        "scope": "Caller-owned six-argument cell adapter and exact stack compensation. Controlled engine only; no Windows folder action."
+      }
+    }
+  ],
+  "startup_closure": {
+    "ordinary_closed": [
+      "0xaafd0",
+      "0xab050",
+      "0xab070",
+      "0xab080",
+      "0xab0d0",
+      "0x4d0b0"
+    ],
+    "exact_architecture_operation_forwarded": "0x12ccf0:FNINIT only; x87 architecture service is explicit",
+    "verification": "reconstruction/reports/StartupVerification.json",
+    "cases": 240,
+    "separate_state_ledger": "reconstruction/reports/SharedStartupStateLedger.json",
+    "generic_ordinary_initializer_inventory_remaining": false
+  }
+}

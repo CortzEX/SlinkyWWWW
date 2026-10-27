@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "number_cases": 700,
+  "choice_cases": 800,
+  "original_type_predicates_executed": true,
+  "json_lookup_writers_and_string_compare_controlled": true,
+  "live_module_integration": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "analysis/recovered_native_source/verify_value_settings.py": "450d75d9a09f424c32a3b0199bb40b948bf6e41cfb2cbcc55c159d01366b1fe1"
+  }
+}

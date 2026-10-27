@@ -2,9 +2,7 @@
 build/
 dist/
 out/
-.gradle/
-SlinkyClient/build/
-SlinkyClient/.gradle/
+SlinkyModules/build/
 
 # Release zips you make yourself (upload these under Releases instead)
 *.zip

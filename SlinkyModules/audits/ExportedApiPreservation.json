@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "Compiled export names only; no DLL loading or behavior-equivalence claim",
+  "original_exports": 514,
+  "shareable_exports": 514,
+  "missing": [],
+  "added": [],
+  "dll_sha256": [
+    "5d627728717d855d068734e0c3a7d91c0b716b81fc52a54658f8d52d14f4c9ba",
+    "36fbbb8af471637eef03df47f7cedee34650f79d03eedb33a9d35aa8b4679ccb"
+  ]
+}

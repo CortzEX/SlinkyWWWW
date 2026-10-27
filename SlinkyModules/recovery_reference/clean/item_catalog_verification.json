@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "total_cases": 1620,
+  "comparison_counts": {
+    "catalog_data_rows": 770,
+    "find_identifier": 400,
+    "find_name": 410,
+    "identifier_compare": 25,
+    "name_compare": 15
+  },
+  "instruction_coverage": {
+    "0xe3c0": {
+      "instructions": 19,
+      "reached": 19,
+      "unreached": []
+    },
+    "0xe410": {
+      "instructions": 6,
+      "reached": 6,
+      "unreached": []
+    },
+    "0xe420": {
+      "instructions": 19,
+      "reached": 19,
+      "unreached": []
+    },
+    "0xe470": {
+      "instructions": 6,
+      "reached": 6,
+      "unreached": []
+    }
+  },
+  "catalog_records": 385,
+  "both_original_table_orders_verified": true,
+  "search_and_string_compare_endpoints_controlled": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_item_catalog.cpp": "b914e1905336317ea170dcc4e9481bea6437f067531b601a6021b055e5e91044",
+    "recovered_cpp/clean/module_item_catalog.hpp": "3fc74d6aafe05868ec3f7d464cec5103c0c4993150b9dd3ec205df0661568680",
+    "recovered_cpp/clean/module_item_catalog_data.cpp": "92a709f20a68d886f2d205fb8739912ca168d9ac7c94c2cc91024dfb87b4a5e3",
+    "analysis/export_item_catalog.py": "51b29cdf74abbebf2ee001263a33847adc2c1b23aa35427ae51f79e70e448522",
+    "analysis/recovered_native_source/verify_item_catalog.py": "989f4e0175f699b6fbe3018ebdfab82027ad7eee25ae7414a53176ab694aa06f"
+  }
+}

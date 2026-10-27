@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "total_cases": 467,
+  "comparison_counts": {
+    "0x42c60": 144,
+    "0x43ca0": 257,
+    "0x43950": 5,
+    "0x43970": 7,
+    "0x43bf0": 38,
+    "0x9590": 16
+  },
+  "recovered_callbacks": [
+    "0x42c60",
+    "0x43ca0",
+    "0x43950",
+    "0x43970",
+    "0x43bf0",
+    "0x9590"
+  ],
+  "dependency_wrappers_controlled": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/timer_range_events/timer_range_events.cpp": "6eb08e42ac96e996d84656788f45efcf2676093eeb2ba767fce22a19fa73ae5c",
+    "analysis/module_behavior_recovery/timer_range_events/verify.py": "4c4b23af041c883417639cbb867a0bc3eaa430e8c9460d824b6500ad0e96c06c",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651"
+  },
+  "instruction_coverage": {
+    "0x42c60": {
+      "expected": 176,
+      "reached": 176
+    },
+    "0x43950": {
+      "expected": 8,
+      "reached": 8
+    },
+    "0x43970": {
+      "expected": 25,
+      "reached": 25
+    },
+    "0x43bf0": {
+      "expected": 53,
+      "reached": 53
+    },
+    "0x43ca0": {
+      "expected": 67,
+      "reached": 67
+    },
+    "0x9590": {
+      "expected": 12,
+      "reached": 12
+    }
+  },
+  "asserted_helper_mutations": [
+    [
+      "0x42c60",
+      "0x22cf0"
+    ],
+    [
+      "0x42c60",
+      "0x22e10"
+    ],
+    [
+      "0x42c60",
+      "0x23780"
+    ],
+    [
+      "0x42c60",
+      "0x239f0"
+    ],
+    [
+      "0x42c60",
+      "0x23030"
+    ],
+    [
+      "0x42c60",
+      "0x24160"
+    ],
+    [
+      "0x42c60",
+      "0x29000"
+    ],
+    [
+      "0x42c60",
+      "0x22cf0"
+    ],
+    [
+      "0x42c60",
+      "0x23780"
+    ],
+    [
+      "0x42c60",
+      "0x23780"
+    ],
+    [
+      "0x43bf0",
+      "0x28a50"
+    ],
+    [
+      "0x43bf0",
+      "0x259c0"
+    ],
+    [
+      "0x43970",
+      "0x22c70"
+    ],
+    [
+      "0x43ca0",
+      "0x250d0"
+    ]
+  ],
+  "original_linked_helper_entries": {
+    "0x9590": 160,
+    "0x43bf0": 42,
+    "0x43ca0": 335
+  },
+  "limitations": [
+    "The main 42f00 update callback is not translated in this unit.",
+    "Game access, key operations and line-of-sight queries are controlled endpoints; freeze/input/vector-offset bodies are linked and run unhooked in the original.",
+    "Atomic exchanges are preserved; concurrent interleavings, exception flags and exhaustive NaN payload behavior remain unverified."
+  ]
+}

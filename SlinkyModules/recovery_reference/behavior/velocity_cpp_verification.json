@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "total_cases": 401,
+  "comparison_counts": {
+    "0x30180": 188,
+    "0x30520": 123,
+    "0x302d0": 33,
+    "0x303a0": 2,
+    "0x303c0": 8,
+    "0x308e0": 9,
+    "0x30410": 38
+  },
+  "recovered_callbacks": [
+    "0x30180",
+    "0x30520",
+    "0x302d0",
+    "0x303a0",
+    "0x303c0",
+    "0x308e0",
+    "0x30410"
+  ],
+  "dependency_wrappers_controlled": true,
+  "full_module_rebuild": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/behavior/module_behavior_recovery/velocity/velocity.cpp": "e2d876f56c8c873f106cb4f0dfa1230847400fcb3642d79354f78b912cee8f50",
+    "analysis/module_behavior_recovery/velocity/verify.py": "c1cd3d628a17908fb852f5ef29874f0d4337775514a8d4e836872bd154ec6233",
+    "analysis/module_behavior_recovery/fixture.py": "61a88c87dc52caf9dc5a49308e40422fe8db045d6b563ed4d37ce4a7af75f651"
+  },
+  "instruction_coverage": {
+    "0x30180": {
+      "expected": 73,
+      "reached": 73
+    },
+    "0x302d0": {
+      "expected": 57,
+      "reached": 57
+    },
+    "0x303a0": {
+      "expected": 10,
+      "reached": 10
+    },
+    "0x303c0": {
+      "expected": 19,
+      "reached": 19
+    },
+    "0x30410": {
+      "expected": 63,
+      "reached": 63
+    },
+    "0x30520": {
+      "expected": 217,
+      "reached": 217
+    },
+    "0x308e0": {
+      "expected": 18,
+      "reached": 18
+    }
+  },
+  "asserted_helper_mutations": [
+    [
+      "0x30180",
+      "0x23550"
+    ],
+    [
+      "0x30180",
+      "0x23780"
+    ],
+    [
+      "0x302d0",
+      "0x266b0"
+    ],
+    [
+      "0x302d0",
+      "0x266f0"
+    ],
+    [
+      "0x30410",
+      "0x23ac0"
+    ],
+    [
+      "0x30410",
+      "0x380b0"
+    ],
+    [
+      "0x30410",
+      "0x239d0"
+    ],
+    [
+      "0x30520",
+      "0x25490"
+    ],
+    [
+      "0x30520",
+      "0x23720"
+    ],
+    [
+      "0x30520",
+      "0x23550"
+    ],
+    [
+      "0x30180",
+      "0x23780"
+    ],
+    [
+      "0x30520",
+      "0x13cfa0"
+    ],
+    [
+      "0x30520",
+      "0x23720"
+    ]
+  ],
+  "limitations": [
+    "Game and packet access, eligibility 0x30c50, random/smoothing and transcendental helpers remain controlled dependencies.",
+    "Only uncontended atomic operations are compared; concurrent event scheduling is not established.",
+    "Floating-point exception flags and every NaN payload combination are not tested."
+  ]
+}

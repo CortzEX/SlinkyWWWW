@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "cases": 1152,
+  "original_ghost_hand_and_boolean_helper_executed": true,
+  "lookup_and_writer_controlled": true,
+  "live_module_integration": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_settings.hpp": "2fead76f3c11ff5980574dee35c8310ea02174ad1e0f8cd543758d33f96a45cd",
+    "recovered_cpp/clean/module_settings.cpp": "101f1225fa1381961441d944e48f2af4ae1b2f063f9f9b5c4e727a1f467101ff",
+    "recovered_cpp/clean/Ghost_Hand.cpp": "6b258a2ef5297a45c3333910c559d9124f5055cd0d2e63a6b84ac04b3bd9fbb8",
+    "analysis/recovered_native_source/verify_ghost_hand_settings.py": "245ddd6565ea912c68c27898c7da4471f8db847e849ed45bb2c117555db45d84"
+  }
+}

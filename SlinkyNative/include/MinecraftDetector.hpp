@@ -9,9 +9,10 @@ namespace SlinkyNative {
 
 enum class MappingType {
     Unknown = 0,
-    Named = 101,     // MCP mappings (resource 101)
-    Srg = 102,       // SRG mappings (resource 102)
-    Official = 103   // Notch/Vanilla/Lunar/Badlion obfuscated mappings (resource 103)
+    Named = 101,        // MCP mappings (resource 101)
+    Srg = 102,          // SRG mappings (resource 102)
+    Official = 103,     // Notch/Vanilla/Lunar/Badlion obfuscated mappings (resource 103)
+    Intermediary = 104  // Legacy Fabric intermediary names (resource 104)
 };
 
 struct MinecraftInfo {

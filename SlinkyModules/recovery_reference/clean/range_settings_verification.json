@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "cases": 1440,
+  "original_range_parser_executed": true,
+  "json_dependencies_controlled": true,
+  "live_module_integration": false,
+  "checkpoint_sha256": "e515edcc12dab3f26398ada1a504bb343a6e51e0a584f461179f58c30387831b",
+  "source_sha256": {
+    "recovered_cpp/clean/module_range_settings.hpp": "bae528b44ed5db121e983e05600b9e93a4d5feaeb807b68beb8b9c5e86cda0e8",
+    "recovered_cpp/clean/module_range_settings.cpp": "f42677b35a1fb4e38bfebe0f4d76ee9dceb390ceb97fe73f982337c1cae712d9",
+    "analysis/recovered_native_source/verify_range_settings.py": "854873bf27186b8cfc5992305a604dd6db834b769255ae82258b93159cf1a48a"
+  }
+}

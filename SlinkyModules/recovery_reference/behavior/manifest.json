@@ -1,0 +1,928 @@
+{
+  "component_count": 74,
+  "distinct_callback_bodies": 170,
+  "components": [
+    {
+      "source": "analysis/recovered_native_source/sprint_behavior.c",
+      "source_sha256": "6509e9ea5c510df013dc395f268a54d3fb04b14be1cd702c9edb460b100d194a",
+      "cpp": "recovered_cpp/behavior/recovered_native_source/sprint_behavior.cpp",
+      "cpp_sha256": "f7057aa4e5e37866f10d24b2fb5f22c5253243779a71b14bb614eacdb938afbe",
+      "callback_rvas": [
+        "0x35d80",
+        "0x35e30"
+      ],
+      "verification_report": "analysis/recovered_native_source/sprint_behavior_verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/sprint_behavior_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/access_events/access_events.c",
+      "source_sha256": "9ca8a77cf7d04b10401d060a4d366886268fc05a9b6d21bca8b33dc94f1e8576",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/access_events/access_events.cpp",
+      "cpp_sha256": "9ca8a77cf7d04b10401d060a4d366886268fc05a9b6d21bca8b33dc94f1e8576",
+      "callback_rvas": [
+        "0x35d50",
+        "0x3e590",
+        "0x3e8e0",
+        "0x42b80",
+        "0x42be0",
+        "0x44940"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/access_events/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/aim_assist_events/aim_assist_events.c",
+      "source_sha256": "0e4e85c073c7a6549e5eacd1b498a0e6a26bcadf66c432745ecec3a80325e162",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/aim_assist_events/aim_assist_events.cpp",
+      "cpp_sha256": "0e4e85c073c7a6549e5eacd1b498a0e6a26bcadf66c432745ecec3a80325e162",
+      "callback_rvas": [
+        "0x2b5b0",
+        "0x2b610"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/aim_assist_events/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/aim_assist_selection/aim_assist_selection.c",
+      "source_sha256": "a7efa441f93bde232b99f9eb6e88d98e57ae3125e929229abc94d71a490a1753",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/aim_assist_selection/aim_assist_selection.cpp",
+      "cpp_sha256": "a7efa441f93bde232b99f9eb6e88d98e57ae3125e929229abc94d71a490a1753",
+      "callback_rvas": [
+        "0x2b630"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/aim_assist_selection/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/aim_assist_update/aim_assist_update.c",
+      "source_sha256": "965fc05172a262bc0181ff5e2e65ef853c7614c4b85ad48416dfee9ebb37f716",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/aim_assist_update/aim_assist_update.cpp",
+      "cpp_sha256": "965fc05172a262bc0181ff5e2e65ef853c7614c4b85ad48416dfee9ebb37f716",
+      "callback_rvas": [
+        "0x2b200"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/aim_assist_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/anti_bot/anti_bot.c",
+      "source_sha256": "998d83098099e47cda587a39b2bb4e98e16316daabac8f1f77d033ac45da5367",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/anti_bot/anti_bot.cpp",
+      "cpp_sha256": "998d83098099e47cda587a39b2bb4e98e16316daabac8f1f77d033ac45da5367",
+      "callback_rvas": [
+        "0x30e70",
+        "0x31310"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/anti_bot/verification_report.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/auto_clicker/auto_clicker.c",
+      "source_sha256": "83f4066215bfd4599ab9f766e69fb2b599bd9c29af611c0d647bfb2042921a8b",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_clicker/auto_clicker.cpp",
+      "cpp_sha256": "d237f944cc9af396dad2b9ead147f33bb84478047e255411b3a39d41e28acf98",
+      "callback_rvas": [
+        "0x2ca10",
+        "0x2ca90",
+        "0x2d140"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/auto_clicker/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/auto_clicker_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/auto_pot/auto_pot.c",
+      "source_sha256": "52332bea03bf1c07963bf9abf7d5c3e05a4af1d2b3a77ca13564c4292365503e",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_pot/auto_pot.cpp",
+      "cpp_sha256": "52332bea03bf1c07963bf9abf7d5c3e05a4af1d2b3a77ca13564c4292365503e",
+      "callback_rvas": [
+        "0x391c0",
+        "0x394d0",
+        "0x39520"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/auto_pot/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/auto_soup/auto_soup.c",
+      "source_sha256": "5960b270f533904799cd8993897730616c5cb8841944dbe17b8cf8aa834c5b17",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_soup/auto_soup.cpp",
+      "cpp_sha256": "5960b270f533904799cd8993897730616c5cb8841944dbe17b8cf8aa834c5b17",
+      "callback_rvas": [
+        "0x2d510",
+        "0x2dae0",
+        "0x2db10"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/auto_soup/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/auto_tool/auto_tool.c",
+      "source_sha256": "4d60d2ca2bce645f927dc1773bd38b0cfbd5ab109da88f20213453f37ec24041",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_tool/auto_tool.cpp",
+      "cpp_sha256": "4d60d2ca2bce645f927dc1773bd38b0cfbd5ab109da88f20213453f37ec24041",
+      "callback_rvas": [
+        "0x37180",
+        "0x374b0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/auto_tool/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/auto_weapon/auto_weapon.c",
+      "source_sha256": "dba2417b20679074d8354097a3a95d93d8da2fa53ce415c59b6cd1362cad988b",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/auto_weapon/auto_weapon.cpp",
+      "cpp_sha256": "dba2417b20679074d8354097a3a95d93d8da2fa53ce415c59b6cd1362cad988b",
+      "callback_rvas": [
+        "0x4a340"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/auto_weapon/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/backtrack_packet/backtrack_packet.c",
+      "source_sha256": "c0f40794ab030b04a3318a5ceb907219b2cbcad3e32cdcceff2aef7246ea2b86",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/backtrack_packet/backtrack_packet.cpp",
+      "cpp_sha256": "c0f40794ab030b04a3318a5ceb907219b2cbcad3e32cdcceff2aef7246ea2b86",
+      "callback_rvas": [
+        "0x35fd0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/backtrack_packet/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/backtrack_render/backtrack_render.c",
+      "source_sha256": "66a59d9d1cfd7e3fb81827e5fa2492f80ae37b3693d3c97a226a73fcfd6a0826",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/backtrack_render/backtrack_render.cpp",
+      "cpp_sha256": "66a59d9d1cfd7e3fb81827e5fa2492f80ae37b3693d3c97a226a73fcfd6a0826",
+      "callback_rvas": [
+        "0x36110"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/backtrack_render/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/backtrack_update/backtrack_update.c",
+      "source_sha256": "cee27058a45d211f89a4a7e48b9432a8929ca3c34d77cd2bb19c2b2302957344",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/backtrack_update/backtrack_update.cpp",
+      "cpp_sha256": "cee27058a45d211f89a4a7e48b9432a8929ca3c34d77cd2bb19c2b2302957344",
+      "callback_rvas": [
+        "0x362e0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/backtrack_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/blink/blink.c",
+      "source_sha256": "d17e2e272e573f4473bc348d3c5f53ce7a215a0bbc2925983965b81a151cb737",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/blink/blink.cpp",
+      "cpp_sha256": "d17e2e272e573f4473bc348d3c5f53ce7a215a0bbc2925983965b81a151cb737",
+      "callback_rvas": [
+        "0x33660",
+        "0x336d0",
+        "0x33750",
+        "0x33770",
+        "0x337c0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/blink/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/block_esp_lifecycle/block_esp_lifecycle.c",
+      "source_sha256": "4c782aeaa89adf90e051d351e9c3480b8974d471bac31b28fdc132cd5bcf6ff0",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/block_esp_lifecycle/block_esp_lifecycle.cpp",
+      "cpp_sha256": "4c782aeaa89adf90e051d351e9c3480b8974d471bac31b28fdc132cd5bcf6ff0",
+      "callback_rvas": [
+        "0x3f4c0",
+        "0x3f6a0",
+        "0x3fa40",
+        "0x3fa50"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/block_esp_lifecycle/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/block_esp_render/block_esp_render.c",
+      "source_sha256": "99129bf8b0bd7b548f99dac85592d015edbe14d378a55ca19235c654212cde68",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/block_esp_render/block_esp_render.cpp",
+      "cpp_sha256": "99129bf8b0bd7b548f99dac85592d015edbe14d378a55ca19235c654212cde68",
+      "callback_rvas": [
+        "0x3f7b0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/block_esp_render/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/block_in_events/block_in_events.c",
+      "source_sha256": "e69452b8a9a6eb82739ffd18c79b0394a2b88eae12cfbd07423feff4a6b09243",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/block_in_events/block_in_events.cpp",
+      "cpp_sha256": "36a508769eebdbad42c6c68083e7f6edde4d2d5e2f6ebc9544372dc3a0b4f615",
+      "callback_rvas": [
+        "0x4abf0",
+        "0x4ac00",
+        "0x4ad50",
+        "0x4ad80"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/block_in_events/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/block_in_events_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/block_in_update/block_in_update.c",
+      "source_sha256": "21a07b1788ef9b1606035a85e07da40deec79609239b86eefa8e056e46fa7aaf",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/block_in_update/block_in_update.cpp",
+      "cpp_sha256": "21a07b1788ef9b1606035a85e07da40deec79609239b86eefa8e056e46fa7aaf",
+      "callback_rvas": [
+        "0x4ae50"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/block_in_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/bridge_events/bridge_events.c",
+      "source_sha256": "142b77826bb0511f94c2bf03f371804d81a9fb789968acc2aca6b573962c6bdb",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/bridge_events/bridge_events.cpp",
+      "cpp_sha256": "142b77826bb0511f94c2bf03f371804d81a9fb789968acc2aca6b573962c6bdb",
+      "callback_rvas": [
+        "0x2de50",
+        "0x2dec0",
+        "0x2e5a0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/bridge_events/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/bridge_update/bridge_update.c",
+      "source_sha256": "9764e3aab0cd84d5fe7c3e0bb4973838a987dd6956cb99c58addbbe49565e1ae",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/bridge_update/bridge_update.cpp",
+      "cpp_sha256": "9764e3aab0cd84d5fe7c3e0bb4973838a987dd6956cb99c58addbbe49565e1ae",
+      "callback_rvas": [
+        "0x2e260"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/bridge_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/chest_esp/chest_esp.c",
+      "source_sha256": "96448ede63d71779c650bba508bb417e1ce00aec043d7552bbc3068a191a09d0",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/chest_esp/chest_esp.cpp",
+      "cpp_sha256": "96448ede63d71779c650bba508bb417e1ce00aec043d7552bbc3068a191a09d0",
+      "callback_rvas": [
+        "0x33990",
+        "0x33b60"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/chest_esp/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/clutch_events/clutch_events.c",
+      "source_sha256": "60ebc4a98f7a8f4badb3f83ee139254449bc0028c03de8ce292d928bcabba460",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/clutch_events/clutch_events.cpp",
+      "cpp_sha256": "60ebc4a98f7a8f4badb3f83ee139254449bc0028c03de8ce292d928bcabba460",
+      "callback_rvas": [
+        "0x488f0",
+        "0x48a30"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/clutch_events/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/clutch_update/clutch_update.c",
+      "source_sha256": "6a1f89e0d0bbba5c8228638b7cc27b1edd8a05195738564475c32a07ccf151c4",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/clutch_update/clutch_update.cpp",
+      "cpp_sha256": "6a1f89e0d0bbba5c8228638b7cc27b1edd8a05195738564475c32a07ccf151c4",
+      "callback_rvas": [
+        "0x48a50"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/clutch_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/connected_auto_block/connected_auto_block.c",
+      "source_sha256": "0aebf55c22c46a82ef1d6fb103d8c19b8d033ae3377e68916e591888e234c8c6",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/connected_auto_block/connected_auto_block.cpp",
+      "cpp_sha256": "0aebf55c22c46a82ef1d6fb103d8c19b8d033ae3377e68916e591888e234c8c6",
+      "callback_rvas": [
+        "0x31570",
+        "0x31a50",
+        "0x31a70",
+        "0x31b00",
+        "0x31b60"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/connected_auto_block/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/connected_auto_rod_access/connected_auto_rod_access.c",
+      "source_sha256": "3cff33d24110a0f2ab84e68a5f300666d37234d7c9350cef64f4eb69389e6656",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/connected_auto_rod_access/connected_auto_rod_access.cpp",
+      "cpp_sha256": "3cff33d24110a0f2ab84e68a5f300666d37234d7c9350cef64f4eb69389e6656",
+      "callback_rvas": [
+        "0x43d80",
+        "0x44340",
+        "0x44390",
+        "0x443c0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/connected_auto_rod_access/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/criticals/criticals.c",
+      "source_sha256": "2ba1096f5a5e0385f1eae90ce9c70e7a110f7b961256a40109e34d4d08fcd7b7",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/criticals/criticals.cpp",
+      "cpp_sha256": "2ba1096f5a5e0385f1eae90ce9c70e7a110f7b961256a40109e34d4d08fcd7b7",
+      "callback_rvas": [
+        "0x32f10",
+        "0x33080",
+        "0x331a0",
+        "0x332b0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/criticals/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/debug/debug.c",
+      "source_sha256": "f41ece4abff6199a64b17c7655be7f071da4173a2482cc75b23f99263c83dde4",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/debug/debug.cpp",
+      "cpp_sha256": "3b33548d4191ef0f8008861c530b778b58dde795cd7232e6b5506e82bd342630",
+      "callback_rvas": [
+        "0x466e0",
+        "0x46850",
+        "0x468c0",
+        "0x46900"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/debug/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/debug_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/fake_lag/fake_lag.c",
+      "source_sha256": "1a844de091db8b4d994a0fe1665bd1b59830d4174d1c9084ec830771e6ca7edb",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/fake_lag/fake_lag.cpp",
+      "cpp_sha256": "454c5b751b784f30b109c4f2aaeb54cfcf52f99689f4f2444ceb880662b87d16",
+      "callback_rvas": [
+        "0x32b30",
+        "0x32cb0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/fake_lag/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/fake_lag_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/fast_accel/fast_accel.c",
+      "source_sha256": "5f65784913f735dc585aeb441615dbbd887766e19eb5d2c1ec54e1dbc62cff4f",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/fast_accel/fast_accel.cpp",
+      "cpp_sha256": "5f65784913f735dc585aeb441615dbbd887766e19eb5d2c1ec54e1dbc62cff4f",
+      "callback_rvas": [
+        "0x42320"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/fast_accel/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/fast_mine/fast_mine.c",
+      "source_sha256": "634881e00fdc0572eb56db7e1a9d6184ae2c6982727546ae56962728f4ddd537",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/fast_mine/fast_mine.cpp",
+      "cpp_sha256": "634881e00fdc0572eb56db7e1a9d6184ae2c6982727546ae56962728f4ddd537",
+      "callback_rvas": [
+        "0x41a90",
+        "0x41b30"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/fast_mine/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/fast_place/fast_place.c",
+      "source_sha256": "71fe9ee944ba3c141ce5b8918a859aef4f69c49d8e3b706e8ad7c921680a838c",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/fast_place/fast_place.cpp",
+      "cpp_sha256": "71fe9ee944ba3c141ce5b8918a859aef4f69c49d8e3b706e8ad7c921680a838c",
+      "callback_rvas": [
+        "0x2fbc0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/fast_place/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/friends/friends.c",
+      "source_sha256": "ac3716c7e6adf02792529256ad931622717004f375bea46dfc541109e8611556",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/friends/friends.cpp",
+      "cpp_sha256": "ac3716c7e6adf02792529256ad931622717004f375bea46dfc541109e8611556",
+      "callback_rvas": [
+        "0x3b3c0",
+        "0x3b510",
+        "0x3b5d0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/friends/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/gui/gui.c",
+      "source_sha256": "502f5f083b7f3c92d615da1c4841ad976a89209c20cbf8f50bb6e818db01c8fa",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/gui/gui.cpp",
+      "cpp_sha256": "6e1c848caef39dfd81084a9bd1aeda160c003c34d1662afc52a7fded7fc83cd8",
+      "callback_rvas": [
+        "0x325c0",
+        "0x32600",
+        "0x32730",
+        "0x32740",
+        "0x327c0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/gui/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/gui_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/hit_select/hit_select.c",
+      "source_sha256": "702d7e4012e7fb1cb4deeaaaa27b15d972501f1892365782da9421c6e3a62540",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/hit_select/hit_select.cpp",
+      "cpp_sha256": "702d7e4012e7fb1cb4deeaaaa27b15d972501f1892365782da9421c6e3a62540",
+      "callback_rvas": [
+        "0x376c0",
+        "0x37710",
+        "0x37ae0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/hit_select/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/indicators/indicators.c",
+      "source_sha256": "575aa17eec1d60a689480b8b1552d745696033e9b537839b4110add01afeef97",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/indicators/indicators.cpp",
+      "cpp_sha256": "575aa17eec1d60a689480b8b1552d745696033e9b537839b4110add01afeef97",
+      "callback_rvas": [
+        "0x3ea40",
+        "0x3ead0",
+        "0x3ef20"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/indicators/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/instant_stop/instant_stop.c",
+      "source_sha256": "7f3197b3eabd60f03020c1e721600dd7a75bba20e3718cf3e2c9e13b57cac313",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/instant_stop/instant_stop.cpp",
+      "cpp_sha256": "7f3197b3eabd60f03020c1e721600dd7a75bba20e3718cf3e2c9e13b57cac313",
+      "callback_rvas": [
+        "0x42650"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/instant_stop/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/inv_manager/inv_manager.c",
+      "source_sha256": "66d0a33d06b01a680f8c18e6805861803751cbc934f8a8d89d7397b7bc01b5f1",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/inv_manager/inv_manager.cpp",
+      "cpp_sha256": "66d0a33d06b01a680f8c18e6805861803751cbc934f8a8d89d7397b7bc01b5f1",
+      "callback_rvas": [
+        "0x47090"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/inv_manager/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/inv_walk_events/inv_walk_events.c",
+      "source_sha256": "be6a69661af1ca298fa4f3c1493f143ddf8b2883accdb1637c5b4471bb93fabc",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/inv_walk_events/inv_walk_events.cpp",
+      "cpp_sha256": "be6a69661af1ca298fa4f3c1493f143ddf8b2883accdb1637c5b4471bb93fabc",
+      "callback_rvas": [
+        "0x39790",
+        "0x39ce0",
+        "0x39e30"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/inv_walk_events/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/inv_walk_update/inv_walk_update.c",
+      "source_sha256": "5b340b7c50f38a5b9e4fefabc60a5456ef860ee97d7658129be650fa40386b59",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/inv_walk_update/inv_walk_update.cpp",
+      "cpp_sha256": "5b340b7c50f38a5b9e4fefabc60a5456ef860ee97d7658129be650fa40386b59",
+      "callback_rvas": [
+        "0x397c0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/inv_walk_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/item_esp/item_esp.c",
+      "source_sha256": "ecddfb5edfe4a030d02b43b85429f85a84dc8f9e8b2ffb3e4049847e33a2997b",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/item_esp/item_esp.cpp",
+      "cpp_sha256": "ecddfb5edfe4a030d02b43b85429f85a84dc8f9e8b2ffb3e4049847e33a2997b",
+      "callback_rvas": [
+        "0x40de0",
+        "0x416c0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/item_esp/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/item_esp_update/item_esp_update.c",
+      "source_sha256": "aca9dd71e36ce3864d5be462f19cfe1a47df01d0d95692a658deb16c7a634afd",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/item_esp_update/item_esp_update.cpp",
+      "cpp_sha256": "aca9dd71e36ce3864d5be462f19cfe1a47df01d0d95692a658deb16c7a634afd",
+      "callback_rvas": [
+        "0x41250"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/item_esp_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/keep_sprint/keep_sprint.c",
+      "source_sha256": "9be15b3417d9d3658276b32b66cbb4552c31ad9410854b8556ca9a4c105f821b",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/keep_sprint/keep_sprint.cpp",
+      "cpp_sha256": "5d6205eb7f920f2559b689c78c0fcbdbd54edcf5cf1e3cbdf697205f86a01d92",
+      "callback_rvas": [
+        "0x3a0f0",
+        "0x3a170",
+        "0x3a260"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/keep_sprint/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/keep_sprint_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/knockback_delay_packet/knockback_delay_packet.c",
+      "source_sha256": "3593bd77a41e935c52bc9372299280b716bc1a19092e005ea4c7994f92e73194",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/knockback_delay_packet/knockback_delay_packet.cpp",
+      "cpp_sha256": "3593bd77a41e935c52bc9372299280b716bc1a19092e005ea4c7994f92e73194",
+      "callback_rvas": [
+        "0x46140"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/knockback_delay_packet/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/knockback_delay_update/knockback_delay_update.c",
+      "source_sha256": "d294477a8574a30233fa74bf72728781da4cd5d1b3feb07424076fffcff82f83",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/knockback_delay_update/knockback_delay_update.cpp",
+      "cpp_sha256": "d294477a8574a30233fa74bf72728781da4cd5d1b3feb07424076fffcff82f83",
+      "callback_rvas": [
+        "0x46270"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/knockback_delay_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/knockback_displace/knockback_displace.c",
+      "source_sha256": "9ee20091f577859ca858fac74f12739dc41edd135f9177401db9acac0b2af532",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/knockback_displace/knockback_displace.cpp",
+      "cpp_sha256": "9ee20091f577859ca858fac74f12739dc41edd135f9177401db9acac0b2af532",
+      "callback_rvas": [
+        "0x4a520",
+        "0x4a540",
+        "0x4a560",
+        "0x4a7d0",
+        "0x4a800"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/knockback_displace/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/lag_range_packet/lag_range_packet.c",
+      "source_sha256": "50169b30afa9f04200b469d72ef23b1c150a7136ea9832e209ef2b4cf532b20a",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/lag_range_packet/lag_range_packet.cpp",
+      "cpp_sha256": "50169b30afa9f04200b469d72ef23b1c150a7136ea9832e209ef2b4cf532b20a",
+      "callback_rvas": [
+        "0x3a3c0",
+        "0x3a780"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/lag_range_packet/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/lag_range_render/lag_range_render.c",
+      "source_sha256": "1c6000e1ccfa0ebfffddf0ad0f8c2e23733d484df3983f529cdd09fd574a2ae1",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/lag_range_render/lag_range_render.cpp",
+      "cpp_sha256": "1c6000e1ccfa0ebfffddf0ad0f8c2e23733d484df3983f529cdd09fd574a2ae1",
+      "callback_rvas": [
+        "0x3a610"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/lag_range_render/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/lag_range_update/lag_range_update.c",
+      "source_sha256": "12693ed949145b99a2f6655b42e39daad6e3bc7ef9595b94c6360c284bde2b51",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/lag_range_update/lag_range_update.cpp",
+      "cpp_sha256": "12693ed949145b99a2f6655b42e39daad6e3bc7ef9595b94c6360c284bde2b51",
+      "callback_rvas": [
+        "0x3a7d0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/lag_range_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/mod_overlay_extended/mod_overlay.c",
+      "source_sha256": "fe7fb5d6a0053f8b090c98064d62f27bcf795ede61934967e430784079867a46",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/mod_overlay_extended/mod_overlay.cpp",
+      "cpp_sha256": "fe7fb5d6a0053f8b090c98064d62f27bcf795ede61934967e430784079867a46",
+      "callback_rvas": [
+        "0x34080",
+        "0x34290",
+        "0x344d0",
+        "0x349f0",
+        "0x34a10"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/mod_overlay_extended/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/mod_overlay_render/mod_overlay_render.c",
+      "source_sha256": "51fde7512b0ab23020613e05bf4d00b7ba893e65b0cdb9c8ce94977f724ea645",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/mod_overlay_render/mod_overlay_render.cpp",
+      "cpp_sha256": "51fde7512b0ab23020613e05bf4d00b7ba893e65b0cdb9c8ce94977f724ea645",
+      "callback_rvas": [
+        "0x34510"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/mod_overlay_render/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/name_tags/name_tags.c",
+      "source_sha256": "0ea8ab2ba5628609a793cae8e4d03075be0dfe7f99e49e0c9a38e526a75c5547",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/name_tags/name_tags.cpp",
+      "cpp_sha256": "0ea8ab2ba5628609a793cae8e4d03075be0dfe7f99e49e0c9a38e526a75c5547",
+      "callback_rvas": [
+        "0x3c210",
+        "0x3c280"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/name_tags/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/name_tags_update/name_tags_update.c",
+      "source_sha256": "85a10e22bb2986eaca972bbfc061271c1117adc0ce9846d2cb89d20bf7ffd4d1",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/name_tags_update/name_tags_update.cpp",
+      "cpp_sha256": "85a10e22bb2986eaca972bbfc061271c1117adc0ce9846d2cb89d20bf7ffd4d1",
+      "callback_rvas": [
+        "0x3ca20"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/name_tags_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/no_item_release/no_item_release.c",
+      "source_sha256": "6b302d6ea5e0f12f5754e839652f0843e0c3940c60d162b85d5abbd8e018ca71",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/no_item_release/no_item_release.cpp",
+      "cpp_sha256": "6b302d6ea5e0f12f5754e839652f0843e0c3940c60d162b85d5abbd8e018ca71",
+      "callback_rvas": [
+        "0x334c0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/no_item_release/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/notifications/notifications.c",
+      "source_sha256": "90f743d4199e5b3707e6384aa6e9602605cf1fd3b0a5e276c247c78295c00872",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/notifications/notifications.cpp",
+      "cpp_sha256": "f61136392536de73628db95b8c30624f8f00392d5a8b2d0e1dd2e3e3ac0fbe3b",
+      "callback_rvas": [
+        "0x35000",
+        "0x351a0",
+        "0x35960",
+        "0x35a30",
+        "0x35af0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/notifications/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/notifications_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/notifications_render/notifications_render.c",
+      "source_sha256": "8abc6d25e316a3727b99bc9018ba10efc0b9616f1440d2669cc47d6d01d2c244",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/notifications_render/notifications_render.cpp",
+      "cpp_sha256": "8abc6d25e316a3727b99bc9018ba10efc0b9616f1440d2669cc47d6d01d2c244",
+      "callback_rvas": [
+        "0x354b0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/notifications_render/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/null_move/null_move.c",
+      "source_sha256": "8bf18b59c0a084c53867e8427d4082e3159e0708e993b2dd74ebb99825f7a4cc",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/null_move/null_move.cpp",
+      "cpp_sha256": "8bf18b59c0a084c53867e8427d4082e3159e0708e993b2dd74ebb99825f7a4cc",
+      "callback_rvas": [
+        "0x46ac0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/null_move/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/player_esp_render_2d/player_esp_render_2d.c",
+      "source_sha256": "1e18ad61b3f7734c0ca783c292d1d3ae47cdf18be2cab9b09e3ecc5e06e8e1be",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/player_esp_render_2d/player_esp_render_2d.cpp",
+      "cpp_sha256": "1e18ad61b3f7734c0ca783c292d1d3ae47cdf18be2cab9b09e3ecc5e06e8e1be",
+      "callback_rvas": [
+        "0x2eea0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/player_esp_render_2d/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/player_esp_render_3d/player_esp_render_3d.c",
+      "source_sha256": "d1e1f74a56403acb01423d2e5f6562d7ea9b31c32f7bf232c3c8486fa370849b",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/player_esp_render_3d/player_esp_render_3d.cpp",
+      "cpp_sha256": "d1e1f74a56403acb01423d2e5f6562d7ea9b31c32f7bf232c3c8486fa370849b",
+      "callback_rvas": [
+        "0x2eb20"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/player_esp_render_3d/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/player_esp_update/player_esp_update.c",
+      "source_sha256": "67861a349d6fd39fa4e5a490ee0042bd91bd0922e243f619465384a6e0958824",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/player_esp_update/player_esp_update.cpp",
+      "cpp_sha256": "67861a349d6fd39fa4e5a490ee0042bd91bd0922e243f619465384a6e0958824",
+      "callback_rvas": [
+        "0x2f3f0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/player_esp_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/pointers/pointers.c",
+      "source_sha256": "16ceca88bfce898bcc7b3578816f180cae6ed0e4d886ab33f5757b997b811c04",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/pointers/pointers.cpp",
+      "cpp_sha256": "16ceca88bfce898bcc7b3578816f180cae6ed0e4d886ab33f5757b997b811c04",
+      "callback_rvas": [
+        "0x3da80",
+        "0x3df10"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/pointers/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/refill/refill.c",
+      "source_sha256": "f6d208e390ca5bdee3d54a73c5e02e08ee587b26489bc5cf285ea41c58953cbb",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/refill/refill.cpp",
+      "cpp_sha256": "f6d208e390ca5bdee3d54a73c5e02e08ee587b26489bc5cf285ea41c58953cbb",
+      "callback_rvas": [
+        "0x384c0",
+        "0x384f0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/refill/verification_report.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/safe_walk/safe_walk.c",
+      "source_sha256": "5665779037c49284284c268b21b543e1e860a0f5e4482dd32ebe1aeb2250c63d",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/safe_walk/safe_walk.cpp",
+      "cpp_sha256": "5665779037c49284284c268b21b543e1e860a0f5e4482dd32ebe1aeb2250c63d",
+      "callback_rvas": [
+        "0x41d30"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/safe_walk/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/simple_events/simple_events.c",
+      "source_sha256": "da95eded1f48b6ef11ae7309f515c7a509497a51d1c2116405854b90bc8cf67e",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/simple_events/simple_events.cpp",
+      "cpp_sha256": "da95eded1f48b6ef11ae7309f515c7a509497a51d1c2116405854b90bc8cf67e",
+      "callback_rvas": [
+        "0x2ffb0",
+        "0x33fc0",
+        "0x3e6d0",
+        "0x3e700",
+        "0x42a20",
+        "0x44c90",
+        "0x46e30"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/simple_events/simple_events_verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/sprint_reset/sprint_reset.c",
+      "source_sha256": "019bc671cc533b7836fdaee2ec7bb5c47cb76e29c6dcdf7bc3eb2685b9439c79",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/sprint_reset/sprint_reset.cpp",
+      "cpp_sha256": "1ee85515eef4a7dfb5739842ce3586476b3456f7512fc5cfed4d4f85907eab0c",
+      "callback_rvas": [
+        "0x3ad10"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/sprint_reset/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/sprint_reset_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/state_events/state_events.c",
+      "source_sha256": "706fce7c5630684af6b95a1b08d9384e626f07742877b02a5b50655b006de29e",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/state_events/state_events.cpp",
+      "cpp_sha256": "596eb061a202b440d2cf01a72e9aa48a5cc04464d765a3b0aac0d268117ad982",
+      "callback_rvas": [
+        "0x328f0",
+        "0x329b0",
+        "0x37020",
+        "0x37100"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/state_events/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/state_events_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/strafe/strafe.c",
+      "source_sha256": "a95fda2f7e8224e393c6ecd0fa275d8ae5b18843db554e6e9126e3bb06604cb9",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/strafe/strafe.cpp",
+      "cpp_sha256": "a95fda2f7e8224e393c6ecd0fa275d8ae5b18843db554e6e9126e3bb06604cb9",
+      "callback_rvas": [
+        "0x41f90",
+        "0x41fc0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/strafe/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/teams/teams.c",
+      "source_sha256": "9524f533b7c69aa9103e49a443910eb6386e482b1616c5e41639ebb3b3a06b40",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/teams/teams.cpp",
+      "cpp_sha256": "9524f533b7c69aa9103e49a443910eb6386e482b1616c5e41639ebb3b3a06b40",
+      "callback_rvas": [
+        "0x31e10",
+        "0x31ff0",
+        "0x320b0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/teams/verification_report.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/timer_range_events/timer_range_events.c",
+      "source_sha256": "ce61621da13a13ac6535337dd62fde6cf6a546f7f1087b3bf70917ea25f56031",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/timer_range_events/timer_range_events.cpp",
+      "cpp_sha256": "6eb08e42ac96e996d84656788f45efcf2676093eeb2ba767fce22a19fa73ae5c",
+      "callback_rvas": [
+        "0x42c60",
+        "0x43950",
+        "0x43970"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/timer_range_events/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/timer_range_events_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/timer_range_update/timer_range_update.c",
+      "source_sha256": "c7c3eb68d78f5120e821e3f63bb88be0f356ca994bec858205374654e735527d",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/timer_range_update/timer_range_update.cpp",
+      "cpp_sha256": "c7c3eb68d78f5120e821e3f63bb88be0f356ca994bec858205374654e735527d",
+      "callback_rvas": [
+        "0x42f00"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/timer_range_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/trajectories/trajectories.c",
+      "source_sha256": "b83da9cc073af70a690881791595a6f6ade3a2045314c02b3a499e9ce251fc72",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/trajectories/trajectories.cpp",
+      "cpp_sha256": "b83da9cc073af70a690881791595a6f6ade3a2045314c02b3a499e9ce251fc72",
+      "callback_rvas": [
+        "0x44e40",
+        "0x44ea0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/trajectories/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/trajectories_update/trajectories_update.c",
+      "source_sha256": "b4a8a752d8aa1225f0cf9520e0ea3c44e5d03371fb42b074fa29b466b355f24a",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/trajectories_update/trajectories_update.cpp",
+      "cpp_sha256": "b4a8a752d8aa1225f0cf9520e0ea3c44e5d03371fb42b074fa29b466b355f24a",
+      "callback_rvas": [
+        "0x45370"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/trajectories_update/verification.json",
+      "cpp_differentially_verified": false
+    },
+    {
+      "source": "analysis/module_behavior_recovery/velocity/velocity.c",
+      "source_sha256": "66b73928d18d7ed8fb78f40f55cfe57b834bdbcc2fe8aa507ea909eb892b94ea",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/velocity/velocity.cpp",
+      "cpp_sha256": "e2d876f56c8c873f106cb4f0dfa1230847400fcb3642d79354f78b912cee8f50",
+      "callback_rvas": [
+        "0x30180",
+        "0x302d0",
+        "0x303a0",
+        "0x303c0",
+        "0x30410",
+        "0x30520",
+        "0x308e0"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/velocity/verification.json",
+      "cpp_differentially_verified": true,
+      "cpp_verification_report": "recovered_cpp/behavior/velocity_cpp_verification.json"
+    },
+    {
+      "source": "analysis/module_behavior_recovery/weapons/weapons.c",
+      "source_sha256": "acca2979866bbd84fd910e42e10f6945782b737eaca23f999bde355960253212",
+      "cpp": "recovered_cpp/behavior/module_behavior_recovery/weapons/weapons.cpp",
+      "cpp_sha256": "acca2979866bbd84fd910e42e10f6945782b737eaca23f999bde355960253212",
+      "callback_rvas": [
+        "0x38190"
+      ],
+      "verification_report": "analysis/module_behavior_recovery/weapons/verification_report.json",
+      "cpp_differentially_verified": false
+    }
+  ]
+}
